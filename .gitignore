@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment files
+.env
+.venv/
+venv/
+
+# Raw/private data
+data/private/
+data/sensitive/
+
+# Large exports
+*.twbx
+*.hyper
+
+# Temporary files
+tmp/
