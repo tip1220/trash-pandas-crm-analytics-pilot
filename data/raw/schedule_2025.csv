@@ -1,1 +1,139 @@
-game_id,season,game_date,day_of_week,month,home_team,away_team,opponent,home_away,game_time,promotion_flag,promotion_name,promotion_type,attendance,source_url,notes
+game_id,game_date,season,opponent_code,opponent,home_away,game_time,day_of_week,month_name,promotion_flag,promotion_type,source
+RCT_2025_001,2025-04-04,2025,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Friday,April,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_002,2025-04-05,2025,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Saturday,April,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_003,2025-04-06,2025,CHA,Chattanooga Lookouts,Home,2:35 PM CT,Sunday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_004,2025-04-08,2025,KNO,Knoxville Smokies,Home,6:05 PM CT,Tuesday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_005,2025-04-09,2025,KNO,Knoxville Smokies,Home,11:05 AM CT,Wednesday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_006,2025-04-10,2025,KNO,Knoxville Smokies,Home,6:35 PM CT,Thursday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_007,2025-04-11,2025,KNO,Knoxville Smokies,Home,6:35 PM CT,Friday,April,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_008,2025-04-12,2025,KNO,Knoxville Smokies,Home,6:35 PM CT,Saturday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_009,2025-04-13,2025,KNO,Knoxville Smokies,Home,2:35 PM CT,Sunday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_010,2025-04-15,2025,MTG,Montgomery Biscuits,Away,,Tuesday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_011,2025-04-16,2025,MTG,Montgomery Biscuits,Away,,Wednesday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_012,2025-04-17,2025,MTG,Montgomery Biscuits,Away,,Thursday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_013,2025-04-18,2025,MTG,Montgomery Biscuits,Away,,Friday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_014,2025-04-19,2025,MTG,Montgomery Biscuits,Away,,Saturday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_015,2025-04-20,2025,MTG,Montgomery Biscuits,Away,,Sunday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_016,2025-04-22,2025,BIR,Birmingham Barons,Home,6:05 PM CT,Tuesday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_017,2025-04-23,2025,BIR,Birmingham Barons,Home,11:05 AM CT,Wednesday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_018,2025-04-24,2025,BIR,Birmingham Barons,Home,6:35 PM CT,Thursday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_019,2025-04-25,2025,BIR,Birmingham Barons,Home,6:35 PM CT,Friday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_020,2025-04-26,2025,BIR,Birmingham Barons,Home,6:35 PM CT,Saturday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_021,2025-04-27,2025,BIR,Birmingham Barons,Home,2:35 PM CT,Sunday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_022,2025-04-29,2025,KNO,Knoxville Smokies,Away,,Tuesday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_023,2025-04-30,2025,KNO,Knoxville Smokies,Away,,Wednesday,April,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_024,2025-05-01,2025,KNO,Knoxville Smokies,Away,,Thursday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_025,2025-05-02,2025,KNO,Knoxville Smokies,Away,,Friday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_026,2025-05-03,2025,KNO,Knoxville Smokies,Away,,Saturday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_027,2025-05-04,2025,KNO,Knoxville Smokies,Away,,Sunday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_028,2025-05-06,2025,MTG,Montgomery Biscuits,Home,6:05 PM CT,Tuesday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_029,2025-05-07,2025,MTG,Montgomery Biscuits,Home,11:05 AM CT,Wednesday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_030,2025-05-08,2025,MTG,Montgomery Biscuits,Home,6:35 PM CT,Thursday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_031,2025-05-09,2025,MTG,Montgomery Biscuits,Home,6:35 PM CT,Friday,May,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_032,2025-05-10,2025,MTG,Montgomery Biscuits,Home,6:35 PM CT,Saturday,May,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_033,2025-05-11,2025,MTG,Montgomery Biscuits,Home,2:35 PM CT,Sunday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_034,2025-05-13,2025,PNS,Pensacola Blue Wahoos,Away,,Tuesday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_035,2025-05-14,2025,PNS,Pensacola Blue Wahoos,Away,,Wednesday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_036,2025-05-15,2025,PNS,Pensacola Blue Wahoos,Away,,Thursday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_037,2025-05-16,2025,PNS,Pensacola Blue Wahoos,Away,,Friday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_038,2025-05-17,2025,PNS,Pensacola Blue Wahoos,Away,,Saturday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_039,2025-05-18,2025,PNS,Pensacola Blue Wahoos,Away,,Sunday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_040,2025-05-20,2025,CHA,Chattanooga Lookouts,Away,,Tuesday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_041,2025-05-21,2025,CHA,Chattanooga Lookouts,Away,,Wednesday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_042,2025-05-22,2025,CHA,Chattanooga Lookouts,Away,,Thursday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_043,2025-05-23,2025,CHA,Chattanooga Lookouts,Away,,Friday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_044,2025-05-24,2025,CHA,Chattanooga Lookouts,Away,,Saturday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_045,2025-05-25,2025,CHA,Chattanooga Lookouts,Away,,Sunday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_046,2025-05-27,2025,BIL,Biloxi Shuckers,Home,6:35 PM CT,Tuesday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_047,2025-05-28,2025,BIL,Biloxi Shuckers,Home,6:35 PM CT,Wednesday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_048,2025-05-29,2025,BIL,Biloxi Shuckers,Home,6:35 PM CT,Thursday,May,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_049,2025-05-30,2025,BIL,Biloxi Shuckers,Home,6:35 PM CT,Friday,May,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_050,2025-05-31,2025,BIL,Biloxi Shuckers,Home,6:35 PM CT,Saturday,May,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_051,2025-06-01,2025,BIL,Biloxi Shuckers,Home,2:35 PM CT,Sunday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_052,2025-06-03,2025,BIR,Birmingham Barons,Away,,Tuesday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_053,2025-06-04,2025,BIR,Birmingham Barons,Away,,Wednesday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_054,2025-06-05,2025,BIR,Birmingham Barons,Away,,Thursday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_055,2025-06-06,2025,BIR,Birmingham Barons,Away,,Friday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_056,2025-06-07,2025,BIR,Birmingham Barons,Away,,Saturday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_057,2025-06-08,2025,BIR,Birmingham Barons,Away,,Sunday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_058,2025-06-10,2025,PNS,Pensacola Blue Wahoos,Home,6:35 PM CT,Tuesday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_059,2025-06-11,2025,PNS,Pensacola Blue Wahoos,Home,6:35 PM CT,Wednesday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_060,2025-06-12,2025,PNS,Pensacola Blue Wahoos,Home,6:35 PM CT,Thursday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_061,2025-06-13,2025,PNS,Pensacola Blue Wahoos,Home,6:35 PM CT,Friday,June,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_062,2025-06-14,2025,PNS,Pensacola Blue Wahoos,Home,6:35 PM CT,Saturday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_063,2025-06-15,2025,PNS,Pensacola Blue Wahoos,Home,2:35 PM CT,Sunday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_064,2025-06-17,2025,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Tuesday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_065,2025-06-18,2025,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Wednesday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_066,2025-06-19,2025,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Thursday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_067,2025-06-20,2025,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Friday,June,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_068,2025-06-21,2025,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Saturday,June,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_069,2025-06-22,2025,CHA,Chattanooga Lookouts,Home,2:35 PM CT,Sunday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_070,2025-06-24,2025,MTG,Montgomery Biscuits,Away,,Tuesday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_071,2025-06-25,2025,MTG,Montgomery Biscuits,Away,,Wednesday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_072,2025-06-26,2025,MTG,Montgomery Biscuits,Away,,Thursday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_073,2025-06-27,2025,MTG,Montgomery Biscuits,Away,,Friday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_074,2025-06-28,2025,MTG,Montgomery Biscuits,Away,,Saturday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_075,2025-06-29,2025,MTG,Montgomery Biscuits,Away,,Sunday,June,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_076,2025-07-01,2025,KNO,Knoxville Smokies,Home,6:35 PM CT,Tuesday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_077,2025-07-02,2025,KNO,Knoxville Smokies,Home,6:35 PM CT,Wednesday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_078,2025-07-03,2025,KNO,Knoxville Smokies,Home,6:05 PM CT,Thursday,July,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_079,2025-07-04,2025,KNO,Knoxville Smokies,Away,,Friday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_080,2025-07-05,2025,KNO,Knoxville Smokies,Away,,Saturday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_081,2025-07-06,2025,KNO,Knoxville Smokies,Away,,Sunday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_082,2025-07-08,2025,CHA,Chattanooga Lookouts,Away,,Tuesday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_083,2025-07-09,2025,CHA,Chattanooga Lookouts,Away,,Wednesday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_084,2025-07-10,2025,CHA,Chattanooga Lookouts,Away,,Thursday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_085,2025-07-11,2025,CHA,Chattanooga Lookouts,Away,,Friday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_086,2025-07-12,2025,CHA,Chattanooga Lookouts,Away,,Saturday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_087,2025-07-13,2025,CHA,Chattanooga Lookouts,Away,,Sunday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_088,2025-07-18,2025,COL,Columbus Clingstones,Home,6:35 PM CT,Friday,July,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_089,2025-07-19,2025,COL,Columbus Clingstones,Home,6:35 PM CT,Saturday,July,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_090,2025-07-20,2025,COL,Columbus Clingstones,Home,2:35 PM CT,Sunday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_091,2025-07-22,2025,BIL,Biloxi Shuckers,Away,,Tuesday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_092,2025-07-23,2025,BIL,Biloxi Shuckers,Away,,Wednesday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_093,2025-07-24,2025,BIL,Biloxi Shuckers,Away,,Thursday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_094,2025-07-25,2025,BIL,Biloxi Shuckers,Away,,Friday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_095,2025-07-26,2025,BIL,Biloxi Shuckers,Away,,Saturday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_096,2025-07-27,2025,BIL,Biloxi Shuckers,Away,,Sunday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_097,2025-07-29,2025,BIR,Birmingham Barons,Home,6:35 PM CT,Tuesday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_098,2025-07-30,2025,BIR,Birmingham Barons,Home,6:35 PM CT,Wednesday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_099,2025-07-31,2025,BIR,Birmingham Barons,Home,6:35 PM CT,Thursday,July,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_100,2025-08-01,2025,BIR,Birmingham Barons,Home,6:35 PM CT,Friday,August,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_101,2025-08-02,2025,BIR,Birmingham Barons,Home,6:35 PM CT,Saturday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_102,2025-08-03,2025,BIR,Birmingham Barons,Home,2:35 PM CT,Sunday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_103,2025-08-05,2025,COL,Columbus Clingstones,Away,,Tuesday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_104,2025-08-06,2025,COL,Columbus Clingstones,Away,,Wednesday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_105,2025-08-07,2025,COL,Columbus Clingstones,Away,,Thursday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_106,2025-08-08,2025,COL,Columbus Clingstones,Away,,Friday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_107,2025-08-09,2025,COL,Columbus Clingstones,Away,,Saturday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_108,2025-08-10,2025,COL,Columbus Clingstones,Away,,Sunday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_109,2025-08-12,2025,KNO,Knoxville Smokies,Home,6:35 PM CT,Tuesday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_110,2025-08-13,2025,KNO,Knoxville Smokies,Home,6:35 PM CT,Wednesday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_111,2025-08-14,2025,KNO,Knoxville Smokies,Home,6:35 PM CT,Thursday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_112,2025-08-15,2025,KNO,Knoxville Smokies,Home,6:35 PM CT,Friday,August,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_113,2025-08-16,2025,KNO,Knoxville Smokies,Home,6:35 PM CT,Saturday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_114,2025-08-17,2025,KNO,Knoxville Smokies,Home,2:35 PM CT,Sunday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_115,2025-08-19,2025,BIR,Birmingham Barons,Away,,Tuesday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_116,2025-08-20,2025,BIR,Birmingham Barons,Away,,Wednesday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_117,2025-08-21,2025,BIR,Birmingham Barons,Away,,Thursday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_118,2025-08-22,2025,BIR,Birmingham Barons,Away,,Friday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_119,2025-08-23,2025,BIR,Birmingham Barons,Away,,Saturday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_120,2025-08-24,2025,BIR,Birmingham Barons,Away,,Sunday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_121,2025-08-26,2025,COL,Columbus Clingstones,Home,6:35 PM CT,Tuesday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_122,2025-08-27,2025,COL,Columbus Clingstones,Home,6:35 PM CT,Wednesday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_123,2025-08-28,2025,COL,Columbus Clingstones,Home,6:35 PM CT,Thursday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_124,2025-08-29,2025,COL,Columbus Clingstones,Home,6:35 PM CT,Friday,August,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_125,2025-08-30,2025,COL,Columbus Clingstones,Home,6:35 PM CT,Saturday,August,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_126,2025-08-31,2025,COL,Columbus Clingstones,Home,2:35 PM CT,Sunday,August,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_127,2025-09-02,2025,KNO,Knoxville Smokies,Away,,Tuesday,September,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_128,2025-09-03,2025,KNO,Knoxville Smokies,Away,,Wednesday,September,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_129,2025-09-04,2025,KNO,Knoxville Smokies,Away,,Thursday,September,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_130,2025-09-05,2025,KNO,Knoxville Smokies,Away,,Friday,September,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_131,2025-09-06,2025,KNO,Knoxville Smokies,Away,,Saturday,September,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_132,2025-09-07,2025,KNO,Knoxville Smokies,Away,,Sunday,September,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_133,2025-09-09,2025,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Tuesday,September,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_134,2025-09-10,2025,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Wednesday,September,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_135,2025-09-11,2025,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Thursday,September,no,,official_2025_schedule_release_game_times_promos
+RCT_2025_136,2025-09-12,2025,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Friday,September,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_137,2025-09-13,2025,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Saturday,September,yes,fireworks,official_2025_schedule_release_game_times_promos
+RCT_2025_138,2025-09-14,2025,CHA,Chattanooga Lookouts,Home,1:05 PM CT,Sunday,September,no,,official_2025_schedule_release_game_times_promos

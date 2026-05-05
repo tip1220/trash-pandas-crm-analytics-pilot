@@ -1,0 +1,190 @@
+game_date,season,promo_name,promo_category,promo_audience,sponsor,is_fireworks,is_giveaway,is_theme_night,is_weekly_promo,is_group_sales,is_community,is_appearance,is_jersey_auction,source_name
+2025-04-04,2025,Madison Community Night / Hometown Throwdown,community,Madison community,Redstone Federal Credit Union,0,0,1,0,1,1,0,0,official_2025_hh_april_4_6
+2025-04-04,2025,Opening Night Fireworks,fireworks,families; groups,"Pyro Shows, Inc.",1,0,1,0,0,0,0,0,official_2025_hh_april_4_6
+2025-04-04,2025,2025 Magnet Schedule Giveaway,giveaway,all fans,Huntsville-Madison Convention & Visitors Bureau,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-04-04,2025,Opening Night,theme_night,all fans,,0,0,1,0,0,0,0,0,official_2025_hh_april_4_6
+2025-04-05,2025,Saturday Night Fireworks,fireworks,families; groups,WOW!,1,0,1,0,0,0,0,0,official_2025_hh_april_4_6
+2025-04-05,2025,License Plate Frame Giveaway,giveaway,adults 18+,WOW!,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-04-06,2025,Blue Bell Sunday Sundaes,food_beverage,families,Blue Bell,0,0,0,1,0,0,0,0,official_2025_hh_april_4_6
+2025-04-06,2025,Fleece Blanket Giveaway,giveaway,adults 18+,Crestwood Medical Center,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-04-06,2025,Postgame Kids Run the Bases,weekly_promo,kids; families,Listerhill Credit Union,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-04-06,2025,Pregame Player Autographs,weekly_promo,all fans,,0,0,0,1,0,0,1,0,official_2025_weekly_promos
+2025-04-08,2025,Christian Moore Autograph Appearance,appearance,all fans,Bill Penney Toyota,0,0,0,0,0,0,1,0,official_2025_hh_april_8_13
+2025-04-08,2025,Tennessee Communities Hometown Throwdown,community,Southern Tennessee communities,Redstone Federal Credit Union,0,0,1,0,1,1,0,0,official_2025_hh_april_8_13
+2025-04-08,2025,Christian Moore Bobblehead Giveaway,giveaway,adults 18+,Bill Penney Toyota,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-04-08,2025,Reeds Jewelers Ladies Night,weekly_promo,women; adults 21+,Reeds Jewelers,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-04-09,2025,Education Day,education,students; schools,,0,0,1,0,1,1,0,0,official_2025_hh_april_8_13
+2025-04-10,2025,Anime Jersey Auction,jersey_auction,collectors; all fans,,0,0,1,0,0,1,0,1,official_2025_hh_april_8_13
+2025-04-10,2025,Anime/Japanese Heritage Night,theme_night,anime fans; families,,0,0,1,0,0,0,0,0,official_2025_hh_april_8_13
+2025-04-10,2025,Take MEOW't to the Ballpark Cat Night,theme_night,cat owners; families,Cattyshack,0,0,1,0,0,1,0,0,official_2025_hh_april_8_13
+2025-04-10,2025,Throwback Thursday,weekly_promo,adults 21+,,0,0,1,1,0,0,0,0,official_2025_weekly_promos
+2025-04-11,2025,Jordan Matthews Ceremonial First Pitch,appearance,sports fans; local community,,0,0,0,0,0,0,1,0,official_2025_hh_april_8_13
+2025-04-11,2025,Friday Night Fireworks,fireworks,families; groups,AC Hotel Downtown Huntsville,1,0,1,0,0,0,0,0,official_2025_hh_april_8_13
+2025-04-12,2025,Construction Worker Appreciation Night,appreciation,construction workers; local businesses,Associated Builders and Contractors of North Alabama,0,0,1,0,1,1,0,0,official_2025_hh_april_8_13
+2025-04-13,2025,Mental Health Awareness Day,community,all fans,WellStone Inc.,0,0,1,0,0,1,0,0,official_2025_hh_april_8_13
+2025-04-13,2025,Blue Bell Sunday Sundaes,food_beverage,families,Blue Bell,0,0,0,1,0,0,0,0,official_2025_hh_april_8_13
+2025-04-13,2025,Postgame Kids Run the Bases,weekly_promo,kids; families,Listerhill Credit Union,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-04-13,2025,Pregame Player Autographs,weekly_promo,all fans,,0,0,0,1,0,0,1,0,official_2025_weekly_promos
+2025-04-22,2025,Huntsville Navy Week,appreciation,military; Navy community,,0,0,1,0,1,1,0,0,official_2025_hh_april_22_27
+2025-04-22,2025,Caden Dana Bobblehead Giveaway,giveaway,adults 18+,SportsMED,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-04-22,2025,Reeds Jewelers Ladies Night,weekly_promo,women; adults 21+,Reeds Jewelers,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-04-23,2025,Education Day,education,students; schools,,0,0,1,0,1,1,0,0,official_2025_hh_april_22_27
+2025-04-24,2025,Raise The Roof Night T-Shirt Giveaway,giveaway,adults 18+,Storm Guard Roofing,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-04-24,2025,Comic & Pop Culture Night,theme_night,families; pop culture fans,,0,0,1,0,0,0,1,0,official_2025_hh_april_22_27
+2025-04-24,2025,Throwback Thursday,weekly_promo,adults 21+,,0,0,1,1,0,0,0,0,official_2025_weekly_promos
+2025-04-25,2025,Utility Worker Appreciation Night,appreciation,utility workers; local businesses,,0,0,1,0,1,1,0,0,official_2025_hh_april_22_27
+2025-04-25,2025,Thompson Tractor Community Hero,community,local heroes,Thompson Tractor,0,0,0,1,0,1,0,0,official_2025_hh_april_22_27
+2025-04-25,2025,Friday Night Fireworks,fireworks,families; groups,Huntsville Utilities,1,0,1,0,0,0,0,0,official_2025_hh_april_22_27
+2025-04-26,2025,ZOOperstars! Appearance,appearance,families; kids,,0,0,0,0,0,0,1,0,official_2025_giveaways_appearances
+2025-04-27,2025,Bluey Character Appearance,appearance,families; kids,,0,0,0,0,0,0,1,0,official_2025_giveaways_appearances
+2025-04-27,2025,Blue Bell Sunday Sundaes,food_beverage,families,Blue Bell,0,0,0,1,0,0,0,0,official_2025_hh_april_22_27
+2025-04-27,2025,Postgame Kids Run the Bases,weekly_promo,kids; families,Listerhill Credit Union,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-04-27,2025,Pregame Player Autographs,weekly_promo,all fans,,0,0,0,1,0,0,1,0,official_2025_weekly_promos
+2025-05-06,2025,Private Clyde Mays Whiskey Tasting,ticket_package,adults 21+,Clyde Mays,0,0,0,0,1,0,0,0,official_2025_hh_may_6_11
+2025-05-06,2025,Reeds Jewelers Ladies Night,weekly_promo,women; adults 21+,Reeds Jewelers,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-05-07,2025,Education Day,education,students; schools,,0,0,1,0,1,1,0,0,official_2025_hh_may_6_11
+2025-05-07,2025,Business Person's Special / Business Mixer,group_sales,business professionals,,0,0,0,0,1,0,0,0,official_2025_hh_may_6_11
+2025-05-08,2025,Soccer Scarf Giveaway,giveaway,all fans,Huntsville Compounding Pharmacy,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-05-08,2025,Soccer Night,theme_night,soccer fans; families,Huntsville Compounding Pharmacy,0,0,1,0,0,0,0,0,official_2025_hh_may_6_11
+2025-05-08,2025,Throwback Thursday,weekly_promo,adults 21+,,0,0,1,1,0,0,0,0,official_2025_weekly_promos
+2025-05-09,2025,Armed Forces Day,appreciation,military; families,SAIC,0,0,1,0,1,1,0,0,official_2025_hh_may_6_11
+2025-05-09,2025,Thompson Tractor Community Hero,community,local heroes,Thompson Tractor,0,0,0,1,0,1,0,0,official_2025_hh_may_6_11
+2025-05-09,2025,Armed Forces Day & Friday Night Fireworks,fireworks,families; groups,SAIC,1,0,1,0,0,0,0,0,official_2025_hh_may_6_11
+2025-05-10,2025,Postgame Fireworks,fireworks,families; groups,Astrion,1,0,1,0,0,0,0,0,official_2025_hh_may_6_11
+2025-05-10,2025,Princess Night,theme_night,families; kids,,0,0,1,0,1,0,1,0,official_2025_giveaways_appearances
+2025-05-11,2025,Blue Bell Sunday Sundaes,food_beverage,families,Blue Bell,0,0,0,1,0,0,0,0,official_2025_hh_may_6_11
+2025-05-11,2025,Mother's Day Belt Bag Giveaway,giveaway,ladies,,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-05-11,2025,Mother's Day Jersey Auction,jersey_auction,families; collectors,Clearview Cancer Institute,0,0,1,0,0,1,0,1,official_2025_hh_may_6_11
+2025-05-11,2025,Mother's Day Brunch,ticket_package,families; mothers,,0,0,0,0,1,0,0,0,official_2025_hh_may_6_11
+2025-05-11,2025,Postgame Kids Run the Bases,weekly_promo,kids; families,Listerhill Credit Union,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-05-11,2025,Pregame Player Autographs,weekly_promo,all fans,,0,0,0,1,0,0,1,0,official_2025_weekly_promos
+2025-05-27,2025,Reeds Jewelers Ladies Night,weekly_promo,women; adults 21+,Reeds Jewelers,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-05-28,2025,Tito's Dog Days,weekly_promo,dog owners; families,Tito's Vodka,0,0,0,1,0,1,0,0,official_2025_weekly_promos
+2025-05-29,2025,The Shoals Hometown Throwdown,community,The Shoals community,,0,0,1,0,1,1,0,0,official_2025_hh_may_27_june_1
+2025-05-29,2025,Take MEOW't to the Ballpark Cat Night,theme_night,cat owners; families,Cattyshack,0,0,1,0,0,1,0,0,official_2025_hh_may_27_june_1
+2025-05-29,2025,Throwback Thursday,weekly_promo,adults 21+,,0,0,1,1,0,0,0,0,official_2025_weekly_promos
+2025-05-30,2025,Thompson Tractor Community Hero,community,local heroes,Thompson Tractor,0,0,0,1,0,1,0,0,official_2025_hh_may_27_june_1
+2025-05-30,2025,Friday Night Fireworks,fireworks,families; groups,Huntsville Airport,1,0,1,0,0,0,0,0,official_2025_hh_may_27_june_1
+2025-05-30,2025,Scout Night and Sleepover,group_sales,scouts; families,,0,0,1,0,1,0,0,0,official_2025_hh_may_27_june_1
+2025-05-30,2025,The Malmö Oat Milkers Night,theme_night,families; baseball fans,,0,0,1,0,0,0,0,0,official_2025_hh_may_27_june_1
+2025-05-31,2025,Saturday Night Fireworks,fireworks,families; groups,Booz Allen,1,0,1,0,0,0,0,0,official_2025_hh_may_27_june_1
+2025-05-31,2025,Harry Potter Cooler Bag Giveaway,giveaway,all fans,Huntsville Symphony Orchestra,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-05-31,2025,Harry Potter Night Jersey Auction,jersey_auction,collectors; all fans,Huntsville Symphony Orchestra,0,0,1,0,0,1,0,1,official_2025_hh_may_27_june_1
+2025-05-31,2025,Bike Night,theme_night,motorcycle riders; groups,,0,0,1,0,1,0,0,0,official_2025_hh_may_27_june_1
+2025-05-31,2025,Harry Potter Night,theme_night,families; Harry Potter fans,Huntsville Symphony Orchestra,0,0,1,0,0,0,0,0,official_2025_hh_may_27_june_1
+2025-05-31,2025,Rocket City Spring Tune-Up Car Show,theme_night,car enthusiasts; families,Spokes and Vogues,0,0,1,0,1,0,0,0,official_2025_hh_may_27_june_1
+2025-06-01,2025,Blue Bell Sunday Sundaes,food_beverage,families,Blue Bell,0,0,0,1,0,0,0,0,official_2025_hh_may_27_june_1
+2025-06-01,2025,Lunáticos Sugar Skull Bobblehead Giveaway,giveaway,all fans,Early Services,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-06-01,2025,Lunáticos de Rocket City,theme_night,Latino community; families,,0,0,1,0,0,1,0,0,official_2025_hh_may_27_june_1
+2025-06-01,2025,Postgame Kids Run the Bases,weekly_promo,kids; families,Listerhill Credit Union,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-06-01,2025,Pregame Player Autographs,weekly_promo,all fans,,0,0,0,1,0,0,1,0,official_2025_weekly_promos
+2025-06-10,2025,Marshall County Hometown Throwdown,community,Marshall County community,,0,0,1,0,1,1,0,0,official_2025_hh_june_10_15
+2025-06-10,2025,Hendrick's Gin Cup Giveaway & Drink Specials,giveaway,adults 21+,Hendrick's Gin,0,1,0,0,0,1,0,0,official_2025_hh_june_10_15
+2025-06-10,2025,Reeds Jewelers Ladies Night,weekly_promo,women; adults 21+,Reeds Jewelers,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-06-11,2025,Trash Pandas Beach Towel Giveaway,giveaway,adults,LP Building Solutions,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-06-11,2025,USSSA Night,group_sales,youth sports teams; families,,0,0,1,0,1,0,0,0,official_2025_hh_june_10_15
+2025-06-11,2025,Tito's Dog Days,weekly_promo,dog owners; families,Tito's Vodka,0,0,0,1,0,1,0,0,official_2025_weekly_promos
+2025-06-12,2025,Beverage Belt Giveaway,giveaway,adults,Local IQ,0,1,0,0,0,0,0,0,official_2025_hh_june_10_15
+2025-06-12,2025,Throwback Thursday,weekly_promo,adults 21+,,0,0,1,1,0,0,0,0,official_2025_weekly_promos
+2025-06-13,2025,Agriculture Night,appreciation,agriculture community,Alabama Farm Credit,0,0,1,0,1,1,0,0,official_2025_hh_june_10_15
+2025-06-13,2025,Thompson Tractor Community Hero,community,local heroes,Thompson Tractor,0,0,0,1,0,1,0,0,official_2025_hh_june_10_15
+2025-06-13,2025,Friday Night Fireworks,fireworks,families; groups,Alabama Farm Credit,1,0,1,0,0,0,0,0,official_2025_hh_june_10_15
+2025-06-13,2025,Bama Butts Night,theme_night,families; food fans,,0,0,1,0,0,0,0,0,official_2025_hh_june_10_15
+2025-06-13,2025,Best Pork Butt Sampling and People's Choice Contest,ticket_package,food fans,,0,0,0,0,1,0,0,0,official_2025_hh_june_10_15
+2025-06-14,2025,Saturday Night Fireworks,fireworks,families; groups,Astrion,1,0,1,0,0,0,0,0,official_2025_hh_june_10_15
+2025-06-14,2025,Alabama White Sauce Night,theme_night,families; food fans,,0,0,1,0,0,0,0,0,official_2025_hh_june_10_15
+2025-06-14,2025,Best White Sauce Sampling and People's Choice Contest,ticket_package,food fans,,0,0,0,0,1,0,0,0,official_2025_hh_june_10_15
+2025-06-15,2025,Postgame Catch on the Field for Father's Day,experience,families; fathers,,0,0,0,0,1,0,0,0,official_2025_hh_june_10_15
+2025-06-15,2025,Blue Bell Sunday Sundaes,food_beverage,families,Blue Bell,0,0,0,1,0,0,0,0,official_2025_hh_june_10_15
+2025-06-15,2025,Father's Day Grill Set Giveaway,giveaway,men 18+,Southern Cancer Center,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-06-15,2025,Father's Day,theme_night,families; fathers,Southern Cancer Institute,0,0,1,0,1,0,0,0,official_2025_hh_june_10_15
+2025-06-15,2025,Postgame Kids Run the Bases,weekly_promo,kids; families,Listerhill Credit Union,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-06-15,2025,Pregame Player Autographs,weekly_promo,all fans,,0,0,0,1,0,0,1,0,official_2025_weekly_promos
+2025-06-17,2025,Athens Community Hometown Throwdown,community,Athens community,,0,0,1,0,1,1,0,0,official_2025_hh_june_17_22
+2025-06-17,2025,Adult Trash Jersey Giveaway,giveaway,adults 18+,Nucor Tubular of Decatur,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-06-17,2025,Reeds Jewelers Ladies Night,weekly_promo,women; adults 21+,Reeds Jewelers,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-06-18,2025,Game 1 Specials,food_beverage,all fans,,0,0,0,0,0,0,0,0,official_2025_hh_june_17_22
+2025-06-18,2025,Doubleheader Wednesday,schedule_promo,all fans,,0,0,0,0,0,0,0,0,official_2025_hh_june_17_22
+2025-06-18,2025,Tito's Dog Days,weekly_promo,dog owners; families,Tito's Vodka,0,0,0,1,0,1,0,0,official_2025_weekly_promos
+2025-06-19,2025,Juneteenth and Negro Leagues Celebration,theme_night,all fans,,0,0,1,0,0,1,0,0,official_2025_hh_june_17_22
+2025-06-19,2025,Racing Night with Landon Huffman,theme_night,racing fans; families,,0,0,1,0,1,0,1,0,official_2025_hh_june_17_22
+2025-06-19,2025,Throwback Thursday,weekly_promo,adults 21+,,0,0,1,1,0,0,0,0,official_2025_weekly_promos
+2025-06-20,2025,Thompson Tractor Community Hero,community,local heroes,Thompson Tractor,0,0,0,1,0,1,0,0,official_2025_hh_june_17_22
+2025-06-20,2025,Friday Night Fireworks,fireworks,families; groups,Bill Penney Toyota,1,0,1,0,0,0,0,0,official_2025_hh_june_17_22
+2025-06-20,2025,Superhero Night,theme_night,families; kids,,0,0,1,0,1,0,0,0,official_2025_hh_june_17_22
+2025-06-21,2025,Trash Cancer Night,community,cancer patients; survivors; families,Clearview Cancer Institute; Russell Hill Cancer Foundation,0,0,1,0,0,1,0,0,official_2025_hh_june_17_22
+2025-06-21,2025,Saturday Night Fireworks,fireworks,families; groups,Clearview Cancer Institute; Russell Hill Cancer Foundation,1,0,1,0,0,0,0,0,official_2025_hh_june_17_22
+2025-06-22,2025,First Responders Day,appreciation,first responders; military,COUNTRY Financial,0,0,1,0,1,1,0,0,official_2025_hh_june_17_22
+2025-06-22,2025,Blue Bell Sunday Sundaes,food_beverage,families,Blue Bell,0,0,0,1,0,0,0,0,official_2025_hh_june_17_22
+2025-06-22,2025,Postgame Kids Run the Bases,weekly_promo,kids; families,Listerhill Credit Union,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-06-22,2025,Pregame Player Autographs,weekly_promo,all fans,,0,0,0,1,0,0,1,0,official_2025_weekly_promos
+2025-07-01,2025,Reeds Jewelers Ladies Night,weekly_promo,women; adults 21+,Reeds Jewelers,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-07-02,2025,Tito's Dog Days,weekly_promo,dog owners; families,Tito's Vodka,0,0,0,1,0,1,0,0,official_2025_weekly_promos
+2025-07-03,2025,Independence EVE Celebration Fireworks,fireworks,families; groups,SAIC,1,0,1,0,0,0,0,0,official_2025_independence_week
+2025-07-03,2025,Independence EVE Celebration,theme_night,families; patriotic holiday fans,SAIC,0,0,1,0,0,0,0,0,official_2025_independence_week
+2025-07-03,2025,Throwback Thursday,weekly_promo,adults 21+,,0,0,1,1,0,0,0,0,official_2025_weekly_promos
+2025-07-18,2025,Friday Night Fireworks,fireworks,families; groups,AVID Hotels,1,0,1,0,0,0,0,0,official_2025_hh_july_18_20
+2025-07-18,2025,Tennessee Titans Night,theme_night,Titans fans; football fans; families,Tennessee Titans,0,1,1,0,1,0,1,0,official_2025_hh_july_18_20
+2025-07-19,2025,Saturday Night Fireworks,fireworks,families; groups,SportsMED,1,0,1,0,0,0,0,0,official_2025_hh_july_18_20
+2025-07-19,2025,Margaritaville Night Jersey Auction,jersey_auction,collectors; all fans,First Stop,0,0,1,0,0,1,0,1,official_2025_hh_july_18_20
+2025-07-19,2025,Margaritaville Night,theme_night,adults; families,First Stop,0,0,1,0,0,0,0,0,official_2025_hh_july_18_20
+2025-07-20,2025,Milagro Cups Giveaway and Drink Special,giveaway,adults 21+,Milagro,0,1,0,0,0,1,0,0,official_2025_hh_july_18_20
+2025-07-20,2025,Lunáticos de Rocket City Day,theme_night,Latino community; families,,0,0,1,0,0,1,0,0,official_2025_hh_july_18_20
+2025-07-20,2025,Postgame Kids Run the Bases,weekly_promo,kids; families,Listerhill Credit Union,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-07-20,2025,Pregame Player Autographs,weekly_promo,all fans,,0,0,0,1,0,0,1,0,official_2025_weekly_promos
+2025-07-29,2025,Reeds Jewelers Ladies Night,weekly_promo,women; adults 21+,Reeds Jewelers,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-07-30,2025,Educator Appreciation Night,appreciation,educators,COUNTRY Financial,0,0,1,0,1,1,0,0,official_2025_hh_july_29_aug_3
+2025-07-30,2025,School Supply Drive,community,educators; schools,COUNTRY Financial,0,0,0,0,0,1,0,0,official_2025_hh_july_29_aug_3
+2025-07-30,2025,Tito's Dog Days,weekly_promo,dog owners; families,Tito's Vodka,0,0,0,1,0,1,0,0,official_2025_weekly_promos
+2025-07-31,2025,Salute to the Negro Leagues,theme_night,baseball history fans,,0,0,1,0,0,1,0,0,official_2025_hh_july_29_aug_3
+2025-07-31,2025,Throwback Thursday,weekly_promo,adults 21+,,0,0,1,1,0,0,0,0,official_2025_weekly_promos
+2025-08-01,2025,Friday Night Fireworks,fireworks,families; groups,SAIC,1,0,1,0,0,0,0,0,official_2025_hh_july_29_aug_3
+2025-08-01,2025,Space Jersey Auction,jersey_auction,collectors; space community,Bridge Street Town Centre,0,0,1,0,0,1,0,1,official_2025_hh_july_29_aug_3
+2025-08-01,2025,Space Night with NASA,theme_night,space community; families,NASA Marshall Space Flight Center,0,0,1,0,1,1,0,0,official_2025_hh_july_29_aug_3
+2025-08-02,2025,Dinosaur Weekend Day 1,appearance,families; kids,Alabama Department of Early Childhood Education,0,0,1,0,0,0,1,0,official_2025_giveaways_appearances
+2025-08-03,2025,Dinosaur Weekend Day 2,appearance,families; kids,Alabama Department of Early Childhood Education,0,0,1,0,0,0,1,0,official_2025_giveaways_appearances
+2025-08-03,2025,Postgame Kids Run the Bases,weekly_promo,kids; families,Listerhill Credit Union,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-08-03,2025,Pregame Player Autographs,weekly_promo,all fans,,0,0,0,1,0,0,1,0,official_2025_weekly_promos
+2025-08-12,2025,Strength in All Abilities Night,community,individuals with disabilities; families,,0,0,1,0,1,1,0,0,official_2025_hh_aug_12_17
+2025-08-12,2025,Reeds Jewelers Ladies Night,weekly_promo,women; adults 21+,Reeds Jewelers,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-08-13,2025,North Alabama Colleges Night,group_sales,college students; alumni,UAH,0,0,1,0,1,0,0,0,official_2025_hh_aug_12_17
+2025-08-13,2025,Tito's Dog Days,weekly_promo,dog owners; families,Tito's Vodka,0,0,0,1,0,1,0,0,official_2025_weekly_promos
+2025-08-14,2025,Beer Stein Giveaway,giveaway,adults 21+,Cullman Parks and Recreation,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-08-14,2025,Bavarian Themed Solo Show,theme_night,all fans,,0,0,1,0,0,0,1,0,official_2025_hh_aug_12_17
+2025-08-14,2025,Oktoberfest Beer Package,ticket_package,adults 21+,,0,0,1,0,1,0,0,0,official_2025_hh_aug_12_17
+2025-08-14,2025,Throwback Thursday,weekly_promo,adults 21+,,0,0,1,1,0,0,0,0,official_2025_weekly_promos
+2025-08-15,2025,Peraton Toiletries Drive,community,all fans,Peraton,0,0,0,0,0,1,0,0,official_2025_hh_aug_12_17
+2025-08-15,2025,Thompson Tractor Community Hero,community,local heroes,Thompson Tractor,0,0,0,1,0,1,0,0,official_2025_hh_aug_12_17
+2025-08-15,2025,Friday Night Fireworks,fireworks,families; groups,SportsMED,1,0,1,0,0,0,0,0,official_2025_hh_aug_12_17
+2025-08-16,2025,Youth Space Jersey Giveaway,giveaway,kids 17 and under,Nucor Tubular,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-08-17,2025,Faith and Family Day,theme_night,faith groups; families,CrossPointe Church,0,0,1,0,1,1,0,0,official_2025_hh_aug_12_17
+2025-08-17,2025,Postgame Kids Run the Bases,weekly_promo,kids; families,Listerhill Credit Union,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-08-17,2025,Pregame Player Autographs,weekly_promo,all fans,,0,0,0,1,0,0,1,0,official_2025_weekly_promos
+2025-08-26,2025,Reeds Jewelers Ladies Night,weekly_promo,women; adults 21+,Reeds Jewelers,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-08-27,2025,Japanese Heritage Night,theme_night,Japanese culture fans; families,Toray,0,0,1,0,0,1,0,0,official_2025_hh_aug_26_31
+2025-08-27,2025,Tito's Dog Days,weekly_promo,dog owners; families,Tito's Vodka,0,0,0,1,0,1,0,0,official_2025_weekly_promos
+2025-08-28,2025,Jose and Ozzie Canseco Appearance,appearance,baseball fans; collectors,U.S. Army,0,0,0,0,0,0,1,0,official_2025_giveaways_appearances
+2025-08-28,2025,Huntsville Stars Jersey Auction,jersey_auction,collectors; baseball history fans,,0,0,1,0,0,1,0,1,official_2025_hh_aug_26_31
+2025-08-28,2025,Huntsville Stars 40th Anniversary Night,theme_night,baseball history fans; families,U.S. Army,0,0,1,0,0,1,1,0,official_2025_hh_aug_26_31
+2025-08-28,2025,Throwback Thursday,weekly_promo,adults 21+,,0,0,1,1,0,0,0,0,official_2025_weekly_promos
+2025-08-29,2025,Canned Food Drive,community,all fans,One Generation Away,0,0,0,0,0,1,0,0,official_2025_hh_aug_26_31
+2025-08-29,2025,Friday Night Fireworks,fireworks,families; groups,Blue Orbit Sign Studio,1,0,1,0,0,0,0,0,official_2025_hh_aug_26_31
+2025-08-29,2025,Huntsville Havoc Night,theme_night,hockey fans; families,Huntsville Havoc,0,0,1,0,1,0,1,0,official_2025_hh_aug_26_31
+2025-08-30,2025,Saturday Night Fireworks,fireworks,families; groups,Boeing,1,0,1,0,0,0,0,0,official_2025_hh_aug_26_31
+2025-08-31,2025,Postgame Kids Run the Bases,weekly_promo,kids; families,Listerhill Credit Union,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-08-31,2025,Pregame Player Autographs,weekly_promo,all fans,,0,0,0,1,0,0,1,0,official_2025_weekly_promos
+2025-09-09,2025,Glow-In-The-Dark Youth T-Shirt Giveaway,giveaway,kids 17 and under,Miltope,0,1,0,0,0,0,0,0,official_2025_giveaways_appearances
+2025-09-09,2025,STEM Night,theme_night,students; families,Miltope,0,0,1,0,1,1,0,0,official_2025_hh_sept_9_14
+2025-09-09,2025,Reeds Jewelers Ladies Night,weekly_promo,women; adults 21+,Reeds Jewelers,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-09-10,2025,Tito's Dog Days,weekly_promo,dog owners; families,Tito's Vodka,0,0,0,1,0,1,0,0,official_2025_weekly_promos
+2025-09-11,2025,September 11th Memorial Stair Climb,community,all fans; first responders,Madison County Police & Fire Departments,0,0,0,0,0,1,0,0,official_2025_hh_sept_9_14
+2025-09-11,2025,Throwback Thursday,weekly_promo,adults 21+,,0,0,1,1,0,0,0,0,official_2025_weekly_promos
+2025-09-12,2025,You Are Not Alone Night,community,veterans; military community,AV; Torch Technologies,0,0,1,0,0,1,0,0,official_2025_hh_sept_9_14
+2025-09-12,2025,Friday Night Fireworks,fireworks,families; groups,Blue Halo,1,0,1,0,0,0,0,0,official_2025_hh_sept_9_14
+2025-09-13,2025,AUSA vs. USA Patriots Softball Game,appearance,military; veterans; families,AUSA Redstone-Huntsville Chapter,0,0,1,0,1,1,1,0,official_2025_hh_sept_9_14
+2025-09-13,2025,Saturday Night Fireworks,fireworks,families; groups,HII's Mission Technologies Division,1,0,1,0,0,0,0,0,official_2025_hh_sept_9_14
+2025-09-13,2025,Patriotic Jersey Auction,jersey_auction,collectors; patriotic community,HII's Mission Technologies Division,0,0,1,0,0,1,0,1,official_2025_hh_sept_9_14
+2025-09-14,2025,2026 Magnetic Schedule Giveaway,giveaway,all fans,Fifth Third Bank,0,1,0,0,0,0,0,0,official_2025_hh_sept_9_14
+2025-09-14,2025,Lunáticos Day and Jersey Auction,jersey_auction,Latino community; collectors,Trash Pandas Foundation,0,0,1,0,0,1,0,1,official_2025_hh_sept_9_14
+2025-09-14,2025,Postgame Kids Run the Bases,weekly_promo,kids; families,Listerhill Credit Union,0,0,0,1,0,0,0,0,official_2025_weekly_promos
+2025-09-14,2025,Pregame Player Autographs,weekly_promo,all fans,,0,0,0,1,0,0,1,0,official_2025_weekly_promos

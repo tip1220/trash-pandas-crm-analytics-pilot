@@ -1,0 +1,175 @@
+game_date,season,promo_name,promo_category,promo_audience,sponsor,is_fireworks,is_giveaway,is_theme_night,is_weekly_promo,is_group_sales,is_community,is_appearance,is_jersey_auction,source_name
+2024-04-09,2024,Opening Night Festivities,special_event,all_fans,,0,0,1,0,0,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-09,2024,2024 Magnet Schedule Giveaway,giveaway,all_fans,Booz Allen Hamilton,0,1,0,0,0,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-09,2024,Reeds Jewelers Ladies Night,weekly_promo,women,Reeds Jewelers,0,0,0,1,0,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-09,2024,Opening Night Celebration Fireworks,fireworks,all_fans,Booz Allen Hamilton,1,0,0,0,0,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-10,2024,Ben Joyce Bobblehead Giveaway,giveaway,adults_18_plus,SportsMED,0,1,0,0,0,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-10,2024,Dog Day Wednesday,weekly_promo,dog_owners,,0,0,0,1,0,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-11,2024,Real Estate / Home Buyer Night,group_sales,home_buyers_real_estate_industry,Alabama Closing and Title,0,0,0,0,1,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-11,2024,Trash Pandas Door Mat Giveaway,giveaway,kids_17_under,Alabama Closing and Title,0,1,0,0,0,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-11,2024,Extended Happy Hour,weekly_promo,adults_21_plus,,0,0,0,1,0,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-12,2024,Friday Night Fireworks,fireworks,all_fans,,1,0,0,0,0,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-13,2024,Saturday Night Fireworks,fireworks,all_fans,Inline Electric,1,0,0,0,0,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-14,2024,4x4 Night,group_sales,auto_offroad_fans,,0,0,1,0,1,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-14,2024,Kids Run the Bases,weekly_promo,kids_families,Listerhill Credit Union,0,0,0,1,0,0,0,0,milb_opening_week_homestand_highlights_2024
+2024-04-23,2024,Reeds Jewelers Ladies Night,weekly_promo,women,Reeds Jewelers,0,0,0,1,0,0,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-23,2024,Reading Program Redemption Day,community,students_families,,0,0,0,0,0,1,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-24,2024,Education Day,group_sales,students_schools,,0,0,0,0,1,1,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-25,2024,Dance Night,theme_night,dance_groups_families,,0,0,1,0,1,0,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-25,2024,Big Ol' Ballpark Fair,special_event,all_fans,,0,0,1,0,0,0,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-25,2024,Extended Happy Hour,weekly_promo,adults_21_plus,,0,0,0,1,0,0,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-25,2024,Raise The Roof T-Shirt Giveaway,giveaway,adults_18_plus,Storm Guard Roofing,0,1,0,0,0,0,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-26,2024,Friday Night Fireworks,fireworks,all_fans,Huntsville Utilities,1,0,0,0,0,0,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-26,2024,80s Night,theme_night,all_fans,,0,0,1,0,0,0,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-26,2024,Utility Worker Appreciation Night,group_sales,utility_workers,,0,0,0,0,1,1,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-26,2024,Big Ol' Ballpark Fair,special_event,all_fans,,0,0,1,0,0,0,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-27,2024,Saturday Night Fireworks,fireworks,all_fans,Booz Allen Hamilton,1,0,0,0,0,0,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-27,2024,Meridianville Athletic Association Parade,group_sales,youth_sports_families,,0,0,0,0,1,1,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-27,2024,Big Ol' Ballpark Fair,special_event,all_fans,,0,0,1,0,0,0,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-28,2024,Big Ol' Ballpark Fair,special_event,all_fans,,0,0,1,0,0,0,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-04-28,2024,Kids Run the Bases,weekly_promo,kids_families,Listerhill Credit Union,0,0,0,1,0,0,0,0,oursportscentral_homestand_highlights_april_23_28_2024
+2024-05-07,2024,Star Wars Night,theme_night,all_fans,,0,0,1,0,0,0,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-07,2024,Chewbacca Jersey Auction,jersey_auction,all_fans,,0,0,1,0,0,0,0,1,milb_homestand_highlights_3_may_7_12_2024
+2024-05-07,2024,Nolan Schanuel Bobblehead Giveaway,giveaway,adults_18_plus,Bill Penney Toyota,0,1,0,0,0,0,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-07,2024,Reeds Jewelers Ladies Night,weekly_promo,women,Reeds Jewelers,0,0,0,1,0,0,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-08,2024,Education Day,group_sales,students_schools,WAAY 31,0,0,0,0,1,1,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-09,2024,First Responders Night,group_sales,first_responders,,0,0,0,0,1,1,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-09,2024,Team Photo Giveaway,giveaway,all_fans,Huntsville-Madison County Convention and Visitors Bureau,0,1,0,0,0,0,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-09,2024,Player Autograph Session,appearance,all_fans,,0,0,0,0,0,0,1,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-09,2024,Extended Happy Hour,weekly_promo,adults_21_plus,,0,0,0,1,0,0,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-10,2024,Friday Night Fireworks,fireworks,all_fans,Pyro Shows,1,0,0,0,0,0,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-10,2024,Scout Night,group_sales,scouts_families,,0,0,0,0,1,0,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-11,2024,Saturday Night Fireworks,fireworks,all_fans,SAIC,1,0,0,0,0,0,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-11,2024,Armed Forces Night,theme_night,military_families,,0,0,1,0,1,1,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-12,2024,Sprocket Wine Bottle Topper Giveaway,giveaway,women_21_plus,NA Plumbing,0,1,0,0,0,0,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-12,2024,Mother's Day,theme_night,mothers_families,,0,0,1,0,0,0,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-12,2024,Kids Run the Bases,weekly_promo,kids_families,Listerhill Credit Union,0,0,0,1,0,0,0,0,milb_homestand_highlights_3_may_7_12_2024
+2024-05-21,2024,Elvis Tribute Night,theme_night,all_fans,,0,0,1,0,0,0,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-21,2024,Elvis Poster Giveaway,giveaway,adults_18_plus,,0,1,0,0,0,0,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-21,2024,Reading Program Redemption Day,community,students_families,,0,0,0,0,0,1,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-21,2024,Reeds Jewelers Ladies Night,weekly_promo,women,Reeds Jewelers,0,0,0,1,0,0,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-22,2024,Dog Day,weekly_promo,dog_owners,Tito's,0,0,0,1,0,0,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-22,2024,Reading Program Redemption Day,community,students_families,,0,0,0,0,0,1,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-23,2024,Lunaticos de Rocket City,theme_night,hispanic_community_all_fans,,0,0,1,0,0,0,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-23,2024,Extended Happy Hour,weekly_promo,adults_21_plus,,0,0,0,1,0,0,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-24,2024,Friday Night Fireworks,fireworks,all_fans,Chick-fil-A of Madison,1,0,0,0,0,0,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-24,2024,Princess Night,theme_night,families,,0,0,1,0,1,0,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-24,2024,Princess Characters Appearance,appearance,families,,0,0,0,0,0,0,1,0,milb_2024_premium_giveaways_appearances
+2024-05-25,2024,Saturday Night Fireworks,fireworks,all_fans,WOW!,1,0,0,0,0,0,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-25,2024,National Wine Day,theme_ticket_package,adults_21_plus,,0,0,1,0,1,0,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-26,2024,Memorial Day Celebration,theme_night,all_fans,,0,0,1,0,0,1,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-05-26,2024,Kids Run the Bases,weekly_promo,kids_families,Listerhill Credit Union,0,0,0,1,0,0,0,0,oursportscentral_homestand_highlights_may_21_26_2024
+2024-06-04,2024,Mental Health Awareness Night,community,all_fans,Wellstone,0,0,1,0,0,1,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-04,2024,Reeds Jewelers Ladies Night,weekly_promo,women,Reeds Jewelers,0,0,0,1,0,0,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-05,2024,Sprocket Pen/Pencil Holder Giveaway,giveaway,adults_18_plus,Crestwood Medical Center,0,1,0,0,0,0,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-05,2024,Dog Day,weekly_promo,dog_owners,Tito's,0,0,0,1,0,0,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-06,2024,Cat Rescue Night,theme_night,cat_owners_pet_families,Attain at Bradford Creek,0,0,1,0,0,1,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-06,2024,Pete the Cat Character Appearance,appearance,families_pet_fans,Attain at Bradford Creek,0,0,0,0,0,0,1,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-06,2024,Pet Supplies Drive,community_drive,pet_owners_community,,0,0,0,0,0,1,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-06,2024,Extended Happy Hour,weekly_promo,adults_21_plus,,0,0,0,1,0,0,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-07,2024,Friday Night Fireworks,fireworks,all_fans,Axient,1,0,0,0,0,0,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-08,2024,Saturday Night Fireworks,fireworks,all_fans,Bill Penney Toyota,1,0,0,0,0,0,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-08,2024,Dad's Night Out / Pre-Game Kickback,theme_night,fathers_adults,,0,0,1,0,0,1,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-08,2024,Negro League Tribute Night,theme_night,baseball_history_fans,,0,0,1,0,0,1,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-08,2024,Former Negro League Players Appearance,appearance,baseball_history_fans,,0,0,0,0,0,0,1,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-09,2024,Pickleball Night,theme_night,pickleball_fans,,0,0,1,0,1,0,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-09,2024,Kids Run the Bases,weekly_promo,kids_families,Listerhill Credit Union,0,0,0,1,0,0,0,0,milb_homestand_highlights_5_june_4_9_2024
+2024-06-18,2024,Faith Night,theme_night,faith_groups_families,CrossPointe Church,0,0,1,0,1,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-18,2024,Reeds Jewelers Ladies Night,weekly_promo,women,Reeds Jewelers,0,0,0,1,0,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-19,2024,3x5 Flag Giveaway,giveaway,adults_18_plus,Alabama Executive MBA,0,1,0,0,0,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-19,2024,Local High School State Championship Recognition,community,schools_families,,0,0,0,0,0,1,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-19,2024,Coaches Appreciation Night,group_sales,coaches_sports_families,,0,0,0,0,1,1,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-19,2024,Little Debbie Oatmeal Creme Pie Package,theme_ticket_package,coaches_families,Little Debbie,0,0,1,0,1,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-19,2024,Dog Day,weekly_promo,dog_owners,Tito's,0,0,0,1,0,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-20,2024,Adult Cap Giveaway,giveaway,adults_18_plus,SportsMED,0,1,0,0,0,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-20,2024,USSSA Night,group_sales,youth_sports_families,,0,0,0,0,1,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-20,2024,Extended Happy Hour,weekly_promo,adults_21_plus,,0,0,0,1,0,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-21,2024,Defenders of the Diamond Superhero Night,theme_night,families_superhero_fans,,0,0,1,0,0,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-21,2024,Marvel Superhero Jersey Auction,jersey_auction,families_superhero_fans,,0,0,1,0,0,0,0,1,milb_homestand_highlights_6_june_18_23_2024
+2024-06-21,2024,Superhero Theme Ticket Package,theme_ticket_package,families_superhero_fans,,0,0,1,0,1,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-21,2024,Friday Night Fireworks,fireworks,all_fans,Blue Orbit Sign Studio,1,0,0,0,0,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-22,2024,Strike Out Cancer Night,community,all_fans,Clearview Cancer Institute,0,0,1,0,0,1,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-22,2024,Beanies and Blanket Drive,community_drive,all_fans,,0,0,0,0,0,1,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-22,2024,Saturday Night Fireworks,fireworks,all_fans,CCI,1,0,0,0,0,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-23,2024,Mae Astronaut Bobblehead Giveaway,giveaway,kids_17_under,Huntsville Compounding Pharmacy,0,1,0,0,0,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-06-23,2024,Kids Run the Bases,weekly_promo,kids_families,Listerhill Credit Union,0,0,0,1,0,0,0,0,milb_homestand_highlights_6_june_18_23_2024
+2024-07-04,2024,Independence Day Spectacular Fireworks,fireworks,all_fans,,1,0,0,0,0,0,0,0,milb_homestand_highlights_7_independence_weekend_2024
+2024-07-04,2024,Independence Weekend,theme_night,all_fans,,0,0,1,0,0,0,0,0,milb_homestand_highlights_7_independence_weekend_2024
+2024-07-05,2024,Friday Night Fireworks,fireworks,all_fans,,1,0,0,0,0,0,0,0,milb_homestand_highlights_7_independence_weekend_2024
+2024-07-06,2024,Saturday Night Fireworks,fireworks,all_fans,,1,0,0,0,0,0,0,0,milb_homestand_highlights_7_independence_weekend_2024
+2024-07-09,2024,Mullet Madness,theme_night,all_fans,,0,0,1,0,0,1,0,0,milb_homestand_highlights_8_july_9_14_2024
+2024-07-09,2024,Reeds Jewelers Ladies Night,weekly_promo,women,Reeds Jewelers,0,0,0,1,0,0,0,0,milb_homestand_highlights_8_july_9_14_2024
+2024-07-10,2024,Dog Day,weekly_promo,dog_owners,Tito's,0,0,0,1,0,0,0,0,milb_homestand_highlights_8_july_9_14_2024
+2024-07-11,2024,Agriculture Night,group_sales,agriculture_community_families,Alabama Farm Credit,0,0,0,0,1,1,0,0,milb_homestand_highlights_8_july_9_14_2024
+2024-07-11,2024,Malmö Oatmilkers Night,theme_night,all_fans,,0,0,1,0,0,0,0,0,milb_homestand_highlights_8_july_9_14_2024
+2024-07-11,2024,Extended Happy Hour,weekly_promo,adults_21_plus,,0,0,0,1,0,0,0,0,milb_homestand_highlights_8_july_9_14_2024
+2024-07-12,2024,Friday Night Fireworks,fireworks,all_fans,,1,0,0,0,0,0,0,0,milb_homestand_highlights_8_july_9_14_2024
+2024-07-13,2024,Saturday Night Fireworks,fireworks,all_fans,,1,0,0,0,0,0,0,0,milb_homestand_highlights_8_july_9_14_2024
+2024-07-14,2024,Lunaticos de Rocket City,theme_night,hispanic_community_all_fans,,0,0,1,0,0,0,0,0,milb_homestand_highlights_8_july_9_14_2024
+2024-07-14,2024,Lunaticos Beverage Sleeve Giveaway,giveaway,adults_18_plus,Early Services Inc.,0,1,0,0,0,0,0,0,milb_homestand_highlights_8_july_9_14_2024
+2024-07-14,2024,Kids Run the Bases,weekly_promo,kids_families,Listerhill Credit Union,0,0,0,1,0,0,0,0,milb_homestand_highlights_8_july_9_14_2024
+2024-07-23,2024,UNA Football Special Offer,theme_ticket_package,football_fans_educators,University of North Alabama,0,0,1,0,1,0,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-23,2024,Educators Night,group_sales,educators,,0,0,0,0,1,1,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-23,2024,Reeds Jewelers Ladies Night,weekly_promo,women,Reeds Jewelers,0,0,0,1,0,0,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-24,2024,Dog Day,weekly_promo,dog_owners,Tito's,0,0,0,1,0,0,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-25,2024,Christmas in July,theme_night,families_all_fans,,0,0,1,0,0,0,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-25,2024,Christmas Light Show Special Offer,theme_ticket_package,families_all_fans,,0,0,1,0,1,0,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-25,2024,Toy Drive,community_drive,all_fans,,0,0,0,0,0,1,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-25,2024,Extended Happy Hour,weekly_promo,adults_21_plus,,0,0,0,1,0,0,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-26,2024,Friends Night,theme_night,tv_fans_all_fans,,0,0,1,0,0,0,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-26,2024,Friends Jersey Auction,jersey_auction,tv_fans_all_fans,,0,0,1,0,0,0,0,1,milb_homestand_highlights_9_july_23_28_2024
+2024-07-26,2024,Friday Night Fireworks,fireworks,all_fans,COLSA,1,0,0,0,0,0,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-27,2024,Saturday Night Fireworks,fireworks,all_fans,Booz Allen Hamilton,1,0,0,0,0,0,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-27,2024,Shoe Drive,community_drive,all_fans,Tyler Mann Injury Law,0,0,0,0,0,1,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-28,2024,Bluey Character Appearance,appearance,kids_families,,0,0,0,0,0,0,1,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-28,2024,Kids Run the Bases,weekly_promo,kids_families,Listerhill Credit Union,0,0,0,1,0,0,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-07-28,2024,Shoe Drive,community_drive,all_fans,Tyler Mann Injury Law,0,0,0,0,0,1,0,0,milb_homestand_highlights_9_july_23_28_2024
+2024-08-06,2024,Youth Jersey Giveaway,giveaway,kids_17_under,Nucor,0,1,0,0,0,0,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-06,2024,Runners Night,group_sales,runners_cross_country_teams,,0,0,0,0,1,0,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-06,2024,Reeds Jewelers Ladies Night,weekly_promo,women,Reeds Jewelers,0,0,0,1,0,0,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-07,2024,Dollar Dog Night,theme_night,all_fans,,0,0,1,0,0,0,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-07,2024,Soccer Night,theme_night,soccer_fans_families,Huntsville City FC,0,0,1,0,1,0,1,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-07,2024,Dog Day,weekly_promo,dog_owners,Tito's,0,0,0,1,0,0,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-08,2024,Construction Workers Appreciation,group_sales,construction_workers,,0,0,0,0,1,1,0,0,milb_2024_full_promotional_calendar
+2024-08-08,2024,Extended Happy Hour,weekly_promo,adults_21_plus,,0,0,0,1,0,0,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-09,2024,Breast Cancer Awareness Night,community,all_fans,Southern Cancer Center Huntsville,0,0,1,0,0,1,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-09,2024,School Supplies Drive,community_drive,all_fans,,0,0,0,0,0,1,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-09,2024,Friday Night Fireworks,fireworks,all_fans,Southern Cancer Center Huntsville,1,0,0,0,0,0,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-10,2024,Space Night,theme_night,space_fans_families,,0,0,1,0,0,0,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-10,2024,Space Night Jersey Auction,jersey_auction,space_fans_families,,0,0,1,0,0,0,0,1,milb_homestand_highlights_10_august_6_11_2024
+2024-08-10,2024,Saturday Night Fireworks,fireworks,all_fans,SAIC,1,0,0,0,0,0,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-11,2024,Lunaticos de Rocket City,theme_night,hispanic_community_all_fans,,0,0,1,0,0,0,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-11,2024,Lunaticos Sugar Skull Bobblehead Giveaway,giveaway,kids_17_under,Early Services,0,1,0,0,0,0,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-11,2024,Kids Run the Bases,weekly_promo,kids_families,Listerhill Credit Union,0,0,0,1,0,0,0,0,milb_homestand_highlights_10_august_6_11_2024
+2024-08-27,2024,Oktoberfest Das Bier Boot Giveaway,giveaway,adults_21_plus,Jonathan's Grille,0,1,0,0,0,0,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-08-27,2024,Oktoberfest Bier Festival Ticket,theme_ticket_package,adults_21_plus,,0,0,1,0,1,0,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-08-27,2024,Reeds Jewelers Ladies Night,weekly_promo,women,Reeds Jewelers,0,0,0,1,0,0,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-08-28,2024,Adult Replica Jersey Giveaway,giveaway,adults_18_plus,Inline Electric,0,1,0,0,0,0,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-08-28,2024,Dog Day,weekly_promo,dog_owners,Tito's,0,0,0,1,0,0,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-08-28,2024,Football and Cheer Night,group_sales,football_cheer_families,,0,0,0,0,1,0,0,0,milb_2024_full_promotional_calendar
+2024-08-29,2024,Hacksaw Jim Duggan Appearance,appearance,wrestling_fans_all_fans,,0,0,0,0,0,0,1,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-08-29,2024,STEM Night,group_sales,students_stem_families,Decatur City Schools,0,0,0,0,1,1,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-08-29,2024,Extended Happy Hour,weekly_promo,adults_21_plus,,0,0,0,1,0,0,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-08-30,2024,Labor Day Weekend Fireworks,fireworks,all_fans,Alabama Department of Conservation and Natural Resources,1,0,0,0,0,0,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-08-31,2024,On-Field Wedding,special_event,all_fans,,0,0,1,0,0,0,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-08-31,2024,Tuxedo Jersey Auction,jersey_auction,all_fans,,0,0,1,0,0,1,0,1,milb_homestand_highlights_11_august_27_september_1_2024
+2024-08-31,2024,Labor Day Weekend Fireworks,fireworks,all_fans,Breeze Airways,1,0,0,0,0,0,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-09-01,2024,Camo Blanket Giveaway,giveaway,adults_18_plus,Davidson Technologies,0,1,0,0,0,0,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-09-01,2024,Labor Day Weekend Fireworks,fireworks,all_fans,Davidson Technologies,1,0,0,0,0,0,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-09-01,2024,Kids Run the Bases,weekly_promo,kids_families,Listerhill Credit Union,0,0,0,1,0,0,0,0,milb_homestand_highlights_11_august_27_september_1_2024
+2024-09-03,2024,Kyren Paris Bobblehead Giveaway,giveaway,adults_18_plus,James Hardie,0,1,0,0,0,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-03,2024,Reeds Jewelers Ladies Night,weekly_promo,women,Reeds Jewelers,0,0,0,1,0,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-03,2024,Extended Happy Hour,weekly_promo,adults_21_plus,,0,0,0,1,0,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-04,2024,Basketball Night,group_sales,basketball_fans_families,,0,0,0,0,1,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-04,2024,Dog Day,weekly_promo,dog_owners,Tito's,0,0,0,1,0,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-05,2024,Dance Night,theme_night,dance_groups_families,,0,0,1,0,1,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-05,2024,Extended Happy Hour,weekly_promo,adults_21_plus,,0,0,0,1,0,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-06,2024,Huntsville Havoc Hockey Night,theme_night,hockey_fans_families,Huntsville Havoc,0,0,1,0,1,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-06,2024,You Are Not Alone Night,community,all_fans,Blue Halo,0,0,1,0,0,1,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-06,2024,Friday Night Fireworks,fireworks,all_fans,Blue Halo,1,0,0,0,0,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-07,2024,Huntsville Stars Night,theme_night,baseball_history_fans,,0,0,1,0,0,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-07,2024,Huntsville Stars Jersey Auction,jersey_auction,baseball_history_fans,,0,0,1,0,0,1,0,1,milb_homestand_highlights_12_september_3_8_2024
+2024-09-07,2024,Saturday Night Fireworks,fireworks,all_fans,Yulista,1,0,0,0,0,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-08,2024,2025 Magnet Schedule Giveaway,giveaway,all_fans,,0,1,0,0,0,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-08,2024,Fan Appreciation Day,theme_night,all_fans,,0,0,1,0,0,0,0,0,milb_homestand_highlights_12_september_3_8_2024
+2024-09-08,2024,Kids Run the Bases,weekly_promo,kids_families,Listerhill Credit Union,0,0,0,1,0,0,0,0,milb_homestand_highlights_12_september_3_8_2024

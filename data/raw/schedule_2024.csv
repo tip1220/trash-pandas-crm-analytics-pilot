@@ -1,1 +1,139 @@
-game_id,season,game_date,day_of_week,month,home_team,away_team,opponent,home_away,game_time,promotion_flag,promotion_name,promotion_type,attendance,source_url,notes
+game_id,game_date,season,opponent_code,opponent,home_away,game_time,day_of_week,month_name,promotion_flag,promotion_type,source
+RCT_2024_001,2024-04-05,2024,TNS,Tennessee Smokies,Away,,Friday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_002,2024-04-06,2024,TNS,Tennessee Smokies,Away,,Saturday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_003,2024-04-07,2024,TNS,Tennessee Smokies,Away,,Sunday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_004,2024-04-09,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Tuesday,April,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_005,2024-04-10,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Wednesday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_006,2024-04-11,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Thursday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_007,2024-04-12,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Friday,April,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_008,2024-04-13,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Saturday,April,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_009,2024-04-14,2024,BIR,Birmingham Barons,Home,2:35 PM CT,Sunday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_010,2024-04-16,2024,PNS,Pensacola Blue Wahoos,Away,,Tuesday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_011,2024-04-17,2024,PNS,Pensacola Blue Wahoos,Away,,Wednesday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_012,2024-04-18,2024,PNS,Pensacola Blue Wahoos,Away,,Thursday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_013,2024-04-19,2024,PNS,Pensacola Blue Wahoos,Away,,Friday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_014,2024-04-20,2024,PNS,Pensacola Blue Wahoos,Away,,Saturday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_015,2024-04-21,2024,PNS,Pensacola Blue Wahoos,Away,,Sunday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_016,2024-04-23,2024,TNS,Tennessee Smokies,Home,6:05 PM CT,Tuesday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_017,2024-04-24,2024,TNS,Tennessee Smokies,Home,11:05 AM CT,Wednesday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_018,2024-04-25,2024,TNS,Tennessee Smokies,Home,6:35 PM CT,Thursday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_019,2024-04-26,2024,TNS,Tennessee Smokies,Home,6:35 PM CT,Friday,April,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_020,2024-04-27,2024,TNS,Tennessee Smokies,Home,6:35 PM CT,Saturday,April,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_021,2024-04-28,2024,TNS,Tennessee Smokies,Home,2:35 PM CT,Sunday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_022,2024-04-30,2024,BIR,Birmingham Barons,Away,,Tuesday,April,no,,official_2024_printable_schedule_pdf
+RCT_2024_023,2024-05-01,2024,BIR,Birmingham Barons,Away,,Wednesday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_024,2024-05-02,2024,BIR,Birmingham Barons,Away,,Thursday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_025,2024-05-03,2024,BIR,Birmingham Barons,Away,,Friday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_026,2024-05-04,2024,BIR,Birmingham Barons,Away,,Saturday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_027,2024-05-05,2024,BIR,Birmingham Barons,Away,,Sunday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_028,2024-05-07,2024,MIS,Mississippi Braves,Home,6:05 PM CT,Tuesday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_029,2024-05-08,2024,MIS,Mississippi Braves,Home,11:05 AM CT,Wednesday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_030,2024-05-09,2024,MIS,Mississippi Braves,Home,6:35 PM CT,Thursday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_031,2024-05-10,2024,MIS,Mississippi Braves,Home,6:35 PM CT,Friday,May,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_032,2024-05-11,2024,MIS,Mississippi Braves,Home,6:35 PM CT,Saturday,May,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_033,2024-05-12,2024,MIS,Mississippi Braves,Home,2:35 PM CT,Sunday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_034,2024-05-14,2024,TNS,Tennessee Smokies,Away,,Tuesday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_035,2024-05-15,2024,TNS,Tennessee Smokies,Away,,Wednesday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_036,2024-05-16,2024,TNS,Tennessee Smokies,Away,,Thursday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_037,2024-05-17,2024,TNS,Tennessee Smokies,Away,,Friday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_038,2024-05-18,2024,TNS,Tennessee Smokies,Away,,Saturday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_039,2024-05-19,2024,TNS,Tennessee Smokies,Away,,Sunday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_040,2024-05-21,2024,MTG,Montgomery Biscuits,Home,6:35 PM CT,Tuesday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_041,2024-05-22,2024,MTG,Montgomery Biscuits,Home,6:35 PM CT,Wednesday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_042,2024-05-23,2024,MTG,Montgomery Biscuits,Home,6:35 PM CT,Thursday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_043,2024-05-24,2024,MTG,Montgomery Biscuits,Home,6:35 PM CT,Friday,May,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_044,2024-05-25,2024,MTG,Montgomery Biscuits,Home,6:35 PM CT,Saturday,May,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_045,2024-05-26,2024,MTG,Montgomery Biscuits,Home,2:35 PM CT,Sunday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_046,2024-05-28,2024,BIR,Birmingham Barons,Away,,Tuesday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_047,2024-05-29,2024,BIR,Birmingham Barons,Away,,Wednesday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_048,2024-05-30,2024,BIR,Birmingham Barons,Away,,Thursday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_049,2024-05-31,2024,BIR,Birmingham Barons,Away,,Friday,May,no,,official_2024_printable_schedule_pdf
+RCT_2024_050,2024-06-01,2024,BIR,Birmingham Barons,Away,,Saturday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_051,2024-06-02,2024,BIR,Birmingham Barons,Away,,Sunday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_052,2024-06-04,2024,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Tuesday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_053,2024-06-05,2024,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Wednesday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_054,2024-06-06,2024,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Thursday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_055,2024-06-07,2024,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Friday,June,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_056,2024-06-08,2024,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Saturday,June,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_057,2024-06-09,2024,CHA,Chattanooga Lookouts,Home,4:05 PM CT,Sunday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_058,2024-06-11,2024,MIS,Mississippi Braves,Away,,Tuesday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_059,2024-06-12,2024,MIS,Mississippi Braves,Away,,Wednesday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_060,2024-06-13,2024,MIS,Mississippi Braves,Away,,Thursday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_061,2024-06-14,2024,MIS,Mississippi Braves,Away,,Friday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_062,2024-06-15,2024,MIS,Mississippi Braves,Away,,Saturday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_063,2024-06-16,2024,MIS,Mississippi Braves,Away,,Sunday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_064,2024-06-18,2024,BLX,Biloxi Shuckers,Home,6:35 PM CT,Tuesday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_065,2024-06-19,2024,BLX,Biloxi Shuckers,Home,6:35 PM CT,Wednesday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_066,2024-06-20,2024,BLX,Biloxi Shuckers,Home,6:35 PM CT,Thursday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_067,2024-06-21,2024,BLX,Biloxi Shuckers,Home,6:35 PM CT,Friday,June,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_068,2024-06-22,2024,BLX,Biloxi Shuckers,Home,6:35 PM CT,Saturday,June,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_069,2024-06-23,2024,BLX,Biloxi Shuckers,Home,4:05 PM CT,Sunday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_070,2024-06-25,2024,CHA,Chattanooga Lookouts,Away,,Tuesday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_071,2024-06-26,2024,CHA,Chattanooga Lookouts,Away,,Wednesday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_072,2024-06-27,2024,CHA,Chattanooga Lookouts,Away,,Thursday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_073,2024-06-28,2024,CHA,Chattanooga Lookouts,Away,,Friday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_074,2024-06-29,2024,CHA,Chattanooga Lookouts,Away,,Saturday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_075,2024-06-30,2024,CHA,Chattanooga Lookouts,Away,,Sunday,June,no,,official_2024_printable_schedule_pdf
+RCT_2024_076,2024-07-01,2024,BIR,Birmingham Barons,Away,,Monday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_077,2024-07-02,2024,BIR,Birmingham Barons,Away,,Tuesday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_078,2024-07-03,2024,BIR,Birmingham Barons,Away,,Wednesday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_079,2024-07-04,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Thursday,July,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_080,2024-07-05,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Friday,July,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_081,2024-07-06,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Saturday,July,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_082,2024-07-09,2024,PNS,Pensacola Blue Wahoos,Home,6:35 PM CT,Tuesday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_083,2024-07-10,2024,PNS,Pensacola Blue Wahoos,Home,6:35 PM CT,Wednesday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_084,2024-07-11,2024,PNS,Pensacola Blue Wahoos,Home,6:35 PM CT,Thursday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_085,2024-07-12,2024,PNS,Pensacola Blue Wahoos,Home,6:35 PM CT,Friday,July,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_086,2024-07-13,2024,PNS,Pensacola Blue Wahoos,Home,6:35 PM CT,Saturday,July,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_087,2024-07-14,2024,PNS,Pensacola Blue Wahoos,Home,4:05 PM CT,Sunday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_088,2024-07-19,2024,TNS,Tennessee Smokies,Away,,Friday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_089,2024-07-20,2024,TNS,Tennessee Smokies,Away,,Saturday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_090,2024-07-21,2024,TNS,Tennessee Smokies,Away,,Sunday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_091,2024-07-23,2024,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Tuesday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_092,2024-07-24,2024,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Wednesday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_093,2024-07-25,2024,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Thursday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_094,2024-07-26,2024,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Friday,July,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_095,2024-07-27,2024,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Saturday,July,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_096,2024-07-28,2024,CHA,Chattanooga Lookouts,Home,4:05 PM CT,Sunday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_097,2024-07-30,2024,BLX,Biloxi Shuckers,Away,,Tuesday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_098,2024-07-31,2024,BLX,Biloxi Shuckers,Away,,Wednesday,July,no,,official_2024_printable_schedule_pdf
+RCT_2024_099,2024-08-01,2024,BLX,Biloxi Shuckers,Away,,Thursday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_100,2024-08-02,2024,BLX,Biloxi Shuckers,Away,,Friday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_101,2024-08-03,2024,BLX,Biloxi Shuckers,Away,,Saturday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_102,2024-08-04,2024,BLX,Biloxi Shuckers,Away,,Sunday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_103,2024-08-06,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Tuesday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_104,2024-08-07,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Wednesday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_105,2024-08-08,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Thursday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_106,2024-08-09,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Friday,August,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_107,2024-08-10,2024,BIR,Birmingham Barons,Home,6:35 PM CT,Saturday,August,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_108,2024-08-11,2024,BIR,Birmingham Barons,Home,4:05 PM CT,Sunday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_109,2024-08-13,2024,CHA,Chattanooga Lookouts,Away,,Tuesday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_110,2024-08-14,2024,CHA,Chattanooga Lookouts,Away,,Wednesday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_111,2024-08-15,2024,CHA,Chattanooga Lookouts,Away,,Thursday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_112,2024-08-16,2024,CHA,Chattanooga Lookouts,Away,,Friday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_113,2024-08-17,2024,CHA,Chattanooga Lookouts,Away,,Saturday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_114,2024-08-18,2024,CHA,Chattanooga Lookouts,Away,,Sunday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_115,2024-08-20,2024,MTG,Montgomery Biscuits,Away,,Tuesday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_116,2024-08-21,2024,MTG,Montgomery Biscuits,Away,,Wednesday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_117,2024-08-22,2024,MTG,Montgomery Biscuits,Away,,Thursday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_118,2024-08-23,2024,MTG,Montgomery Biscuits,Away,,Friday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_119,2024-08-24,2024,MTG,Montgomery Biscuits,Away,,Saturday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_120,2024-08-25,2024,MTG,Montgomery Biscuits,Away,,Sunday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_121,2024-08-27,2024,TNS,Tennessee Smokies,Home,6:35 PM CT,Tuesday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_122,2024-08-28,2024,TNS,Tennessee Smokies,Home,6:35 PM CT,Wednesday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_123,2024-08-29,2024,TNS,Tennessee Smokies,Home,6:35 PM CT,Thursday,August,no,,official_2024_printable_schedule_pdf
+RCT_2024_124,2024-08-30,2024,TNS,Tennessee Smokies,Home,6:35 PM CT,Friday,August,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_125,2024-08-31,2024,TNS,Tennessee Smokies,Home,6:35 PM CT,Saturday,August,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_126,2024-09-01,2024,TNS,Tennessee Smokies,Home,5:35 PM CT,Sunday,September,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_127,2024-09-03,2024,BLX,Biloxi Shuckers,Home,6:35 PM CT,Tuesday,September,no,,official_2024_printable_schedule_pdf
+RCT_2024_128,2024-09-04,2024,BLX,Biloxi Shuckers,Home,6:35 PM CT,Wednesday,September,no,,official_2024_printable_schedule_pdf
+RCT_2024_129,2024-09-05,2024,BLX,Biloxi Shuckers,Home,6:35 PM CT,Thursday,September,no,,official_2024_printable_schedule_pdf
+RCT_2024_130,2024-09-06,2024,BLX,Biloxi Shuckers,Home,6:35 PM CT,Friday,September,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_131,2024-09-07,2024,BLX,Biloxi Shuckers,Home,6:35 PM CT,Saturday,September,yes,fireworks,official_2024_printable_schedule_pdf
+RCT_2024_132,2024-09-08,2024,BLX,Biloxi Shuckers,Home,2:35 PM CT,Sunday,September,no,,official_2024_printable_schedule_pdf
+RCT_2024_133,2024-09-10,2024,CHA,Chattanooga Lookouts,Away,,Tuesday,September,no,,official_2024_printable_schedule_pdf
+RCT_2024_134,2024-09-11,2024,CHA,Chattanooga Lookouts,Away,,Wednesday,September,no,,official_2024_printable_schedule_pdf
+RCT_2024_135,2024-09-12,2024,CHA,Chattanooga Lookouts,Away,,Thursday,September,no,,official_2024_printable_schedule_pdf
+RCT_2024_136,2024-09-13,2024,CHA,Chattanooga Lookouts,Away,,Friday,September,no,,official_2024_printable_schedule_pdf
+RCT_2024_137,2024-09-14,2024,CHA,Chattanooga Lookouts,Away,,Saturday,September,no,,official_2024_printable_schedule_pdf
+RCT_2024_138,2024-09-15,2024,CHA,Chattanooga Lookouts,Away,,Sunday,September,no,,official_2024_printable_schedule_pdf

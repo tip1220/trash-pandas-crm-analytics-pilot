@@ -1,4 +1,4 @@
-game_id,date,season,opponent_code,opponent,home_away,game_time,day_of_week,month,promotion_flag,promotion_type,source
+game_id,game_date,season,opponent_code,opponent,home_away,game_time,day_of_week,month_name,promotion_flag,promotion_type,source
 RCT_2023_001,2023-04-06,2023,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Thursday,April,yes,fireworks,official_2023_printable_schedule_pdf
 RCT_2023_002,2023-04-07,2023,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Friday,April,yes,fireworks,official_2023_printable_schedule_pdf
 RCT_2023_003,2023-04-08,2023,CHA,Chattanooga Lookouts,Home,6:35 PM CT,Saturday,April,yes,fireworks,official_2023_printable_schedule_pdf
