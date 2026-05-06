@@ -195,3 +195,61 @@ LEFT JOIN games g
 WHERE g.game_id IS NULL
 GROUP BY p.season, p.game_date
 ORDER BY p.season, p.game_date;
+LOAD DATA LOCAL INFILE '/Users/Tip/Desktop/trash-pandas-crm-analytics-pilot/data/processed/game_attendance_reconciled_2023_2025.csv'
+INTO TABLE game_attendance_actuals
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(
+    game_id,
+    season,
+    @planned_game_date,
+    @actual_game_date,
+    opponent_code,
+    opponent,
+    planned_game_time,
+    planned_day_of_week,
+    planned_month_name,
+    result,
+    score,
+    attendance,
+    time_of_game,
+    team_record_after_game,
+    ballpark,
+    location,
+    is_doubleheader_date,
+    attendance_rows_on_actual_date,
+    zero_attendance_flag,
+    date_match_flag,
+    match_method,
+    attendance_source_name
+)
+SET
+    planned_game_date = STR_TO_DATE(@planned_game_date, '%Y-%m-%d'),
+    actual_game_date = STR_TO_DATE(@actual_game_date, '%Y-%m-%d');
+
+SELECT 'ATTENDANCE TOTAL' AS check_name, COUNT(*) AS value
+FROM game_attendance_actuals;
+
+SELECT
+    season,
+    COUNT(*) AS home_games,
+    SUM(attendance) AS total_attendance,
+    SUM(zero_attendance_flag) AS zero_attendance_games,
+    SUM(is_doubleheader_date) AS doubleheader_rows,
+    SUM(CASE WHEN date_match_flag = 0 THEN 1 ELSE 0 END) AS planned_vs_actual_date_mismatches
+FROM game_attendance_actuals
+GROUP BY season
+ORDER BY season;
+
+SELECT
+    a.game_id,
+    a.season,
+    a.planned_game_date,
+    a.actual_game_date,
+    a.attendance
+FROM game_attendance_actuals a
+LEFT JOIN games g
+    ON a.game_id = g.game_id
+WHERE g.game_id IS NULL;

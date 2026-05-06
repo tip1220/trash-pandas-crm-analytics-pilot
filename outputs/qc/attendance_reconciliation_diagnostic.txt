@@ -1,0 +1,79 @@
+
+SUMMARY
+============================================================
+Home schedule rows: 207
+Attendance rows: 207
+Unique home schedule dates: 207
+Unique attendance dates: 193
+Missing schedule dates with no same-date attendance: 16
+Attendance dates not found in schedule: 2
+Duplicate attendance dates: 14
+
+DUPLICATE ATTENDANCE DATES / POSSIBLE DOUBLEHEADERS
+============================================================
+2023 2023-04-08: 2 attendance rows
+  opponent=Chattanooga Lookouts | attendance=0 | score=5-7 | record=0-2
+  opponent=Chattanooga Lookouts | attendance=4625 | score=3-0 | record=1-2
+2023 2023-04-22: 2 attendance rows
+  opponent=Biloxi Shuckers | attendance=0 | score=4-12 | record=8-5
+  opponent=Biloxi Shuckers | attendance=5932 | score=0-8 | record=8-6
+2023 2023-06-22: 2 attendance rows
+  opponent=Montgomery Biscuits | attendance=0 | score=3-5 | record=29-36
+  opponent=Montgomery Biscuits | attendance=4835 | score=2-3 | record=29-36
+2023 2023-06-24: 2 attendance rows
+  opponent=Montgomery Biscuits | attendance=0 | score=5-10 | record=31-37
+  opponent=Montgomery Biscuits | attendance=6683 | score=6-5 | record=31-37
+2023 2023-08-11: 2 attendance rows
+  opponent=Mississippi Braves | attendance=0 | score=5-8 | record=48-58
+  opponent=Mississippi Braves | attendance=5595 | score=7-10 | record=48-58
+2024 2024-04-13: 2 attendance rows
+  opponent=Birmingham Barons | attendance=0 | score=3-2 | record=4-4
+  opponent=Birmingham Barons | attendance=6180 | score=3-9 | record=4-4
+2024 2024-07-27: 2 attendance rows
+  opponent=Chattanooga Lookouts | attendance=0 | score=3-6 | record=45-49
+  opponent=Chattanooga Lookouts | attendance=5246 | score=0-1 | record=45-49
+2025 2025-04-11: 2 attendance rows
+  opponent=Knoxville Smokies | attendance=0 | score=0-4 | record=3-3
+  opponent=Knoxville Smokies | attendance=4945 | score=7-6 | record=3-3
+2025 2025-04-25: 2 attendance rows
+  opponent=Birmingham Barons | attendance=3403 | score=2-5 | record=5-13
+  opponent=Birmingham Barons | attendance=5388 | score=4-6 | record=5-13
+2025 2025-05-11: 2 attendance rows
+  opponent=Montgomery Biscuits | attendance=0 | score=4-9 | record=10-21
+  opponent=Montgomery Biscuits | attendance=3610 | score=7-5 | record=10-21
+2025 2025-05-29: 2 attendance rows
+  opponent=Biloxi Shuckers | attendance=0 | score=2-1 | record=17-29
+  opponent=Biloxi Shuckers | attendance=4007 | score=4-1 | record=17-29
+2025 2025-06-19: 2 attendance rows
+  opponent=Chattanooga Lookouts | attendance=3638 | score=2-6 | record=24-40
+  opponent=Chattanooga Lookouts | attendance=3822 | score=2-5 | record=24-40
+2025 2025-06-21: 2 attendance rows
+  opponent=Chattanooga Lookouts | attendance=0 | score=3-6 | record=24-43
+  opponent=Chattanooga Lookouts | attendance=5304 | score=1-4 | record=24-43
+2025 2025-07-20: 2 attendance rows
+  opponent=Columbus Clingstones | attendance=0 | score=7-2 | record=32-57
+  opponent=Columbus Clingstones | attendance=3606 | score=3-8 | record=32-57
+
+SCHEDULE HOME DATES MISSING SAME-DATE ATTENDANCE
+============================================================
+2023 2023-04-07 | game_id=RCT_2023_002 | opponent=Chattanooga Lookouts | promo=fireworks
+2023 2023-04-21 | game_id=RCT_2023_013 | opponent=Biloxi Shuckers | promo=fireworks
+2023 2023-06-20 | game_id=RCT_2023_064 | opponent=Montgomery Biscuits | promo=
+2023 2023-06-21 | game_id=RCT_2023_065 | opponent=Montgomery Biscuits | promo=
+2023 2023-08-09 | game_id=RCT_2023_104 | opponent=Mississippi Braves | promo=
+2023 2023-08-13 | game_id=RCT_2023_108 | opponent=Mississippi Braves | promo=
+2024 2024-04-09 | game_id=RCT_2024_004 | opponent=Birmingham Barons | promo=fireworks
+2024 2024-07-25 | game_id=RCT_2024_093 | opponent=Chattanooga Lookouts | promo=
+2024 2024-07-28 | game_id=RCT_2024_096 | opponent=Chattanooga Lookouts | promo=
+2025 2025-04-06 | game_id=RCT_2025_003 | opponent=Chattanooga Lookouts | promo=
+2025 2025-04-10 | game_id=RCT_2025_006 | opponent=Knoxville Smokies | promo=
+2025 2025-04-24 | game_id=RCT_2025_018 | opponent=Birmingham Barons | promo=
+2025 2025-05-10 | game_id=RCT_2025_032 | opponent=Montgomery Biscuits | promo=fireworks
+2025 2025-05-27 | game_id=RCT_2025_046 | opponent=Biloxi Shuckers | promo=
+2025 2025-06-18 | game_id=RCT_2025_065 | opponent=Chattanooga Lookouts | promo=
+2025 2025-07-19 | game_id=RCT_2025_089 | opponent=Columbus Clingstones | promo=fireworks
+
+ATTENDANCE DATES NOT FOUND IN HOME SCHEDULE
+============================================================
+2023 2023-08-29 | opponent=Mississippi Braves | attendance=4189 | score=3-0
+2024 2024-08-14 | opponent=Chattanooga Lookouts | attendance=0 | score=5-4

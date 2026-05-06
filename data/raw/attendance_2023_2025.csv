@@ -1,0 +1,208 @@
+game_date,season,month_name,opponent,tbc_home_away,result,score,attendance,time_of_game,team_record_after_game,ballpark,location,is_toyota_field_game,source_name
+2023-04-06,2023,April,Chattanooga Lookouts,Home,L,3-6,5264,3:14,0-1,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-04-08,2023,April,Chattanooga Lookouts,Home,L,5-7,0,2:17,0-2,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-04-08,2023,April,Chattanooga Lookouts,Home,W,3-0,4625,1:35,1-2,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-04-18,2023,April,Biloxi Shuckers,Home,W,9-2,4774,2:28,7-3,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-04-19,2023,April,Biloxi Shuckers,Home,L,1-7,3657,2:58,7-4,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-04-20,2023,April,Biloxi Shuckers,Home,W,5-3,4513,2:28,8-4,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-04-22,2023,April,Biloxi Shuckers,Home,L,4-12,0,2:30,8-5,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-04-22,2023,April,Biloxi Shuckers,Home,L,0-8,5932,2:08,8-6,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-04-23,2023,April,Biloxi Shuckers,Home,L,3-7,5148,2:19,8-7,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-02,2023,May,Tennessee Smokies,Home,L,2-13,3547,2:35,12-10,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-03,2023,May,Tennessee Smokies,Home,L,6-7,5876,2:46,12-11,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-04,2023,May,Tennessee Smokies,Home,L,2-19,5767,2:51,12-12,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-05,2023,May,Tennessee Smokies,Home,W,6-2,4498,2:41,13-12,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-06,2023,May,Tennessee Smokies,Home,L,4-5,5968,2:47,13-13,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-07,2023,May,Tennessee Smokies,Home,W,5-4,4860,2:12,14-13,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-16,2023,May,Birmingham Barons,Home,W,8-6,3801,2:54,17-17,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-17,2023,May,Birmingham Barons,Home,L,2-3,3872,2:46,17-18,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-18,2023,May,Birmingham Barons,Home,L,0-6,3315,2:34,17-19,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-19,2023,May,Birmingham Barons,Home,W,6-1,6075,2:22,18-19,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-20,2023,May,Birmingham Barons,Home,W,5-1,5562,2:15,19-19,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-21,2023,May,Birmingham Barons,Home,W,11-10,4216,2:43,20-19,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-23,2023,May,Chattanooga Lookouts,Home,L,6-8,4296,3:37,20-20,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-24,2023,May,Chattanooga Lookouts,Home,L,4-6,4583,2:50,20-21,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-25,2023,May,Chattanooga Lookouts,Home,L,4-5,4018,2:52,20-22,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-26,2023,May,Chattanooga Lookouts,Home,L,5-6,5349,2:52,20-23,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-27,2023,May,Chattanooga Lookouts,Home,W,5-2,5966,2:05,21-23,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-05-28,2023,May,Chattanooga Lookouts,Home,L,3-5,6041,2:48,21-24,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-06-06,2023,June,Tennessee Smokies,Home,L,5-8,3906,2:44,24-28,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-06-07,2023,June,Tennessee Smokies,Home,L,2-11,3824,2:40,24-29,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-06-08,2023,June,Tennessee Smokies,Home,W,7-6,5054,2:50,25-29,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-06-09,2023,June,Tennessee Smokies,Home,W,5-4,6393,2:39,26-29,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-06-10,2023,June,Tennessee Smokies,Home,W,5-2,6748,2:35,27-29,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-06-11,2023,June,Tennessee Smokies,Home,L,3-7,4120,2:28,27-30,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-06-22,2023,June,Montgomery Biscuits,Home,L,3-5,0,1:50,29-36,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-06-22,2023,June,Montgomery Biscuits,Home,L,2-3,4835,1:50,29-36,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-06-23,2023,June,Montgomery Biscuits,Home,W,2-1,5970,2:42,30-36,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-06-24,2023,June,Montgomery Biscuits,Home,L,5-10,0,2:39,31-37,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-06-24,2023,June,Montgomery Biscuits,Home,W,6-5,6683,1:38,31-37,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-06-25,2023,June,Montgomery Biscuits,Home,L,1-2,4384,3:11,31-38,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-07-04,2023,July,Chattanooga Lookouts,Home,L,3-8,7500,2:45,34-41,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-07-05,2023,July,Chattanooga Lookouts,Home,W,3-2,4150,2:55,35-41,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-07-06,2023,July,Chattanooga Lookouts,Home,L,3-29,4046,3:15,35-42,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-07-07,2023,July,Chattanooga Lookouts,Home,W,5-4,6007,2:51,36-42,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-07-08,2023,July,Chattanooga Lookouts,Home,L,0-4,5058,2:39,36-43,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-07-09,2023,July,Chattanooga Lookouts,Home,W,5-1,4424,2:21,37-43,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-07-25,2023,July,Tennessee Smokies,Home,L,4-8,4408,3:05,39-51,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-07-26,2023,July,Tennessee Smokies,Home,L,2-10,5168,2:32,39-52,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-07-27,2023,July,Tennessee Smokies,Home,W,5-3,4130,2:26,40-52,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-07-28,2023,July,Tennessee Smokies,Home,W,8-4,6237,2:53,41-52,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-07-29,2023,July,Tennessee Smokies,Home,L,2-7,6456,2:49,41-53,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-07-30,2023,July,Tennessee Smokies,Home,W,11-2,4950,2:53,42-53,Toyota,"Field Madison,Alabama date month opponent v-h result score boxscore attendance time of game record ballpark location",1,the_baseball_cube_minor_game_log
+2023-08-08,2023,August,Mississippi Braves,Home,L,1-6,3657,2:38,47-56,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-08-10,2023,August,Mississippi Braves,Home,W,6-5,3305,3:06,48-56,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-08-11,2023,August,Mississippi Braves,Home,L,5-8,0,2:06,48-58,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-08-11,2023,August,Mississippi Braves,Home,L,7-10,5595,2:54,48-58,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-08-12,2023,August,Mississippi Braves,Home,W,5-3,6435,2:22,49-58,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-08-22,2023,August,Birmingham Barons,Home,L,4-10,4115,2:50,52-62,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-08-23,2023,August,Birmingham Barons,Home,L,3-4,3863,2:56,52-63,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-08-24,2023,August,Birmingham Barons,Home,L,1-5,3757,3:02,52-64,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-08-25,2023,August,Birmingham Barons,Home,W,5-4,4742,3:05,53-64,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-08-26,2023,August,Birmingham Barons,Home,L,4-6,6019,3:00,53-65,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-08-27,2023,August,Birmingham Barons,Home,W,9-7,4164,2:36,54-65,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-08-29,2023,August,Mississippi Braves,Home,W,3-0,4189,1:53,55-66,Trustmark,"Park Pearl,Mississippi",1,the_baseball_cube_minor_game_log
+2023-09-05,2023,September,Pensacola Blue Wahoos,Home,L,2-3,4412,2:25,57-70,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-09-06,2023,September,Pensacola Blue Wahoos,Home,L,0-1,2982,2:13,57-71,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-09-07,2023,September,Pensacola Blue Wahoos,Home,L,4-11,4388,2:49,57-72,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-09-08,2023,September,Pensacola Blue Wahoos,Home,L,4-8,6137,2:42,57-73,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-09-09,2023,September,Pensacola Blue Wahoos,Home,L,1-6,5843,2:58,57-74,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2023-09-10,2023,September,Pensacola Blue Wahoos,Home,L,5-9,4729,2:55,57-75,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-04-10,2024,April,Birmingham Barons,Home,W,8-2,2888,2:23,2-2,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-04-11,2024,April,Birmingham Barons,Home,W,5-2,3148,2:03,3-2,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-04-12,2024,April,Birmingham Barons,Home,L,2-6,4733,2:22,3-3,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-04-13,2024,April,Birmingham Barons,Home,W,3-2,0,1:46,4-4,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-04-13,2024,April,Birmingham Barons,Home,L,3-9,6180,2:22,4-4,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-04-14,2024,April,Birmingham Barons,Home,W,5-3,4617,2:18,5-4,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-04-23,2024,April,Tennessee Smokies,Home,L,4-10,3640,2:33,9-7,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-04-24,2024,April,Tennessee Smokies,Home,L,4-5,5558,2:37,9-8,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-04-25,2024,April,Tennessee Smokies,Home,W,6-3,4248,2:17,10-8,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-04-26,2024,April,Tennessee Smokies,Home,W,3-1,6621,2:22,11-8,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-04-27,2024,April,Tennessee Smokies,Home,L,0-1,7065,2:21,11-9,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-04-28,2024,April,Tennessee Smokies,Home,W,6-1,4628,2:17,12-9,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-05-07,2024,May,Mississippi Braves,Home,W,4-3,4085,2:18,14-13,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-05-08,2024,May,Mississippi Braves,Home,L,4-6,6186,3:10,14-14,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-05-09,2024,May,Mississippi Braves,Home,W,7-1,3640,2:20,15-14,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-05-10,2024,May,Mississippi Braves,Home,L,0-8,6421,2:36,15-15,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-05-11,2024,May,Mississippi Braves,Home,W,6-1,6668,2:14,16-15,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-05-12,2024,May,Mississippi Braves,Home,L,1-3,4028,2:01,16-16,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-05-21,2024,May,Montgomery Biscuits,Home,W,9-4,4289,2:46,20-19,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-05-22,2024,May,Montgomery Biscuits,Home,L,2-3,3409,2:27,20-20,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-05-23,2024,May,Montgomery Biscuits,Home,W,7-6,4136,2:46,21-20,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-05-24,2024,May,Montgomery Biscuits,Home,L,1-3,4915,2:28,21-21,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-05-25,2024,May,Montgomery Biscuits,Home,W,8-4,6227,2:29,22-21,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-05-26,2024,May,Montgomery Biscuits,Home,L,3-4,3535,2:38,22-22,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-06-04,2024,June,Chattanooga Lookouts,Home,W,5-3,3455,2:28,27-25,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-06-05,2024,June,Chattanooga Lookouts,Home,L,3-6,3565,2:04,27-26,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-06-06,2024,June,Chattanooga Lookouts,Home,W,10-6,3966,2:35,28-26,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-06-07,2024,June,Chattanooga Lookouts,Home,W,3-2,5764,2:00,29-26,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-06-08,2024,June,Chattanooga Lookouts,Home,W,6-3,6713,2:32,30-26,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-06-09,2024,June,Chattanooga Lookouts,Home,W,5-3,4137,2:17,31-26,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-06-18,2024,June,Biloxi Shuckers,Home,L,1-3,4255,2:36,32-31,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-06-19,2024,June,Biloxi Shuckers,Home,L,0-5,3836,2:34,32-32,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-06-20,2024,June,Biloxi Shuckers,Home,L,7-8,5506,2:46,32-33,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-06-21,2024,June,Biloxi Shuckers,Home,W,7-2,6377,2:43,33-33,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-06-22,2024,June,Biloxi Shuckers,Home,L,0-5,6038,2:41,33-34,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-06-23,2024,June,Biloxi Shuckers,Home,L,2-4,3386,2:09,33-35,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-04,2024,July,Birmingham Barons,Home,W,4-3,7500,2:30,40-38,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-05,2024,July,Birmingham Barons,Home,W,4-1,6207,2:21,41-38,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-06,2024,July,Birmingham Barons,Home,W,4-1,5636,2:12,42-38,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-09,2024,July,Pensacola Blue Wahoos,Home,L,4-6,3397,2:49,42-39,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-10,2024,July,Pensacola Blue Wahoos,Home,L,3-6,4065,2:33,42-40,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-11,2024,July,Pensacola Blue Wahoos,Home,L,8-10,3728,3:01,42-41,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-12,2024,July,Pensacola Blue Wahoos,Home,L,5-9,4388,2:55,42-42,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-13,2024,July,Pensacola Blue Wahoos,Home,L,3-7,4842,3:03,42-43,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-14,2024,July,Pensacola Blue Wahoos,Home,W,4-3,2974,2:46,43-43,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-23,2024,July,Chattanooga Lookouts,Home,W,4-1,3187,2:36,45-45,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-24,2024,July,Chattanooga Lookouts,Home,L,0-2,3357,2:05,45-46,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-26,2024,July,Chattanooga Lookouts,Home,L,0-2,5266,1:58,45-47,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-27,2024,July,Chattanooga Lookouts,Home,L,3-6,0,2:17,45-49,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-07-27,2024,July,Chattanooga Lookouts,Home,L,0-1,5246,1:38,45-49,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-08-06,2024,August,Birmingham Barons,Home,L,1-7,4416,2:39,46-54,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-08-07,2024,August,Birmingham Barons,Home,W,7-5,3556,2:43,47-54,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-08-08,2024,August,Birmingham Barons,Home,W,7-5,2950,2:56,48-54,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-08-09,2024,August,Birmingham Barons,Home,L,4-6,5296,2:19,48-55,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-08-10,2024,August,Birmingham Barons,Home,L,5-9,6841,2:59,48-56,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-08-11,2024,August,Birmingham Barons,Home,L,1-4,4103,2:40,48-57,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-08-14,2024,August,Chattanooga Lookouts,Home,W,5-4,0,1:57,49-59,AT&T,"Field Chattanooga,Tennessee",1,the_baseball_cube_minor_game_log
+2024-08-27,2024,August,Tennessee Smokies,Home,L,2-8,3467,2:47,53-66,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-08-28,2024,August,Tennessee Smokies,Home,L,1-5,3980,2:30,53-67,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-08-29,2024,August,Tennessee Smokies,Home,L,5-6,3868,2:52,53-68,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-08-30,2024,August,Tennessee Smokies,Home,L,2-5,4711,2:52,53-69,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-08-31,2024,August,Tennessee Smokies,Home,W,2-1,4537,1:51,54-69,Toyota,"Field Madison,Alabama date month opponent v-h result score boxscore attendance time of game record ballpark location",1,the_baseball_cube_minor_game_log
+2024-09-01,2024,September,Tennessee Smokies,Home,W,6-0,5208,2:31,55-69,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-09-03,2024,September,Biloxi Shuckers,Home,L,3-6,3197,2:05,56-70,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-09-04,2024,September,Biloxi Shuckers,Home,W,5-2,2850,2:27,57-70,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-09-05,2024,September,Biloxi Shuckers,Home,L,2-3,3754,2:37,57-71,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-09-06,2024,September,Biloxi Shuckers,Home,L,2-4,5785,2:53,57-72,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-09-07,2024,September,Biloxi Shuckers,Home,W,4-3,7084,2:50,58-72,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2024-09-08,2024,September,Biloxi Shuckers,Home,W,6-3,5008,2:53,59-72,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-04,2025,April,Chattanooga Lookouts,Home,L,1-9,6597,2:51,0-1,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-05,2025,April,Chattanooga Lookouts,Home,W,8-6,4540,3:10,1-1,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-08,2025,April,Knoxville Smokies,Home,W,4-3,2785,2:34,2-1,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-09,2025,April,Knoxville Smokies,Home,L,1-6,2598,2:25,2-2,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-11,2025,April,Knoxville Smokies,Home,L,0-4,0,2:11,3-3,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-11,2025,April,Knoxville Smokies,Home,W,7-6,4945,2:32,3-3,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-12,2025,April,Knoxville Smokies,Home,L,1-5,4527,2:28,3-4,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-13,2025,April,Knoxville Smokies,Home,L,1-2,3545,2:58,3-5,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-22,2025,April,Birmingham Barons,Home,L,1-7,2712,2:50,4-11,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-23,2025,April,Birmingham Barons,Home,W,5-1,5027,2:40,5-11,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-25,2025,April,Birmingham Barons,Home,L,2-5,3403,2:52,5-13,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-25,2025,April,Birmingham Barons,Home,L,4-6,5388,2:37,5-13,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-26,2025,April,Birmingham Barons,Home,W,4-2,5103,2:36,6-13,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-04-27,2025,April,Birmingham Barons,Home,L,2-3,4429,2:33,6-14,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-05-06,2025,May,Montgomery Biscuits,Home,L,2-3,2945,2:39,9-17,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-05-07,2025,May,Montgomery Biscuits,Home,L,2-5,5854,2:37,9-18,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-05-08,2025,May,Montgomery Biscuits,Home,L,0-7,3831,2:33,9-19,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-05-09,2025,May,Montgomery Biscuits,Home,L,1-4,5475,2:31,9-20,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-05-11,2025,May,Montgomery Biscuits,Home,L,4-9,0,2:17,10-21,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-05-11,2025,May,Montgomery Biscuits,Home,W,7-5,3610,2:14,10-21,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-05-28,2025,May,Biloxi Shuckers,Home,W,3-2,3260,2:31,15-29,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-05-29,2025,May,Biloxi Shuckers,Home,W,2-1,0,1:46,17-29,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-05-29,2025,May,Biloxi Shuckers,Home,W,4-1,4007,2:03,17-29,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-05-30,2025,May,Biloxi Shuckers,Home,L,1-2,5760,2:11,17-30,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-05-31,2025,May,Biloxi Shuckers,Home,W,2-1,7162,2:06,18-30,Toyota,"Field Madison,Alabama date month opponent v-h result score boxscore attendance time of game record ballpark location",1,the_baseball_cube_minor_game_log
+2025-06-01,2025,June,Biloxi Shuckers,Home,L,1-5,4238,2:22,18-31,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-10,2025,June,Pensacola Blue Wahoos,Home,L,0-6,3246,2:29,21-35,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-11,2025,June,Pensacola Blue Wahoos,Home,W,5-4,3537,2:52,22-35,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-12,2025,June,Pensacola Blue Wahoos,Home,W,5-4,3846,2:18,23-35,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-13,2025,June,Pensacola Blue Wahoos,Home,W,4-1,5381,2:22,24-35,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-14,2025,June,Pensacola Blue Wahoos,Home,L,2-4,4876,2:38,24-36,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-15,2025,June,Pensacola Blue Wahoos,Home,L,2-5,4018,2:37,24-37,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-17,2025,June,Chattanooga Lookouts,Home,L,3-10,3646,2:37,24-38,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-19,2025,June,Chattanooga Lookouts,Home,L,2-6,3638,2:13,24-40,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-19,2025,June,Chattanooga Lookouts,Home,L,2-5,3822,2:06,24-40,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-20,2025,June,Chattanooga Lookouts,Home,L,2-4,6007,2:20,24-41,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-21,2025,June,Chattanooga Lookouts,Home,L,3-6,0,2:06,24-43,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-21,2025,June,Chattanooga Lookouts,Home,L,1-4,5304,2:06,24-43,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-06-22,2025,June,Chattanooga Lookouts,Home,L,2-8,3749,2:35,24-44,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-07-01,2025,July,Knoxville Smokies,Home,L,1-3,3638,2:24,24-51,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-07-02,2025,July,Knoxville Smokies,Home,W,9-1,3665,2:41,25-51,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-07-03,2025,July,Knoxville Smokies,Home,W,10-8,7157,2:57,26-51,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-07-18,2025,July,Columbus Clingstones,Home,W,4-1,6491,2:10,31-56,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-07-20,2025,July,Columbus Clingstones,Home,W,7-2,0,1:56,32-57,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-07-20,2025,July,Columbus Clingstones,Home,L,3-8,3606,2:21,32-57,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-07-29,2025,July,Birmingham Barons,Home,L,0-2,3414,2:47,34-62,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-07-30,2025,July,Birmingham Barons,Home,L,0-10,3214,2:51,34-63,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-07-31,2025,July,Birmingham Barons,Home,W,3-0,3529,2:44,35-63,Toyota,"Field Madison,Alabama date month opponent v-h result score boxscore attendance time of game record ballpark location",1,the_baseball_cube_minor_game_log
+2025-08-01,2025,August,Birmingham Barons,Home,L,0-6,5812,2:16,35-64,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-02,2025,August,Birmingham Barons,Home,L,2-3,5325,2:44,35-65,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-03,2025,August,Birmingham Barons,Home,L,1-3,2952,2:13,35-66,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-12,2025,August,Knoxville Smokies,Home,W,5-0,3258,2:43,37-71,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-13,2025,August,Knoxville Smokies,Home,W,5-0,3274,2:38,38-71,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-14,2025,August,Knoxville Smokies,Home,L,6-8,3539,3:07,38-72,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-15,2025,August,Knoxville Smokies,Home,L,4-7,5013,2:55,38-73,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-16,2025,August,Knoxville Smokies,Home,L,3-5,5366,2:37,38-74,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-17,2025,August,Knoxville Smokies,Home,L,5-13,3428,2:49,38-75,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-26,2025,August,Columbus Clingstones,Home,W,2-0,3277,2:18,41-79,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-27,2025,August,Columbus Clingstones,Home,W,6-5,3411,2:54,42-79,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-28,2025,August,Columbus Clingstones,Home,L,2-5,4846,2:40,42-80,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-29,2025,August,Columbus Clingstones,Home,L,1-7,3918,2:48,42-81,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-30,2025,August,Columbus Clingstones,Home,W,4-0,5526,1:57,43-81,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-08-31,2025,August,Columbus Clingstones,Home,L,0-3,3105,2:36,43-82,Toyota,"Field Madison,Alabama date month opponent v-h result score boxscore attendance time of game record ballpark location",1,the_baseball_cube_minor_game_log
+2025-09-09,2025,September,Chattanooga Lookouts,Home,L,2-4,3566,2:44,44-88,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-09-10,2025,September,Chattanooga Lookouts,Home,L,3-6,3102,2:42,44-89,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-09-11,2025,September,Chattanooga Lookouts,Home,L,2-10,4324,2:50,44-90,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-09-12,2025,September,Chattanooga Lookouts,Home,L,4-9,4810,2:34,44-91,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-09-13,2025,September,Chattanooga Lookouts,Home,W,2-1,5458,2:09,45-91,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
+2025-09-14,2025,September,Chattanooga Lookouts,Home,L,3-6,4588,2:29,45-92,Toyota,"Field Madison,Alabama",1,the_baseball_cube_minor_game_log
