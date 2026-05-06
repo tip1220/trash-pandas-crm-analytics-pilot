@@ -1,6 +1,48 @@
 ## 2026-05-06
 
 ### Added
+- Created `sql/05_scoring_models.sql`.
+- Built CRM scoring views:
+  - `crm_game_promo_summary`
+  - `crm_fan_order_summary`
+  - `crm_fan_promo_summary`
+  - `crm_fan_scoring_base`
+  - `crm_fan_scoring_model`
+  - `crm_game_performance_summary`
+  - `crm_group_sales_opportunities`
+- Added rule-based CRM scoring logic for:
+  - fan value
+  - repeat likelihood
+  - lapsed fan risk
+  - group sales opportunity
+  - upgrade potential
+  - promo responsiveness
+- Added recommended CRM action categories:
+  - Promo-Based Email Targeting
+  - Mini Plan / Upgrade Offer
+  - Group Sales Follow-Up
+  - Second Purchase Nurture
+  - Win-Back Campaign
+  - General Nurture
+
+### Validated
+- Confirmed `crm_fan_scoring_model` contains 47,588 fan scoring rows.
+- Confirmed game-level attendance control still balances:
+  - Real attendance: 897,996
+  - Synthetic tickets: 897,996
+  - Difference: 0
+- Confirmed 5,560 group sales opportunity fans.
+- Confirmed season-level attendance summary:
+  - 2023: 69 home games, 314,306 attendance, 4,555 average attendance
+  - 2024: 69 home games, 308,267 attendance, 4,468 average attendance
+  - 2025: 69 home games, 275,423 attendance, 3,992 average attendance
+
+### Notes
+- CRM scoring is currently rule-based, not machine learning.
+- The scoring layer is designed to be explainable for a CRM/ticketing team.
+- Early business story: average home attendance declined from 2023 to 2025, creating a clear need for retention, win-back, upgrade, and group sales targeting.
+
+### Added
 - Collected public game-log attendance data for 2023, 2024, and 2025.
 - Created `python/collect_attendance_actuals.py` to collect attendance actuals from public game logs.
 - Created `data/raw/attendance_game_logs_2023_2025.csv` with full parsed game-log attendance records.
