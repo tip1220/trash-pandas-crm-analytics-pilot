@@ -1,0 +1,30 @@
+recommended_crm_action,fan_segment,fans,total_tickets,total_revenue,avg_orders,avg_tickets,avg_revenue,avg_fan_value_score,avg_repeat_likelihood_score,avg_lapsed_risk_score,avg_group_sales_score,avg_upgrade_potential_score,email_opt_in_fans,sms_opt_in_fans
+General Nurture,casual_single_game,385,2205,42023.42,2.28,5.73,109.15,15.9,52.2,72.0,6.1,43.8,310,155
+General Nurture,family_buyer,95,1102,18806.33,2.59,11.60,197.96,20.6,56.0,61.3,6.5,56.1,0,37
+General Nurture,mini_plan_buyer,34,675,12179.12,4.91,19.85,358.21,33.5,73.2,28.1,7.9,63.9,0,11
+General Nurture,out_of_town_visitor,33,165,3358.13,2.12,5.00,101.76,14.2,47.6,84.7,5.5,42.0,23,8
+General Nurture,promo_chaser,47,401,7497.07,2.53,8.53,159.51,19.6,57.0,61.3,6.2,53.5,0,22
+General Nurture,season_ticket_holder,65,2355,38010.64,14.66,36.23,584.78,44.1,84.0,10.9,8.9,62.4,55,23
+Group Sales Follow-Up,corporate_group,1177,279865,5651596.09,2.85,237.78,4801.70,72.7,48.7,51.6,91.2,73.4,959,427
+Group Sales Follow-Up,group_buyer,4383,337505,4770859.88,1.84,77.00,1088.49,49.6,35.9,63.8,80.4,62.9,3596,1678
+Mini Plan / Upgrade Offer,family_buyer,4110,46375,795369.90,2.54,11.28,193.52,20.9,57.2,58.3,5.7,65.9,4110,1624
+Mini Plan / Upgrade Offer,mini_plan_buyer,1235,23419,425449.54,4.79,18.96,344.49,32.0,71.3,32.4,7.8,72.9,1235,475
+Mini Plan / Upgrade Offer,promo_chaser,2649,22113,413046.59,2.43,8.35,155.93,18.6,54.8,65.6,5.2,63.3,2649,991
+Promo-Based Email Targeting,casual_single_game,12880,39510,757151.11,1.23,3.07,58.79,9.9,22.2,74.8,3.5,20.8,10530,4852
+Promo-Based Email Targeting,family_buyer,7823,40718,699026.12,1.16,5.20,89.36,11.0,21.1,67.6,3.6,35.1,5751,2983
+Promo-Based Email Targeting,mini_plan_buyer,725,5840,106213.38,2.00,8.06,146.50,15.8,36.6,41.6,4.7,41.2,419,285
+Promo-Based Email Targeting,out_of_town_visitor,1833,5114,103398.86,1.12,2.79,56.41,9.2,18.5,76.9,3.2,18.4,1498,698
+Promo-Based Email Targeting,promo_chaser,6606,25614,478899.13,1.11,3.88,72.49,10.0,19.0,71.8,3.5,33.4,5013,2507
+Promo-Based Email Targeting,season_ticket_holder,558,30915,499654.98,22.22,55.40,895.44,57.8,87.3,11.6,9.2,67.7,455,214
+Second Purchase Nurture,casual_single_game,758,1911,36754.53,1.00,2.52,48.49,8.5,14.1,81.2,4.5,15.6,612,285
+Second Purchase Nurture,family_buyer,348,1557,26760.09,1.00,4.47,76.90,9.9,16.5,70.7,4.4,32.6,282,130
+Second Purchase Nurture,mini_plan_buyer,35,128,2296.93,1.00,3.66,65.63,9.3,21.4,47.9,3.4,31.9,29,16
+Second Purchase Nurture,out_of_town_visitor,149,375,7695.84,1.00,2.52,51.65,8.6,13.8,83.0,4.8,16.0,127,59
+Second Purchase Nurture,promo_chaser,310,1108,20586.29,1.00,3.57,66.41,9.4,15.3,75.7,4.4,31.4,243,115
+Second Purchase Nurture,season_ticket_holder,2,6,96.54,1.00,3.00,48.27,8.5,30.0,15.0,0.0,18.0,2,1
+Win-Back Campaign,casual_single_game,10,143,2756.62,5.00,14.30,275.66,25.3,53.2,95.0,5.0,50.3,6,4
+Win-Back Campaign,family_buyer,839,17397,298966.06,4.46,20.74,356.34,30.4,54.3,95.0,6.4,73.1,698,315
+Win-Back Campaign,mini_plan_buyer,277,7653,139113.32,6.77,27.63,502.21,40.3,60.7,95.0,8.1,79.1,224,98
+Win-Back Campaign,out_of_town_visitor,1,12,251.01,3.00,12.00,251.01,25.0,52.0,95.0,10.0,43.0,0,1
+Win-Back Campaign,promo_chaser,220,3739,70084.94,4.45,17.00,318.57,28.5,54.3,95.0,6.2,70.2,181,90
+Win-Back Campaign,season_ticket_holder,1,76,1230.44,35.00,76.00,1230.44,82.0,73.0,95.0,10.0,85.0,1,0

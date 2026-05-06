@@ -1,0 +1,4 @@
+season,home_games,total_attendance,avg_attendance,min_attendance,max_attendance,synthetic_orders,unique_buyers,synthetic_tickets,estimated_ticket_revenue,group_tickets,repeat_buyer_tickets,group_ticket_share,repeat_buyer_ticket_share,promo_games,fireworks_games,giveaway_games,theme_night_games,group_sales_games,estimated_revenue_per_attendee
+2023,69,314306,4555,0,7500,34580,31738,314306,5409425.06,208441,163119,0.6632,0.5190,69,27,22,31,16,17.21
+2024,69,308267,4468,0,7500,30892,30369,308267,5296986.04,215651,165743,0.6996,0.5377,69,27,20,39,29,17.18
+2025,69,275423,3992,0,7162,27539,27216,275423,4722721.80,193278,143447,0.7017,0.5208,69,21,21,55,34,17.15
