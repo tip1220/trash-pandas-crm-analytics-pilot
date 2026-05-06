@@ -1,0 +1,35 @@
+SYNTHETIC CRM GENERATION SUMMARY
+============================================================
+Fans created: 47,588
+Ticket orders created: 93,011
+Control attendance total: 897,996
+Synthetic ticket quantity total: 897,996
+Game-level attendance mismatches: 0
+
+ORDERS BY SEASON
+============================================================
+2023: orders=34,580, tickets=314,306
+2024: orders=30,892, tickets=308,267
+2025: orders=27,539, tickets=275,423
+
+FANS BY SEGMENT
+============================================================
+casual_single_game: 14,033
+family_buyer: 13,215
+promo_chaser: 9,832
+group_buyer: 4,383
+mini_plan_buyer: 2,306
+out_of_town_visitor: 2,016
+corporate_group: 1,177
+season_ticket_holder: 626
+
+ORDERS BY SEGMENT
+============================================================
+family_buyer: 23,862
+casual_single_game: 17,493
+promo_chaser: 15,159
+season_ticket_holder: 13,388
+mini_plan_buyer: 9,444
+group_buyer: 8,043
+corporate_group: 3,355
+out_of_town_visitor: 2,267
