@@ -29,3 +29,15 @@
 ### Notes
 - Promotion data is based on public records and official promotional schedule/homestand sources.
 - 2025 fireworks records may need one more spot-check later because season-level and date-level public records may not perfectly match.
+
+### Added
+- Updated MySQL schema to include a `promotions` table.
+- Updated `sql/02_load_games.sql` to load all three schedule files and all three promotion files.
+- Added validation checks for total games, games by season, home/away split, promotion records by season, promo dates, and promo category counts.
+
+### Validated
+- Confirmed 414 total games loaded into MySQL.
+- Confirmed 138 games per season for 2023, 2024, and 2025.
+- Confirmed 207 home games and 207 away games.
+- Confirmed promotion records loaded for all three seasons.
+- Confirmed promo dates match scheduled home games.
