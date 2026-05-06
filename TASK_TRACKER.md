@@ -40,16 +40,55 @@ Completed:
   - Synthetic ticket quantity: 897,996
   - Difference: 0
 
-Next:
-- Build `sql/05_scoring_models.sql`.
-- Create fan-level CRM scoring views.
-- Build repeat buyer signals.
-- Build lapsed fan risk logic.
-- Build estimated fan value logic.
-- Build group sales opportunity logic.
-- Build upgrade potential logic.
-- Build promo responsiveness logic.
-- Validate scoring model outputs before Tableau exports.
+### Phase 3: CRM Scoring Model
 
-Paused:
-- Tableau exports should not be created until the scoring model layer is complete.
+Status: Complete
+
+Completed:
+- Created `sql/05_scoring_models.sql`.
+- Built game-level promo summary view.
+- Built fan-level order summary view.
+- Built fan-level promo response summary view.
+- Built fan scoring base view.
+- Built final fan scoring model view.
+- Built game performance summary view.
+- Built group sales opportunities view.
+- Created rule-based scores for:
+  - fan value
+  - repeat likelihood
+  - lapsed risk
+  - group sales opportunity
+  - upgrade potential
+- Created recommended CRM actions for:
+  - promo-based email targeting
+  - mini plan / upgrade offers
+  - group sales follow-up
+  - second purchase nurture
+  - win-back campaigns
+  - general nurture
+- Validated 47,588 fan scoring rows.
+- Validated 5,560 group sales opportunity fans.
+- Validated attendance control still matches:
+  - Real attendance: 897,996
+  - Synthetic tickets: 897,996
+  - Difference: 0
+
+### Phase 4: Tableau Export Layer
+
+Status: Complete
+
+Completed:
+- Created Tableau export views.
+- Exported dashboard-ready CSV files.
+- Validated CSV row counts.
+- Prepared data files for Tableau Public.
+
+Next:
+- Build Tableau Public dashboard.
+- Create dashboard pages:
+  - Executive Overview
+  - Fan Segments and CRM Actions
+  - Group Sales Opportunities
+  - Promo and Game Performance
+- Write README business story.
+- Create final project summary for GitHub and outreach.

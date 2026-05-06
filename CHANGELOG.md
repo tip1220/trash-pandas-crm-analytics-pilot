@@ -1,6 +1,28 @@
 ## 2026-05-06
 
 ### Added
+- Created `sql/06_tableau_exports.sql`.
+- Created Tableau-ready export views for:
+  - fan scoring
+  - game performance
+  - group sales opportunities
+  - promo performance
+  - season summary
+  - CRM action summary
+- Created `python/export_tableau_csvs.py`.
+- Exported Tableau-ready CSV files to `outputs/tableau/`.
+
+### Validated
+- Confirmed Tableau export row counts:
+  - `fan_scoring_export.csv`: 47,588 rows
+  - `game_performance_export.csv`: 207 rows
+  - `group_sales_opportunities_export.csv`: 5,560 rows
+  - `promo_performance_export.csv`: 36 rows
+  - `season_summary_export.csv`: 3 rows
+  - `crm_action_summary_export.csv`: 29 rows
+- Confirmed dashboard data layer is ready for Tableau Public.
+
+### Added
 - Created `sql/05_scoring_models.sql`.
 - Built CRM scoring views:
   - `crm_game_promo_summary`
