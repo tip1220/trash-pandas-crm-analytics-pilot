@@ -83,12 +83,47 @@ Completed:
 - Validated CSV row counts.
 - Prepared data files for Tableau Public.
 
+### Phase 5: Tableau Dashboard Build
+
+Status: In Progress
+
+Completed:
+- Connected Tableau Public to exported CSV files.
+- Built Executive Overview dashboard page.
+- Built Fan Segments + CRM Actions dashboard page.
+- Built Group Sales Opportunities dashboard page.
+- Built Promo Performance dashboard page.
+- Created KPI cards for attendance, average attendance, synthetic fans, and group sales opportunities.
+- Created fan scoring and CRM action visuals.
+- Created group sales opportunity visuals and call-list style table.
+- Created promo performance visuals focused on:
+  - average attendance by promo category
+  - average group tickets by promo type
+  - promo lift vs schedule baseline
+- Added a schedule-adjusted promo lift calculation to control for season and day-of-week effects.
+- Recalibrated synthetic CRM group-ticket assumptions after dashboard QA.
+- Refreshed Tableau export files after recalibration.
+
+Current QA Notes:
+- Keep Page 4 focused on business value, not raw game-by-game noise.
+- Avoid using percentage charts where promo categories can overlap.
+- Use `primary_promo_type` for game-level promo comparisons when one promo category per game is needed.
+- Use schedule-adjusted lift to show which promos outperform their season/day-of-week slot.
+- Clearly explain schedule baseline in tooltip:
+  - baseline = average attendance for the same season and day of week
+  - lift = fans above or below that baseline
+  - zero-attendance doubleheader records excluded
+
 Next:
-- Build Tableau Public dashboard.
-- Create dashboard pages:
-  - Executive Overview
-  - Fan Segments and CRM Actions
-  - Group Sales Opportunities
-  - Promo and Game Performance
-- Write README business story.
-- Create final project summary for GitHub and outreach.
+- Finish dashboard polish.
+- Clean chart titles and tooltips.
+- Standardize number formatting.
+- Add data note/disclaimer to Page 1.
+- Publish Tableau Public workbook.
+- Copy Tableau Public link.
+- Update `README.md` with final business story and dashboard link.
+- Prepare GitHub project summary.
+- Write LinkedIn/project case study post.
+
+Paused:
+- Final README should wait until the Tableau Public dashboard link is available.

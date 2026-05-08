@@ -62,8 +62,8 @@ SEGMENTS = {
         "lead_days": (1, 30),
     },
     "group_buyer": {
-        "base_weight": 0.08,
-        "qty_range": (10, 75),
+        "base_weight": 0.035,
+        "qty_range": (8, 35),
         "existing_prob": 0.45,
         "price": 14.00,
         "ticket_type": "group",
@@ -71,9 +71,9 @@ SEGMENTS = {
         "lead_days": (14, 120),
     },
     "corporate_group": {
-        "base_weight": 0.04,
-        "qty_range": (20, 150),
-        "existing_prob": 0.65,
+        "base_weight": 0.012,
+        "qty_range": (15, 60),
+        "existing_prob": 0.60,
         "price": 20.00,
         "ticket_type": "corporate_group",
         "group_order": 1,
@@ -244,8 +244,8 @@ def adjusted_segment_weights(game_row, promo_info):
         weights["casual_single_game"] *= 1.10
 
     if promo_info["has_group_sales"]:
-        weights["group_buyer"] *= 1.80
-        weights["corporate_group"] *= 1.35
+        weights["group_buyer"] *= 1.35
+        weights["corporate_group"] *= 1.20
 
     if promo_info["has_community"]:
         weights["family_buyer"] *= 1.15

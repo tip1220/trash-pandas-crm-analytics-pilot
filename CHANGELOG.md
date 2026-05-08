@@ -1,3 +1,50 @@
+## 2026-05-07
+
+### Added
+- Built Tableau Public dashboard pages:
+  - Executive Overview
+  - Fan Segments + CRM Actions
+  - Group Sales Opportunities
+  - Promo Performance
+- Added Tableau-ready visuals for:
+  - attendance trend by season
+  - CRM action buckets
+  - fan value vs lapse risk
+  - segment scorecard
+  - group sales priority
+  - group sales account list
+  - promo average attendance
+  - average group tickets by promo type
+  - promo lift vs schedule baseline
+
+### Changed
+- Recalibrated the synthetic CRM generator after dashboard QA showed group-ticket volume was unrealistically high.
+- Reduced synthetic group/corporate ticket weighting and order-size assumptions.
+- Regenerated synthetic fan and ticket-order data after recalibration.
+- Reloaded synthetic CRM tables, scoring views, and Tableau export files.
+- Refined Promo Performance page to focus on business value instead of raw date-level attendance.
+- Replaced noisy game-date attendance chart with schedule-adjusted promo lift logic.
+- Added schedule-adjusted baseline logic in Tableau:
+  - baseline = average attendance for the same season and day-of-week slot
+  - lift = actual attendance minus schedule baseline
+  - zero-attendance doubleheader records excluded from baseline
+
+### Validated
+- Confirmed Tableau export files refreshed after CRM recalibration.
+- Confirmed attendance control still balances after recalibration:
+  - Real attendance: 897,996
+  - Synthetic ticket quantity: 897,996
+  - Difference: 0
+- Confirmed promo analysis is now clearer and avoids confusing percentage/share visuals.
+- Confirmed Page 4 focuses on three business questions:
+  - Which promo categories draw stronger average crowds?
+  - Which promo types support group-ticket demand?
+  - Which promos beat their schedule slot after accounting for season and day of week?
+
+### Notes
+- Dashboard QA surfaced an unrealistic group-ticket assumption, which was corrected before finalizing the Tableau story.
+- The dashboard now positions promotions as business levers, not just attendance drivers.
+
 ## 2026-05-06
 
 ### Added
