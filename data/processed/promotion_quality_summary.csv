@@ -1,0 +1,17 @@
+check_name,result,expected,actual,status
+total_promotion_rows,Count total promotion rows,> 0,233,PASS
+duplicate_promo_ids,Check duplicate promo_id values,0,0,PASS
+missing_game_id,Check all promotion rows have game_id,0,0,PASS
+invalid_game_id,Check all promotion game_id values exist in games.csv,0,0,PASS
+missing_source_id,Check all promotion rows have source_id,0,0,PASS
+invalid_source_id,Check all promotion source_id values exist in public_source_log.csv,0,0,PASS
+missing_promo_name,Check all promotion rows have promo_name,0,0,PASS
+missing_promo_category,Check all promotion rows have promo_category,0,0,PASS
+2023_promotion_rows,Check promotion rows exist for 2023,> 0,97,PASS
+2024_promotion_rows,Check promotion rows exist for 2024,> 0,77,PASS
+2025_promotion_rows,Check promotion rows exist for 2025,> 0,59,PASS
+weekly_promo_category_rows,Check weekly_promo promotion rows exist,> 0,116,PASS
+fireworks_category_rows,Check fireworks promotion rows exist,> 0,65,PASS
+family_category_rows,Check family promotion rows exist,> 0,34,PASS
+boolean_field_values,Check boolean-like fields use true/false values,0 invalid values,0,PASS
+games_with_promotions,Count games with at least one promotion row,> 0,191,PASS
