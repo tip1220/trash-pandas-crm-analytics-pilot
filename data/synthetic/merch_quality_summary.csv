@@ -1,0 +1,21 @@
+check_name,result,expected,actual,status
+merch_transaction_rows,Count merch transaction rows,> 0,45557,PASS
+duplicate_merch_transaction_ids,Check duplicate merch_transaction_id values,0,0,PASS
+invalid_merch_game_ids,Check merch game_id values exist in games_clean.csv,0,0,PASS
+bad_fan_match_logic,Check fan_match_flag matches fan_id logic,0,0,PASS
+bad_merch_quantities,Check merch quantities are positive,0,0,PASS
+bad_merch_revenue_values,"Check merch gross, discount, and net sales logic",0,0,PASS
+boolean_field_values,Check boolean-like merch fields use true/false values,0,0,PASS
+invalid_item_categories,Check merch item_category values,0,0,PASS
+invalid_channels,Check merch channel values,0,0,PASS
+fan_match_share,Check merch fan match share,0.60-0.75,0.6843,PASS
+total_merch_net_sales,Report total merch net sales,Review only,1765481.28,PASS
+average_merch_net_sales_per_transaction,Report average merch net sales per transaction,10-75,38.75,PASS
+item_category_exists_apparel,Check item category exists: apparel,> 0,9739,PASS
+item_category_exists_collectible,Check item category exists: collectible,> 0,897,PASS
+item_category_exists_hat,Check item category exists: hat,> 0,11832,PASS
+item_category_exists_jersey,Check item category exists: jersey,> 0,1899,PASS
+item_category_exists_kids,Check item category exists: kids,> 0,4983,PASS
+item_category_exists_novelty,Check item category exists: novelty,> 0,4053,PASS
+item_category_exists_souvenir,Check item category exists: souvenir,> 0,8099,PASS
+item_category_exists_theme_item,Check item category exists: theme_item,> 0,4055,PASS
