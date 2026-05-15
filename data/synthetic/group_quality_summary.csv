@@ -1,0 +1,35 @@
+check_name,result,expected,actual,status
+group_account_rows,Count group account rows,1200,1200,PASS
+group_sales_rows,Count group sales rows,3600,3600,PASS
+duplicate_account_ids,Check duplicate account_id values,0,0,PASS
+duplicate_group_sale_ids,Check duplicate group_sale_id values,0,0,PASS
+invalid_group_sale_account_ids,Check group_sales account_id values exist in group_accounts.csv,0,0,PASS
+invalid_group_sale_game_ids,Check group_sales game_id values exist in games_clean.csv,0,0,PASS
+invalid_group_sale_order_ids,Check group_sales order_id values exist in ticket_orders.csv,0,0,PASS
+bad_group_order_links,Check group sales connect correctly to ticket orders,0,0,PASS
+bad_group_ticket_quantities,Check group ticket quantities are positive,0,0,PASS
+bad_group_revenue,Check group ticket revenue is non-negative,0,0,PASS
+bad_group_scan_rates,Check group scan rate is between 0 and 1,0,0,PASS
+boolean_field_values,Check boolean-like group fields use true/false values,0,0,PASS
+account_type_exists_corporate,Check account type exists: corporate,> 0,274,PASS
+account_type_exists_school,Check account type exists: school,> 0,219,PASS
+account_type_exists_church,Check account type exists: church,> 0,147,PASS
+account_type_exists_youth_sports,Check account type exists: youth_sports,> 0,186,PASS
+account_type_exists_nonprofit,Check account type exists: nonprofit,> 0,114,PASS
+account_type_exists_community_group,Check account type exists: community_group,> 0,115,PASS
+account_type_exists_local_business,Check account type exists: local_business,> 0,98,PASS
+account_type_exists_healthcare,Check account type exists: healthcare,> 0,47,PASS
+group_type_exists_corporate,Check group sale type exists: corporate,> 0,858,PASS
+group_type_exists_school,Check group sale type exists: school,> 0,637,PASS
+group_type_exists_church,Check group sale type exists: church,> 0,442,PASS
+group_type_exists_youth_sports,Check group sale type exists: youth_sports,> 0,556,PASS
+group_type_exists_nonprofit,Check group sale type exists: nonprofit,> 0,323,PASS
+group_type_exists_community_group,Check group sale type exists: community_group,> 0,318,PASS
+group_type_exists_local_business,Check group sale type exists: local_business,> 0,323,PASS
+group_type_exists_healthcare,Check group sale type exists: healthcare,> 0,143,PASS
+total_group_tickets,Report total group ticket quantity,Review only,190669,PASS
+total_group_revenue,Report total group revenue,Review only,2603410.24,PASS
+average_group_size,Report average group size,10-120,52.96,PASS
+average_group_scan_rate,Report average group scan rate,0.65-0.95,0.8526,PASS
+renewal_flag_count,Report group renewal opportunity count,> 0,2307,PASS
+upsell_flag_count,Report group upsell opportunity count,> 0,869,PASS
