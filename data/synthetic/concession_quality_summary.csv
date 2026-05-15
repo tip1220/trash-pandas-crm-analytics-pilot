@@ -1,0 +1,24 @@
+check_name,result,expected,actual,status
+concession_transaction_rows,Count concession transaction rows,> 0,314165,PASS
+duplicate_concession_transaction_ids,Check duplicate concession_transaction_id values,0,0,PASS
+invalid_concession_game_ids,Check concession game_id values exist in games_clean.csv,0,0,PASS
+bad_fan_match_logic,Check fan_match_flag matches fan_id logic,0,0,PASS
+bad_concession_quantities,Check concession quantities are positive,0,0,PASS
+bad_concession_revenue_values,"Check concession gross, discount, and net sales logic",0,0,PASS
+boolean_field_values,Check boolean-like concession fields use true/false values,0,0,PASS
+invalid_item_categories,Check concession item_category values,0,0,PASS
+invalid_stand_categories,Check concession stand_category values,0,0,PASS
+fan_match_share,Check concession fan match share,0.35-0.55,0.4582,PASS
+total_concession_net_sales,Report total concession net sales,Review only,5570004.38,PASS
+average_concession_net_sales_per_transaction,Report average concession net sales per transaction,5-35,17.73,PASS
+item_category_exists_beverage,Check item category exists: beverage,> 0,84185,PASS
+item_category_exists_dessert,Check item category exists: dessert,> 0,27603,PASS
+item_category_exists_family_item,Check item category exists: family_item,> 0,38215,PASS
+item_category_exists_food,Check item category exists: food,> 0,100883,PASS
+item_category_exists_premium_item,Check item category exists: premium_item,> 0,13523,PASS
+item_category_exists_snack,Check item category exists: snack,> 0,49756,PASS
+stand_category_exists_beverage,Check stand category exists: beverage,> 0,71736,PASS
+stand_category_exists_dessert,Check stand category exists: dessert,> 0,34715,PASS
+stand_category_exists_main_stand,Check stand category exists: main_stand,> 0,107356,PASS
+stand_category_exists_portable,Check stand category exists: portable,> 0,64716,PASS
+stand_category_exists_premium_area,Check stand category exists: premium_area,> 0,35642,PASS
