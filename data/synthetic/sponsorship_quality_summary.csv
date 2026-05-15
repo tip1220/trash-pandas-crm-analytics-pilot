@@ -1,0 +1,38 @@
+check_name,result,expected,actual,status
+sponsorship_activation_rows,Count sponsorship activation rows,> 0,93,PASS
+duplicate_activation_ids,Check duplicate activation_id values,0,0,PASS
+invalid_activation_game_ids,Check sponsorship game_id values exist in games_clean.csv,0,0,PASS
+invalid_activation_promo_ids,Check nonblank sponsorship promo_id values exist in promotions_clean.csv,0,0,PASS
+missing_sponsor_ids,Check every activation has sponsor_id,0,0,PASS
+invalid_sponsor_categories,Check sponsor_category values,0,0,PASS
+invalid_activation_types,Check activation_type values,0,0,PASS
+invalid_activation_locations,Check activation_location values,0,0,PASS
+invalid_activation_goals,Check activation_goal values,0,0,PASS
+boolean_field_values,Check boolean-like sponsorship fields use true/false values,0,0,PASS
+games_with_sponsor_activation,Report games with sponsorship activation,Review only,86,PASS
+unique_sponsors,Report unique sponsor count,Review only,64,PASS
+promo_linked_activations,Report promo-linked sponsorship activations,> 0,92,PASS
+sponsor_category_exists_auto,Check sponsor category exists: auto,> 0,9,PASS
+sponsor_category_exists_banking,Check sponsor category exists: banking,> 0,9,PASS
+sponsor_category_exists_education,Check sponsor category exists: education,> 0,8,PASS
+sponsor_category_exists_grocery,Check sponsor category exists: grocery,> 0,9,PASS
+sponsor_category_exists_healthcare,Check sponsor category exists: healthcare,> 0,20,PASS
+sponsor_category_exists_insurance,Check sponsor category exists: insurance,> 0,5,PASS
+sponsor_category_exists_local_business,Check sponsor category exists: local_business,> 0,13,PASS
+sponsor_category_exists_nonprofit,Check sponsor category exists: nonprofit,> 0,4,PASS
+sponsor_category_exists_restaurant,Check sponsor category exists: restaurant,> 0,12,PASS
+sponsor_category_exists_technology,Check sponsor category exists: technology,> 0,4,PASS
+activation_type_exists_community,Check activation type exists: community,> 0,10,PASS
+activation_type_exists_concourse_table,Check activation type exists: concourse_table,> 0,19,PASS
+activation_type_exists_digital,Check activation type exists: digital,> 0,9,PASS
+activation_type_exists_giveaway,Check activation type exists: giveaway,> 0,5,PASS
+activation_type_exists_hospitality,Check activation type exists: hospitality,> 0,12,PASS
+activation_type_exists_on_field_recognition,Check activation type exists: on_field_recognition,> 0,11,PASS
+activation_type_exists_signage,Check activation type exists: signage,> 0,17,PASS
+activation_type_exists_theme_night,Check activation type exists: theme_night,> 0,10,PASS
+activation_goal_exists_awareness,Check activation goal exists: awareness,> 0,27,PASS
+activation_goal_exists_brand_affinity,Check activation goal exists: brand_affinity,> 0,10,PASS
+activation_goal_exists_community,Check activation goal exists: community,> 0,18,PASS
+activation_goal_exists_hospitality,Check activation goal exists: hospitality,> 0,8,PASS
+activation_goal_exists_lead_capture,Check activation goal exists: lead_capture,> 0,16,PASS
+activation_goal_exists_sales,Check activation goal exists: sales,> 0,14,PASS
