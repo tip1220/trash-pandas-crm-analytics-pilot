@@ -1,0 +1,16 @@
+metric,value
+ticket_order_rows,339565
+ticket_order_item_rows,339565
+total_ticket_quantity,1083565
+total_net_ticket_revenue,18716164.97
+average_ticket_quantity_per_order,3.19
+order_count_comp,10728
+ticket_quantity_comp,27823
+order_count_mini_plan,56489
+ticket_quantity_mini_plan,209167
+order_count_premium,26102
+ticket_quantity_premium,105789
+order_count_season_ticket,27921
+ticket_quantity_season_ticket,62875
+order_count_single_game,218325
+ticket_quantity_single_game,677911
