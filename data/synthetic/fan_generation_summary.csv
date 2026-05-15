@@ -1,15 +1,15 @@
 metric,value
 fan_count,45000
-fan_segment_rows,85897
-household_count,24308
-segment_count_Corporate Prospect,5826
-segment_count_Family Buyer,15174
-segment_count_Group Buyer,1625
-segment_count_High In-Park Spender,5339
-segment_count_Lapsed Fan,6358
-segment_count_Mini Plan Buyer,3536
-segment_count_Occasional Fan,13465
-segment_count_One-Time Buyer,18078
-segment_count_Repeat Single-Game Buyer,6693
-segment_count_Season Ticket Holder,1603
-segment_count_Theme Night Buyer,8200
+fan_segment_rows,83912
+household_count,24408
+segment_count_Corporate Prospect,5874
+segment_count_Family Buyer,15081
+segment_count_Group Buyer,1566
+segment_count_High In-Park Spender,6951
+segment_count_Lapsed Fan,3621
+segment_count_Mini Plan Buyer,3178
+segment_count_Occasional Fan,12515
+segment_count_One-Time Buyer,16314
+segment_count_Repeat Single-Game Buyer,6209
+segment_count_Season Ticket Holder,1597
+segment_count_Theme Night Buyer,11006

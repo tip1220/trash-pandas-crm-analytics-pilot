@@ -42,39 +42,35 @@ fan_created_sources = [
 ]
 
 lifecycle_segments = [
-    ("One-Time Buyer", 0.40, 55, 85),
-    ("Occasional Fan", 0.30, 50, 80),
-    ("Repeat Single-Game Buyer", 0.15, 55, 90),
-    ("Mini Plan Buyer", 0.08, 65, 95),
+    ("One-Time Buyer", 0.36, 55, 85),
+    ("Occasional Fan", 0.28, 50, 80),
+    ("Repeat Single-Game Buyer", 0.14, 55, 90),
+    ("Mini Plan Buyer", 0.07, 65, 95),
     ("Season Ticket Holder", 0.035, 75, 100),
-    ("Group Buyer", 0.035, 60, 95)
+    ("Group Buyer", 0.035, 60, 95),
+    ("Lapsed Fan", 0.08, 45, 85)
 ]
 
 additional_segments = [
     ("Theme Night Buyer", "behavioral", 0.18, 50, 90),
     ("Family Buyer", "behavioral", 0.22, 55, 95),
     ("Corporate Prospect", "sales", 0.07, 50, 90),
-    ("High In-Park Spender", "value", 0.12, 65, 100),
-    ("Lapsed Fan", "lifecycle", 0.14, 45, 85)
+    ("High In-Park Spender", "value", 0.12, 65, 100)
 ]
 
 def read_csv(path):
     with path.open("r", newline="") as f:
         return list(csv.DictReader(f))
 
-games = read_csv(games_path)
-game_dates = sorted(datetime.strptime(row["game_date"], "%Y-%m-%d").date() for row in games)
-
-min_game_date = game_dates[0]
-max_game_date = game_dates[-1]
-
 def weighted_choice(options):
     random_value = random.random()
     cumulative = 0
+
     for value, weight, low_score, high_score in options:
         cumulative += weight
         if random_value <= cumulative:
             return value, random.randint(low_score, high_score)
+
     value, weight, low_score, high_score = options[-1]
     return value, random.randint(low_score, high_score)
 
@@ -84,11 +80,20 @@ def random_date(start_date, end_date):
 
 def choose_market():
     roll = random.random()
+
     if roll < 0.70:
         return "local", random.choice(local_zips)
+
     if roll < 0.90:
         return "regional", random.choice(regional_zips)
+
     return "out_of_market", random.choice(out_of_market_zips)
+
+games = read_csv(games_path)
+game_dates = sorted(datetime.strptime(row["game_date"], "%Y-%m-%d").date() for row in games)
+
+min_game_date = game_dates[0]
+max_game_date = game_dates[-1]
 
 fans = []
 fan_segments = []
@@ -99,23 +104,20 @@ for i in range(1, fan_count + 1):
     household_id = f"HH_{random.randint(1, int(fan_count * 0.72)):06d}"
 
     lifecycle_segment, lifecycle_score = weighted_choice(lifecycle_segments)
-
     market_distance_band, zip_code = choose_market()
 
     first_seen_date = random_date(min_game_date, max_game_date)
 
     if lifecycle_segment == "Lapsed Fan":
-        last_seen_date = random_date(first_seen_date, min(max_game_date, first_seen_date + timedelta(days=250)))
+        max_lapsed_date = min(max_game_date, first_seen_date + timedelta(days=250))
+        last_seen_date = random_date(first_seen_date, max_lapsed_date)
     elif lifecycle_segment == "One-Time Buyer":
         last_seen_date = first_seen_date
-    elif lifecycle_segment == "Occasional Fan":
-        last_seen_date = random_date(first_seen_date, max_game_date)
-    elif lifecycle_segment == "Repeat Single-Game Buyer":
-        last_seen_date = random_date(first_seen_date, max_game_date)
-    elif lifecycle_segment == "Mini Plan Buyer":
+    elif lifecycle_segment in ["Occasional Fan", "Repeat Single-Game Buyer", "Mini Plan Buyer", "Group Buyer"]:
         last_seen_date = random_date(first_seen_date, max_game_date)
     elif lifecycle_segment == "Season Ticket Holder":
-        last_seen_date = random_date(max(first_seen_date, max_game_date - timedelta(days=180)), max_game_date)
+        season_ticket_start = max(first_seen_date, max_game_date - timedelta(days=180))
+        last_seen_date = random_date(season_ticket_start, max_game_date)
     else:
         last_seen_date = random_date(first_seen_date, max_game_date)
 
@@ -139,6 +141,9 @@ for i in range(1, fan_count + 1):
     elif lifecycle_segment == "One-Time Buyer":
         email_opt_in_probability = 0.56
         sms_opt_in_probability = 0.16
+    elif lifecycle_segment == "Lapsed Fan":
+        email_opt_in_probability = 0.50
+        sms_opt_in_probability = 0.14
     else:
         email_opt_in_probability = 0.65
         sms_opt_in_probability = 0.22
@@ -181,10 +186,15 @@ for i in range(1, fan_count + 1):
 
         if segment_name == "Family Buyer" and family_flag:
             add_segment = random.random() < 0.72
+
         if segment_name == "Corporate Prospect" and corporate_flag:
             add_segment = random.random() < 0.80
-        if segment_name == "Lapsed Fan" and lifecycle_segment == "Lapsed Fan":
-            add_segment = False
+
+        if segment_name == "High In-Park Spender" and lifecycle_segment in ["Season Ticket Holder", "Mini Plan Buyer", "Repeat Single-Game Buyer"]:
+            add_segment = add_segment or random.random() < 0.18
+
+        if segment_name == "Theme Night Buyer" and lifecycle_segment in ["One-Time Buyer", "Occasional Fan", "Repeat Single-Game Buyer"]:
+            add_segment = add_segment or random.random() < 0.10
 
         if add_segment:
             fan_segments.append({
@@ -193,7 +203,7 @@ for i in range(1, fan_count + 1):
                 "segment_name": segment_name,
                 "segment_type": segment_type,
                 "assigned_date": first_seen_date.isoformat(),
-                "active_flag": segment_name != "Lapsed Fan",
+                "active_flag": True,
                 "segment_score": random.randint(low_score, high_score),
                 "synthetic_data_flag": True
             })

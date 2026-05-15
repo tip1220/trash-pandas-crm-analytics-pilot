@@ -2,28 +2,28 @@ check_name,result,expected,actual,status
 fan_count,Count synthetic fan records,45000,45000,PASS
 duplicate_fan_ids,Check duplicate fan_id values,0,0,PASS
 missing_fan_ids,Check missing fan_id values,0,0,PASS
-fan_segment_rows,Count fan segment assignment records,> fan count,85897,PASS
+fan_segment_rows,Count fan segment assignment records,> fan count,83912,PASS
 duplicate_fan_segment_ids,Check duplicate fan_segment_id values,0,0,PASS
 invalid_segment_fan_ids,Check all fan segment fan_id values exist in fans.csv,0,0,PASS
-segment_exists_One-Time Buyer,Check segment exists: One-Time Buyer,> 0,18078,PASS
-segment_exists_Occasional Fan,Check segment exists: Occasional Fan,> 0,13465,PASS
-segment_exists_Repeat Single-Game Buyer,Check segment exists: Repeat Single-Game Buyer,> 0,6693,PASS
-segment_exists_Mini Plan Buyer,Check segment exists: Mini Plan Buyer,> 0,3536,PASS
-segment_exists_Season Ticket Holder,Check segment exists: Season Ticket Holder,> 0,1603,PASS
-segment_exists_Group Buyer,Check segment exists: Group Buyer,> 0,1625,PASS
-segment_exists_Theme Night Buyer,Check segment exists: Theme Night Buyer,> 0,8200,PASS
-segment_exists_Family Buyer,Check segment exists: Family Buyer,> 0,15174,PASS
-segment_exists_Corporate Prospect,Check segment exists: Corporate Prospect,> 0,5826,PASS
-segment_exists_High In-Park Spender,Check segment exists: High In-Park Spender,> 0,5339,PASS
-segment_exists_Lapsed Fan,Check segment exists: Lapsed Fan,> 0,6358,PASS
+segment_exists_One-Time Buyer,Check segment exists: One-Time Buyer,> 0,16314,PASS
+segment_exists_Occasional Fan,Check segment exists: Occasional Fan,> 0,12515,PASS
+segment_exists_Repeat Single-Game Buyer,Check segment exists: Repeat Single-Game Buyer,> 0,6209,PASS
+segment_exists_Mini Plan Buyer,Check segment exists: Mini Plan Buyer,> 0,3178,PASS
+segment_exists_Season Ticket Holder,Check segment exists: Season Ticket Holder,> 0,1597,PASS
+segment_exists_Group Buyer,Check segment exists: Group Buyer,> 0,1566,PASS
+segment_exists_Theme Night Buyer,Check segment exists: Theme Night Buyer,> 0,11006,PASS
+segment_exists_Family Buyer,Check segment exists: Family Buyer,> 0,15081,PASS
+segment_exists_Corporate Prospect,Check segment exists: Corporate Prospect,> 0,5874,PASS
+segment_exists_High In-Park Spender,Check segment exists: High In-Park Spender,> 0,6951,PASS
+segment_exists_Lapsed Fan,Check segment exists: Lapsed Fan,> 0,3621,PASS
 fans_without_lifecycle_segment,Check every fan has one lifecycle segment,0,0,PASS
-fans_with_multiple_lifecycle_segments,Check fans do not have multiple lifecycle segments,0,6358,FAIL
+fans_with_multiple_lifecycle_segments,Check fans do not have multiple lifecycle segments,0,0,PASS
 fan_boolean_values,Check fan boolean fields use true/false values,0 invalid values,0,PASS
 segment_boolean_values,Check segment boolean fields use true/false values,0 invalid values,0,PASS
 segment_score_range,Check segment scores are between 0 and 100,0 invalid scores,0,PASS
 fan_seen_date_order,Check last_seen_date is not before first_seen_date,0 invalid date rows,0,PASS
-market_band_exists_local,Check market band exists: local,> 0,31504,PASS
-market_band_exists_regional,Check market band exists: regional,> 0,9116,PASS
-market_band_exists_out_of_market,Check market band exists: out_of_market,> 0,4380,PASS
+market_band_exists_local,Check market band exists: local,> 0,31460,PASS
+market_band_exists_regional,Check market band exists: regional,> 0,9042,PASS
+market_band_exists_out_of_market,Check market band exists: out_of_market,> 0,4498,PASS
 synthetic_flag_present_fans,Check fans have synthetic data flag,0 invalid values,0,PASS
 synthetic_flag_present_segments,Check segments have synthetic data flag,0 invalid values,0,PASS
