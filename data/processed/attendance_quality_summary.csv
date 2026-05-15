@@ -1,0 +1,17 @@
+check_name,result,expected,actual,status
+total_attendance_rows,Count total attendance rows,207,207,PASS
+2023_attendance_rows,Count attendance rows for 2023,69,69,PASS
+2024_attendance_rows,Count attendance rows for 2024,69,69,PASS
+2025_attendance_rows,Count attendance rows for 2025,69,69,PASS
+duplicate_attendance_ids,Check duplicate attendance_id values,0,0,PASS
+missing_game_id,Check all attendance rows have game_id,0,0,PASS
+invalid_game_id,Check all attendance game_id values exist in games.csv,0,0,PASS
+matched_attendance_rows,Count matched attendance rows,Review only,191,PASS
+unmatched_attendance_rows,Count unmatched attendance rows,Allowed but should be documented,16,REVIEW
+missing_attendance_on_matched_rows,Check matched rows have announced_attendance,0,0,PASS
+attendance_present_on_unmatched_rows,Check unmatched rows do not have announced_attendance,0,0,PASS
+invalid_attendance_source,Check attendance_source values exist in public_source_log.csv,0,0,PASS
+bad_attendance_values,Check matched announced_attendance values are positive numbers,0,0,PASS
+2023_attendance_total_reconciliation,Compare matched attendance total to public season attendance total for 2023,314306,310117 | difference=-4189,REVIEW
+2024_attendance_total_reconciliation,Compare matched attendance total to public season attendance total for 2024,319417,308267 | difference=-11150,REVIEW
+2025_attendance_total_reconciliation,Compare matched attendance total to public season attendance total for 2025,275423,275423 | difference=0,PASS
