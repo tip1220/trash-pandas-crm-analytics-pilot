@@ -1,0 +1,17 @@
+metric,value
+concession_transaction_rows,314165
+total_concession_net_sales,5570004.38
+fan_matched_concession_transactions,143937
+fan_match_share,0.4582
+average_net_sales_per_transaction,17.73
+item_category_count_beverage,84185
+item_category_count_dessert,27603
+item_category_count_family_item,38215
+item_category_count_food,100883
+item_category_count_premium_item,13523
+item_category_count_snack,49756
+stand_category_count_beverage,71736
+stand_category_count_dessert,34715
+stand_category_count_main_stand,107356
+stand_category_count_portable,64716
+stand_category_count_premium_area,35642
