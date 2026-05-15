@@ -1,0 +1,1201 @@
+account_id,account_name,account_type,account_owner,industry,city,zip_code,first_purchase_date,last_purchase_date,renewal_status,corporate_prospect_flag,synthetic_data_flag
+ACCT_00001,Synthetic School Account 0001,school,Sales Rep A,education,Hazel Green,35750,2023-04-08,2024-08-09,active,True,True
+ACCT_00002,Synthetic Corporate Account 0002,corporate,Business Development Rep,manufacturing,Madison,35758,2023-05-18,2025-05-27,active,True,True
+ACCT_00003,Synthetic Corporate Account 0003,corporate,Business Development Rep,finance,Decatur,35601,2024-06-23,2025-05-09,active,True,True
+ACCT_00004,Synthetic Corporate Account 0004,corporate,Sales Rep B,technology,Huntsville,35801,2024-05-25,2025-08-29,active,True,True
+ACCT_00005,Synthetic Nonprofit Account 0005,nonprofit,Group Sales Rep A,nonprofit,Owens Cross Roads,35763,2024-05-07,2025-08-31,new,False,True
+ACCT_00006,Synthetic School Account 0006,school,Group Sales Rep B,education,Florence,35630,2023-08-10,2024-06-06,active,False,True
+ACCT_00007,Synthetic School Account 0007,school,Group Sales Rep A,education,Huntsville,35801,2023-08-10,2024-07-05,renewal_target,False,True
+ACCT_00008,Synthetic School Account 0008,school,Group Sales Rep B,education,Meridianville,35759,2023-05-16,2024-06-09,active,False,True
+ACCT_00009,Synthetic Local Business Account 0009,local_business,Group Sales Rep B,restaurant,Cullman,35055,2025-05-29,2025-06-13,renewal_target,True,True
+ACCT_00010,Synthetic Church Account 0010,church,Sales Rep C,faith_community,Harvest,35749,2023-05-05,2024-04-11,new,True,True
+ACCT_00011,Synthetic School Account 0011,school,Group Sales Rep B,education,Madison,35758,2024-04-11,2025-05-11,lapsed,False,True
+ACCT_00012,Synthetic Church Account 0012,church,Sales Rep C,faith_community,Athens,35611,2024-09-03,2025-06-14,lapsed,False,True
+ACCT_00013,Synthetic Corporate Account 0013,corporate,Sales Rep A,finance,Huntsville,35801,2023-09-09,2024-08-08,active,True,True
+ACCT_00014,Synthetic Corporate Account 0014,corporate,Sales Rep A,finance,Cullman,35055,2023-05-17,2025-07-01,renewal_target,True,True
+ACCT_00015,Synthetic Corporate Account 0015,corporate,Sales Rep B,professional_services,Meridianville,35759,2025-06-14,2025-07-02,new,True,True
+ACCT_00016,Synthetic Nonprofit Account 0016,nonprofit,Business Development Rep,nonprofit,Hazel Green,35750,2024-06-07,2024-06-21,renewal_target,False,True
+ACCT_00017,Synthetic Corporate Account 0017,corporate,Sales Rep A,technology,Florence,35630,2025-06-01,2025-07-01,active,True,True
+ACCT_00018,Synthetic School Account 0018,school,Group Sales Rep A,education,Owens Cross Roads,35763,2024-06-19,2024-09-04,renewal_target,False,True
+ACCT_00019,Synthetic Church Account 0019,church,Group Sales Rep B,faith_community,Huntsville,35801,2024-07-28,2025-06-11,new,False,True
+ACCT_00020,Synthetic Community Group Account 0020,community_group,Group Sales Rep B,community,Huntsville,35801,2023-05-05,2023-05-23,new,False,True
+ACCT_00021,Synthetic Youth Sports Account 0021,youth_sports,Sales Rep C,youth_sports,Owens Cross Roads,35763,2024-06-08,2025-07-01,lapsed,False,True
+ACCT_00022,Synthetic Youth Sports Account 0022,youth_sports,Business Development Rep,youth_sports,Meridianville,35759,2023-08-27,2024-06-09,renewal_target,False,True
+ACCT_00023,Synthetic Community Group Account 0023,community_group,Sales Rep C,community,Huntsville,35801,2023-06-24,2025-04-08,lapsed,False,True
+ACCT_00024,Synthetic School Account 0024,school,Group Sales Rep A,education,Athens,35611,2023-05-18,2025-04-26,active,False,True
+ACCT_00025,Synthetic Youth Sports Account 0025,youth_sports,Business Development Rep,youth_sports,Meridianville,35759,2025-08-15,2025-09-12,active,False,True
+ACCT_00026,Synthetic School Account 0026,school,Sales Rep B,education,Madison,35758,2025-06-17,2025-09-14,active,False,True
+ACCT_00027,Synthetic Youth Sports Account 0027,youth_sports,Group Sales Rep A,youth_sports,Decatur,35601,2023-08-22,2024-06-08,active,False,True
+ACCT_00028,Synthetic Corporate Account 0028,corporate,Group Sales Rep B,technology,Madison,35758,2023-05-05,2024-08-11,new,True,True
+ACCT_00029,Synthetic Youth Sports Account 0029,youth_sports,Sales Rep C,youth_sports,Florence,35630,2023-09-09,2024-08-29,active,False,True
+ACCT_00030,Synthetic School Account 0030,school,Sales Rep C,education,Huntsville,35801,2023-08-25,2025-08-03,new,False,True
+ACCT_00031,Synthetic Corporate Account 0031,corporate,Group Sales Rep A,professional_services,Decatur,35601,2024-07-28,2025-08-16,active,True,True
+ACCT_00032,Synthetic Local Business Account 0032,local_business,Group Sales Rep B,service_business,Madison,35758,2023-07-29,2024-05-23,renewal_target,True,True
+ACCT_00033,Synthetic Local Business Account 0033,local_business,Group Sales Rep A,restaurant,Owens Cross Roads,35763,2024-08-27,2024-09-04,new,True,True
+ACCT_00034,Synthetic Youth Sports Account 0034,youth_sports,Group Sales Rep A,youth_sports,Meridianville,35759,2023-04-20,2025-06-10,new,False,True
+ACCT_00035,Synthetic School Account 0035,school,Group Sales Rep B,education,Madison,35758,2024-09-05,2025-07-19,lapsed,False,True
+ACCT_00036,Synthetic Church Account 0036,church,Sales Rep A,faith_community,Decatur,35601,2023-07-05,2023-07-28,active,False,True
+ACCT_00037,Synthetic Youth Sports Account 0037,youth_sports,Group Sales Rep A,youth_sports,Huntsville,35801,2024-09-07,2025-08-16,renewal_target,False,True
+ACCT_00038,Synthetic Nonprofit Account 0038,nonprofit,Group Sales Rep B,nonprofit,Decatur,35601,2023-07-06,2023-07-09,active,False,True
+ACCT_00039,Synthetic Nonprofit Account 0039,nonprofit,Business Development Rep,nonprofit,Meridianville,35759,2023-05-28,2024-04-12,lapsed,False,True
+ACCT_00040,Synthetic Corporate Account 0040,corporate,Sales Rep B,manufacturing,Meridianville,35759,2024-07-23,2025-07-02,lapsed,True,True
+ACCT_00041,Synthetic Church Account 0041,church,Sales Rep B,faith_community,Cullman,35055,2023-05-25,2023-09-10,active,False,True
+ACCT_00042,Synthetic School Account 0042,school,Sales Rep A,education,Madison,35758,2023-04-19,2024-04-12,renewal_target,False,True
+ACCT_00043,Synthetic Local Business Account 0043,local_business,Business Development Rep,service_business,Madison,35758,2023-08-26,2025-08-17,new,True,True
+ACCT_00044,Synthetic Church Account 0044,church,Group Sales Rep B,faith_community,Meridianville,35759,2024-08-27,2025-06-01,active,False,True
+ACCT_00045,Synthetic Youth Sports Account 0045,youth_sports,Group Sales Rep A,youth_sports,Harvest,35749,2023-06-07,2025-06-12,active,False,True
+ACCT_00046,Synthetic Youth Sports Account 0046,youth_sports,Sales Rep C,youth_sports,Hazel Green,35750,2024-05-21,2024-06-20,renewal_target,False,True
+ACCT_00047,Synthetic Nonprofit Account 0047,nonprofit,Sales Rep B,nonprofit,Harvest,35749,2023-04-06,2023-06-22,active,False,True
+ACCT_00048,Synthetic Church Account 0048,church,Business Development Rep,faith_community,Harvest,35749,2023-06-06,2024-04-10,active,False,True
+ACCT_00049,Synthetic Corporate Account 0049,corporate,Sales Rep C,manufacturing,Athens,35611,2023-09-07,2024-07-23,active,True,True
+ACCT_00050,Synthetic Corporate Account 0050,corporate,Sales Rep B,professional_services,Meridianville,35759,2023-07-29,2024-08-31,active,True,True
+ACCT_00051,Synthetic Local Business Account 0051,local_business,Business Development Rep,retail,Harvest,35749,2024-06-05,2025-09-10,active,True,True
+ACCT_00052,Synthetic Community Group Account 0052,community_group,Sales Rep B,community,Hazel Green,35750,2023-08-09,2024-05-21,active,False,True
+ACCT_00053,Synthetic Community Group Account 0053,community_group,Sales Rep A,community,Owens Cross Roads,35763,2025-07-18,2025-07-29,lapsed,False,True
+ACCT_00054,Synthetic Youth Sports Account 0054,youth_sports,Group Sales Rep B,youth_sports,Athens,35611,2023-07-05,2025-06-12,renewal_target,False,True
+ACCT_00055,Synthetic Youth Sports Account 0055,youth_sports,Sales Rep B,youth_sports,Hazel Green,35750,2024-08-07,2024-08-09,renewal_target,False,True
+ACCT_00056,Synthetic Church Account 0056,church,Group Sales Rep B,faith_community,Meridianville,35759,2023-09-09,2024-06-08,active,False,True
+ACCT_00057,Synthetic Corporate Account 0057,corporate,Group Sales Rep B,professional_services,Hazel Green,35750,2023-05-07,2025-05-30,renewal_target,True,True
+ACCT_00058,Synthetic Local Business Account 0058,local_business,Business Development Rep,retail,Athens,35611,2024-09-05,2025-09-14,renewal_target,True,True
+ACCT_00059,Synthetic Church Account 0059,church,Business Development Rep,faith_community,Hazel Green,35750,2024-05-12,2024-07-11,lapsed,False,True
+ACCT_00060,Synthetic Local Business Account 0060,local_business,Sales Rep B,retail,Huntsville,35801,2023-04-22,2024-09-04,active,True,True
+ACCT_00061,Synthetic Local Business Account 0061,local_business,Sales Rep C,restaurant,Cullman,35055,2024-05-24,2024-06-08,active,True,True
+ACCT_00062,Synthetic Nonprofit Account 0062,nonprofit,Sales Rep C,nonprofit,Hazel Green,35750,2023-08-11,2024-04-10,active,False,True
+ACCT_00063,Synthetic Corporate Account 0063,corporate,Sales Rep A,finance,Owens Cross Roads,35763,2023-04-21,2024-05-09,active,True,True
+ACCT_00064,Synthetic Youth Sports Account 0064,youth_sports,Sales Rep C,youth_sports,Decatur,35601,2024-07-26,2024-08-11,new,False,True
+ACCT_00065,Synthetic Nonprofit Account 0065,nonprofit,Sales Rep A,nonprofit,Harvest,35749,2023-05-18,2023-08-26,renewal_target,False,True
+ACCT_00066,Synthetic Corporate Account 0066,corporate,Sales Rep B,manufacturing,Meridianville,35759,2024-06-19,2025-08-16,renewal_target,True,True
+ACCT_00067,Synthetic Nonprofit Account 0067,nonprofit,Group Sales Rep B,nonprofit,Madison,35758,2023-05-23,2023-07-09,active,False,True
+ACCT_00068,Synthetic Youth Sports Account 0068,youth_sports,Group Sales Rep A,youth_sports,Owens Cross Roads,35763,2023-07-27,2024-05-12,renewal_target,False,True
+ACCT_00069,Synthetic Church Account 0069,church,Group Sales Rep B,faith_community,Huntsville,35801,2024-08-28,2025-04-04,active,False,True
+ACCT_00070,Synthetic Youth Sports Account 0070,youth_sports,Group Sales Rep B,youth_sports,Cullman,35055,2023-08-24,2025-09-14,active,False,True
+ACCT_00071,Synthetic Local Business Account 0071,local_business,Sales Rep A,restaurant,Owens Cross Roads,35763,2023-05-05,2024-07-24,active,True,True
+ACCT_00072,Synthetic Community Group Account 0072,community_group,Sales Rep C,community,Huntsville,35801,2024-05-24,2025-04-27,new,False,True
+ACCT_00073,Synthetic Youth Sports Account 0073,youth_sports,Sales Rep B,youth_sports,Cullman,35055,2024-08-08,2025-08-03,lapsed,False,True
+ACCT_00074,Synthetic Community Group Account 0074,community_group,Sales Rep C,community,Huntsville,35801,2025-07-20,2025-08-17,new,False,True
+ACCT_00075,Synthetic Corporate Account 0075,corporate,Business Development Rep,professional_services,Hazel Green,35750,2023-08-13,2024-09-07,new,True,True
+ACCT_00076,Synthetic Corporate Account 0076,corporate,Business Development Rep,construction,Owens Cross Roads,35763,2023-06-22,2025-06-22,renewal_target,True,True
+ACCT_00077,Synthetic School Account 0077,school,Group Sales Rep B,education,Owens Cross Roads,35763,2024-09-06,2025-06-17,new,False,True
+ACCT_00078,Synthetic Local Business Account 0078,local_business,Sales Rep B,service_business,Athens,35611,2023-08-23,2024-09-08,active,True,True
+ACCT_00079,Synthetic Corporate Account 0079,corporate,Sales Rep A,professional_services,Athens,35611,2024-06-09,2024-09-06,active,True,True
+ACCT_00080,Synthetic Church Account 0080,church,Business Development Rep,faith_community,Decatur,35601,2024-08-06,2024-08-28,active,False,True
+ACCT_00081,Synthetic Nonprofit Account 0081,nonprofit,Business Development Rep,nonprofit,Hazel Green,35750,2025-08-01,2025-08-03,active,False,True
+ACCT_00082,Synthetic School Account 0082,school,Business Development Rep,education,Decatur,35601,2023-04-23,2024-06-22,active,False,True
+ACCT_00083,Synthetic Community Group Account 0083,community_group,Business Development Rep,community,Cullman,35055,2023-04-20,2023-08-27,renewal_target,True,True
+ACCT_00084,Synthetic Corporate Account 0084,corporate,Group Sales Rep B,professional_services,Hazel Green,35750,2025-04-13,2025-04-25,new,True,True
+ACCT_00085,Synthetic Corporate Account 0085,corporate,Sales Rep C,manufacturing,Huntsville,35801,2024-04-10,2024-06-22,new,True,True
+ACCT_00086,Synthetic Corporate Account 0086,corporate,Group Sales Rep A,professional_services,Athens,35611,2023-07-04,2025-04-22,active,True,True
+ACCT_00087,Synthetic Corporate Account 0087,corporate,Sales Rep C,professional_services,Hazel Green,35750,2023-05-20,2024-08-08,active,True,True
+ACCT_00088,Synthetic Youth Sports Account 0088,youth_sports,Sales Rep B,youth_sports,Huntsville,35801,2023-05-26,2023-09-08,new,False,True
+ACCT_00089,Synthetic Youth Sports Account 0089,youth_sports,Group Sales Rep A,youth_sports,Huntsville,35801,2024-06-21,2025-06-13,active,False,True
+ACCT_00090,Synthetic School Account 0090,school,Sales Rep B,education,Meridianville,35759,2023-05-24,2023-07-06,active,False,True
+ACCT_00091,Synthetic Community Group Account 0091,community_group,Group Sales Rep A,community,Cullman,35055,2025-05-10,2025-07-19,new,False,True
+ACCT_00092,Synthetic Corporate Account 0092,corporate,Sales Rep B,finance,Owens Cross Roads,35763,2025-05-11,2025-08-31,active,True,True
+ACCT_00093,Synthetic Corporate Account 0093,corporate,Group Sales Rep B,professional_services,Madison,35758,2023-09-06,2025-09-12,new,True,True
+ACCT_00094,Synthetic School Account 0094,school,Sales Rep B,education,Madison,35758,2023-04-18,2024-09-05,lapsed,False,True
+ACCT_00095,Synthetic Community Group Account 0095,community_group,Sales Rep B,community,Huntsville,35801,2024-04-28,2024-07-04,active,False,True
+ACCT_00096,Synthetic Community Group Account 0096,community_group,Sales Rep C,community,Meridianville,35759,2025-06-15,2025-09-10,new,False,True
+ACCT_00097,Synthetic Corporate Account 0097,corporate,Sales Rep C,professional_services,Florence,35630,2024-07-04,2024-08-30,lapsed,True,True
+ACCT_00098,Synthetic Youth Sports Account 0098,youth_sports,Group Sales Rep B,youth_sports,Florence,35630,2023-08-08,2025-07-01,new,False,True
+ACCT_00099,Synthetic Local Business Account 0099,local_business,Group Sales Rep A,service_business,Athens,35611,2023-04-19,2025-08-30,active,True,True
+ACCT_00100,Synthetic School Account 0100,school,Business Development Rep,education,Athens,35611,2023-06-06,2025-08-26,active,False,True
+ACCT_00101,Synthetic Local Business Account 0101,local_business,Sales Rep A,retail,Decatur,35601,2024-05-24,2025-04-05,active,True,True
+ACCT_00102,Synthetic Church Account 0102,church,Sales Rep C,faith_community,Meridianville,35759,2023-06-09,2024-08-27,new,False,True
+ACCT_00103,Synthetic Corporate Account 0103,corporate,Group Sales Rep B,professional_services,Athens,35611,2023-04-06,2024-07-28,lapsed,True,True
+ACCT_00104,Synthetic Corporate Account 0104,corporate,Sales Rep B,construction,Meridianville,35759,2023-08-23,2024-07-27,new,True,True
+ACCT_00105,Synthetic Local Business Account 0105,local_business,Group Sales Rep A,restaurant,Madison,35758,2023-06-09,2024-08-29,active,True,True
+ACCT_00106,Synthetic Nonprofit Account 0106,nonprofit,Group Sales Rep B,nonprofit,Florence,35630,2023-07-30,2024-08-11,lapsed,False,True
+ACCT_00107,Synthetic Community Group Account 0107,community_group,Group Sales Rep B,community,Owens Cross Roads,35763,2023-08-12,2025-08-13,new,True,True
+ACCT_00108,Synthetic Healthcare Account 0108,healthcare,Sales Rep A,healthcare,Madison,35758,2023-07-27,2024-09-04,active,True,True
+ACCT_00109,Synthetic School Account 0109,school,Business Development Rep,education,Madison,35758,2023-07-25,2025-09-10,active,False,True
+ACCT_00110,Synthetic School Account 0110,school,Group Sales Rep A,education,Meridianville,35759,2023-08-10,2025-05-09,active,False,True
+ACCT_00111,Synthetic Youth Sports Account 0111,youth_sports,Business Development Rep,youth_sports,Madison,35758,2023-07-08,2023-09-06,active,True,True
+ACCT_00112,Synthetic Corporate Account 0112,corporate,Business Development Rep,technology,Cullman,35055,2023-08-11,2023-08-26,new,True,True
+ACCT_00113,Synthetic School Account 0113,school,Group Sales Rep B,education,Meridianville,35759,2023-08-12,2025-07-02,lapsed,False,True
+ACCT_00114,Synthetic Nonprofit Account 0114,nonprofit,Sales Rep A,nonprofit,Madison,35758,2023-08-12,2024-05-23,active,False,True
+ACCT_00115,Synthetic Nonprofit Account 0115,nonprofit,Group Sales Rep B,nonprofit,Hazel Green,35750,2024-04-12,2024-07-09,lapsed,False,True
+ACCT_00116,Synthetic Church Account 0116,church,Sales Rep A,faith_community,Hazel Green,35750,2024-05-09,2024-07-25,lapsed,False,True
+ACCT_00117,Synthetic Corporate Account 0117,corporate,Sales Rep C,professional_services,Athens,35611,2023-06-08,2024-04-27,active,True,True
+ACCT_00118,Synthetic Corporate Account 0118,corporate,Sales Rep B,professional_services,Madison,35758,2023-06-06,2025-05-11,new,True,True
+ACCT_00119,Synthetic Church Account 0119,church,Sales Rep A,faith_community,Decatur,35601,2023-06-24,2024-06-04,renewal_target,False,True
+ACCT_00120,Synthetic Healthcare Account 0120,healthcare,Group Sales Rep B,healthcare,Florence,35630,2023-07-09,2025-07-18,active,True,True
+ACCT_00121,Synthetic Corporate Account 0121,corporate,Business Development Rep,construction,Huntsville,35801,2025-05-10,2025-06-01,active,True,True
+ACCT_00122,Synthetic Youth Sports Account 0122,youth_sports,Group Sales Rep A,youth_sports,Harvest,35749,2023-04-06,2025-07-03,active,False,True
+ACCT_00123,Synthetic Church Account 0123,church,Business Development Rep,faith_community,Meridianville,35759,2023-04-19,2024-08-31,active,True,True
+ACCT_00124,Synthetic School Account 0124,school,Group Sales Rep B,education,Decatur,35601,2023-07-08,2025-09-13,new,False,True
+ACCT_00125,Synthetic Youth Sports Account 0125,youth_sports,Business Development Rep,youth_sports,Athens,35611,2023-05-28,2025-08-15,lapsed,True,True
+ACCT_00126,Synthetic Nonprofit Account 0126,nonprofit,Sales Rep B,nonprofit,Cullman,35055,2023-08-13,2025-06-17,renewal_target,False,True
+ACCT_00127,Synthetic School Account 0127,school,Sales Rep C,education,Meridianville,35759,2024-04-09,2024-07-04,new,False,True
+ACCT_00128,Synthetic Corporate Account 0128,corporate,Sales Rep A,finance,Madison,35758,2023-05-18,2025-08-12,renewal_target,True,True
+ACCT_00129,Synthetic Community Group Account 0129,community_group,Group Sales Rep A,community,Florence,35630,2023-05-21,2024-09-01,active,False,True
+ACCT_00130,Synthetic School Account 0130,school,Group Sales Rep B,education,Athens,35611,2025-04-13,2025-09-13,lapsed,False,True
+ACCT_00131,Synthetic Corporate Account 0131,corporate,Sales Rep A,professional_services,Florence,35630,2023-08-24,2025-04-08,active,True,True
+ACCT_00132,Synthetic School Account 0132,school,Sales Rep A,education,Meridianville,35759,2023-06-10,2023-06-11,new,False,True
+ACCT_00133,Synthetic Community Group Account 0133,community_group,Group Sales Rep A,community,Athens,35611,2024-07-13,2024-08-09,active,False,True
+ACCT_00134,Synthetic Community Group Account 0134,community_group,Group Sales Rep B,community,Meridianville,35759,2023-08-10,2024-07-28,new,False,True
+ACCT_00135,Synthetic Youth Sports Account 0135,youth_sports,Sales Rep A,youth_sports,Harvest,35749,2024-05-09,2025-06-14,active,False,True
+ACCT_00136,Synthetic School Account 0136,school,Business Development Rep,education,Huntsville,35801,2023-06-06,2025-05-30,active,False,True
+ACCT_00137,Synthetic Youth Sports Account 0137,youth_sports,Group Sales Rep B,youth_sports,Hazel Green,35750,2024-05-23,2025-04-25,active,False,True
+ACCT_00138,Synthetic Church Account 0138,church,Business Development Rep,faith_community,Meridianville,35759,2023-08-22,2024-04-13,new,False,True
+ACCT_00139,Synthetic School Account 0139,school,Sales Rep A,education,Owens Cross Roads,35763,2023-08-09,2025-05-30,active,False,True
+ACCT_00140,Synthetic Corporate Account 0140,corporate,Group Sales Rep B,manufacturing,Owens Cross Roads,35763,2024-08-07,2024-08-10,active,True,True
+ACCT_00141,Synthetic Church Account 0141,church,Sales Rep C,faith_community,Cullman,35055,2024-08-10,2025-08-27,active,True,True
+ACCT_00142,Synthetic Nonprofit Account 0142,nonprofit,Sales Rep A,nonprofit,Cullman,35055,2024-08-28,2025-08-30,active,False,True
+ACCT_00143,Synthetic Community Group Account 0143,community_group,Sales Rep C,community,Decatur,35601,2024-09-04,2025-06-22,active,False,True
+ACCT_00144,Synthetic Corporate Account 0144,corporate,Group Sales Rep A,construction,Hazel Green,35750,2024-08-09,2025-06-13,renewal_target,True,True
+ACCT_00145,Synthetic School Account 0145,school,Group Sales Rep A,education,Hazel Green,35750,2024-04-25,2025-08-27,new,False,True
+ACCT_00146,Synthetic Youth Sports Account 0146,youth_sports,Sales Rep B,youth_sports,Florence,35630,2024-05-11,2025-04-25,active,True,True
+ACCT_00147,Synthetic Corporate Account 0147,corporate,Business Development Rep,finance,Florence,35630,2023-07-04,2025-09-13,active,True,True
+ACCT_00148,Synthetic Corporate Account 0148,corporate,Sales Rep B,finance,Athens,35611,2023-06-21,2023-08-12,active,True,True
+ACCT_00149,Synthetic School Account 0149,school,Sales Rep C,education,Cullman,35055,2025-05-08,2025-08-14,active,False,True
+ACCT_00150,Synthetic Community Group Account 0150,community_group,Group Sales Rep A,community,Athens,35611,2023-05-25,2025-04-12,active,False,True
+ACCT_00151,Synthetic Youth Sports Account 0151,youth_sports,Sales Rep A,youth_sports,Florence,35630,2023-07-27,2023-09-10,new,True,True
+ACCT_00152,Synthetic Church Account 0152,church,Sales Rep A,faith_community,Huntsville,35801,2025-05-07,2025-08-16,lapsed,False,True
+ACCT_00153,Synthetic Corporate Account 0153,corporate,Sales Rep C,technology,Florence,35630,2023-08-11,2025-09-13,active,True,True
+ACCT_00154,Synthetic Corporate Account 0154,corporate,Sales Rep C,manufacturing,Huntsville,35801,2024-06-18,2025-08-30,active,True,True
+ACCT_00155,Synthetic School Account 0155,school,Sales Rep A,education,Madison,35758,2023-08-09,2025-08-03,active,True,True
+ACCT_00156,Synthetic Youth Sports Account 0156,youth_sports,Group Sales Rep B,youth_sports,Meridianville,35759,2023-06-06,2024-04-09,renewal_target,False,True
+ACCT_00157,Synthetic Youth Sports Account 0157,youth_sports,Sales Rep C,youth_sports,Hazel Green,35750,2025-08-14,2025-09-14,active,False,True
+ACCT_00158,Synthetic Church Account 0158,church,Business Development Rep,faith_community,Owens Cross Roads,35763,2023-06-06,2024-07-27,new,False,True
+ACCT_00159,Synthetic School Account 0159,school,Sales Rep A,education,Decatur,35601,2023-05-06,2025-04-04,new,False,True
+ACCT_00160,Synthetic School Account 0160,school,Group Sales Rep A,education,Owens Cross Roads,35763,2025-04-05,2025-04-08,active,False,True
+ACCT_00161,Synthetic Church Account 0161,church,Business Development Rep,faith_community,Huntsville,35801,2023-05-04,2023-07-07,renewal_target,False,True
+ACCT_00162,Synthetic Youth Sports Account 0162,youth_sports,Group Sales Rep B,youth_sports,Madison,35758,2023-05-07,2023-06-11,new,False,True
+ACCT_00163,Synthetic Church Account 0163,church,Business Development Rep,faith_community,Madison,35758,2024-06-06,2025-07-02,active,False,True
+ACCT_00164,Synthetic Church Account 0164,church,Sales Rep B,faith_community,Huntsville,35801,2024-08-29,2025-04-23,active,True,True
+ACCT_00165,Synthetic Corporate Account 0165,corporate,Sales Rep A,technology,Harvest,35749,2023-05-05,2025-04-06,new,True,True
+ACCT_00166,Synthetic Corporate Account 0166,corporate,Business Development Rep,construction,Florence,35630,2024-07-12,2025-09-12,renewal_target,True,True
+ACCT_00167,Synthetic School Account 0167,school,Sales Rep B,education,Harvest,35749,2023-04-08,2024-08-31,active,False,True
+ACCT_00168,Synthetic Local Business Account 0168,local_business,Sales Rep B,restaurant,Madison,35758,2023-07-26,2024-09-07,new,True,True
+ACCT_00169,Synthetic Corporate Account 0169,corporate,Sales Rep B,technology,Huntsville,35801,2023-05-18,2023-09-08,active,True,True
+ACCT_00170,Synthetic Community Group Account 0170,community_group,Sales Rep B,community,Meridianville,35759,2023-08-10,2023-08-23,active,False,True
+ACCT_00171,Synthetic School Account 0171,school,Group Sales Rep A,education,Owens Cross Roads,35763,2023-05-16,2023-05-27,active,False,True
+ACCT_00172,Synthetic School Account 0172,school,Group Sales Rep B,education,Madison,35758,2023-05-25,2025-06-10,renewal_target,False,True
+ACCT_00173,Synthetic Corporate Account 0173,corporate,Sales Rep C,finance,Decatur,35601,2024-06-19,2024-07-09,active,True,True
+ACCT_00174,Synthetic Community Group Account 0174,community_group,Sales Rep A,community,Cullman,35055,2025-04-06,2025-05-08,active,False,True
+ACCT_00175,Synthetic Local Business Account 0175,local_business,Sales Rep C,retail,Cullman,35055,2024-05-26,2024-08-10,new,True,True
+ACCT_00176,Synthetic School Account 0176,school,Business Development Rep,education,Meridianville,35759,2023-05-02,2025-08-31,new,False,True
+ACCT_00177,Synthetic Healthcare Account 0177,healthcare,Sales Rep B,healthcare,Harvest,35749,2023-06-09,2025-06-01,new,True,True
+ACCT_00178,Synthetic Corporate Account 0178,corporate,Group Sales Rep A,finance,Florence,35630,2023-04-22,2023-06-07,active,True,True
+ACCT_00179,Synthetic Corporate Account 0179,corporate,Group Sales Rep B,technology,Harvest,35749,2024-04-23,2024-08-31,active,True,True
+ACCT_00180,Synthetic Corporate Account 0180,corporate,Group Sales Rep A,finance,Owens Cross Roads,35763,2023-09-05,2023-09-10,active,True,True
+ACCT_00181,Synthetic School Account 0181,school,Sales Rep A,education,Florence,35630,2023-05-18,2025-07-19,active,False,True
+ACCT_00182,Synthetic School Account 0182,school,Sales Rep B,education,Owens Cross Roads,35763,2023-04-22,2024-04-27,active,False,True
+ACCT_00183,Synthetic Nonprofit Account 0183,nonprofit,Sales Rep A,nonprofit,Harvest,35749,2023-07-30,2024-07-12,active,False,True
+ACCT_00184,Synthetic Church Account 0184,church,Sales Rep A,faith_community,Madison,35758,2023-05-04,2024-08-31,active,True,True
+ACCT_00185,Synthetic Community Group Account 0185,community_group,Business Development Rep,community,Owens Cross Roads,35763,2024-05-10,2025-04-13,renewal_target,True,True
+ACCT_00186,Synthetic School Account 0186,school,Group Sales Rep A,education,Huntsville,35801,2023-07-27,2025-05-27,active,False,True
+ACCT_00187,Synthetic Corporate Account 0187,corporate,Group Sales Rep B,technology,Decatur,35601,2023-04-19,2025-08-30,new,True,True
+ACCT_00188,Synthetic Youth Sports Account 0188,youth_sports,Sales Rep B,youth_sports,Athens,35611,2024-04-10,2024-08-31,active,False,True
+ACCT_00189,Synthetic Youth Sports Account 0189,youth_sports,Business Development Rep,youth_sports,Decatur,35601,2023-04-06,2025-08-26,active,False,True
+ACCT_00190,Synthetic Church Account 0190,church,Group Sales Rep A,faith_community,Cullman,35055,2023-05-16,2023-08-09,active,True,True
+ACCT_00191,Synthetic Youth Sports Account 0191,youth_sports,Business Development Rep,youth_sports,Harvest,35749,2023-08-23,2024-07-24,new,False,True
+ACCT_00192,Synthetic School Account 0192,school,Business Development Rep,education,Cullman,35055,2023-06-10,2025-08-27,renewal_target,False,True
+ACCT_00193,Synthetic Church Account 0193,church,Business Development Rep,faith_community,Decatur,35601,2023-05-17,2023-05-18,active,False,True
+ACCT_00194,Synthetic Nonprofit Account 0194,nonprofit,Sales Rep C,nonprofit,Decatur,35601,2024-05-07,2024-05-09,renewal_target,False,True
+ACCT_00195,Synthetic Local Business Account 0195,local_business,Sales Rep C,retail,Cullman,35055,2023-07-27,2024-05-23,new,True,True
+ACCT_00196,Synthetic Nonprofit Account 0196,nonprofit,Business Development Rep,nonprofit,Cullman,35055,2023-04-22,2024-08-31,renewal_target,False,True
+ACCT_00197,Synthetic Church Account 0197,church,Business Development Rep,faith_community,Owens Cross Roads,35763,2023-05-17,2024-06-23,lapsed,False,True
+ACCT_00198,Synthetic Church Account 0198,church,Group Sales Rep A,faith_community,Harvest,35749,2023-05-20,2023-09-08,active,False,True
+ACCT_00199,Synthetic School Account 0199,school,Sales Rep B,education,Athens,35611,2023-04-22,2024-04-12,active,True,True
+ACCT_00200,Synthetic Youth Sports Account 0200,youth_sports,Sales Rep C,youth_sports,Florence,35630,2024-07-24,2025-06-14,lapsed,False,True
+ACCT_00201,Synthetic Corporate Account 0201,corporate,Group Sales Rep B,manufacturing,Harvest,35749,2023-07-05,2025-05-29,active,True,True
+ACCT_00202,Synthetic Community Group Account 0202,community_group,Business Development Rep,community,Madison,35758,2023-06-21,2025-08-16,active,False,True
+ACCT_00203,Synthetic Community Group Account 0203,community_group,Sales Rep A,community,Decatur,35601,2024-06-06,2025-05-11,active,False,True
+ACCT_00204,Synthetic Youth Sports Account 0204,youth_sports,Group Sales Rep B,youth_sports,Decatur,35601,2023-05-24,2023-06-22,active,False,True
+ACCT_00205,Synthetic Corporate Account 0205,corporate,Sales Rep B,construction,Huntsville,35801,2024-07-04,2024-07-25,active,True,True
+ACCT_00206,Synthetic Youth Sports Account 0206,youth_sports,Group Sales Rep A,youth_sports,Hazel Green,35750,2024-06-07,2024-09-07,renewal_target,False,True
+ACCT_00207,Synthetic Youth Sports Account 0207,youth_sports,Group Sales Rep B,youth_sports,Cullman,35055,2025-06-19,2025-06-21,renewal_target,False,True
+ACCT_00208,Synthetic Corporate Account 0208,corporate,Sales Rep B,manufacturing,Harvest,35749,2024-06-21,2025-04-10,new,True,True
+ACCT_00209,Synthetic School Account 0209,school,Group Sales Rep B,education,Decatur,35601,2024-07-14,2025-04-24,active,False,True
+ACCT_00210,Synthetic Community Group Account 0210,community_group,Sales Rep B,community,Meridianville,35759,2023-07-04,2024-07-26,renewal_target,True,True
+ACCT_00211,Synthetic Community Group Account 0211,community_group,Sales Rep B,community,Meridianville,35759,2023-04-22,2023-09-09,new,False,True
+ACCT_00212,Synthetic School Account 0212,school,Sales Rep A,education,Cullman,35055,2023-06-21,2025-07-03,active,False,True
+ACCT_00213,Synthetic Youth Sports Account 0213,youth_sports,Business Development Rep,youth_sports,Hazel Green,35750,2024-04-28,2025-05-27,active,False,True
+ACCT_00214,Synthetic School Account 0214,school,Business Development Rep,education,Owens Cross Roads,35763,2023-04-06,2024-09-01,lapsed,False,True
+ACCT_00215,Synthetic Corporate Account 0215,corporate,Group Sales Rep A,professional_services,Madison,35758,2023-08-13,2025-06-21,active,True,True
+ACCT_00216,Synthetic Corporate Account 0216,corporate,Sales Rep A,technology,Cullman,35055,2025-04-06,2025-07-30,active,True,True
+ACCT_00217,Synthetic Corporate Account 0217,corporate,Group Sales Rep B,professional_services,Hazel Green,35750,2025-07-03,2025-08-31,new,True,True
+ACCT_00218,Synthetic Community Group Account 0218,community_group,Group Sales Rep A,community,Madison,35758,2024-05-22,2025-09-12,active,False,True
+ACCT_00219,Synthetic Corporate Account 0219,corporate,Group Sales Rep B,finance,Athens,35611,2024-07-24,2024-09-06,active,True,True
+ACCT_00220,Synthetic Community Group Account 0220,community_group,Sales Rep B,community,Hazel Green,35750,2025-05-28,2025-08-30,renewal_target,True,True
+ACCT_00221,Synthetic Church Account 0221,church,Group Sales Rep B,faith_community,Huntsville,35801,2023-04-21,2023-07-04,active,False,True
+ACCT_00222,Synthetic Youth Sports Account 0222,youth_sports,Sales Rep A,youth_sports,Owens Cross Roads,35763,2024-08-09,2025-05-06,renewal_target,False,True
+ACCT_00223,Synthetic School Account 0223,school,Sales Rep A,education,Hazel Green,35750,2024-08-30,2025-06-22,renewal_target,False,True
+ACCT_00224,Synthetic School Account 0224,school,Group Sales Rep B,education,Decatur,35601,2023-05-25,2024-04-14,active,False,True
+ACCT_00225,Synthetic Community Group Account 0225,community_group,Sales Rep B,community,Cullman,35055,2023-08-09,2025-06-17,active,False,True
+ACCT_00226,Synthetic Community Group Account 0226,community_group,Sales Rep A,community,Owens Cross Roads,35763,2024-05-26,2025-06-12,active,False,True
+ACCT_00227,Synthetic Youth Sports Account 0227,youth_sports,Sales Rep C,youth_sports,Owens Cross Roads,35763,2023-08-23,2025-06-15,new,False,True
+ACCT_00228,Synthetic Community Group Account 0228,community_group,Sales Rep A,community,Owens Cross Roads,35763,2024-05-07,2025-08-02,renewal_target,False,True
+ACCT_00229,Synthetic Corporate Account 0229,corporate,Sales Rep A,manufacturing,Athens,35611,2025-04-22,2025-05-29,new,True,True
+ACCT_00230,Synthetic Corporate Account 0230,corporate,Sales Rep C,construction,Owens Cross Roads,35763,2025-04-13,2025-09-14,active,True,True
+ACCT_00231,Synthetic Church Account 0231,church,Group Sales Rep A,faith_community,Harvest,35749,2023-06-11,2025-06-11,active,False,True
+ACCT_00232,Synthetic Youth Sports Account 0232,youth_sports,Group Sales Rep B,youth_sports,Harvest,35749,2024-05-23,2025-09-10,lapsed,False,True
+ACCT_00233,Synthetic Youth Sports Account 0233,youth_sports,Sales Rep A,youth_sports,Owens Cross Roads,35763,2023-08-12,2025-08-30,renewal_target,False,True
+ACCT_00234,Synthetic School Account 0234,school,Sales Rep A,education,Florence,35630,2023-09-08,2024-07-09,active,False,True
+ACCT_00235,Synthetic Youth Sports Account 0235,youth_sports,Sales Rep B,youth_sports,Owens Cross Roads,35763,2023-08-13,2025-04-04,renewal_target,False,True
+ACCT_00236,Synthetic Church Account 0236,church,Sales Rep B,faith_community,Cullman,35055,2023-07-25,2025-08-26,lapsed,False,True
+ACCT_00237,Synthetic Corporate Account 0237,corporate,Business Development Rep,finance,Hazel Green,35750,2023-07-04,2023-08-12,active,True,True
+ACCT_00238,Synthetic School Account 0238,school,Business Development Rep,education,Owens Cross Roads,35763,2024-09-03,2025-08-28,lapsed,True,True
+ACCT_00239,Synthetic Youth Sports Account 0239,youth_sports,Group Sales Rep B,youth_sports,Harvest,35749,2025-05-28,2025-07-31,renewal_target,True,True
+ACCT_00240,Synthetic Youth Sports Account 0240,youth_sports,Group Sales Rep B,youth_sports,Athens,35611,2024-07-28,2025-05-28,new,False,True
+ACCT_00241,Synthetic School Account 0241,school,Business Development Rep,education,Hazel Green,35750,2024-05-12,2025-08-28,new,False,True
+ACCT_00242,Synthetic Community Group Account 0242,community_group,Sales Rep A,community,Harvest,35749,2023-07-25,2023-07-26,renewal_target,False,True
+ACCT_00243,Synthetic Church Account 0243,church,Sales Rep B,faith_community,Meridianville,35759,2024-05-07,2025-07-30,active,False,True
+ACCT_00244,Synthetic School Account 0244,school,Sales Rep C,education,Decatur,35601,2023-08-11,2024-07-05,new,False,True
+ACCT_00245,Synthetic Local Business Account 0245,local_business,Sales Rep B,retail,Decatur,35601,2023-06-23,2024-08-11,new,True,True
+ACCT_00246,Synthetic Corporate Account 0246,corporate,Sales Rep C,manufacturing,Madison,35758,2023-04-08,2023-06-25,new,True,True
+ACCT_00247,Synthetic Church Account 0247,church,Business Development Rep,faith_community,Hazel Green,35750,2024-09-07,2025-07-01,renewal_target,False,True
+ACCT_00248,Synthetic Nonprofit Account 0248,nonprofit,Sales Rep B,nonprofit,Cullman,35055,2025-06-01,2025-07-03,new,True,True
+ACCT_00249,Synthetic Church Account 0249,church,Group Sales Rep B,faith_community,Florence,35630,2024-07-26,2024-08-11,active,False,True
+ACCT_00250,Synthetic Community Group Account 0250,community_group,Business Development Rep,community,Decatur,35601,2024-04-24,2025-07-18,active,False,True
+ACCT_00251,Synthetic Local Business Account 0251,local_business,Sales Rep B,restaurant,Harvest,35749,2024-08-08,2025-05-06,active,True,True
+ACCT_00252,Synthetic Local Business Account 0252,local_business,Sales Rep B,restaurant,Florence,35630,2024-04-14,2025-08-17,new,True,True
+ACCT_00253,Synthetic School Account 0253,school,Sales Rep A,education,Hazel Green,35750,2024-06-19,2025-05-09,active,False,True
+ACCT_00254,Synthetic Corporate Account 0254,corporate,Sales Rep C,construction,Madison,35758,2025-04-11,2025-06-19,active,True,True
+ACCT_00255,Synthetic Corporate Account 0255,corporate,Sales Rep A,construction,Madison,35758,2024-04-24,2025-08-26,renewal_target,True,True
+ACCT_00256,Synthetic School Account 0256,school,Group Sales Rep B,education,Hazel Green,35750,2023-07-29,2024-05-07,active,False,True
+ACCT_00257,Synthetic School Account 0257,school,Sales Rep A,education,Athens,35611,2024-08-07,2024-09-01,active,True,True
+ACCT_00258,Synthetic Corporate Account 0258,corporate,Group Sales Rep A,technology,Huntsville,35801,2024-08-06,2025-05-06,renewal_target,True,True
+ACCT_00259,Synthetic Youth Sports Account 0259,youth_sports,Group Sales Rep A,youth_sports,Decatur,35601,2024-05-10,2024-08-28,new,False,True
+ACCT_00260,Synthetic Church Account 0260,church,Business Development Rep,faith_community,Harvest,35749,2023-07-09,2025-04-12,renewal_target,False,True
+ACCT_00261,Synthetic Corporate Account 0261,corporate,Business Development Rep,manufacturing,Decatur,35601,2023-06-24,2024-06-23,active,True,True
+ACCT_00262,Synthetic Youth Sports Account 0262,youth_sports,Group Sales Rep B,youth_sports,Florence,35630,2024-05-11,2024-09-07,new,False,True
+ACCT_00263,Synthetic Corporate Account 0263,corporate,Group Sales Rep A,technology,Huntsville,35801,2023-07-27,2025-08-01,new,True,True
+ACCT_00264,Synthetic Youth Sports Account 0264,youth_sports,Group Sales Rep A,youth_sports,Athens,35611,2023-06-20,2024-08-07,lapsed,False,True
+ACCT_00265,Synthetic Corporate Account 0265,corporate,Business Development Rep,construction,Harvest,35749,2023-06-25,2025-06-22,active,True,True
+ACCT_00266,Synthetic School Account 0266,school,Sales Rep C,education,Hazel Green,35750,2024-04-10,2025-09-12,lapsed,False,True
+ACCT_00267,Synthetic Church Account 0267,church,Sales Rep B,faith_community,Harvest,35749,2023-05-25,2024-05-09,lapsed,False,True
+ACCT_00268,Synthetic Corporate Account 0268,corporate,Sales Rep B,professional_services,Huntsville,35801,2023-08-12,2024-04-12,renewal_target,True,True
+ACCT_00269,Synthetic Corporate Account 0269,corporate,Sales Rep C,finance,Athens,35611,2023-06-24,2025-05-27,active,True,True
+ACCT_00270,Synthetic Local Business Account 0270,local_business,Sales Rep B,restaurant,Owens Cross Roads,35763,2023-04-18,2024-04-11,new,True,True
+ACCT_00271,Synthetic Nonprofit Account 0271,nonprofit,Group Sales Rep B,nonprofit,Hazel Green,35750,2023-04-21,2024-08-10,active,False,True
+ACCT_00272,Synthetic Church Account 0272,church,Business Development Rep,faith_community,Athens,35611,2023-08-27,2025-04-27,renewal_target,False,True
+ACCT_00273,Synthetic School Account 0273,school,Sales Rep B,education,Hazel Green,35750,2023-07-07,2024-06-18,new,False,True
+ACCT_00274,Synthetic Church Account 0274,church,Sales Rep A,faith_community,Harvest,35749,2023-04-19,2025-07-20,active,False,True
+ACCT_00275,Synthetic Local Business Account 0275,local_business,Sales Rep C,service_business,Madison,35758,2025-04-06,2025-08-12,new,True,True
+ACCT_00276,Synthetic Church Account 0276,church,Group Sales Rep A,faith_community,Meridianville,35759,2023-06-09,2025-07-03,new,False,True
+ACCT_00277,Synthetic Church Account 0277,church,Sales Rep B,faith_community,Athens,35611,2023-07-26,2025-04-25,lapsed,False,True
+ACCT_00278,Synthetic Community Group Account 0278,community_group,Sales Rep A,community,Madison,35758,2023-06-09,2023-09-07,renewal_target,False,True
+ACCT_00279,Synthetic Youth Sports Account 0279,youth_sports,Group Sales Rep A,youth_sports,Huntsville,35801,2025-04-10,2025-04-25,lapsed,False,True
+ACCT_00280,Synthetic Corporate Account 0280,corporate,Group Sales Rep B,technology,Florence,35630,2024-05-25,2024-07-23,lapsed,True,True
+ACCT_00281,Synthetic School Account 0281,school,Sales Rep A,education,Harvest,35749,2023-08-27,2025-05-28,new,True,True
+ACCT_00282,Synthetic Corporate Account 0282,corporate,Sales Rep A,finance,Madison,35758,2023-04-21,2024-09-06,active,True,True
+ACCT_00283,Synthetic Corporate Account 0283,corporate,Group Sales Rep A,construction,Cullman,35055,2023-05-25,2023-08-22,renewal_target,True,True
+ACCT_00284,Synthetic Local Business Account 0284,local_business,Business Development Rep,restaurant,Decatur,35601,2023-05-17,2024-04-26,active,True,True
+ACCT_00285,Synthetic Youth Sports Account 0285,youth_sports,Business Development Rep,youth_sports,Owens Cross Roads,35763,2023-04-07,2023-07-25,active,False,True
+ACCT_00286,Synthetic School Account 0286,school,Group Sales Rep B,education,Decatur,35601,2023-06-06,2024-07-28,new,False,True
+ACCT_00287,Synthetic Youth Sports Account 0287,youth_sports,Business Development Rep,youth_sports,Hazel Green,35750,2024-07-05,2025-07-30,new,False,True
+ACCT_00288,Synthetic Local Business Account 0288,local_business,Sales Rep A,retail,Florence,35630,2023-07-08,2025-08-30,new,True,True
+ACCT_00289,Synthetic Church Account 0289,church,Group Sales Rep A,faith_community,Athens,35611,2023-05-24,2024-09-01,active,False,True
+ACCT_00290,Synthetic School Account 0290,school,Group Sales Rep A,education,Cullman,35055,2023-07-07,2024-09-06,active,False,True
+ACCT_00291,Synthetic Corporate Account 0291,corporate,Group Sales Rep B,finance,Cullman,35055,2023-09-07,2024-08-29,active,True,True
+ACCT_00292,Synthetic Youth Sports Account 0292,youth_sports,Business Development Rep,youth_sports,Florence,35630,2023-05-07,2023-05-18,renewal_target,False,True
+ACCT_00293,Synthetic Church Account 0293,church,Sales Rep A,faith_community,Meridianville,35759,2025-04-23,2025-05-07,lapsed,False,True
+ACCT_00294,Synthetic Church Account 0294,church,Sales Rep C,faith_community,Harvest,35749,2025-05-11,2025-08-03,new,False,True
+ACCT_00295,Synthetic Community Group Account 0295,community_group,Sales Rep C,community,Hazel Green,35750,2023-04-22,2025-08-13,lapsed,False,True
+ACCT_00296,Synthetic Church Account 0296,church,Group Sales Rep B,faith_community,Meridianville,35759,2023-07-08,2024-08-08,active,False,True
+ACCT_00297,Synthetic School Account 0297,school,Sales Rep B,education,Huntsville,35801,2025-05-28,2025-09-12,new,False,True
+ACCT_00298,Synthetic Nonprofit Account 0298,nonprofit,Sales Rep A,nonprofit,Florence,35630,2023-05-03,2023-08-09,active,False,True
+ACCT_00299,Synthetic Corporate Account 0299,corporate,Sales Rep A,professional_services,Decatur,35601,2023-07-05,2023-09-07,active,True,True
+ACCT_00300,Synthetic School Account 0300,school,Sales Rep C,education,Decatur,35601,2024-05-11,2025-04-11,active,False,True
+ACCT_00301,Synthetic Community Group Account 0301,community_group,Sales Rep B,community,Harvest,35749,2023-07-07,2023-08-11,active,False,True
+ACCT_00302,Synthetic Community Group Account 0302,community_group,Group Sales Rep A,community,Cullman,35055,2023-06-08,2024-09-05,active,False,True
+ACCT_00303,Synthetic Corporate Account 0303,corporate,Sales Rep A,technology,Madison,35758,2023-05-27,2025-04-09,active,True,True
+ACCT_00304,Synthetic School Account 0304,school,Sales Rep C,education,Florence,35630,2023-08-13,2025-07-18,active,False,True
+ACCT_00305,Synthetic Corporate Account 0305,corporate,Business Development Rep,professional_services,Cullman,35055,2023-06-10,2025-04-05,new,True,True
+ACCT_00306,Synthetic Community Group Account 0306,community_group,Sales Rep A,community,Huntsville,35801,2024-05-25,2024-07-04,active,False,True
+ACCT_00307,Synthetic Nonprofit Account 0307,nonprofit,Sales Rep A,nonprofit,Meridianville,35759,2025-04-13,2025-05-09,active,False,True
+ACCT_00308,Synthetic School Account 0308,school,Sales Rep A,education,Owens Cross Roads,35763,2025-05-06,2025-08-16,renewal_target,False,True
+ACCT_00309,Synthetic Local Business Account 0309,local_business,Sales Rep B,restaurant,Meridianville,35759,2023-08-13,2024-08-29,lapsed,True,True
+ACCT_00310,Synthetic School Account 0310,school,Sales Rep C,education,Harvest,35749,2023-04-21,2024-07-09,new,False,True
+ACCT_00311,Synthetic School Account 0311,school,Business Development Rep,education,Huntsville,35801,2025-04-23,2025-06-11,active,False,True
+ACCT_00312,Synthetic Community Group Account 0312,community_group,Group Sales Rep A,community,Decatur,35601,2023-09-09,2025-08-13,active,False,True
+ACCT_00313,Synthetic School Account 0313,school,Group Sales Rep A,education,Madison,35758,2023-05-02,2023-05-19,active,False,True
+ACCT_00314,Synthetic Youth Sports Account 0314,youth_sports,Sales Rep C,youth_sports,Harvest,35749,2025-06-12,2025-09-13,new,False,True
+ACCT_00315,Synthetic Corporate Account 0315,corporate,Group Sales Rep B,manufacturing,Harvest,35749,2023-08-25,2025-08-16,active,True,True
+ACCT_00316,Synthetic Church Account 0316,church,Sales Rep A,faith_community,Athens,35611,2023-08-11,2024-08-11,active,False,True
+ACCT_00317,Synthetic Corporate Account 0317,corporate,Business Development Rep,finance,Hazel Green,35750,2024-05-26,2024-08-09,new,True,True
+ACCT_00318,Synthetic School Account 0318,school,Group Sales Rep B,education,Owens Cross Roads,35763,2023-05-28,2024-07-25,active,False,True
+ACCT_00319,Synthetic Local Business Account 0319,local_business,Business Development Rep,retail,Owens Cross Roads,35763,2025-07-29,2025-07-31,active,True,True
+ACCT_00320,Synthetic Nonprofit Account 0320,nonprofit,Business Development Rep,nonprofit,Florence,35630,2024-08-28,2025-07-18,new,False,True
+ACCT_00321,Synthetic Youth Sports Account 0321,youth_sports,Group Sales Rep A,youth_sports,Florence,35630,2023-08-10,2024-05-22,renewal_target,False,True
+ACCT_00322,Synthetic Local Business Account 0322,local_business,Sales Rep C,service_business,Cullman,35055,2024-05-22,2025-05-07,active,True,True
+ACCT_00323,Synthetic School Account 0323,school,Business Development Rep,education,Cullman,35055,2025-04-24,2025-05-30,active,False,True
+ACCT_00324,Synthetic Church Account 0324,church,Group Sales Rep A,faith_community,Harvest,35749,2023-04-23,2025-06-19,active,False,True
+ACCT_00325,Synthetic Youth Sports Account 0325,youth_sports,Business Development Rep,youth_sports,Huntsville,35801,2024-06-23,2024-07-04,new,False,True
+ACCT_00326,Synthetic Nonprofit Account 0326,nonprofit,Sales Rep B,nonprofit,Madison,35758,2024-05-25,2025-05-27,new,False,True
+ACCT_00327,Synthetic Youth Sports Account 0327,youth_sports,Business Development Rep,youth_sports,Owens Cross Roads,35763,2023-05-02,2024-04-14,renewal_target,False,True
+ACCT_00328,Synthetic Youth Sports Account 0328,youth_sports,Sales Rep A,youth_sports,Decatur,35601,2023-07-05,2024-05-25,active,False,True
+ACCT_00329,Synthetic Nonprofit Account 0329,nonprofit,Sales Rep A,nonprofit,Owens Cross Roads,35763,2023-07-09,2025-05-09,renewal_target,False,True
+ACCT_00330,Synthetic Local Business Account 0330,local_business,Sales Rep B,service_business,Hazel Green,35750,2023-07-28,2024-08-31,active,True,True
+ACCT_00331,Synthetic Church Account 0331,church,Group Sales Rep B,faith_community,Athens,35611,2023-07-27,2025-08-13,active,False,True
+ACCT_00332,Synthetic Corporate Account 0332,corporate,Group Sales Rep A,manufacturing,Harvest,35749,2023-05-20,2023-07-26,active,True,True
+ACCT_00333,Synthetic Youth Sports Account 0333,youth_sports,Sales Rep C,youth_sports,Cullman,35055,2024-04-14,2025-08-16,active,False,True
+ACCT_00334,Synthetic Corporate Account 0334,corporate,Sales Rep A,manufacturing,Owens Cross Roads,35763,2023-07-25,2023-09-05,active,True,True
+ACCT_00335,Synthetic Corporate Account 0335,corporate,Sales Rep C,professional_services,Huntsville,35801,2024-07-28,2025-06-18,new,True,True
+ACCT_00336,Synthetic Community Group Account 0336,community_group,Business Development Rep,community,Huntsville,35801,2023-09-05,2025-04-08,new,False,True
+ACCT_00337,Synthetic Corporate Account 0337,corporate,Group Sales Rep A,manufacturing,Athens,35611,2024-08-10,2025-05-11,new,True,True
+ACCT_00338,Synthetic Healthcare Account 0338,healthcare,Sales Rep A,healthcare,Florence,35630,2024-05-11,2025-08-01,lapsed,True,True
+ACCT_00339,Synthetic Corporate Account 0339,corporate,Business Development Rep,technology,Athens,35611,2023-07-30,2025-06-10,renewal_target,True,True
+ACCT_00340,Synthetic Church Account 0340,church,Group Sales Rep B,faith_community,Harvest,35749,2024-04-12,2024-04-23,new,False,True
+ACCT_00341,Synthetic Corporate Account 0341,corporate,Sales Rep B,construction,Harvest,35749,2023-07-04,2024-04-14,new,True,True
+ACCT_00342,Synthetic Corporate Account 0342,corporate,Group Sales Rep A,professional_services,Harvest,35749,2023-09-06,2024-06-06,new,True,True
+ACCT_00343,Synthetic School Account 0343,school,Group Sales Rep B,education,Owens Cross Roads,35763,2023-05-19,2025-05-11,active,False,True
+ACCT_00344,Synthetic Church Account 0344,church,Business Development Rep,faith_community,Meridianville,35759,2023-04-06,2025-07-29,new,False,True
+ACCT_00345,Synthetic Community Group Account 0345,community_group,Sales Rep C,community,Huntsville,35801,2023-04-06,2024-04-24,renewal_target,False,True
+ACCT_00346,Synthetic School Account 0346,school,Sales Rep B,education,Decatur,35601,2023-05-16,2023-09-09,active,True,True
+ACCT_00347,Synthetic Local Business Account 0347,local_business,Sales Rep A,service_business,Meridianville,35759,2025-05-28,2025-09-14,active,True,True
+ACCT_00348,Synthetic Corporate Account 0348,corporate,Business Development Rep,professional_services,Harvest,35749,2023-06-10,2023-07-30,active,True,True
+ACCT_00349,Synthetic Corporate Account 0349,corporate,Sales Rep C,technology,Harvest,35749,2023-09-09,2025-08-16,new,True,True
+ACCT_00350,Synthetic Nonprofit Account 0350,nonprofit,Group Sales Rep B,nonprofit,Harvest,35749,2025-04-06,2025-08-15,lapsed,False,True
+ACCT_00351,Synthetic Youth Sports Account 0351,youth_sports,Sales Rep B,youth_sports,Meridianville,35759,2023-07-05,2024-08-31,lapsed,False,True
+ACCT_00352,Synthetic Corporate Account 0352,corporate,Sales Rep A,manufacturing,Athens,35611,2023-05-24,2024-04-23,new,True,True
+ACCT_00353,Synthetic School Account 0353,school,Group Sales Rep B,education,Decatur,35601,2023-07-26,2024-09-03,renewal_target,False,True
+ACCT_00354,Synthetic Corporate Account 0354,corporate,Sales Rep B,finance,Huntsville,35801,2023-08-26,2023-09-05,renewal_target,True,True
+ACCT_00355,Synthetic School Account 0355,school,Sales Rep A,education,Cullman,35055,2024-07-14,2025-08-01,active,False,True
+ACCT_00356,Synthetic Nonprofit Account 0356,nonprofit,Sales Rep C,nonprofit,Huntsville,35801,2024-05-24,2025-04-10,active,False,True
+ACCT_00357,Synthetic Healthcare Account 0357,healthcare,Business Development Rep,healthcare,Owens Cross Roads,35763,2024-07-12,2024-08-06,renewal_target,True,True
+ACCT_00358,Synthetic Church Account 0358,church,Sales Rep B,faith_community,Hazel Green,35750,2024-07-10,2025-08-15,renewal_target,False,True
+ACCT_00359,Synthetic Corporate Account 0359,corporate,Business Development Rep,finance,Huntsville,35801,2024-04-24,2025-04-13,active,True,True
+ACCT_00360,Synthetic Corporate Account 0360,corporate,Business Development Rep,finance,Cullman,35055,2023-09-10,2024-08-30,new,True,True
+ACCT_00361,Synthetic Community Group Account 0361,community_group,Sales Rep B,community,Hazel Green,35750,2023-05-18,2024-06-21,renewal_target,False,True
+ACCT_00362,Synthetic Corporate Account 0362,corporate,Sales Rep A,construction,Meridianville,35759,2023-07-06,2025-08-27,active,True,True
+ACCT_00363,Synthetic Corporate Account 0363,corporate,Business Development Rep,construction,Meridianville,35759,2025-06-17,2025-06-22,new,True,True
+ACCT_00364,Synthetic School Account 0364,school,Group Sales Rep B,education,Madison,35758,2024-05-08,2024-05-10,active,False,True
+ACCT_00365,Synthetic Local Business Account 0365,local_business,Business Development Rep,service_business,Athens,35611,2023-05-03,2025-06-21,renewal_target,True,True
+ACCT_00366,Synthetic Church Account 0366,church,Sales Rep C,faith_community,Florence,35630,2023-07-26,2024-06-07,renewal_target,False,True
+ACCT_00367,Synthetic Nonprofit Account 0367,nonprofit,Sales Rep A,nonprofit,Hazel Green,35750,2024-05-10,2024-07-10,new,False,True
+ACCT_00368,Synthetic Youth Sports Account 0368,youth_sports,Sales Rep C,youth_sports,Florence,35630,2023-08-24,2024-06-21,new,False,True
+ACCT_00369,Synthetic Youth Sports Account 0369,youth_sports,Group Sales Rep B,youth_sports,Athens,35611,2023-05-20,2025-05-29,renewal_target,False,True
+ACCT_00370,Synthetic Nonprofit Account 0370,nonprofit,Group Sales Rep A,nonprofit,Cullman,35055,2024-07-05,2025-04-05,new,True,True
+ACCT_00371,Synthetic Nonprofit Account 0371,nonprofit,Sales Rep B,nonprofit,Harvest,35749,2025-04-05,2025-04-12,active,False,True
+ACCT_00372,Synthetic Corporate Account 0372,corporate,Sales Rep B,technology,Hazel Green,35750,2023-08-22,2025-06-01,active,True,True
+ACCT_00373,Synthetic School Account 0373,school,Group Sales Rep A,education,Madison,35758,2023-07-06,2025-04-23,new,False,True
+ACCT_00374,Synthetic School Account 0374,school,Business Development Rep,education,Owens Cross Roads,35763,2024-07-13,2025-08-03,active,False,True
+ACCT_00375,Synthetic Local Business Account 0375,local_business,Sales Rep A,restaurant,Florence,35630,2024-07-11,2025-05-31,lapsed,True,True
+ACCT_00376,Synthetic Youth Sports Account 0376,youth_sports,Sales Rep A,youth_sports,Meridianville,35759,2025-06-12,2025-09-12,renewal_target,False,True
+ACCT_00377,Synthetic School Account 0377,school,Group Sales Rep A,education,Owens Cross Roads,35763,2023-05-21,2025-04-05,renewal_target,False,True
+ACCT_00378,Synthetic Local Business Account 0378,local_business,Group Sales Rep A,retail,Hazel Green,35750,2024-04-10,2024-08-31,renewal_target,True,True
+ACCT_00379,Synthetic School Account 0379,school,Sales Rep B,education,Hazel Green,35750,2023-07-28,2023-09-08,active,False,True
+ACCT_00380,Synthetic Local Business Account 0380,local_business,Sales Rep B,service_business,Madison,35758,2023-06-08,2024-08-11,active,True,True
+ACCT_00381,Synthetic School Account 0381,school,Sales Rep C,education,Hazel Green,35750,2024-04-23,2025-06-13,renewal_target,False,True
+ACCT_00382,Synthetic Nonprofit Account 0382,nonprofit,Business Development Rep,nonprofit,Athens,35611,2024-04-23,2024-05-26,active,False,True
+ACCT_00383,Synthetic Corporate Account 0383,corporate,Group Sales Rep A,manufacturing,Harvest,35749,2023-05-19,2025-08-02,active,True,True
+ACCT_00384,Synthetic Community Group Account 0384,community_group,Group Sales Rep A,community,Decatur,35601,2023-08-11,2024-06-06,active,False,True
+ACCT_00385,Synthetic Church Account 0385,church,Group Sales Rep A,faith_community,Meridianville,35759,2023-07-04,2024-07-06,active,False,True
+ACCT_00386,Synthetic School Account 0386,school,Group Sales Rep A,education,Athens,35611,2023-05-18,2023-06-10,active,False,True
+ACCT_00387,Synthetic Corporate Account 0387,corporate,Sales Rep A,finance,Harvest,35749,2023-06-11,2024-04-10,active,True,True
+ACCT_00388,Synthetic Corporate Account 0388,corporate,Sales Rep C,manufacturing,Cullman,35055,2024-05-26,2024-06-08,lapsed,True,True
+ACCT_00389,Synthetic Community Group Account 0389,community_group,Group Sales Rep B,community,Decatur,35601,2023-08-26,2025-08-17,new,False,True
+ACCT_00390,Synthetic Community Group Account 0390,community_group,Group Sales Rep B,community,Athens,35611,2025-04-04,2025-09-11,lapsed,False,True
+ACCT_00391,Synthetic Church Account 0391,church,Group Sales Rep A,faith_community,Madison,35758,2024-04-26,2025-09-12,active,False,True
+ACCT_00392,Synthetic School Account 0392,school,Sales Rep A,education,Owens Cross Roads,35763,2023-09-09,2025-06-01,active,False,True
+ACCT_00393,Synthetic School Account 0393,school,Group Sales Rep A,education,Madison,35758,2023-08-24,2025-05-30,active,False,True
+ACCT_00394,Synthetic Nonprofit Account 0394,nonprofit,Group Sales Rep A,nonprofit,Cullman,35055,2023-05-07,2023-06-06,new,False,True
+ACCT_00395,Synthetic Corporate Account 0395,corporate,Sales Rep C,technology,Huntsville,35801,2023-06-21,2025-05-06,lapsed,True,True
+ACCT_00396,Synthetic Church Account 0396,church,Sales Rep B,faith_community,Athens,35611,2024-05-25,2025-06-17,active,False,True
+ACCT_00397,Synthetic Church Account 0397,church,Business Development Rep,faith_community,Meridianville,35759,2023-07-28,2024-07-04,lapsed,False,True
+ACCT_00398,Synthetic Youth Sports Account 0398,youth_sports,Group Sales Rep A,youth_sports,Harvest,35749,2023-09-07,2025-04-23,new,False,True
+ACCT_00399,Synthetic Corporate Account 0399,corporate,Business Development Rep,professional_services,Owens Cross Roads,35763,2023-05-28,2025-06-14,active,True,True
+ACCT_00400,Synthetic Local Business Account 0400,local_business,Sales Rep C,restaurant,Florence,35630,2024-07-05,2025-08-02,active,True,True
+ACCT_00401,Synthetic School Account 0401,school,Sales Rep A,education,Harvest,35749,2023-06-09,2025-05-06,new,False,True
+ACCT_00402,Synthetic Community Group Account 0402,community_group,Sales Rep C,community,Owens Cross Roads,35763,2025-04-24,2025-04-27,new,False,True
+ACCT_00403,Synthetic Corporate Account 0403,corporate,Sales Rep B,technology,Cullman,35055,2024-05-23,2024-09-08,active,True,True
+ACCT_00404,Synthetic Nonprofit Account 0404,nonprofit,Group Sales Rep B,nonprofit,Athens,35611,2023-07-25,2024-08-28,lapsed,False,True
+ACCT_00405,Synthetic Healthcare Account 0405,healthcare,Sales Rep A,healthcare,Hazel Green,35750,2024-08-07,2025-07-31,lapsed,True,True
+ACCT_00406,Synthetic Youth Sports Account 0406,youth_sports,Group Sales Rep A,youth_sports,Athens,35611,2023-06-06,2025-06-14,new,False,True
+ACCT_00407,Synthetic Corporate Account 0407,corporate,Sales Rep C,finance,Owens Cross Roads,35763,2023-05-05,2023-05-24,active,True,True
+ACCT_00408,Synthetic Corporate Account 0408,corporate,Group Sales Rep B,professional_services,Harvest,35749,2024-05-22,2025-08-27,active,True,True
+ACCT_00409,Synthetic Nonprofit Account 0409,nonprofit,Sales Rep C,nonprofit,Meridianville,35759,2023-08-10,2025-06-18,active,False,True
+ACCT_00410,Synthetic Corporate Account 0410,corporate,Sales Rep B,finance,Meridianville,35759,2024-04-14,2025-09-14,renewal_target,True,True
+ACCT_00411,Synthetic Local Business Account 0411,local_business,Business Development Rep,restaurant,Owens Cross Roads,35763,2023-06-21,2023-08-27,lapsed,True,True
+ACCT_00412,Synthetic Corporate Account 0412,corporate,Sales Rep B,technology,Decatur,35601,2024-05-26,2025-08-26,active,True,True
+ACCT_00413,Synthetic School Account 0413,school,Sales Rep C,education,Athens,35611,2023-09-05,2025-04-06,active,False,True
+ACCT_00414,Synthetic Youth Sports Account 0414,youth_sports,Business Development Rep,youth_sports,Madison,35758,2024-07-14,2025-07-03,active,False,True
+ACCT_00415,Synthetic Church Account 0415,church,Sales Rep A,faith_community,Meridianville,35759,2024-06-21,2025-04-05,active,False,True
+ACCT_00416,Synthetic School Account 0416,school,Business Development Rep,education,Florence,35630,2024-04-10,2024-07-12,active,False,True
+ACCT_00417,Synthetic Local Business Account 0417,local_business,Sales Rep A,service_business,Harvest,35749,2024-05-12,2024-08-11,active,True,True
+ACCT_00418,Synthetic Corporate Account 0418,corporate,Group Sales Rep B,technology,Huntsville,35801,2024-09-08,2025-04-09,active,True,True
+ACCT_00419,Synthetic Corporate Account 0419,corporate,Group Sales Rep A,manufacturing,Owens Cross Roads,35763,2024-05-26,2024-08-28,active,True,True
+ACCT_00420,Synthetic Youth Sports Account 0420,youth_sports,Group Sales Rep B,youth_sports,Athens,35611,2025-04-11,2025-08-31,active,False,True
+ACCT_00421,Synthetic Youth Sports Account 0421,youth_sports,Group Sales Rep B,youth_sports,Owens Cross Roads,35763,2023-05-04,2024-06-05,active,False,True
+ACCT_00422,Synthetic Corporate Account 0422,corporate,Group Sales Rep A,construction,Huntsville,35801,2025-05-27,2025-09-10,renewal_target,True,True
+ACCT_00423,Synthetic Youth Sports Account 0423,youth_sports,Sales Rep A,youth_sports,Madison,35758,2023-08-11,2025-04-08,new,False,True
+ACCT_00424,Synthetic Corporate Account 0424,corporate,Group Sales Rep A,manufacturing,Florence,35630,2023-09-09,2024-07-10,active,True,True
+ACCT_00425,Synthetic Healthcare Account 0425,healthcare,Business Development Rep,healthcare,Meridianville,35759,2023-06-09,2024-04-11,new,True,True
+ACCT_00426,Synthetic Corporate Account 0426,corporate,Group Sales Rep B,construction,Owens Cross Roads,35763,2023-05-05,2024-05-25,lapsed,True,True
+ACCT_00427,Synthetic School Account 0427,school,Sales Rep C,education,Florence,35630,2023-05-03,2024-07-13,renewal_target,False,True
+ACCT_00428,Synthetic Community Group Account 0428,community_group,Group Sales Rep B,community,Owens Cross Roads,35763,2023-05-17,2023-06-21,renewal_target,False,True
+ACCT_00429,Synthetic Corporate Account 0429,corporate,Sales Rep B,finance,Decatur,35601,2023-07-25,2024-08-29,lapsed,True,True
+ACCT_00430,Synthetic Corporate Account 0430,corporate,Group Sales Rep B,construction,Decatur,35601,2024-06-22,2025-05-30,active,True,True
+ACCT_00431,Synthetic School Account 0431,school,Sales Rep A,education,Hazel Green,35750,2025-04-09,2025-09-11,active,False,True
+ACCT_00432,Synthetic School Account 0432,school,Group Sales Rep B,education,Meridianville,35759,2025-04-11,2025-08-02,new,False,True
+ACCT_00433,Synthetic Healthcare Account 0433,healthcare,Sales Rep A,healthcare,Harvest,35749,2023-07-30,2024-06-18,renewal_target,True,True
+ACCT_00434,Synthetic Corporate Account 0434,corporate,Sales Rep B,construction,Harvest,35749,2023-07-09,2025-04-24,active,True,True
+ACCT_00435,Synthetic School Account 0435,school,Business Development Rep,education,Florence,35630,2023-06-20,2024-07-06,active,False,True
+ACCT_00436,Synthetic School Account 0436,school,Business Development Rep,education,Florence,35630,2023-05-26,2023-08-23,active,False,True
+ACCT_00437,Synthetic Nonprofit Account 0437,nonprofit,Group Sales Rep A,nonprofit,Athens,35611,2023-08-09,2024-04-26,active,False,True
+ACCT_00438,Synthetic Church Account 0438,church,Sales Rep B,faith_community,Cullman,35055,2025-04-12,2025-06-17,new,False,True
+ACCT_00439,Synthetic Nonprofit Account 0439,nonprofit,Sales Rep A,nonprofit,Florence,35630,2023-04-23,2024-08-10,new,False,True
+ACCT_00440,Synthetic Corporate Account 0440,corporate,Business Development Rep,professional_services,Decatur,35601,2024-08-10,2025-08-17,active,True,True
+ACCT_00441,Synthetic Corporate Account 0441,corporate,Business Development Rep,technology,Owens Cross Roads,35763,2025-04-24,2025-06-20,new,True,True
+ACCT_00442,Synthetic School Account 0442,school,Sales Rep C,education,Harvest,35749,2023-05-26,2023-06-24,renewal_target,False,True
+ACCT_00443,Synthetic Youth Sports Account 0443,youth_sports,Sales Rep C,youth_sports,Cullman,35055,2024-09-04,2024-09-07,lapsed,True,True
+ACCT_00444,Synthetic School Account 0444,school,Sales Rep A,education,Decatur,35601,2023-06-23,2023-07-30,active,False,True
+ACCT_00445,Synthetic Youth Sports Account 0445,youth_sports,Sales Rep C,youth_sports,Owens Cross Roads,35763,2024-04-27,2025-04-11,active,False,True
+ACCT_00446,Synthetic Youth Sports Account 0446,youth_sports,Group Sales Rep A,youth_sports,Hazel Green,35750,2023-05-06,2025-07-02,new,False,True
+ACCT_00447,Synthetic Local Business Account 0447,local_business,Sales Rep A,restaurant,Huntsville,35801,2023-05-06,2023-05-27,active,True,True
+ACCT_00448,Synthetic Youth Sports Account 0448,youth_sports,Group Sales Rep A,youth_sports,Athens,35611,2024-07-24,2025-04-11,active,False,True
+ACCT_00449,Synthetic Youth Sports Account 0449,youth_sports,Sales Rep C,youth_sports,Cullman,35055,2025-05-28,2025-08-26,active,False,True
+ACCT_00450,Synthetic Youth Sports Account 0450,youth_sports,Sales Rep B,youth_sports,Florence,35630,2023-08-23,2025-07-02,active,False,True
+ACCT_00451,Synthetic Youth Sports Account 0451,youth_sports,Sales Rep B,youth_sports,Meridianville,35759,2023-05-05,2023-08-26,active,False,True
+ACCT_00452,Synthetic Church Account 0452,church,Business Development Rep,faith_community,Hazel Green,35750,2024-08-09,2025-08-17,active,False,True
+ACCT_00453,Synthetic Local Business Account 0453,local_business,Sales Rep B,retail,Harvest,35749,2025-04-24,2025-05-10,active,True,True
+ACCT_00454,Synthetic Community Group Account 0454,community_group,Sales Rep A,community,Owens Cross Roads,35763,2024-05-21,2024-07-04,renewal_target,False,True
+ACCT_00455,Synthetic School Account 0455,school,Group Sales Rep A,education,Madison,35758,2023-05-28,2024-07-04,renewal_target,False,True
+ACCT_00456,Synthetic Corporate Account 0456,corporate,Group Sales Rep A,professional_services,Hazel Green,35750,2023-05-04,2024-08-07,active,True,True
+ACCT_00457,Synthetic School Account 0457,school,Sales Rep B,education,Huntsville,35801,2023-08-08,2025-06-12,renewal_target,False,True
+ACCT_00458,Synthetic Corporate Account 0458,corporate,Group Sales Rep B,technology,Hazel Green,35750,2023-05-27,2025-06-18,active,True,True
+ACCT_00459,Synthetic Healthcare Account 0459,healthcare,Business Development Rep,healthcare,Owens Cross Roads,35763,2023-06-24,2025-06-10,active,True,True
+ACCT_00460,Synthetic Community Group Account 0460,community_group,Group Sales Rep B,community,Hazel Green,35750,2025-04-12,2025-08-14,active,False,True
+ACCT_00461,Synthetic Youth Sports Account 0461,youth_sports,Sales Rep B,youth_sports,Madison,35758,2023-05-18,2025-08-12,active,False,True
+ACCT_00462,Synthetic Nonprofit Account 0462,nonprofit,Sales Rep C,nonprofit,Decatur,35601,2024-04-25,2024-08-28,new,False,True
+ACCT_00463,Synthetic Local Business Account 0463,local_business,Sales Rep A,restaurant,Florence,35630,2023-06-21,2025-05-07,new,True,True
+ACCT_00464,Synthetic Corporate Account 0464,corporate,Sales Rep C,construction,Athens,35611,2023-08-12,2025-04-04,new,True,True
+ACCT_00465,Synthetic Corporate Account 0465,corporate,Group Sales Rep B,manufacturing,Madison,35758,2024-04-10,2024-08-11,active,True,True
+ACCT_00466,Synthetic Church Account 0466,church,Business Development Rep,faith_community,Cullman,35055,2023-06-10,2024-04-10,active,False,True
+ACCT_00467,Synthetic Church Account 0467,church,Group Sales Rep B,faith_community,Madison,35758,2023-07-30,2024-05-21,new,False,True
+ACCT_00468,Synthetic Corporate Account 0468,corporate,Sales Rep A,technology,Owens Cross Roads,35763,2024-07-06,2025-06-13,lapsed,True,True
+ACCT_00469,Synthetic Local Business Account 0469,local_business,Sales Rep A,retail,Cullman,35055,2023-05-23,2024-06-06,active,True,True
+ACCT_00470,Synthetic Corporate Account 0470,corporate,Group Sales Rep A,construction,Huntsville,35801,2023-07-09,2024-04-12,active,True,True
+ACCT_00471,Synthetic Corporate Account 0471,corporate,Sales Rep C,professional_services,Owens Cross Roads,35763,2023-07-04,2024-04-13,new,True,True
+ACCT_00472,Synthetic Healthcare Account 0472,healthcare,Group Sales Rep A,healthcare,Florence,35630,2024-09-07,2025-07-31,active,True,True
+ACCT_00473,Synthetic Corporate Account 0473,corporate,Group Sales Rep B,manufacturing,Meridianville,35759,2023-04-23,2023-08-13,active,True,True
+ACCT_00474,Synthetic Youth Sports Account 0474,youth_sports,Group Sales Rep B,youth_sports,Decatur,35601,2023-04-20,2023-07-05,active,False,True
+ACCT_00475,Synthetic School Account 0475,school,Sales Rep A,education,Hazel Green,35750,2023-09-07,2024-07-27,renewal_target,False,True
+ACCT_00476,Synthetic School Account 0476,school,Sales Rep A,education,Decatur,35601,2024-07-10,2025-08-03,active,False,True
+ACCT_00477,Synthetic School Account 0477,school,Sales Rep B,education,Madison,35758,2024-06-04,2024-06-18,active,False,True
+ACCT_00478,Synthetic Church Account 0478,church,Sales Rep C,faith_community,Decatur,35601,2023-08-13,2024-04-10,active,False,True
+ACCT_00479,Synthetic Nonprofit Account 0479,nonprofit,Group Sales Rep B,nonprofit,Owens Cross Roads,35763,2023-08-24,2024-09-01,active,False,True
+ACCT_00480,Synthetic Nonprofit Account 0480,nonprofit,Group Sales Rep B,nonprofit,Harvest,35749,2024-06-08,2025-08-29,active,False,True
+ACCT_00481,Synthetic Nonprofit Account 0481,nonprofit,Business Development Rep,nonprofit,Huntsville,35801,2023-05-03,2023-08-24,renewal_target,False,True
+ACCT_00482,Synthetic Youth Sports Account 0482,youth_sports,Sales Rep B,youth_sports,Decatur,35601,2024-09-07,2025-09-12,active,False,True
+ACCT_00483,Synthetic Community Group Account 0483,community_group,Sales Rep C,community,Owens Cross Roads,35763,2024-07-25,2024-08-11,active,False,True
+ACCT_00484,Synthetic Youth Sports Account 0484,youth_sports,Group Sales Rep A,youth_sports,Huntsville,35801,2023-05-28,2025-05-10,active,False,True
+ACCT_00485,Synthetic Youth Sports Account 0485,youth_sports,Sales Rep C,youth_sports,Athens,35611,2025-06-10,2025-08-17,active,False,True
+ACCT_00486,Synthetic Youth Sports Account 0486,youth_sports,Sales Rep A,youth_sports,Huntsville,35801,2023-08-25,2024-05-26,renewal_target,False,True
+ACCT_00487,Synthetic Youth Sports Account 0487,youth_sports,Sales Rep A,youth_sports,Athens,35611,2024-04-11,2024-05-09,active,False,True
+ACCT_00488,Synthetic Community Group Account 0488,community_group,Sales Rep C,community,Decatur,35601,2023-07-29,2025-08-16,new,False,True
+ACCT_00489,Synthetic Local Business Account 0489,local_business,Group Sales Rep A,restaurant,Owens Cross Roads,35763,2023-05-17,2023-09-08,lapsed,True,True
+ACCT_00490,Synthetic Church Account 0490,church,Group Sales Rep B,faith_community,Harvest,35749,2025-04-24,2025-05-29,renewal_target,False,True
+ACCT_00491,Synthetic Church Account 0491,church,Business Development Rep,faith_community,Huntsville,35801,2025-08-02,2025-09-10,active,False,True
+ACCT_00492,Synthetic School Account 0492,school,Sales Rep C,education,Madison,35758,2024-06-20,2025-05-29,active,False,True
+ACCT_00493,Synthetic Youth Sports Account 0493,youth_sports,Group Sales Rep B,youth_sports,Decatur,35601,2023-04-08,2024-07-28,active,False,True
+ACCT_00494,Synthetic School Account 0494,school,Group Sales Rep B,education,Florence,35630,2023-05-27,2024-04-12,active,False,True
+ACCT_00495,Synthetic Corporate Account 0495,corporate,Business Development Rep,finance,Huntsville,35801,2023-08-23,2024-05-11,renewal_target,True,True
+ACCT_00496,Synthetic Nonprofit Account 0496,nonprofit,Group Sales Rep B,nonprofit,Decatur,35601,2023-05-21,2024-07-13,active,False,True
+ACCT_00497,Synthetic Church Account 0497,church,Group Sales Rep A,faith_community,Hazel Green,35750,2023-08-22,2025-05-27,active,False,True
+ACCT_00498,Synthetic Community Group Account 0498,community_group,Sales Rep C,community,Florence,35630,2024-07-26,2025-06-17,active,False,True
+ACCT_00499,Synthetic Community Group Account 0499,community_group,Business Development Rep,community,Cullman,35055,2023-04-07,2025-05-28,new,False,True
+ACCT_00500,Synthetic Nonprofit Account 0500,nonprofit,Group Sales Rep A,nonprofit,Decatur,35601,2023-05-04,2025-04-11,new,False,True
+ACCT_00501,Synthetic Nonprofit Account 0501,nonprofit,Group Sales Rep B,nonprofit,Madison,35758,2023-06-06,2024-05-09,renewal_target,False,True
+ACCT_00502,Synthetic Nonprofit Account 0502,nonprofit,Group Sales Rep A,nonprofit,Huntsville,35801,2024-07-10,2025-08-02,active,False,True
+ACCT_00503,Synthetic Corporate Account 0503,corporate,Sales Rep B,professional_services,Huntsville,35801,2024-05-10,2024-07-27,active,True,True
+ACCT_00504,Synthetic School Account 0504,school,Group Sales Rep A,education,Decatur,35601,2023-05-05,2024-06-06,new,False,True
+ACCT_00505,Synthetic School Account 0505,school,Business Development Rep,education,Cullman,35055,2024-08-09,2025-08-26,renewal_target,False,True
+ACCT_00506,Synthetic Community Group Account 0506,community_group,Business Development Rep,community,Owens Cross Roads,35763,2024-07-12,2024-08-08,renewal_target,False,True
+ACCT_00507,Synthetic Youth Sports Account 0507,youth_sports,Sales Rep C,youth_sports,Hazel Green,35750,2025-05-28,2025-08-15,new,True,True
+ACCT_00508,Synthetic Corporate Account 0508,corporate,Sales Rep C,professional_services,Owens Cross Roads,35763,2023-04-23,2025-07-29,lapsed,True,True
+ACCT_00509,Synthetic Youth Sports Account 0509,youth_sports,Group Sales Rep A,youth_sports,Huntsville,35801,2024-04-24,2024-07-24,renewal_target,False,True
+ACCT_00510,Synthetic Corporate Account 0510,corporate,Group Sales Rep A,construction,Decatur,35601,2024-08-29,2025-04-12,active,True,True
+ACCT_00511,Synthetic Local Business Account 0511,local_business,Sales Rep A,service_business,Owens Cross Roads,35763,2024-05-08,2024-07-09,renewal_target,True,True
+ACCT_00512,Synthetic Corporate Account 0512,corporate,Group Sales Rep B,finance,Madison,35758,2023-04-23,2025-04-05,active,True,True
+ACCT_00513,Synthetic Corporate Account 0513,corporate,Group Sales Rep A,manufacturing,Athens,35611,2023-04-19,2023-09-05,renewal_target,True,True
+ACCT_00514,Synthetic Corporate Account 0514,corporate,Sales Rep A,manufacturing,Harvest,35749,2024-05-24,2024-06-21,new,True,True
+ACCT_00515,Synthetic Healthcare Account 0515,healthcare,Group Sales Rep A,healthcare,Athens,35611,2024-04-12,2025-07-03,active,True,True
+ACCT_00516,Synthetic School Account 0516,school,Sales Rep A,education,Meridianville,35759,2023-04-19,2023-07-28,renewal_target,False,True
+ACCT_00517,Synthetic Corporate Account 0517,corporate,Business Development Rep,professional_services,Meridianville,35759,2023-07-27,2024-04-12,renewal_target,True,True
+ACCT_00518,Synthetic Church Account 0518,church,Sales Rep B,faith_community,Owens Cross Roads,35763,2024-04-28,2024-08-27,renewal_target,False,True
+ACCT_00519,Synthetic Youth Sports Account 0519,youth_sports,Sales Rep C,youth_sports,Owens Cross Roads,35763,2024-04-09,2024-07-24,new,False,True
+ACCT_00520,Synthetic Church Account 0520,church,Sales Rep C,faith_community,Florence,35630,2023-09-09,2024-07-06,active,False,True
+ACCT_00521,Synthetic Corporate Account 0521,corporate,Sales Rep C,professional_services,Florence,35630,2024-04-27,2024-07-27,new,True,True
+ACCT_00522,Synthetic Community Group Account 0522,community_group,Business Development Rep,community,Owens Cross Roads,35763,2024-06-08,2025-06-17,active,False,True
+ACCT_00523,Synthetic Nonprofit Account 0523,nonprofit,Group Sales Rep B,nonprofit,Decatur,35601,2023-06-23,2024-06-09,renewal_target,False,True
+ACCT_00524,Synthetic Local Business Account 0524,local_business,Group Sales Rep A,retail,Decatur,35601,2025-06-10,2025-06-21,renewal_target,True,True
+ACCT_00525,Synthetic Community Group Account 0525,community_group,Sales Rep B,community,Decatur,35601,2024-04-14,2025-07-02,renewal_target,False,True
+ACCT_00526,Synthetic Youth Sports Account 0526,youth_sports,Group Sales Rep A,youth_sports,Harvest,35749,2024-07-28,2024-08-07,active,False,True
+ACCT_00527,Synthetic Church Account 0527,church,Group Sales Rep B,faith_community,Hazel Green,35750,2023-07-04,2023-09-07,active,False,True
+ACCT_00528,Synthetic Church Account 0528,church,Group Sales Rep A,faith_community,Huntsville,35801,2024-05-09,2024-06-07,active,False,True
+ACCT_00529,Synthetic Nonprofit Account 0529,nonprofit,Business Development Rep,nonprofit,Cullman,35055,2024-07-24,2024-09-07,active,False,True
+ACCT_00530,Synthetic Community Group Account 0530,community_group,Group Sales Rep A,community,Owens Cross Roads,35763,2023-06-21,2025-04-23,renewal_target,False,True
+ACCT_00531,Synthetic Healthcare Account 0531,healthcare,Group Sales Rep B,healthcare,Athens,35611,2023-09-06,2025-08-01,new,True,True
+ACCT_00532,Synthetic School Account 0532,school,Sales Rep B,education,Harvest,35749,2023-07-30,2025-09-12,new,False,True
+ACCT_00533,Synthetic Youth Sports Account 0533,youth_sports,Sales Rep C,youth_sports,Decatur,35601,2023-08-09,2025-07-19,active,False,True
+ACCT_00534,Synthetic Church Account 0534,church,Sales Rep A,faith_community,Hazel Green,35750,2024-07-04,2024-08-28,renewal_target,False,True
+ACCT_00535,Synthetic School Account 0535,school,Sales Rep B,education,Huntsville,35801,2023-06-09,2023-06-20,active,False,True
+ACCT_00536,Synthetic Community Group Account 0536,community_group,Business Development Rep,community,Harvest,35749,2023-05-03,2023-07-25,new,False,True
+ACCT_00537,Synthetic Youth Sports Account 0537,youth_sports,Sales Rep A,youth_sports,Owens Cross Roads,35763,2024-09-01,2024-09-05,new,False,True
+ACCT_00538,Synthetic School Account 0538,school,Group Sales Rep A,education,Huntsville,35801,2023-05-03,2023-08-09,active,False,True
+ACCT_00539,Synthetic Corporate Account 0539,corporate,Sales Rep A,manufacturing,Owens Cross Roads,35763,2025-04-24,2025-07-18,lapsed,True,True
+ACCT_00540,Synthetic Nonprofit Account 0540,nonprofit,Business Development Rep,nonprofit,Owens Cross Roads,35763,2023-06-23,2025-05-10,active,False,True
+ACCT_00541,Synthetic Nonprofit Account 0541,nonprofit,Business Development Rep,nonprofit,Cullman,35055,2024-07-06,2025-09-10,renewal_target,False,True
+ACCT_00542,Synthetic Youth Sports Account 0542,youth_sports,Sales Rep A,youth_sports,Hazel Green,35750,2024-05-12,2024-05-26,renewal_target,False,True
+ACCT_00543,Synthetic Church Account 0543,church,Group Sales Rep B,faith_community,Hazel Green,35750,2023-05-17,2025-04-25,new,False,True
+ACCT_00544,Synthetic Nonprofit Account 0544,nonprofit,Sales Rep A,nonprofit,Owens Cross Roads,35763,2023-05-16,2024-04-10,renewal_target,False,True
+ACCT_00545,Synthetic Church Account 0545,church,Group Sales Rep A,faith_community,Huntsville,35801,2023-04-22,2023-05-19,new,False,True
+ACCT_00546,Synthetic Corporate Account 0546,corporate,Group Sales Rep A,finance,Harvest,35749,2023-07-09,2024-05-09,active,True,True
+ACCT_00547,Synthetic School Account 0547,school,Sales Rep B,education,Florence,35630,2023-05-04,2025-09-11,lapsed,False,True
+ACCT_00548,Synthetic Corporate Account 0548,corporate,Sales Rep B,professional_services,Florence,35630,2024-05-12,2024-08-27,active,True,True
+ACCT_00549,Synthetic Youth Sports Account 0549,youth_sports,Sales Rep A,youth_sports,Decatur,35601,2024-05-22,2024-08-30,active,False,True
+ACCT_00550,Synthetic Youth Sports Account 0550,youth_sports,Sales Rep A,youth_sports,Cullman,35055,2024-05-26,2024-07-10,new,False,True
+ACCT_00551,Synthetic Healthcare Account 0551,healthcare,Sales Rep A,healthcare,Athens,35611,2024-04-12,2024-04-13,new,True,True
+ACCT_00552,Synthetic Community Group Account 0552,community_group,Business Development Rep,community,Florence,35630,2023-08-10,2024-04-13,new,False,True
+ACCT_00553,Synthetic Youth Sports Account 0553,youth_sports,Group Sales Rep B,youth_sports,Florence,35630,2023-05-24,2024-04-11,lapsed,False,True
+ACCT_00554,Synthetic Community Group Account 0554,community_group,Sales Rep C,community,Madison,35758,2025-06-14,2025-07-01,renewal_target,False,True
+ACCT_00555,Synthetic Healthcare Account 0555,healthcare,Group Sales Rep B,healthcare,Meridianville,35759,2023-06-10,2025-05-27,active,True,True
+ACCT_00556,Synthetic Community Group Account 0556,community_group,Sales Rep C,community,Cullman,35055,2023-05-05,2024-04-28,new,False,True
+ACCT_00557,Synthetic Youth Sports Account 0557,youth_sports,Business Development Rep,youth_sports,Florence,35630,2023-06-11,2023-08-26,renewal_target,False,True
+ACCT_00558,Synthetic Youth Sports Account 0558,youth_sports,Group Sales Rep A,youth_sports,Huntsville,35801,2023-09-09,2025-08-01,active,False,True
+ACCT_00559,Synthetic Church Account 0559,church,Group Sales Rep B,faith_community,Harvest,35749,2023-09-05,2024-06-04,lapsed,False,True
+ACCT_00560,Synthetic Nonprofit Account 0560,nonprofit,Sales Rep B,nonprofit,Florence,35630,2023-07-06,2024-06-09,active,False,True
+ACCT_00561,Synthetic School Account 0561,school,Sales Rep C,education,Cullman,35055,2024-04-10,2024-06-06,new,False,True
+ACCT_00562,Synthetic Nonprofit Account 0562,nonprofit,Sales Rep B,nonprofit,Decatur,35601,2024-06-20,2025-09-14,renewal_target,False,True
+ACCT_00563,Synthetic Corporate Account 0563,corporate,Group Sales Rep A,construction,Decatur,35601,2023-05-16,2023-08-24,renewal_target,True,True
+ACCT_00564,Synthetic Corporate Account 0564,corporate,Sales Rep C,professional_services,Meridianville,35759,2023-09-06,2025-07-03,active,True,True
+ACCT_00565,Synthetic Youth Sports Account 0565,youth_sports,Sales Rep A,youth_sports,Cullman,35055,2023-04-20,2024-09-07,active,False,True
+ACCT_00566,Synthetic Church Account 0566,church,Sales Rep C,faith_community,Decatur,35601,2024-07-04,2024-08-30,lapsed,False,True
+ACCT_00567,Synthetic Community Group Account 0567,community_group,Business Development Rep,community,Meridianville,35759,2024-08-31,2025-06-21,new,False,True
+ACCT_00568,Synthetic Corporate Account 0568,corporate,Group Sales Rep A,manufacturing,Huntsville,35801,2023-07-05,2025-06-17,new,True,True
+ACCT_00569,Synthetic School Account 0569,school,Business Development Rep,education,Harvest,35749,2024-04-13,2025-06-18,renewal_target,False,True
+ACCT_00570,Synthetic School Account 0570,school,Group Sales Rep A,education,Huntsville,35801,2024-04-14,2025-07-19,renewal_target,False,True
+ACCT_00571,Synthetic Corporate Account 0571,corporate,Group Sales Rep A,technology,Meridianville,35759,2024-04-11,2024-06-06,new,True,True
+ACCT_00572,Synthetic Church Account 0572,church,Sales Rep A,faith_community,Cullman,35055,2025-06-22,2025-07-19,active,False,True
+ACCT_00573,Synthetic School Account 0573,school,Group Sales Rep A,education,Meridianville,35759,2024-07-09,2025-09-14,lapsed,False,True
+ACCT_00574,Synthetic Youth Sports Account 0574,youth_sports,Group Sales Rep A,youth_sports,Cullman,35055,2023-05-27,2025-06-15,active,False,True
+ACCT_00575,Synthetic Youth Sports Account 0575,youth_sports,Group Sales Rep A,youth_sports,Harvest,35749,2023-06-22,2024-06-18,new,False,True
+ACCT_00576,Synthetic Nonprofit Account 0576,nonprofit,Sales Rep B,nonprofit,Harvest,35749,2025-05-08,2025-06-18,new,False,True
+ACCT_00577,Synthetic School Account 0577,school,Group Sales Rep B,education,Decatur,35601,2024-08-08,2025-05-09,renewal_target,False,True
+ACCT_00578,Synthetic Community Group Account 0578,community_group,Sales Rep A,community,Athens,35611,2023-08-09,2024-07-12,active,False,True
+ACCT_00579,Synthetic Healthcare Account 0579,healthcare,Sales Rep A,healthcare,Cullman,35055,2023-04-08,2025-05-10,lapsed,True,True
+ACCT_00580,Synthetic Corporate Account 0580,corporate,Group Sales Rep B,construction,Cullman,35055,2024-07-05,2025-06-13,active,True,True
+ACCT_00581,Synthetic Youth Sports Account 0581,youth_sports,Sales Rep A,youth_sports,Owens Cross Roads,35763,2025-04-06,2025-05-10,new,False,True
+ACCT_00582,Synthetic Community Group Account 0582,community_group,Business Development Rep,community,Athens,35611,2023-06-24,2025-07-19,active,False,True
+ACCT_00583,Synthetic Local Business Account 0583,local_business,Sales Rep C,retail,Owens Cross Roads,35763,2023-04-22,2023-08-26,renewal_target,True,True
+ACCT_00584,Synthetic Local Business Account 0584,local_business,Group Sales Rep B,restaurant,Huntsville,35801,2023-08-13,2025-06-21,renewal_target,True,True
+ACCT_00585,Synthetic School Account 0585,school,Sales Rep C,education,Florence,35630,2024-07-06,2025-06-19,active,False,True
+ACCT_00586,Synthetic Youth Sports Account 0586,youth_sports,Group Sales Rep A,youth_sports,Cullman,35055,2024-07-25,2025-08-27,active,False,True
+ACCT_00587,Synthetic Church Account 0587,church,Business Development Rep,faith_community,Florence,35630,2023-04-22,2024-06-05,lapsed,False,True
+ACCT_00588,Synthetic School Account 0588,school,Group Sales Rep B,education,Huntsville,35801,2024-05-09,2024-05-10,active,False,True
+ACCT_00589,Synthetic Youth Sports Account 0589,youth_sports,Group Sales Rep B,youth_sports,Huntsville,35801,2023-05-02,2025-06-22,new,False,True
+ACCT_00590,Synthetic Church Account 0590,church,Sales Rep C,faith_community,Decatur,35601,2023-05-02,2024-05-11,new,False,True
+ACCT_00591,Synthetic Corporate Account 0591,corporate,Sales Rep B,finance,Harvest,35749,2024-06-21,2024-08-31,active,True,True
+ACCT_00592,Synthetic Local Business Account 0592,local_business,Group Sales Rep A,restaurant,Florence,35630,2023-04-20,2025-06-17,lapsed,True,True
+ACCT_00593,Synthetic Corporate Account 0593,corporate,Group Sales Rep A,professional_services,Hazel Green,35750,2024-05-08,2025-08-17,new,True,True
+ACCT_00594,Synthetic School Account 0594,school,Sales Rep C,education,Athens,35611,2023-04-21,2024-05-10,lapsed,False,True
+ACCT_00595,Synthetic Corporate Account 0595,corporate,Business Development Rep,professional_services,Huntsville,35801,2023-05-23,2025-09-14,active,True,True
+ACCT_00596,Synthetic Local Business Account 0596,local_business,Group Sales Rep B,service_business,Florence,35630,2023-04-19,2025-08-29,renewal_target,True,True
+ACCT_00597,Synthetic Community Group Account 0597,community_group,Business Development Rep,community,Harvest,35749,2023-05-20,2024-04-14,active,False,True
+ACCT_00598,Synthetic Corporate Account 0598,corporate,Sales Rep A,technology,Hazel Green,35750,2023-04-06,2025-06-18,new,True,True
+ACCT_00599,Synthetic Church Account 0599,church,Group Sales Rep A,faith_community,Meridianville,35759,2024-05-09,2025-04-25,renewal_target,False,True
+ACCT_00600,Synthetic Corporate Account 0600,corporate,Sales Rep B,professional_services,Hazel Green,35750,2023-04-19,2023-05-27,new,True,True
+ACCT_00601,Synthetic Local Business Account 0601,local_business,Sales Rep B,service_business,Decatur,35601,2024-06-07,2025-08-28,active,True,True
+ACCT_00602,Synthetic School Account 0602,school,Group Sales Rep B,education,Huntsville,35801,2023-07-09,2024-05-09,active,True,True
+ACCT_00603,Synthetic Youth Sports Account 0603,youth_sports,Sales Rep A,youth_sports,Harvest,35749,2024-08-27,2025-05-27,active,False,True
+ACCT_00604,Synthetic Youth Sports Account 0604,youth_sports,Group Sales Rep A,youth_sports,Madison,35758,2024-05-08,2025-07-29,active,False,True
+ACCT_00605,Synthetic Local Business Account 0605,local_business,Sales Rep A,retail,Athens,35611,2024-04-27,2024-05-08,active,True,True
+ACCT_00606,Synthetic Corporate Account 0606,corporate,Sales Rep A,manufacturing,Florence,35630,2024-04-27,2024-06-04,new,True,True
+ACCT_00607,Synthetic Church Account 0607,church,Group Sales Rep B,faith_community,Owens Cross Roads,35763,2023-05-21,2023-06-21,renewal_target,False,True
+ACCT_00608,Synthetic Community Group Account 0608,community_group,Group Sales Rep A,community,Athens,35611,2023-08-12,2024-08-28,active,False,True
+ACCT_00609,Synthetic Corporate Account 0609,corporate,Sales Rep C,professional_services,Meridianville,35759,2024-05-23,2024-07-04,active,True,True
+ACCT_00610,Synthetic Community Group Account 0610,community_group,Business Development Rep,community,Owens Cross Roads,35763,2024-06-05,2025-08-26,new,True,True
+ACCT_00611,Synthetic Nonprofit Account 0611,nonprofit,Sales Rep B,nonprofit,Meridianville,35759,2024-06-07,2024-06-19,active,False,True
+ACCT_00612,Synthetic Corporate Account 0612,corporate,Group Sales Rep B,professional_services,Meridianville,35759,2023-09-06,2025-04-22,active,True,True
+ACCT_00613,Synthetic School Account 0613,school,Sales Rep C,education,Cullman,35055,2024-08-31,2025-05-11,renewal_target,False,True
+ACCT_00614,Synthetic Healthcare Account 0614,healthcare,Sales Rep B,healthcare,Huntsville,35801,2023-06-11,2024-07-13,renewal_target,True,True
+ACCT_00615,Synthetic Youth Sports Account 0615,youth_sports,Sales Rep B,youth_sports,Madison,35758,2023-05-19,2023-06-21,renewal_target,True,True
+ACCT_00616,Synthetic School Account 0616,school,Group Sales Rep A,education,Meridianville,35759,2025-07-02,2025-08-01,new,False,True
+ACCT_00617,Synthetic Corporate Account 0617,corporate,Business Development Rep,technology,Athens,35611,2023-07-04,2024-04-14,active,True,True
+ACCT_00618,Synthetic Corporate Account 0618,corporate,Group Sales Rep B,technology,Harvest,35749,2023-05-18,2023-07-27,active,True,True
+ACCT_00619,Synthetic School Account 0619,school,Group Sales Rep A,education,Owens Cross Roads,35763,2024-07-04,2025-09-12,lapsed,False,True
+ACCT_00620,Synthetic School Account 0620,school,Business Development Rep,education,Cullman,35055,2023-05-28,2023-08-26,new,False,True
+ACCT_00621,Synthetic Community Group Account 0621,community_group,Business Development Rep,community,Hazel Green,35750,2024-07-24,2025-04-09,active,False,True
+ACCT_00622,Synthetic Youth Sports Account 0622,youth_sports,Sales Rep C,youth_sports,Harvest,35749,2023-06-22,2025-06-11,new,False,True
+ACCT_00623,Synthetic Youth Sports Account 0623,youth_sports,Sales Rep B,youth_sports,Florence,35630,2023-08-08,2024-05-23,active,False,True
+ACCT_00624,Synthetic Corporate Account 0624,corporate,Sales Rep B,technology,Madison,35758,2023-05-05,2023-08-08,new,True,True
+ACCT_00625,Synthetic Corporate Account 0625,corporate,Sales Rep A,technology,Harvest,35749,2023-06-06,2023-06-07,active,True,True
+ACCT_00626,Synthetic Healthcare Account 0626,healthcare,Group Sales Rep B,healthcare,Athens,35611,2023-05-28,2024-07-12,active,True,True
+ACCT_00627,Synthetic Church Account 0627,church,Sales Rep B,faith_community,Huntsville,35801,2023-06-07,2025-05-08,renewal_target,False,True
+ACCT_00628,Synthetic School Account 0628,school,Business Development Rep,education,Owens Cross Roads,35763,2023-05-16,2024-04-09,lapsed,False,True
+ACCT_00629,Synthetic Corporate Account 0629,corporate,Sales Rep B,construction,Madison,35758,2023-06-21,2024-09-04,active,True,True
+ACCT_00630,Synthetic Community Group Account 0630,community_group,Sales Rep A,community,Cullman,35055,2025-07-18,2025-08-17,new,False,True
+ACCT_00631,Synthetic Youth Sports Account 0631,youth_sports,Sales Rep C,youth_sports,Florence,35630,2024-05-10,2024-07-11,active,False,True
+ACCT_00632,Synthetic School Account 0632,school,Sales Rep C,education,Cullman,35055,2024-06-21,2025-08-14,lapsed,False,True
+ACCT_00633,Synthetic Nonprofit Account 0633,nonprofit,Group Sales Rep A,nonprofit,Florence,35630,2024-08-07,2025-08-03,active,False,True
+ACCT_00634,Synthetic School Account 0634,school,Sales Rep B,education,Huntsville,35801,2025-07-18,2025-07-19,renewal_target,False,True
+ACCT_00635,Synthetic School Account 0635,school,Business Development Rep,education,Madison,35758,2024-05-07,2024-06-09,active,False,True
+ACCT_00636,Synthetic Youth Sports Account 0636,youth_sports,Business Development Rep,youth_sports,Florence,35630,2023-04-06,2025-08-02,renewal_target,False,True
+ACCT_00637,Synthetic School Account 0637,school,Sales Rep B,education,Decatur,35601,2023-08-10,2024-09-08,active,False,True
+ACCT_00638,Synthetic Local Business Account 0638,local_business,Group Sales Rep A,restaurant,Owens Cross Roads,35763,2023-08-10,2025-07-19,renewal_target,True,True
+ACCT_00639,Synthetic Local Business Account 0639,local_business,Sales Rep B,service_business,Harvest,35749,2023-07-04,2025-05-08,new,True,True
+ACCT_00640,Synthetic Church Account 0640,church,Sales Rep A,faith_community,Athens,35611,2023-05-20,2025-04-09,lapsed,False,True
+ACCT_00641,Synthetic Corporate Account 0641,corporate,Group Sales Rep A,technology,Madison,35758,2024-06-19,2024-08-29,active,True,True
+ACCT_00642,Synthetic School Account 0642,school,Group Sales Rep A,education,Florence,35630,2025-09-10,2025-09-11,active,False,True
+ACCT_00643,Synthetic Church Account 0643,church,Sales Rep B,faith_community,Cullman,35055,2023-07-27,2025-04-25,lapsed,False,True
+ACCT_00644,Synthetic Local Business Account 0644,local_business,Business Development Rep,restaurant,Meridianville,35759,2025-04-09,2025-08-14,active,True,True
+ACCT_00645,Synthetic Corporate Account 0645,corporate,Group Sales Rep A,technology,Meridianville,35759,2023-05-20,2025-04-05,active,True,True
+ACCT_00646,Synthetic Nonprofit Account 0646,nonprofit,Group Sales Rep B,nonprofit,Meridianville,35759,2025-04-24,2025-08-16,lapsed,False,True
+ACCT_00647,Synthetic Church Account 0647,church,Business Development Rep,faith_community,Owens Cross Roads,35763,2023-05-26,2025-06-21,new,False,True
+ACCT_00648,Synthetic Youth Sports Account 0648,youth_sports,Group Sales Rep A,youth_sports,Harvest,35749,2024-05-08,2025-07-18,renewal_target,True,True
+ACCT_00649,Synthetic School Account 0649,school,Business Development Rep,education,Athens,35611,2025-05-08,2025-05-28,active,False,True
+ACCT_00650,Synthetic Youth Sports Account 0650,youth_sports,Sales Rep A,youth_sports,Hazel Green,35750,2025-08-29,2025-09-13,active,False,True
+ACCT_00651,Synthetic Community Group Account 0651,community_group,Sales Rep B,community,Meridianville,35759,2023-09-07,2024-05-09,active,False,True
+ACCT_00652,Synthetic Corporate Account 0652,corporate,Group Sales Rep A,professional_services,Madison,35758,2023-09-10,2025-08-30,new,True,True
+ACCT_00653,Synthetic School Account 0653,school,Sales Rep B,education,Meridianville,35759,2023-06-10,2025-06-01,new,False,True
+ACCT_00654,Synthetic Local Business Account 0654,local_business,Sales Rep A,service_business,Cullman,35055,2025-04-23,2025-09-12,renewal_target,True,True
+ACCT_00655,Synthetic Healthcare Account 0655,healthcare,Group Sales Rep B,healthcare,Owens Cross Roads,35763,2023-09-05,2025-04-27,lapsed,True,True
+ACCT_00656,Synthetic Corporate Account 0656,corporate,Business Development Rep,technology,Athens,35611,2025-04-10,2025-08-17,renewal_target,True,True
+ACCT_00657,Synthetic Church Account 0657,church,Sales Rep C,faith_community,Hazel Green,35750,2024-06-19,2024-07-25,active,False,True
+ACCT_00658,Synthetic Church Account 0658,church,Sales Rep C,faith_community,Madison,35758,2024-07-12,2025-08-17,renewal_target,False,True
+ACCT_00659,Synthetic Corporate Account 0659,corporate,Business Development Rep,finance,Hazel Green,35750,2024-04-23,2025-08-02,renewal_target,True,True
+ACCT_00660,Synthetic Corporate Account 0660,corporate,Sales Rep B,construction,Owens Cross Roads,35763,2023-09-08,2024-06-19,active,True,True
+ACCT_00661,Synthetic Corporate Account 0661,corporate,Group Sales Rep A,construction,Athens,35611,2023-05-03,2025-04-25,active,True,True
+ACCT_00662,Synthetic Corporate Account 0662,corporate,Sales Rep A,finance,Athens,35611,2023-07-28,2024-04-23,renewal_target,True,True
+ACCT_00663,Synthetic School Account 0663,school,Group Sales Rep A,education,Harvest,35749,2024-04-14,2025-07-20,new,False,True
+ACCT_00664,Synthetic Healthcare Account 0664,healthcare,Business Development Rep,healthcare,Harvest,35749,2024-07-05,2025-09-13,active,True,True
+ACCT_00665,Synthetic School Account 0665,school,Sales Rep A,education,Cullman,35055,2023-06-07,2025-07-29,active,False,True
+ACCT_00666,Synthetic Local Business Account 0666,local_business,Group Sales Rep B,restaurant,Decatur,35601,2024-05-09,2025-06-20,active,True,True
+ACCT_00667,Synthetic School Account 0667,school,Business Development Rep,education,Huntsville,35801,2023-04-19,2025-05-30,active,False,True
+ACCT_00668,Synthetic Local Business Account 0668,local_business,Business Development Rep,retail,Hazel Green,35750,2023-05-27,2025-05-10,active,True,True
+ACCT_00669,Synthetic Youth Sports Account 0669,youth_sports,Sales Rep B,youth_sports,Athens,35611,2024-07-25,2024-09-07,active,False,True
+ACCT_00670,Synthetic Nonprofit Account 0670,nonprofit,Group Sales Rep A,nonprofit,Madison,35758,2023-06-25,2024-04-10,active,False,True
+ACCT_00671,Synthetic Nonprofit Account 0671,nonprofit,Sales Rep C,nonprofit,Florence,35630,2023-07-09,2024-09-01,active,False,True
+ACCT_00672,Synthetic Corporate Account 0672,corporate,Group Sales Rep B,manufacturing,Owens Cross Roads,35763,2024-07-11,2025-08-30,new,True,True
+ACCT_00673,Synthetic School Account 0673,school,Sales Rep B,education,Hazel Green,35750,2024-09-08,2025-06-13,active,True,True
+ACCT_00674,Synthetic Church Account 0674,church,Sales Rep B,faith_community,Meridianville,35759,2023-06-20,2024-04-26,renewal_target,False,True
+ACCT_00675,Synthetic Corporate Account 0675,corporate,Sales Rep A,manufacturing,Hazel Green,35750,2024-09-01,2025-08-29,new,True,True
+ACCT_00676,Synthetic Youth Sports Account 0676,youth_sports,Sales Rep C,youth_sports,Athens,35611,2024-06-06,2025-04-09,renewal_target,False,True
+ACCT_00677,Synthetic Youth Sports Account 0677,youth_sports,Sales Rep B,youth_sports,Athens,35611,2023-05-16,2025-09-11,active,False,True
+ACCT_00678,Synthetic Nonprofit Account 0678,nonprofit,Business Development Rep,nonprofit,Cullman,35055,2024-04-27,2025-09-10,new,False,True
+ACCT_00679,Synthetic Nonprofit Account 0679,nonprofit,Business Development Rep,nonprofit,Owens Cross Roads,35763,2025-05-09,2025-07-02,active,False,True
+ACCT_00680,Synthetic Church Account 0680,church,Group Sales Rep B,faith_community,Meridianville,35759,2023-06-09,2024-04-26,new,False,True
+ACCT_00681,Synthetic Community Group Account 0681,community_group,Business Development Rep,community,Cullman,35055,2024-05-22,2025-05-28,active,False,True
+ACCT_00682,Synthetic Youth Sports Account 0682,youth_sports,Group Sales Rep A,youth_sports,Madison,35758,2023-09-09,2025-08-31,renewal_target,False,True
+ACCT_00683,Synthetic Corporate Account 0683,corporate,Sales Rep B,professional_services,Cullman,35055,2023-04-20,2024-06-08,new,True,True
+ACCT_00684,Synthetic Church Account 0684,church,Sales Rep C,faith_community,Cullman,35055,2024-04-25,2025-04-23,active,False,True
+ACCT_00685,Synthetic Corporate Account 0685,corporate,Sales Rep C,construction,Meridianville,35759,2023-06-09,2024-06-21,active,True,True
+ACCT_00686,Synthetic Community Group Account 0686,community_group,Business Development Rep,community,Harvest,35749,2023-06-07,2025-08-27,active,False,True
+ACCT_00687,Synthetic Community Group Account 0687,community_group,Sales Rep B,community,Athens,35611,2023-05-28,2023-06-06,active,False,True
+ACCT_00688,Synthetic Corporate Account 0688,corporate,Group Sales Rep B,technology,Madison,35758,2024-04-12,2025-08-03,active,True,True
+ACCT_00689,Synthetic Community Group Account 0689,community_group,Group Sales Rep A,community,Owens Cross Roads,35763,2024-09-06,2025-05-11,active,False,True
+ACCT_00690,Synthetic Community Group Account 0690,community_group,Sales Rep A,community,Harvest,35749,2023-05-27,2025-04-09,active,False,True
+ACCT_00691,Synthetic Corporate Account 0691,corporate,Sales Rep A,professional_services,Decatur,35601,2023-05-03,2025-05-07,lapsed,True,True
+ACCT_00692,Synthetic School Account 0692,school,Sales Rep A,education,Hazel Green,35750,2024-05-23,2025-08-26,new,False,True
+ACCT_00693,Synthetic Corporate Account 0693,corporate,Group Sales Rep A,technology,Florence,35630,2023-06-24,2025-04-25,renewal_target,True,True
+ACCT_00694,Synthetic Corporate Account 0694,corporate,Sales Rep A,professional_services,Athens,35611,2024-09-01,2025-04-25,renewal_target,True,True
+ACCT_00695,Synthetic Community Group Account 0695,community_group,Group Sales Rep B,community,Owens Cross Roads,35763,2023-09-09,2024-05-23,active,False,True
+ACCT_00696,Synthetic School Account 0696,school,Sales Rep B,education,Decatur,35601,2023-05-16,2025-06-17,new,True,True
+ACCT_00697,Synthetic Nonprofit Account 0697,nonprofit,Sales Rep C,nonprofit,Huntsville,35801,2023-09-10,2024-08-29,active,False,True
+ACCT_00698,Synthetic Youth Sports Account 0698,youth_sports,Sales Rep C,youth_sports,Athens,35611,2024-04-13,2024-08-10,active,False,True
+ACCT_00699,Synthetic Corporate Account 0699,corporate,Group Sales Rep B,construction,Harvest,35749,2023-06-07,2025-08-14,renewal_target,True,True
+ACCT_00700,Synthetic Church Account 0700,church,Sales Rep A,faith_community,Owens Cross Roads,35763,2023-05-24,2024-04-10,active,False,True
+ACCT_00701,Synthetic School Account 0701,school,Group Sales Rep A,education,Owens Cross Roads,35763,2023-05-07,2025-06-14,new,False,True
+ACCT_00702,Synthetic Corporate Account 0702,corporate,Sales Rep B,technology,Owens Cross Roads,35763,2023-07-30,2025-08-01,active,True,True
+ACCT_00703,Synthetic Corporate Account 0703,corporate,Business Development Rep,finance,Athens,35611,2023-09-07,2024-05-11,active,True,True
+ACCT_00704,Synthetic School Account 0704,school,Sales Rep C,education,Madison,35758,2023-04-23,2025-08-29,new,True,True
+ACCT_00705,Synthetic Corporate Account 0705,corporate,Business Development Rep,technology,Harvest,35749,2023-06-23,2023-07-27,renewal_target,True,True
+ACCT_00706,Synthetic Corporate Account 0706,corporate,Business Development Rep,technology,Madison,35758,2023-08-12,2024-06-08,new,True,True
+ACCT_00707,Synthetic Youth Sports Account 0707,youth_sports,Sales Rep A,youth_sports,Madison,35758,2025-06-10,2025-08-13,active,False,True
+ACCT_00708,Synthetic Corporate Account 0708,corporate,Sales Rep B,manufacturing,Meridianville,35759,2024-08-08,2025-06-12,active,True,True
+ACCT_00709,Synthetic School Account 0709,school,Sales Rep C,education,Florence,35630,2024-05-25,2025-05-30,active,False,True
+ACCT_00710,Synthetic Community Group Account 0710,community_group,Group Sales Rep B,community,Cullman,35055,2023-06-07,2024-07-12,active,False,True
+ACCT_00711,Synthetic School Account 0711,school,Group Sales Rep A,education,Meridianville,35759,2024-04-10,2024-06-18,active,False,True
+ACCT_00712,Synthetic Community Group Account 0712,community_group,Sales Rep A,community,Owens Cross Roads,35763,2025-04-05,2025-06-01,new,False,True
+ACCT_00713,Synthetic Nonprofit Account 0713,nonprofit,Sales Rep B,nonprofit,Florence,35630,2023-07-27,2025-05-09,new,False,True
+ACCT_00714,Synthetic Corporate Account 0714,corporate,Group Sales Rep A,professional_services,Florence,35630,2024-05-25,2025-04-06,active,True,True
+ACCT_00715,Synthetic Church Account 0715,church,Group Sales Rep A,faith_community,Florence,35630,2023-05-18,2024-07-27,new,False,True
+ACCT_00716,Synthetic Local Business Account 0716,local_business,Business Development Rep,service_business,Hazel Green,35750,2025-04-22,2025-09-09,new,True,True
+ACCT_00717,Synthetic School Account 0717,school,Business Development Rep,education,Harvest,35749,2024-07-25,2025-08-01,active,False,True
+ACCT_00718,Synthetic Community Group Account 0718,community_group,Business Development Rep,community,Harvest,35749,2024-07-23,2024-08-10,lapsed,False,True
+ACCT_00719,Synthetic Church Account 0719,church,Group Sales Rep A,faith_community,Hazel Green,35750,2023-06-22,2025-04-05,active,False,True
+ACCT_00720,Synthetic Local Business Account 0720,local_business,Group Sales Rep A,service_business,Hazel Green,35750,2024-05-10,2024-07-05,lapsed,True,True
+ACCT_00721,Synthetic Corporate Account 0721,corporate,Group Sales Rep B,construction,Owens Cross Roads,35763,2024-06-20,2024-08-28,lapsed,True,True
+ACCT_00722,Synthetic Community Group Account 0722,community_group,Group Sales Rep B,community,Hazel Green,35750,2024-05-21,2025-06-12,active,False,True
+ACCT_00723,Synthetic Nonprofit Account 0723,nonprofit,Group Sales Rep B,nonprofit,Athens,35611,2023-08-27,2024-07-24,active,True,True
+ACCT_00724,Synthetic School Account 0724,school,Group Sales Rep A,education,Decatur,35601,2023-04-20,2023-06-23,active,True,True
+ACCT_00725,Synthetic Healthcare Account 0725,healthcare,Sales Rep C,healthcare,Hazel Green,35750,2024-05-25,2024-06-09,renewal_target,True,True
+ACCT_00726,Synthetic Church Account 0726,church,Sales Rep B,faith_community,Cullman,35055,2024-05-11,2025-08-16,active,False,True
+ACCT_00727,Synthetic Corporate Account 0727,corporate,Group Sales Rep A,construction,Decatur,35601,2023-04-18,2023-08-11,new,True,True
+ACCT_00728,Synthetic Youth Sports Account 0728,youth_sports,Business Development Rep,youth_sports,Huntsville,35801,2024-04-10,2024-06-07,new,False,True
+ACCT_00729,Synthetic Community Group Account 0729,community_group,Sales Rep C,community,Florence,35630,2023-05-26,2023-08-09,active,False,True
+ACCT_00730,Synthetic Corporate Account 0730,corporate,Group Sales Rep A,professional_services,Cullman,35055,2023-07-29,2023-09-05,new,True,True
+ACCT_00731,Synthetic Nonprofit Account 0731,nonprofit,Group Sales Rep A,nonprofit,Hazel Green,35750,2023-05-24,2024-09-08,renewal_target,False,True
+ACCT_00732,Synthetic Nonprofit Account 0732,nonprofit,Sales Rep B,nonprofit,Meridianville,35759,2024-05-10,2024-09-01,new,False,True
+ACCT_00733,Synthetic Church Account 0733,church,Sales Rep B,faith_community,Huntsville,35801,2023-08-25,2025-09-13,active,False,True
+ACCT_00734,Synthetic Church Account 0734,church,Business Development Rep,faith_community,Cullman,35055,2023-04-19,2025-08-27,active,True,True
+ACCT_00735,Synthetic Nonprofit Account 0735,nonprofit,Sales Rep B,nonprofit,Athens,35611,2023-04-20,2024-04-14,renewal_target,False,True
+ACCT_00736,Synthetic Nonprofit Account 0736,nonprofit,Sales Rep B,nonprofit,Owens Cross Roads,35763,2024-05-11,2024-06-22,lapsed,False,True
+ACCT_00737,Synthetic Community Group Account 0737,community_group,Group Sales Rep B,community,Athens,35611,2023-05-26,2025-05-11,renewal_target,False,True
+ACCT_00738,Synthetic Youth Sports Account 0738,youth_sports,Sales Rep C,youth_sports,Hazel Green,35750,2024-06-23,2025-05-08,active,True,True
+ACCT_00739,Synthetic Youth Sports Account 0739,youth_sports,Sales Rep C,youth_sports,Florence,35630,2023-07-08,2024-07-11,new,False,True
+ACCT_00740,Synthetic Corporate Account 0740,corporate,Group Sales Rep A,professional_services,Huntsville,35801,2024-07-06,2025-05-31,new,True,True
+ACCT_00741,Synthetic Corporate Account 0741,corporate,Business Development Rep,technology,Hazel Green,35750,2023-05-25,2025-04-11,active,True,True
+ACCT_00742,Synthetic Healthcare Account 0742,healthcare,Business Development Rep,healthcare,Owens Cross Roads,35763,2024-08-11,2025-04-25,renewal_target,True,True
+ACCT_00743,Synthetic Corporate Account 0743,corporate,Group Sales Rep B,technology,Hazel Green,35750,2023-05-02,2023-05-20,active,True,True
+ACCT_00744,Synthetic Corporate Account 0744,corporate,Sales Rep B,construction,Decatur,35601,2024-04-12,2024-07-14,active,True,True
+ACCT_00745,Synthetic Youth Sports Account 0745,youth_sports,Sales Rep C,youth_sports,Meridianville,35759,2023-05-06,2025-06-19,new,False,True
+ACCT_00746,Synthetic Healthcare Account 0746,healthcare,Group Sales Rep A,healthcare,Florence,35630,2023-04-20,2025-09-10,lapsed,True,True
+ACCT_00747,Synthetic Local Business Account 0747,local_business,Sales Rep B,restaurant,Meridianville,35759,2025-06-12,2025-06-19,lapsed,True,True
+ACCT_00748,Synthetic Youth Sports Account 0748,youth_sports,Group Sales Rep A,youth_sports,Hazel Green,35750,2023-06-09,2025-04-13,active,True,True
+ACCT_00749,Synthetic Church Account 0749,church,Group Sales Rep A,faith_community,Cullman,35055,2024-04-28,2024-07-27,renewal_target,True,True
+ACCT_00750,Synthetic Corporate Account 0750,corporate,Group Sales Rep A,technology,Cullman,35055,2023-08-12,2023-09-08,renewal_target,True,True
+ACCT_00751,Synthetic Youth Sports Account 0751,youth_sports,Group Sales Rep B,youth_sports,Owens Cross Roads,35763,2023-05-03,2025-05-30,active,False,True
+ACCT_00752,Synthetic Community Group Account 0752,community_group,Sales Rep B,community,Cullman,35055,2023-06-10,2025-04-09,active,False,True
+ACCT_00753,Synthetic Corporate Account 0753,corporate,Sales Rep B,manufacturing,Athens,35611,2025-08-12,2025-08-15,active,True,True
+ACCT_00754,Synthetic Corporate Account 0754,corporate,Group Sales Rep A,finance,Huntsville,35801,2024-04-27,2025-08-28,renewal_target,True,True
+ACCT_00755,Synthetic Youth Sports Account 0755,youth_sports,Sales Rep C,youth_sports,Cullman,35055,2023-09-10,2024-08-27,active,False,True
+ACCT_00756,Synthetic Youth Sports Account 0756,youth_sports,Group Sales Rep B,youth_sports,Cullman,35055,2023-08-27,2024-04-12,lapsed,False,True
+ACCT_00757,Synthetic Church Account 0757,church,Group Sales Rep B,faith_community,Florence,35630,2023-07-05,2024-08-29,active,False,True
+ACCT_00758,Synthetic Nonprofit Account 0758,nonprofit,Sales Rep B,nonprofit,Huntsville,35801,2024-04-09,2024-04-27,renewal_target,False,True
+ACCT_00759,Synthetic School Account 0759,school,Group Sales Rep A,education,Athens,35611,2023-04-20,2025-04-08,new,False,True
+ACCT_00760,Synthetic Youth Sports Account 0760,youth_sports,Sales Rep B,youth_sports,Cullman,35055,2023-09-05,2025-06-19,active,False,True
+ACCT_00761,Synthetic Youth Sports Account 0761,youth_sports,Sales Rep C,youth_sports,Owens Cross Roads,35763,2023-04-22,2023-06-25,renewal_target,False,True
+ACCT_00762,Synthetic School Account 0762,school,Group Sales Rep B,education,Decatur,35601,2024-04-23,2024-06-04,renewal_target,True,True
+ACCT_00763,Synthetic Corporate Account 0763,corporate,Sales Rep C,professional_services,Owens Cross Roads,35763,2023-06-25,2024-04-09,active,True,True
+ACCT_00764,Synthetic Community Group Account 0764,community_group,Sales Rep A,community,Meridianville,35759,2024-07-10,2025-05-06,active,False,True
+ACCT_00765,Synthetic Nonprofit Account 0765,nonprofit,Sales Rep C,nonprofit,Cullman,35055,2023-07-09,2025-08-01,new,False,True
+ACCT_00766,Synthetic Nonprofit Account 0766,nonprofit,Sales Rep A,nonprofit,Florence,35630,2023-09-07,2024-04-23,renewal_target,False,True
+ACCT_00767,Synthetic Youth Sports Account 0767,youth_sports,Group Sales Rep A,youth_sports,Huntsville,35801,2023-08-26,2025-06-18,renewal_target,False,True
+ACCT_00768,Synthetic Community Group Account 0768,community_group,Sales Rep A,community,Hazel Green,35750,2024-06-19,2024-09-01,renewal_target,False,True
+ACCT_00769,Synthetic Local Business Account 0769,local_business,Business Development Rep,service_business,Decatur,35601,2024-06-05,2025-04-23,lapsed,True,True
+ACCT_00770,Synthetic Nonprofit Account 0770,nonprofit,Sales Rep A,nonprofit,Harvest,35749,2024-08-10,2025-09-11,renewal_target,False,True
+ACCT_00771,Synthetic Corporate Account 0771,corporate,Sales Rep B,construction,Decatur,35601,2024-09-01,2024-09-04,lapsed,True,True
+ACCT_00772,Synthetic Nonprofit Account 0772,nonprofit,Group Sales Rep B,nonprofit,Decatur,35601,2023-08-27,2024-07-05,lapsed,False,True
+ACCT_00773,Synthetic Healthcare Account 0773,healthcare,Business Development Rep,healthcare,Madison,35758,2023-07-07,2023-09-06,active,True,True
+ACCT_00774,Synthetic Local Business Account 0774,local_business,Sales Rep A,retail,Owens Cross Roads,35763,2025-04-13,2025-06-10,renewal_target,True,True
+ACCT_00775,Synthetic Corporate Account 0775,corporate,Sales Rep A,professional_services,Athens,35611,2024-04-12,2025-05-30,active,True,True
+ACCT_00776,Synthetic Local Business Account 0776,local_business,Sales Rep B,service_business,Cullman,35055,2023-05-02,2023-08-26,renewal_target,True,True
+ACCT_00777,Synthetic Church Account 0777,church,Sales Rep C,faith_community,Florence,35630,2023-05-04,2023-06-06,renewal_target,False,True
+ACCT_00778,Synthetic Corporate Account 0778,corporate,Business Development Rep,manufacturing,Huntsville,35801,2023-05-17,2024-07-11,active,True,True
+ACCT_00779,Synthetic Church Account 0779,church,Sales Rep B,faith_community,Hazel Green,35750,2023-07-06,2023-08-25,new,False,True
+ACCT_00780,Synthetic Healthcare Account 0780,healthcare,Sales Rep C,healthcare,Meridianville,35759,2023-07-25,2024-09-07,new,True,True
+ACCT_00781,Synthetic School Account 0781,school,Business Development Rep,education,Meridianville,35759,2023-05-21,2024-05-24,new,True,True
+ACCT_00782,Synthetic Youth Sports Account 0782,youth_sports,Business Development Rep,youth_sports,Florence,35630,2023-05-27,2023-06-23,new,False,True
+ACCT_00783,Synthetic Nonprofit Account 0783,nonprofit,Sales Rep A,nonprofit,Owens Cross Roads,35763,2023-09-06,2024-09-04,renewal_target,False,True
+ACCT_00784,Synthetic Church Account 0784,church,Sales Rep A,faith_community,Madison,35758,2024-09-06,2025-04-13,new,False,True
+ACCT_00785,Synthetic Youth Sports Account 0785,youth_sports,Sales Rep B,youth_sports,Meridianville,35759,2023-06-06,2025-08-27,active,False,True
+ACCT_00786,Synthetic Youth Sports Account 0786,youth_sports,Sales Rep A,youth_sports,Madison,35758,2023-08-22,2025-07-18,active,False,True
+ACCT_00787,Synthetic Church Account 0787,church,Sales Rep C,faith_community,Huntsville,35801,2024-05-10,2024-08-09,new,False,True
+ACCT_00788,Synthetic Youth Sports Account 0788,youth_sports,Group Sales Rep A,youth_sports,Owens Cross Roads,35763,2023-05-02,2024-06-22,active,True,True
+ACCT_00789,Synthetic Nonprofit Account 0789,nonprofit,Group Sales Rep B,nonprofit,Madison,35758,2024-05-26,2025-09-14,renewal_target,False,True
+ACCT_00790,Synthetic Church Account 0790,church,Sales Rep A,faith_community,Harvest,35749,2023-06-09,2023-07-28,active,False,True
+ACCT_00791,Synthetic School Account 0791,school,Group Sales Rep A,education,Meridianville,35759,2025-07-19,2025-08-13,active,True,True
+ACCT_00792,Synthetic Local Business Account 0792,local_business,Group Sales Rep B,restaurant,Athens,35611,2024-05-12,2024-06-18,active,True,True
+ACCT_00793,Synthetic Nonprofit Account 0793,nonprofit,Sales Rep C,nonprofit,Huntsville,35801,2024-07-10,2025-05-06,active,False,True
+ACCT_00794,Synthetic Youth Sports Account 0794,youth_sports,Sales Rep C,youth_sports,Meridianville,35759,2024-04-28,2024-09-05,renewal_target,False,True
+ACCT_00795,Synthetic Local Business Account 0795,local_business,Sales Rep B,restaurant,Athens,35611,2023-07-30,2024-06-20,renewal_target,True,True
+ACCT_00796,Synthetic Corporate Account 0796,corporate,Group Sales Rep B,manufacturing,Cullman,35055,2023-07-08,2024-07-25,active,True,True
+ACCT_00797,Synthetic Corporate Account 0797,corporate,Business Development Rep,technology,Athens,35611,2023-05-24,2023-05-24,lapsed,True,True
+ACCT_00798,Synthetic School Account 0798,school,Group Sales Rep A,education,Cullman,35055,2024-04-12,2025-06-22,renewal_target,True,True
+ACCT_00799,Synthetic Local Business Account 0799,local_business,Sales Rep B,retail,Madison,35758,2025-06-22,2025-09-12,active,True,True
+ACCT_00800,Synthetic Community Group Account 0800,community_group,Business Development Rep,community,Huntsville,35801,2024-09-04,2025-06-01,new,False,True
+ACCT_00801,Synthetic Community Group Account 0801,community_group,Group Sales Rep B,community,Athens,35611,2023-04-23,2024-04-27,new,False,True
+ACCT_00802,Synthetic Local Business Account 0802,local_business,Sales Rep B,service_business,Madison,35758,2025-05-07,2025-09-13,renewal_target,True,True
+ACCT_00803,Synthetic Community Group Account 0803,community_group,Sales Rep A,community,Florence,35630,2024-04-10,2024-07-12,new,False,True
+ACCT_00804,Synthetic School Account 0804,school,Group Sales Rep B,education,Meridianville,35759,2024-05-12,2025-06-21,active,False,True
+ACCT_00805,Synthetic Local Business Account 0805,local_business,Business Development Rep,restaurant,Meridianville,35759,2023-04-22,2024-04-26,new,True,True
+ACCT_00806,Synthetic Nonprofit Account 0806,nonprofit,Group Sales Rep B,nonprofit,Huntsville,35801,2023-08-24,2025-05-09,active,False,True
+ACCT_00807,Synthetic Youth Sports Account 0807,youth_sports,Business Development Rep,youth_sports,Hazel Green,35750,2023-07-08,2025-04-09,lapsed,False,True
+ACCT_00808,Synthetic Youth Sports Account 0808,youth_sports,Group Sales Rep B,youth_sports,Cullman,35055,2023-06-06,2025-07-29,renewal_target,False,True
+ACCT_00809,Synthetic Church Account 0809,church,Sales Rep A,faith_community,Cullman,35055,2023-07-27,2023-08-23,new,False,True
+ACCT_00810,Synthetic Nonprofit Account 0810,nonprofit,Group Sales Rep B,nonprofit,Meridianville,35759,2023-04-08,2024-06-18,active,False,True
+ACCT_00811,Synthetic Corporate Account 0811,corporate,Sales Rep B,construction,Meridianville,35759,2023-04-07,2023-06-11,renewal_target,True,True
+ACCT_00812,Synthetic Community Group Account 0812,community_group,Sales Rep B,community,Huntsville,35801,2023-06-11,2025-04-08,active,False,True
+ACCT_00813,Synthetic Youth Sports Account 0813,youth_sports,Business Development Rep,youth_sports,Meridianville,35759,2023-07-07,2023-09-05,active,False,True
+ACCT_00814,Synthetic Community Group Account 0814,community_group,Group Sales Rep B,community,Madison,35758,2023-08-10,2024-07-11,new,False,True
+ACCT_00815,Synthetic Community Group Account 0815,community_group,Business Development Rep,community,Harvest,35749,2023-04-21,2023-08-08,renewal_target,False,True
+ACCT_00816,Synthetic Corporate Account 0816,corporate,Sales Rep B,construction,Harvest,35749,2024-09-05,2025-04-25,new,True,True
+ACCT_00817,Synthetic Healthcare Account 0817,healthcare,Group Sales Rep B,healthcare,Huntsville,35801,2023-04-18,2023-08-25,active,True,True
+ACCT_00818,Synthetic Local Business Account 0818,local_business,Group Sales Rep A,restaurant,Athens,35611,2024-05-12,2025-08-26,renewal_target,True,True
+ACCT_00819,Synthetic Corporate Account 0819,corporate,Business Development Rep,manufacturing,Cullman,35055,2023-05-02,2023-08-26,active,True,True
+ACCT_00820,Synthetic Nonprofit Account 0820,nonprofit,Sales Rep B,nonprofit,Florence,35630,2023-08-22,2024-06-18,new,False,True
+ACCT_00821,Synthetic Corporate Account 0821,corporate,Sales Rep A,technology,Harvest,35749,2023-05-02,2025-05-09,new,True,True
+ACCT_00822,Synthetic Corporate Account 0822,corporate,Sales Rep A,construction,Madison,35758,2023-07-25,2024-04-28,new,True,True
+ACCT_00823,Synthetic Healthcare Account 0823,healthcare,Sales Rep B,healthcare,Athens,35611,2023-07-25,2023-07-27,lapsed,True,True
+ACCT_00824,Synthetic Nonprofit Account 0824,nonprofit,Sales Rep A,nonprofit,Huntsville,35801,2023-06-06,2024-04-10,active,False,True
+ACCT_00825,Synthetic School Account 0825,school,Group Sales Rep B,education,Harvest,35749,2024-07-11,2024-09-05,active,False,True
+ACCT_00826,Synthetic Local Business Account 0826,local_business,Sales Rep A,restaurant,Cullman,35055,2025-04-05,2025-06-13,active,True,True
+ACCT_00827,Synthetic Local Business Account 0827,local_business,Sales Rep A,retail,Florence,35630,2023-06-22,2024-09-08,renewal_target,True,True
+ACCT_00828,Synthetic Nonprofit Account 0828,nonprofit,Group Sales Rep B,nonprofit,Decatur,35601,2024-06-20,2025-04-09,active,False,True
+ACCT_00829,Synthetic Church Account 0829,church,Business Development Rep,faith_community,Huntsville,35801,2024-08-31,2025-06-13,lapsed,False,True
+ACCT_00830,Synthetic Corporate Account 0830,corporate,Sales Rep B,professional_services,Hazel Green,35750,2023-06-09,2025-08-30,active,True,True
+ACCT_00831,Synthetic Church Account 0831,church,Business Development Rep,faith_community,Harvest,35749,2024-06-19,2024-07-26,active,False,True
+ACCT_00832,Synthetic Community Group Account 0832,community_group,Business Development Rep,community,Florence,35630,2024-06-06,2025-08-16,active,False,True
+ACCT_00833,Synthetic School Account 0833,school,Sales Rep B,education,Cullman,35055,2024-06-18,2025-08-13,new,False,True
+ACCT_00834,Synthetic Church Account 0834,church,Sales Rep C,faith_community,Cullman,35055,2024-07-27,2024-09-01,new,True,True
+ACCT_00835,Synthetic School Account 0835,school,Sales Rep B,education,Cullman,35055,2025-05-28,2025-07-01,active,False,True
+ACCT_00836,Synthetic School Account 0836,school,Sales Rep B,education,Cullman,35055,2024-07-27,2025-07-19,new,False,True
+ACCT_00837,Synthetic School Account 0837,school,Business Development Rep,education,Athens,35611,2024-06-22,2025-09-09,active,False,True
+ACCT_00838,Synthetic Church Account 0838,church,Sales Rep A,faith_community,Harvest,35749,2023-05-21,2023-08-13,new,False,True
+ACCT_00839,Synthetic School Account 0839,school,Group Sales Rep B,education,Huntsville,35801,2023-07-09,2024-06-09,active,False,True
+ACCT_00840,Synthetic School Account 0840,school,Sales Rep B,education,Harvest,35749,2023-09-09,2025-06-11,active,False,True
+ACCT_00841,Synthetic Local Business Account 0841,local_business,Sales Rep A,service_business,Madison,35758,2023-05-20,2024-04-09,active,True,True
+ACCT_00842,Synthetic Healthcare Account 0842,healthcare,Group Sales Rep B,healthcare,Cullman,35055,2025-05-07,2025-08-12,active,True,True
+ACCT_00843,Synthetic Local Business Account 0843,local_business,Group Sales Rep B,retail,Meridianville,35759,2025-04-09,2025-04-24,renewal_target,True,True
+ACCT_00844,Synthetic Community Group Account 0844,community_group,Sales Rep B,community,Madison,35758,2023-05-18,2023-07-06,lapsed,False,True
+ACCT_00845,Synthetic Corporate Account 0845,corporate,Group Sales Rep B,construction,Florence,35630,2024-04-27,2025-08-02,new,True,True
+ACCT_00846,Synthetic School Account 0846,school,Business Development Rep,education,Meridianville,35759,2025-04-08,2025-06-21,renewal_target,False,True
+ACCT_00847,Synthetic Community Group Account 0847,community_group,Group Sales Rep B,community,Huntsville,35801,2024-05-12,2024-07-25,active,False,True
+ACCT_00848,Synthetic Nonprofit Account 0848,nonprofit,Sales Rep C,nonprofit,Hazel Green,35750,2025-04-25,2025-09-12,active,False,True
+ACCT_00849,Synthetic Church Account 0849,church,Sales Rep A,faith_community,Athens,35611,2023-04-08,2024-06-06,active,False,True
+ACCT_00850,Synthetic Youth Sports Account 0850,youth_sports,Business Development Rep,youth_sports,Huntsville,35801,2023-07-05,2025-06-12,renewal_target,False,True
+ACCT_00851,Synthetic Healthcare Account 0851,healthcare,Sales Rep C,healthcare,Owens Cross Roads,35763,2023-06-09,2024-07-06,renewal_target,True,True
+ACCT_00852,Synthetic Corporate Account 0852,corporate,Sales Rep B,construction,Athens,35611,2023-07-07,2024-08-29,lapsed,True,True
+ACCT_00853,Synthetic School Account 0853,school,Business Development Rep,education,Hazel Green,35750,2024-06-06,2025-08-16,active,False,True
+ACCT_00854,Synthetic School Account 0854,school,Sales Rep B,education,Harvest,35749,2023-08-11,2024-06-21,renewal_target,False,True
+ACCT_00855,Synthetic School Account 0855,school,Sales Rep A,education,Hazel Green,35750,2024-04-26,2025-08-01,active,False,True
+ACCT_00856,Synthetic Church Account 0856,church,Group Sales Rep B,faith_community,Decatur,35601,2023-08-27,2025-06-18,active,False,True
+ACCT_00857,Synthetic Corporate Account 0857,corporate,Group Sales Rep B,technology,Cullman,35055,2023-04-07,2023-07-25,active,True,True
+ACCT_00858,Synthetic Church Account 0858,church,Sales Rep C,faith_community,Athens,35611,2024-06-23,2025-05-27,renewal_target,False,True
+ACCT_00859,Synthetic Nonprofit Account 0859,nonprofit,Group Sales Rep A,nonprofit,Hazel Green,35750,2023-08-12,2025-07-19,active,True,True
+ACCT_00860,Synthetic Corporate Account 0860,corporate,Sales Rep A,technology,Cullman,35055,2023-04-21,2024-07-11,active,True,True
+ACCT_00861,Synthetic Church Account 0861,church,Group Sales Rep A,faith_community,Athens,35611,2024-05-09,2024-09-07,lapsed,True,True
+ACCT_00862,Synthetic Local Business Account 0862,local_business,Sales Rep C,retail,Hazel Green,35750,2024-07-27,2025-09-14,renewal_target,True,True
+ACCT_00863,Synthetic Local Business Account 0863,local_business,Business Development Rep,retail,Meridianville,35759,2024-05-21,2025-09-10,new,True,True
+ACCT_00864,Synthetic Youth Sports Account 0864,youth_sports,Sales Rep B,youth_sports,Cullman,35055,2023-05-21,2023-07-06,active,False,True
+ACCT_00865,Synthetic Corporate Account 0865,corporate,Business Development Rep,construction,Huntsville,35801,2023-05-03,2024-04-28,new,True,True
+ACCT_00866,Synthetic Healthcare Account 0866,healthcare,Business Development Rep,healthcare,Athens,35611,2024-04-13,2024-04-14,lapsed,True,True
+ACCT_00867,Synthetic Church Account 0867,church,Group Sales Rep A,faith_community,Owens Cross Roads,35763,2023-05-19,2025-05-29,renewal_target,False,True
+ACCT_00868,Synthetic Local Business Account 0868,local_business,Group Sales Rep A,service_business,Florence,35630,2023-04-18,2025-08-13,active,True,True
+ACCT_00869,Synthetic School Account 0869,school,Group Sales Rep B,education,Madison,35758,2024-09-05,2025-05-30,renewal_target,False,True
+ACCT_00870,Synthetic Corporate Account 0870,corporate,Sales Rep B,construction,Florence,35630,2023-08-10,2025-08-15,active,True,True
+ACCT_00871,Synthetic Nonprofit Account 0871,nonprofit,Business Development Rep,nonprofit,Decatur,35601,2023-05-16,2025-05-28,renewal_target,False,True
+ACCT_00872,Synthetic School Account 0872,school,Business Development Rep,education,Decatur,35601,2025-05-27,2025-07-01,renewal_target,False,True
+ACCT_00873,Synthetic Church Account 0873,church,Sales Rep B,faith_community,Cullman,35055,2023-05-18,2024-08-07,active,False,True
+ACCT_00874,Synthetic Healthcare Account 0874,healthcare,Group Sales Rep B,healthcare,Florence,35630,2023-05-25,2023-08-25,active,True,True
+ACCT_00875,Synthetic Corporate Account 0875,corporate,Sales Rep B,finance,Decatur,35601,2023-07-25,2024-07-28,active,True,True
+ACCT_00876,Synthetic Community Group Account 0876,community_group,Group Sales Rep B,community,Huntsville,35801,2023-07-28,2025-04-13,active,False,True
+ACCT_00877,Synthetic Community Group Account 0877,community_group,Group Sales Rep A,community,Meridianville,35759,2024-05-22,2025-08-26,new,False,True
+ACCT_00878,Synthetic Community Group Account 0878,community_group,Sales Rep B,community,Meridianville,35759,2023-09-08,2025-05-07,renewal_target,False,True
+ACCT_00879,Synthetic Nonprofit Account 0879,nonprofit,Sales Rep B,nonprofit,Hazel Green,35750,2024-06-21,2024-09-05,active,False,True
+ACCT_00880,Synthetic Corporate Account 0880,corporate,Sales Rep A,professional_services,Owens Cross Roads,35763,2024-06-07,2025-04-27,active,True,True
+ACCT_00881,Synthetic School Account 0881,school,Sales Rep B,education,Meridianville,35759,2024-07-28,2025-08-27,new,False,True
+ACCT_00882,Synthetic Corporate Account 0882,corporate,Group Sales Rep A,manufacturing,Hazel Green,35750,2023-05-04,2023-06-24,active,True,True
+ACCT_00883,Synthetic Youth Sports Account 0883,youth_sports,Business Development Rep,youth_sports,Huntsville,35801,2024-04-12,2024-08-10,active,False,True
+ACCT_00884,Synthetic Church Account 0884,church,Sales Rep B,faith_community,Athens,35611,2024-08-07,2024-08-27,active,False,True
+ACCT_00885,Synthetic Church Account 0885,church,Business Development Rep,faith_community,Huntsville,35801,2024-06-08,2024-06-20,active,True,True
+ACCT_00886,Synthetic Youth Sports Account 0886,youth_sports,Sales Rep B,youth_sports,Athens,35611,2023-05-19,2025-05-28,renewal_target,False,True
+ACCT_00887,Synthetic Youth Sports Account 0887,youth_sports,Sales Rep A,youth_sports,Meridianville,35759,2023-07-04,2025-05-31,active,False,True
+ACCT_00888,Synthetic Corporate Account 0888,corporate,Sales Rep C,construction,Athens,35611,2024-07-25,2025-04-05,renewal_target,True,True
+ACCT_00889,Synthetic Corporate Account 0889,corporate,Sales Rep C,manufacturing,Huntsville,35801,2024-04-25,2025-05-27,new,True,True
+ACCT_00890,Synthetic Corporate Account 0890,corporate,Sales Rep B,construction,Athens,35611,2023-05-26,2024-04-25,active,True,True
+ACCT_00891,Synthetic School Account 0891,school,Group Sales Rep A,education,Florence,35630,2024-04-10,2025-08-29,renewal_target,False,True
+ACCT_00892,Synthetic Church Account 0892,church,Sales Rep C,faith_community,Owens Cross Roads,35763,2023-06-10,2024-05-12,lapsed,True,True
+ACCT_00893,Synthetic Youth Sports Account 0893,youth_sports,Sales Rep C,youth_sports,Huntsville,35801,2023-07-04,2024-08-10,lapsed,False,True
+ACCT_00894,Synthetic Church Account 0894,church,Sales Rep C,faith_community,Hazel Green,35750,2023-08-08,2024-07-23,active,False,True
+ACCT_00895,Synthetic Youth Sports Account 0895,youth_sports,Group Sales Rep A,youth_sports,Athens,35611,2025-04-04,2025-05-10,new,False,True
+ACCT_00896,Synthetic Corporate Account 0896,corporate,Sales Rep B,technology,Hazel Green,35750,2023-05-16,2023-08-26,new,True,True
+ACCT_00897,Synthetic School Account 0897,school,Sales Rep A,education,Athens,35611,2023-04-22,2023-09-10,new,False,True
+ACCT_00898,Synthetic School Account 0898,school,Group Sales Rep A,education,Hazel Green,35750,2024-09-06,2025-04-11,new,False,True
+ACCT_00899,Synthetic Community Group Account 0899,community_group,Group Sales Rep A,community,Decatur,35601,2023-08-26,2024-07-27,renewal_target,False,True
+ACCT_00900,Synthetic School Account 0900,school,Sales Rep B,education,Hazel Green,35750,2023-06-22,2025-08-03,new,False,True
+ACCT_00901,Synthetic Church Account 0901,church,Sales Rep C,faith_community,Hazel Green,35750,2023-06-25,2023-07-26,new,False,True
+ACCT_00902,Synthetic Corporate Account 0902,corporate,Business Development Rep,construction,Athens,35611,2024-07-28,2025-08-26,active,True,True
+ACCT_00903,Synthetic Corporate Account 0903,corporate,Group Sales Rep B,manufacturing,Athens,35611,2023-08-23,2024-09-04,active,True,True
+ACCT_00904,Synthetic Community Group Account 0904,community_group,Business Development Rep,community,Decatur,35601,2025-04-05,2025-08-29,lapsed,False,True
+ACCT_00905,Synthetic Nonprofit Account 0905,nonprofit,Sales Rep C,nonprofit,Madison,35758,2024-06-19,2025-04-06,active,False,True
+ACCT_00906,Synthetic Corporate Account 0906,corporate,Sales Rep C,manufacturing,Decatur,35601,2024-06-09,2025-05-30,active,True,True
+ACCT_00907,Synthetic School Account 0907,school,Group Sales Rep A,education,Hazel Green,35750,2023-06-24,2025-07-20,renewal_target,False,True
+ACCT_00908,Synthetic School Account 0908,school,Sales Rep B,education,Cullman,35055,2023-04-21,2024-05-22,active,False,True
+ACCT_00909,Synthetic Church Account 0909,church,Sales Rep A,faith_community,Cullman,35055,2024-06-19,2024-06-21,renewal_target,False,True
+ACCT_00910,Synthetic School Account 0910,school,Group Sales Rep A,education,Cullman,35055,2023-08-27,2025-04-05,active,False,True
+ACCT_00911,Synthetic School Account 0911,school,Group Sales Rep A,education,Huntsville,35801,2024-04-23,2025-06-22,new,False,True
+ACCT_00912,Synthetic Local Business Account 0912,local_business,Group Sales Rep B,restaurant,Hazel Green,35750,2023-07-26,2024-09-08,active,True,True
+ACCT_00913,Synthetic Youth Sports Account 0913,youth_sports,Sales Rep C,youth_sports,Huntsville,35801,2024-07-05,2024-08-31,renewal_target,False,True
+ACCT_00914,Synthetic Healthcare Account 0914,healthcare,Group Sales Rep B,healthcare,Harvest,35749,2023-08-27,2025-04-05,renewal_target,True,True
+ACCT_00915,Synthetic Nonprofit Account 0915,nonprofit,Sales Rep B,nonprofit,Decatur,35601,2023-05-20,2024-09-03,new,False,True
+ACCT_00916,Synthetic Youth Sports Account 0916,youth_sports,Sales Rep C,youth_sports,Huntsville,35801,2023-09-05,2025-08-12,lapsed,False,True
+ACCT_00917,Synthetic School Account 0917,school,Business Development Rep,education,Cullman,35055,2024-04-27,2025-08-31,new,True,True
+ACCT_00918,Synthetic Local Business Account 0918,local_business,Sales Rep A,restaurant,Madison,35758,2024-08-27,2025-06-13,new,True,True
+ACCT_00919,Synthetic Local Business Account 0919,local_business,Group Sales Rep B,service_business,Florence,35630,2023-07-05,2025-06-11,active,True,True
+ACCT_00920,Synthetic Youth Sports Account 0920,youth_sports,Sales Rep C,youth_sports,Florence,35630,2024-05-08,2024-06-09,new,False,True
+ACCT_00921,Synthetic Church Account 0921,church,Sales Rep C,faith_community,Cullman,35055,2023-08-08,2023-09-09,new,False,True
+ACCT_00922,Synthetic Corporate Account 0922,corporate,Group Sales Rep A,professional_services,Huntsville,35801,2025-05-31,2025-07-02,active,True,True
+ACCT_00923,Synthetic Healthcare Account 0923,healthcare,Group Sales Rep B,healthcare,Huntsville,35801,2024-06-05,2025-04-26,new,True,True
+ACCT_00924,Synthetic Youth Sports Account 0924,youth_sports,Group Sales Rep A,youth_sports,Cullman,35055,2023-05-27,2024-07-11,renewal_target,False,True
+ACCT_00925,Synthetic Youth Sports Account 0925,youth_sports,Business Development Rep,youth_sports,Hazel Green,35750,2023-06-21,2025-09-09,renewal_target,False,True
+ACCT_00926,Synthetic School Account 0926,school,Sales Rep C,education,Florence,35630,2023-08-11,2023-08-12,active,False,True
+ACCT_00927,Synthetic School Account 0927,school,Sales Rep A,education,Florence,35630,2023-06-09,2024-07-11,active,False,True
+ACCT_00928,Synthetic Youth Sports Account 0928,youth_sports,Sales Rep B,youth_sports,Huntsville,35801,2025-04-11,2025-04-23,active,False,True
+ACCT_00929,Synthetic Nonprofit Account 0929,nonprofit,Sales Rep A,nonprofit,Hazel Green,35750,2023-05-20,2025-05-28,renewal_target,False,True
+ACCT_00930,Synthetic Youth Sports Account 0930,youth_sports,Sales Rep A,youth_sports,Harvest,35749,2024-07-09,2024-07-14,renewal_target,False,True
+ACCT_00931,Synthetic Corporate Account 0931,corporate,Sales Rep C,technology,Madison,35758,2024-09-08,2025-06-11,active,True,True
+ACCT_00932,Synthetic Corporate Account 0932,corporate,Group Sales Rep A,technology,Huntsville,35801,2024-05-23,2025-04-27,lapsed,True,True
+ACCT_00933,Synthetic Nonprofit Account 0933,nonprofit,Sales Rep A,nonprofit,Cullman,35055,2024-05-08,2025-06-20,active,False,True
+ACCT_00934,Synthetic Youth Sports Account 0934,youth_sports,Sales Rep C,youth_sports,Athens,35611,2023-04-08,2025-06-20,active,False,True
+ACCT_00935,Synthetic Youth Sports Account 0935,youth_sports,Sales Rep C,youth_sports,Cullman,35055,2023-06-11,2023-06-25,active,False,True
+ACCT_00936,Synthetic School Account 0936,school,Group Sales Rep A,education,Harvest,35749,2024-09-06,2025-04-08,active,False,True
+ACCT_00937,Synthetic Nonprofit Account 0937,nonprofit,Group Sales Rep A,nonprofit,Hazel Green,35750,2025-04-11,2025-07-03,active,False,True
+ACCT_00938,Synthetic Nonprofit Account 0938,nonprofit,Sales Rep B,nonprofit,Huntsville,35801,2025-05-29,2025-05-30,new,False,True
+ACCT_00939,Synthetic Corporate Account 0939,corporate,Sales Rep B,construction,Huntsville,35801,2024-07-28,2025-04-22,new,True,True
+ACCT_00940,Synthetic Local Business Account 0940,local_business,Group Sales Rep A,restaurant,Decatur,35601,2023-06-09,2024-07-14,renewal_target,True,True
+ACCT_00941,Synthetic Church Account 0941,church,Group Sales Rep A,faith_community,Harvest,35749,2025-06-10,2025-08-02,lapsed,False,True
+ACCT_00942,Synthetic Community Group Account 0942,community_group,Business Development Rep,community,Hazel Green,35750,2023-05-06,2025-04-06,active,False,True
+ACCT_00943,Synthetic School Account 0943,school,Sales Rep A,education,Meridianville,35759,2024-09-08,2025-06-17,active,False,True
+ACCT_00944,Synthetic Nonprofit Account 0944,nonprofit,Sales Rep A,nonprofit,Cullman,35055,2023-04-07,2024-09-01,renewal_target,False,True
+ACCT_00945,Synthetic Local Business Account 0945,local_business,Group Sales Rep B,retail,Huntsville,35801,2024-05-24,2024-06-08,lapsed,True,True
+ACCT_00946,Synthetic Nonprofit Account 0946,nonprofit,Group Sales Rep A,nonprofit,Decatur,35601,2023-06-25,2025-04-13,active,False,True
+ACCT_00947,Synthetic Church Account 0947,church,Sales Rep C,faith_community,Decatur,35601,2025-05-10,2025-07-19,renewal_target,True,True
+ACCT_00948,Synthetic Youth Sports Account 0948,youth_sports,Sales Rep A,youth_sports,Athens,35611,2025-05-06,2025-06-22,active,False,True
+ACCT_00949,Synthetic Healthcare Account 0949,healthcare,Sales Rep C,healthcare,Cullman,35055,2025-04-13,2025-05-09,new,True,True
+ACCT_00950,Synthetic Local Business Account 0950,local_business,Sales Rep C,restaurant,Meridianville,35759,2023-07-06,2025-06-17,new,True,True
+ACCT_00951,Synthetic Corporate Account 0951,corporate,Sales Rep C,finance,Huntsville,35801,2023-08-09,2024-05-08,active,True,True
+ACCT_00952,Synthetic Nonprofit Account 0952,nonprofit,Sales Rep A,nonprofit,Florence,35630,2024-08-29,2025-04-04,new,False,True
+ACCT_00953,Synthetic Corporate Account 0953,corporate,Business Development Rep,finance,Huntsville,35801,2023-07-04,2023-07-28,new,True,True
+ACCT_00954,Synthetic School Account 0954,school,Sales Rep B,education,Cullman,35055,2023-07-09,2024-05-22,active,False,True
+ACCT_00955,Synthetic Corporate Account 0955,corporate,Sales Rep C,manufacturing,Owens Cross Roads,35763,2023-07-26,2024-08-30,new,True,True
+ACCT_00956,Synthetic Corporate Account 0956,corporate,Group Sales Rep B,technology,Huntsville,35801,2025-05-08,2025-05-10,lapsed,True,True
+ACCT_00957,Synthetic Youth Sports Account 0957,youth_sports,Sales Rep C,youth_sports,Florence,35630,2023-09-07,2025-04-27,new,False,True
+ACCT_00958,Synthetic Corporate Account 0958,corporate,Sales Rep C,technology,Hazel Green,35750,2023-09-05,2024-04-11,renewal_target,True,True
+ACCT_00959,Synthetic Healthcare Account 0959,healthcare,Group Sales Rep B,healthcare,Owens Cross Roads,35763,2024-07-06,2025-08-13,active,True,True
+ACCT_00960,Synthetic Corporate Account 0960,corporate,Group Sales Rep B,finance,Cullman,35055,2025-05-09,2025-07-31,renewal_target,True,True
+ACCT_00961,Synthetic Youth Sports Account 0961,youth_sports,Business Development Rep,youth_sports,Madison,35758,2023-08-26,2024-09-01,renewal_target,False,True
+ACCT_00962,Synthetic Healthcare Account 0962,healthcare,Sales Rep A,healthcare,Decatur,35601,2024-07-26,2025-04-27,lapsed,True,True
+ACCT_00963,Synthetic Youth Sports Account 0963,youth_sports,Group Sales Rep A,youth_sports,Harvest,35749,2023-05-23,2024-06-22,active,False,True
+ACCT_00964,Synthetic Corporate Account 0964,corporate,Business Development Rep,professional_services,Florence,35630,2023-04-19,2024-04-11,active,True,True
+ACCT_00965,Synthetic Nonprofit Account 0965,nonprofit,Group Sales Rep B,nonprofit,Decatur,35601,2023-07-06,2024-07-23,active,False,True
+ACCT_00966,Synthetic Nonprofit Account 0966,nonprofit,Sales Rep B,nonprofit,Decatur,35601,2023-04-07,2025-07-20,active,False,True
+ACCT_00967,Synthetic Corporate Account 0967,corporate,Sales Rep C,manufacturing,Meridianville,35759,2024-08-31,2025-04-11,lapsed,True,True
+ACCT_00968,Synthetic Youth Sports Account 0968,youth_sports,Sales Rep A,youth_sports,Hazel Green,35750,2024-04-12,2024-05-08,active,False,True
+ACCT_00969,Synthetic Corporate Account 0969,corporate,Sales Rep B,construction,Madison,35758,2023-05-16,2024-09-08,lapsed,True,True
+ACCT_00970,Synthetic Church Account 0970,church,Business Development Rep,faith_community,Harvest,35749,2024-04-13,2025-06-19,renewal_target,False,True
+ACCT_00971,Synthetic Community Group Account 0971,community_group,Group Sales Rep A,community,Meridianville,35759,2023-06-21,2025-04-08,new,False,True
+ACCT_00972,Synthetic Community Group Account 0972,community_group,Business Development Rep,community,Harvest,35749,2025-04-05,2025-06-11,renewal_target,True,True
+ACCT_00973,Synthetic Church Account 0973,church,Sales Rep C,faith_community,Meridianville,35759,2023-05-28,2024-06-04,renewal_target,False,True
+ACCT_00974,Synthetic Local Business Account 0974,local_business,Sales Rep C,restaurant,Hazel Green,35750,2023-05-20,2024-04-26,new,True,True
+ACCT_00975,Synthetic Nonprofit Account 0975,nonprofit,Sales Rep A,nonprofit,Huntsville,35801,2024-05-08,2025-09-11,active,False,True
+ACCT_00976,Synthetic Youth Sports Account 0976,youth_sports,Sales Rep B,youth_sports,Florence,35630,2024-08-30,2025-08-02,active,False,True
+ACCT_00977,Synthetic Nonprofit Account 0977,nonprofit,Business Development Rep,nonprofit,Cullman,35055,2023-04-18,2025-06-01,renewal_target,False,True
+ACCT_00978,Synthetic Church Account 0978,church,Sales Rep A,faith_community,Florence,35630,2023-05-18,2024-08-30,renewal_target,False,True
+ACCT_00979,Synthetic Healthcare Account 0979,healthcare,Business Development Rep,healthcare,Owens Cross Roads,35763,2023-06-08,2025-04-25,active,True,True
+ACCT_00980,Synthetic School Account 0980,school,Group Sales Rep B,education,Madison,35758,2023-04-08,2023-09-06,lapsed,False,True
+ACCT_00981,Synthetic Youth Sports Account 0981,youth_sports,Sales Rep B,youth_sports,Harvest,35749,2023-05-07,2023-08-09,active,False,True
+ACCT_00982,Synthetic Youth Sports Account 0982,youth_sports,Group Sales Rep A,youth_sports,Owens Cross Roads,35763,2024-06-23,2025-06-19,new,False,True
+ACCT_00983,Synthetic Corporate Account 0983,corporate,Group Sales Rep B,finance,Harvest,35749,2023-06-11,2025-07-19,new,True,True
+ACCT_00984,Synthetic Youth Sports Account 0984,youth_sports,Business Development Rep,youth_sports,Huntsville,35801,2025-04-24,2025-09-12,active,False,True
+ACCT_00985,Synthetic Corporate Account 0985,corporate,Business Development Rep,professional_services,Decatur,35601,2024-06-22,2025-06-20,active,True,True
+ACCT_00986,Synthetic Church Account 0986,church,Group Sales Rep B,faith_community,Meridianville,35759,2024-07-27,2025-08-12,active,False,True
+ACCT_00987,Synthetic School Account 0987,school,Group Sales Rep B,education,Harvest,35749,2024-06-20,2025-05-06,lapsed,False,True
+ACCT_00988,Synthetic Local Business Account 0988,local_business,Sales Rep C,restaurant,Owens Cross Roads,35763,2023-05-23,2025-05-28,renewal_target,True,True
+ACCT_00989,Synthetic School Account 0989,school,Sales Rep B,education,Florence,35630,2024-05-07,2025-09-13,active,False,True
+ACCT_00990,Synthetic Community Group Account 0990,community_group,Business Development Rep,community,Hazel Green,35750,2024-04-28,2024-08-27,renewal_target,False,True
+ACCT_00991,Synthetic School Account 0991,school,Group Sales Rep A,education,Cullman,35055,2023-07-28,2023-08-10,new,False,True
+ACCT_00992,Synthetic School Account 0992,school,Sales Rep B,education,Meridianville,35759,2025-05-08,2025-06-13,active,False,True
+ACCT_00993,Synthetic Healthcare Account 0993,healthcare,Sales Rep B,healthcare,Cullman,35055,2025-07-19,2025-08-30,new,True,True
+ACCT_00994,Synthetic Corporate Account 0994,corporate,Sales Rep B,finance,Owens Cross Roads,35763,2024-07-12,2024-08-07,active,True,True
+ACCT_00995,Synthetic Local Business Account 0995,local_business,Sales Rep C,service_business,Huntsville,35801,2024-04-23,2025-06-17,active,True,True
+ACCT_00996,Synthetic Local Business Account 0996,local_business,Group Sales Rep A,restaurant,Meridianville,35759,2023-09-07,2024-04-28,new,True,True
+ACCT_00997,Synthetic School Account 0997,school,Business Development Rep,education,Florence,35630,2025-04-11,2025-06-22,active,False,True
+ACCT_00998,Synthetic Corporate Account 0998,corporate,Group Sales Rep A,professional_services,Huntsville,35801,2024-06-23,2024-09-04,lapsed,True,True
+ACCT_00999,Synthetic Youth Sports Account 0999,youth_sports,Group Sales Rep B,youth_sports,Athens,35611,2023-08-25,2025-09-14,new,False,True
+ACCT_01000,Synthetic Community Group Account 1000,community_group,Business Development Rep,community,Cullman,35055,2024-04-13,2025-08-16,active,False,True
+ACCT_01001,Synthetic Corporate Account 1001,corporate,Sales Rep B,technology,Meridianville,35759,2024-07-09,2024-08-07,renewal_target,True,True
+ACCT_01002,Synthetic Healthcare Account 1002,healthcare,Sales Rep C,healthcare,Madison,35758,2023-08-23,2025-05-08,active,True,True
+ACCT_01003,Synthetic Corporate Account 1003,corporate,Group Sales Rep B,finance,Harvest,35749,2023-04-18,2024-07-23,renewal_target,True,True
+ACCT_01004,Synthetic School Account 1004,school,Group Sales Rep A,education,Decatur,35601,2024-08-27,2025-09-10,new,False,True
+ACCT_01005,Synthetic Youth Sports Account 1005,youth_sports,Sales Rep C,youth_sports,Owens Cross Roads,35763,2025-08-12,2025-09-13,active,False,True
+ACCT_01006,Synthetic Healthcare Account 1006,healthcare,Group Sales Rep A,healthcare,Meridianville,35759,2024-04-26,2025-08-29,new,True,True
+ACCT_01007,Synthetic Youth Sports Account 1007,youth_sports,Business Development Rep,youth_sports,Decatur,35601,2023-09-08,2025-05-07,renewal_target,False,True
+ACCT_01008,Synthetic Corporate Account 1008,corporate,Sales Rep A,finance,Athens,35611,2025-04-05,2025-07-30,active,True,True
+ACCT_01009,Synthetic Community Group Account 1009,community_group,Sales Rep A,community,Harvest,35749,2023-07-07,2025-07-01,new,False,True
+ACCT_01010,Synthetic Local Business Account 1010,local_business,Business Development Rep,service_business,Owens Cross Roads,35763,2023-08-08,2025-04-26,active,True,True
+ACCT_01011,Synthetic Local Business Account 1011,local_business,Group Sales Rep A,service_business,Hazel Green,35750,2024-05-22,2025-05-09,active,True,True
+ACCT_01012,Synthetic Corporate Account 1012,corporate,Sales Rep A,professional_services,Huntsville,35801,2024-06-18,2024-07-05,new,True,True
+ACCT_01013,Synthetic Youth Sports Account 1013,youth_sports,Sales Rep C,youth_sports,Cullman,35055,2023-06-25,2023-07-26,new,False,True
+ACCT_01014,Synthetic Corporate Account 1014,corporate,Sales Rep B,finance,Decatur,35601,2024-06-22,2025-06-01,new,True,True
+ACCT_01015,Synthetic Church Account 1015,church,Group Sales Rep B,faith_community,Hazel Green,35750,2023-08-24,2024-06-23,renewal_target,False,True
+ACCT_01016,Synthetic Corporate Account 1016,corporate,Group Sales Rep A,technology,Huntsville,35801,2023-08-12,2024-07-25,lapsed,True,True
+ACCT_01017,Synthetic Corporate Account 1017,corporate,Group Sales Rep A,manufacturing,Owens Cross Roads,35763,2023-05-18,2024-06-07,new,True,True
+ACCT_01018,Synthetic Church Account 1018,church,Sales Rep A,faith_community,Cullman,35055,2025-04-25,2025-06-01,active,False,True
+ACCT_01019,Synthetic School Account 1019,school,Group Sales Rep B,education,Florence,35630,2024-04-23,2025-08-02,new,False,True
+ACCT_01020,Synthetic Corporate Account 1020,corporate,Group Sales Rep A,construction,Cullman,35055,2023-06-06,2024-05-09,active,True,True
+ACCT_01021,Synthetic School Account 1021,school,Business Development Rep,education,Cullman,35055,2024-08-08,2025-06-21,new,False,True
+ACCT_01022,Synthetic Youth Sports Account 1022,youth_sports,Group Sales Rep A,youth_sports,Huntsville,35801,2024-04-10,2025-04-05,active,False,True
+ACCT_01023,Synthetic Corporate Account 1023,corporate,Sales Rep B,professional_services,Florence,35630,2024-06-22,2024-07-06,new,True,True
+ACCT_01024,Synthetic Community Group Account 1024,community_group,Business Development Rep,community,Harvest,35749,2023-08-22,2023-09-06,renewal_target,False,True
+ACCT_01025,Synthetic Healthcare Account 1025,healthcare,Sales Rep B,healthcare,Decatur,35601,2023-06-10,2023-06-23,renewal_target,True,True
+ACCT_01026,Synthetic School Account 1026,school,Business Development Rep,education,Decatur,35601,2024-09-06,2025-08-03,lapsed,False,True
+ACCT_01027,Synthetic School Account 1027,school,Sales Rep A,education,Athens,35611,2024-04-13,2025-05-09,active,False,True
+ACCT_01028,Synthetic Corporate Account 1028,corporate,Group Sales Rep B,manufacturing,Owens Cross Roads,35763,2023-04-18,2025-04-27,lapsed,True,True
+ACCT_01029,Synthetic Community Group Account 1029,community_group,Sales Rep C,community,Cullman,35055,2024-07-09,2025-08-31,active,False,True
+ACCT_01030,Synthetic School Account 1030,school,Group Sales Rep B,education,Decatur,35601,2025-06-15,2025-08-15,active,False,True
+ACCT_01031,Synthetic School Account 1031,school,Group Sales Rep B,education,Huntsville,35801,2023-05-18,2023-07-26,lapsed,False,True
+ACCT_01032,Synthetic Corporate Account 1032,corporate,Group Sales Rep B,construction,Florence,35630,2024-05-25,2025-08-14,active,True,True
+ACCT_01033,Synthetic Healthcare Account 1033,healthcare,Sales Rep C,healthcare,Florence,35630,2023-06-10,2023-06-10,active,True,True
+ACCT_01034,Synthetic Nonprofit Account 1034,nonprofit,Sales Rep B,nonprofit,Harvest,35749,2023-06-10,2025-08-14,renewal_target,False,True
+ACCT_01035,Synthetic Church Account 1035,church,Business Development Rep,faith_community,Owens Cross Roads,35763,2023-07-29,2025-08-12,active,False,True
+ACCT_01036,Synthetic Local Business Account 1036,local_business,Sales Rep B,retail,Decatur,35601,2023-05-06,2025-06-13,new,True,True
+ACCT_01037,Synthetic Corporate Account 1037,corporate,Sales Rep B,professional_services,Hazel Green,35750,2023-06-21,2025-04-09,active,True,True
+ACCT_01038,Synthetic School Account 1038,school,Sales Rep A,education,Huntsville,35801,2024-06-19,2024-09-06,renewal_target,False,True
+ACCT_01039,Synthetic School Account 1039,school,Sales Rep C,education,Cullman,35055,2023-05-06,2023-07-30,active,False,True
+ACCT_01040,Synthetic Youth Sports Account 1040,youth_sports,Group Sales Rep A,youth_sports,Owens Cross Roads,35763,2024-04-11,2024-07-05,active,False,True
+ACCT_01041,Synthetic Corporate Account 1041,corporate,Sales Rep A,finance,Florence,35630,2023-08-25,2025-06-01,new,True,True
+ACCT_01042,Synthetic Youth Sports Account 1042,youth_sports,Group Sales Rep B,youth_sports,Hazel Green,35750,2023-05-26,2025-08-02,active,False,True
+ACCT_01043,Synthetic Youth Sports Account 1043,youth_sports,Group Sales Rep A,youth_sports,Owens Cross Roads,35763,2023-05-07,2024-07-27,new,False,True
+ACCT_01044,Synthetic Youth Sports Account 1044,youth_sports,Sales Rep A,youth_sports,Cullman,35055,2024-08-08,2025-08-16,active,False,True
+ACCT_01045,Synthetic Nonprofit Account 1045,nonprofit,Business Development Rep,nonprofit,Florence,35630,2024-07-28,2025-05-29,active,False,True
+ACCT_01046,Synthetic Church Account 1046,church,Sales Rep B,faith_community,Owens Cross Roads,35763,2023-07-25,2025-05-28,renewal_target,True,True
+ACCT_01047,Synthetic Nonprofit Account 1047,nonprofit,Sales Rep B,nonprofit,Meridianville,35759,2023-07-25,2025-08-13,active,False,True
+ACCT_01048,Synthetic Local Business Account 1048,local_business,Sales Rep C,retail,Madison,35758,2023-05-04,2025-07-20,new,True,True
+ACCT_01049,Synthetic School Account 1049,school,Sales Rep B,education,Meridianville,35759,2023-09-05,2025-04-24,active,False,True
+ACCT_01050,Synthetic Youth Sports Account 1050,youth_sports,Group Sales Rep B,youth_sports,Athens,35611,2025-07-01,2025-08-29,active,False,True
+ACCT_01051,Synthetic Nonprofit Account 1051,nonprofit,Sales Rep A,nonprofit,Hazel Green,35750,2024-09-03,2025-09-13,active,False,True
+ACCT_01052,Synthetic Local Business Account 1052,local_business,Sales Rep C,restaurant,Madison,35758,2024-05-12,2025-07-20,active,True,True
+ACCT_01053,Synthetic Youth Sports Account 1053,youth_sports,Group Sales Rep B,youth_sports,Hazel Green,35750,2024-05-21,2025-04-10,lapsed,False,True
+ACCT_01054,Synthetic Corporate Account 1054,corporate,Group Sales Rep A,construction,Athens,35611,2024-07-27,2024-07-27,new,True,True
+ACCT_01055,Synthetic School Account 1055,school,Sales Rep A,education,Florence,35630,2023-05-25,2023-07-04,lapsed,False,True
+ACCT_01056,Synthetic Church Account 1056,church,Group Sales Rep A,faith_community,Huntsville,35801,2023-07-28,2024-06-23,renewal_target,False,True
+ACCT_01057,Synthetic School Account 1057,school,Sales Rep C,education,Meridianville,35759,2023-04-18,2023-08-10,lapsed,False,True
+ACCT_01058,Synthetic School Account 1058,school,Business Development Rep,education,Meridianville,35759,2023-08-26,2023-09-08,renewal_target,False,True
+ACCT_01059,Synthetic Youth Sports Account 1059,youth_sports,Sales Rep A,youth_sports,Cullman,35055,2023-05-28,2025-07-31,renewal_target,False,True
+ACCT_01060,Synthetic Healthcare Account 1060,healthcare,Sales Rep C,healthcare,Cullman,35055,2023-04-23,2023-08-24,active,True,True
+ACCT_01061,Synthetic Church Account 1061,church,Group Sales Rep B,faith_community,Harvest,35749,2024-09-07,2025-08-27,active,False,True
+ACCT_01062,Synthetic Nonprofit Account 1062,nonprofit,Sales Rep A,nonprofit,Decatur,35601,2024-04-11,2025-07-19,active,False,True
+ACCT_01063,Synthetic Corporate Account 1063,corporate,Sales Rep A,technology,Harvest,35749,2024-05-26,2025-04-22,active,True,True
+ACCT_01064,Synthetic Church Account 1064,church,Group Sales Rep A,faith_community,Owens Cross Roads,35763,2024-06-09,2025-08-17,active,False,True
+ACCT_01065,Synthetic Corporate Account 1065,corporate,Sales Rep A,finance,Owens Cross Roads,35763,2023-04-07,2025-08-28,lapsed,True,True
+ACCT_01066,Synthetic Corporate Account 1066,corporate,Group Sales Rep B,technology,Hazel Green,35750,2023-04-06,2023-06-23,active,True,True
+ACCT_01067,Synthetic Church Account 1067,church,Group Sales Rep B,faith_community,Hazel Green,35750,2024-05-24,2024-07-06,active,False,True
+ACCT_01068,Synthetic Nonprofit Account 1068,nonprofit,Business Development Rep,nonprofit,Madison,35758,2023-04-06,2024-09-06,renewal_target,False,True
+ACCT_01069,Synthetic School Account 1069,school,Group Sales Rep B,education,Huntsville,35801,2024-09-03,2025-08-29,new,False,True
+ACCT_01070,Synthetic School Account 1070,school,Group Sales Rep B,education,Athens,35611,2024-04-25,2025-05-10,active,True,True
+ACCT_01071,Synthetic School Account 1071,school,Business Development Rep,education,Meridianville,35759,2024-07-24,2025-07-31,renewal_target,False,True
+ACCT_01072,Synthetic Corporate Account 1072,corporate,Group Sales Rep B,technology,Cullman,35055,2024-09-07,2025-06-20,new,True,True
+ACCT_01073,Synthetic Local Business Account 1073,local_business,Business Development Rep,restaurant,Hazel Green,35750,2023-05-06,2025-04-24,active,True,True
+ACCT_01074,Synthetic School Account 1074,school,Group Sales Rep B,education,Owens Cross Roads,35763,2023-05-27,2025-08-03,active,False,True
+ACCT_01075,Synthetic School Account 1075,school,Business Development Rep,education,Hazel Green,35750,2023-05-23,2025-07-03,lapsed,False,True
+ACCT_01076,Synthetic Local Business Account 1076,local_business,Sales Rep B,retail,Owens Cross Roads,35763,2023-04-19,2025-08-13,renewal_target,True,True
+ACCT_01077,Synthetic School Account 1077,school,Sales Rep A,education,Florence,35630,2024-05-08,2025-07-20,new,False,True
+ACCT_01078,Synthetic Community Group Account 1078,community_group,Business Development Rep,community,Hazel Green,35750,2025-05-27,2025-06-22,new,True,True
+ACCT_01079,Synthetic Church Account 1079,church,Group Sales Rep B,faith_community,Florence,35630,2023-08-11,2024-05-08,lapsed,False,True
+ACCT_01080,Synthetic School Account 1080,school,Sales Rep C,education,Harvest,35749,2024-05-24,2025-04-13,active,False,True
+ACCT_01081,Synthetic Corporate Account 1081,corporate,Group Sales Rep B,construction,Owens Cross Roads,35763,2024-06-09,2025-04-11,new,True,True
+ACCT_01082,Synthetic Youth Sports Account 1082,youth_sports,Sales Rep B,youth_sports,Athens,35611,2025-04-24,2025-07-30,active,True,True
+ACCT_01083,Synthetic Church Account 1083,church,Business Development Rep,faith_community,Meridianville,35759,2024-06-23,2025-07-30,active,False,True
+ACCT_01084,Synthetic Healthcare Account 1084,healthcare,Group Sales Rep B,healthcare,Decatur,35601,2024-07-13,2025-08-03,renewal_target,True,True
+ACCT_01085,Synthetic School Account 1085,school,Sales Rep A,education,Hazel Green,35750,2023-08-24,2024-05-24,active,False,True
+ACCT_01086,Synthetic Youth Sports Account 1086,youth_sports,Business Development Rep,youth_sports,Huntsville,35801,2023-08-13,2025-06-10,active,False,True
+ACCT_01087,Synthetic Nonprofit Account 1087,nonprofit,Business Development Rep,nonprofit,Cullman,35055,2025-04-26,2025-05-11,renewal_target,False,True
+ACCT_01088,Synthetic School Account 1088,school,Business Development Rep,education,Harvest,35749,2023-05-26,2024-08-30,active,False,True
+ACCT_01089,Synthetic Corporate Account 1089,corporate,Business Development Rep,finance,Athens,35611,2023-08-12,2025-05-09,active,True,True
+ACCT_01090,Synthetic Local Business Account 1090,local_business,Sales Rep B,service_business,Meridianville,35759,2023-06-06,2025-06-21,active,True,True
+ACCT_01091,Synthetic Church Account 1091,church,Group Sales Rep A,faith_community,Madison,35758,2023-04-07,2025-05-31,renewal_target,True,True
+ACCT_01092,Synthetic Corporate Account 1092,corporate,Group Sales Rep A,construction,Meridianville,35759,2024-07-14,2025-07-02,renewal_target,True,True
+ACCT_01093,Synthetic Local Business Account 1093,local_business,Group Sales Rep A,retail,Cullman,35055,2024-04-11,2025-06-22,active,True,True
+ACCT_01094,Synthetic Corporate Account 1094,corporate,Business Development Rep,technology,Cullman,35055,2024-05-26,2025-05-10,new,True,True
+ACCT_01095,Synthetic Youth Sports Account 1095,youth_sports,Business Development Rep,youth_sports,Harvest,35749,2024-04-11,2024-04-27,lapsed,True,True
+ACCT_01096,Synthetic School Account 1096,school,Group Sales Rep B,education,Owens Cross Roads,35763,2023-07-07,2024-07-05,renewal_target,False,True
+ACCT_01097,Synthetic Corporate Account 1097,corporate,Business Development Rep,construction,Athens,35611,2024-07-14,2025-07-18,new,True,True
+ACCT_01098,Synthetic Youth Sports Account 1098,youth_sports,Group Sales Rep B,youth_sports,Athens,35611,2023-06-22,2025-04-26,active,False,True
+ACCT_01099,Synthetic School Account 1099,school,Group Sales Rep A,education,Hazel Green,35750,2023-07-27,2025-08-16,active,True,True
+ACCT_01100,Synthetic Church Account 1100,church,Sales Rep C,faith_community,Meridianville,35759,2023-08-23,2025-04-13,renewal_target,False,True
+ACCT_01101,Synthetic Nonprofit Account 1101,nonprofit,Business Development Rep,nonprofit,Hazel Green,35750,2024-06-18,2024-08-06,active,False,True
+ACCT_01102,Synthetic Healthcare Account 1102,healthcare,Group Sales Rep A,healthcare,Decatur,35601,2023-04-21,2023-08-27,renewal_target,True,True
+ACCT_01103,Synthetic Corporate Account 1103,corporate,Sales Rep B,manufacturing,Athens,35611,2024-04-27,2024-06-07,new,True,True
+ACCT_01104,Synthetic Church Account 1104,church,Group Sales Rep A,faith_community,Huntsville,35801,2025-04-22,2025-04-23,active,False,True
+ACCT_01105,Synthetic Corporate Account 1105,corporate,Group Sales Rep B,construction,Florence,35630,2023-06-06,2024-09-05,active,True,True
+ACCT_01106,Synthetic Church Account 1106,church,Sales Rep A,faith_community,Florence,35630,2024-09-03,2024-09-08,renewal_target,False,True
+ACCT_01107,Synthetic Nonprofit Account 1107,nonprofit,Sales Rep A,nonprofit,Madison,35758,2024-07-13,2025-07-29,active,False,True
+ACCT_01108,Synthetic Local Business Account 1108,local_business,Sales Rep A,retail,Owens Cross Roads,35763,2023-08-13,2024-07-06,new,True,True
+ACCT_01109,Synthetic Community Group Account 1109,community_group,Sales Rep C,community,Athens,35611,2024-08-11,2025-05-27,lapsed,False,True
+ACCT_01110,Synthetic Youth Sports Account 1110,youth_sports,Group Sales Rep A,youth_sports,Athens,35611,2024-04-09,2024-04-13,new,False,True
+ACCT_01111,Synthetic Corporate Account 1111,corporate,Sales Rep B,technology,Huntsville,35801,2024-08-07,2025-06-01,active,True,True
+ACCT_01112,Synthetic Local Business Account 1112,local_business,Sales Rep A,retail,Madison,35758,2023-04-19,2024-05-12,active,True,True
+ACCT_01113,Synthetic Corporate Account 1113,corporate,Sales Rep A,professional_services,Madison,35758,2023-06-06,2025-09-12,new,True,True
+ACCT_01114,Synthetic Local Business Account 1114,local_business,Sales Rep C,retail,Harvest,35749,2023-08-12,2024-08-08,renewal_target,True,True
+ACCT_01115,Synthetic Local Business Account 1115,local_business,Sales Rep B,service_business,Hazel Green,35750,2023-04-23,2023-08-24,renewal_target,True,True
+ACCT_01116,Synthetic School Account 1116,school,Sales Rep B,education,Huntsville,35801,2023-05-04,2025-05-27,new,False,True
+ACCT_01117,Synthetic School Account 1117,school,Sales Rep B,education,Harvest,35749,2023-05-28,2025-08-13,active,False,True
+ACCT_01118,Synthetic Community Group Account 1118,community_group,Group Sales Rep A,community,Huntsville,35801,2023-04-19,2023-04-23,renewal_target,False,True
+ACCT_01119,Synthetic Church Account 1119,church,Group Sales Rep B,faith_community,Decatur,35601,2023-07-07,2025-06-01,active,False,True
+ACCT_01120,Synthetic Corporate Account 1120,corporate,Group Sales Rep A,technology,Meridianville,35759,2023-05-23,2023-06-06,active,True,True
+ACCT_01121,Synthetic Nonprofit Account 1121,nonprofit,Group Sales Rep B,nonprofit,Meridianville,35759,2024-08-29,2025-06-20,lapsed,False,True
+ACCT_01122,Synthetic Healthcare Account 1122,healthcare,Sales Rep B,healthcare,Cullman,35055,2023-09-08,2025-09-13,active,True,True
+ACCT_01123,Synthetic Church Account 1123,church,Sales Rep C,faith_community,Meridianville,35759,2023-05-24,2023-07-08,lapsed,True,True
+ACCT_01124,Synthetic Corporate Account 1124,corporate,Business Development Rep,finance,Madison,35758,2023-05-07,2024-04-10,renewal_target,True,True
+ACCT_01125,Synthetic School Account 1125,school,Group Sales Rep A,education,Meridianville,35759,2024-05-24,2024-07-13,new,False,True
+ACCT_01126,Synthetic School Account 1126,school,Sales Rep A,education,Owens Cross Roads,35763,2023-06-25,2023-07-05,renewal_target,False,True
+ACCT_01127,Synthetic School Account 1127,school,Business Development Rep,education,Florence,35630,2023-09-05,2025-07-20,active,False,True
+ACCT_01128,Synthetic School Account 1128,school,Group Sales Rep B,education,Madison,35758,2023-07-07,2024-04-14,new,False,True
+ACCT_01129,Synthetic School Account 1129,school,Sales Rep C,education,Athens,35611,2024-06-09,2024-07-10,new,False,True
+ACCT_01130,Synthetic Community Group Account 1130,community_group,Business Development Rep,community,Harvest,35749,2024-06-23,2025-07-18,new,False,True
+ACCT_01131,Synthetic Nonprofit Account 1131,nonprofit,Sales Rep B,nonprofit,Athens,35611,2024-05-23,2025-06-18,new,True,True
+ACCT_01132,Synthetic Corporate Account 1132,corporate,Sales Rep A,construction,Meridianville,35759,2025-07-31,2025-08-14,active,True,True
+ACCT_01133,Synthetic Church Account 1133,church,Business Development Rep,faith_community,Decatur,35601,2023-06-06,2025-07-03,active,False,True
+ACCT_01134,Synthetic Church Account 1134,church,Sales Rep A,faith_community,Owens Cross Roads,35763,2024-06-21,2025-09-14,new,False,True
+ACCT_01135,Synthetic Church Account 1135,church,Sales Rep B,faith_community,Athens,35611,2024-06-09,2025-07-18,active,False,True
+ACCT_01136,Synthetic Corporate Account 1136,corporate,Sales Rep B,technology,Madison,35758,2024-06-06,2025-04-22,new,True,True
+ACCT_01137,Synthetic Corporate Account 1137,corporate,Group Sales Rep B,manufacturing,Harvest,35749,2023-08-13,2025-04-11,active,True,True
+ACCT_01138,Synthetic Youth Sports Account 1138,youth_sports,Sales Rep B,youth_sports,Madison,35758,2023-07-08,2024-06-22,lapsed,False,True
+ACCT_01139,Synthetic Youth Sports Account 1139,youth_sports,Sales Rep C,youth_sports,Huntsville,35801,2025-06-19,2025-07-20,new,False,True
+ACCT_01140,Synthetic Church Account 1140,church,Sales Rep C,faith_community,Harvest,35749,2024-06-05,2025-08-26,active,False,True
+ACCT_01141,Synthetic Youth Sports Account 1141,youth_sports,Group Sales Rep B,youth_sports,Harvest,35749,2023-07-30,2023-08-26,renewal_target,False,True
+ACCT_01142,Synthetic Nonprofit Account 1142,nonprofit,Sales Rep C,nonprofit,Decatur,35601,2024-07-25,2025-04-09,new,False,True
+ACCT_01143,Synthetic Community Group Account 1143,community_group,Business Development Rep,community,Florence,35630,2023-06-06,2025-06-22,active,False,True
+ACCT_01144,Synthetic Corporate Account 1144,corporate,Group Sales Rep B,finance,Owens Cross Roads,35763,2024-05-11,2025-05-28,new,True,True
+ACCT_01145,Synthetic School Account 1145,school,Sales Rep C,education,Athens,35611,2023-07-25,2025-04-06,renewal_target,False,True
+ACCT_01146,Synthetic Corporate Account 1146,corporate,Sales Rep C,technology,Meridianville,35759,2023-05-28,2024-04-23,new,True,True
+ACCT_01147,Synthetic Local Business Account 1147,local_business,Sales Rep B,retail,Harvest,35749,2023-05-18,2023-05-21,new,True,True
+ACCT_01148,Synthetic School Account 1148,school,Group Sales Rep B,education,Florence,35630,2024-09-01,2025-05-27,active,False,True
+ACCT_01149,Synthetic Healthcare Account 1149,healthcare,Group Sales Rep B,healthcare,Madison,35758,2025-04-13,2025-04-25,active,True,True
+ACCT_01150,Synthetic Community Group Account 1150,community_group,Group Sales Rep B,community,Owens Cross Roads,35763,2024-04-14,2025-04-06,active,False,True
+ACCT_01151,Synthetic Youth Sports Account 1151,youth_sports,Sales Rep A,youth_sports,Harvest,35749,2023-09-06,2024-06-18,active,False,True
+ACCT_01152,Synthetic School Account 1152,school,Group Sales Rep B,education,Harvest,35749,2023-05-25,2023-05-27,active,False,True
+ACCT_01153,Synthetic Youth Sports Account 1153,youth_sports,Sales Rep B,youth_sports,Huntsville,35801,2024-04-12,2025-06-20,renewal_target,False,True
+ACCT_01154,Synthetic Nonprofit Account 1154,nonprofit,Business Development Rep,nonprofit,Harvest,35749,2024-05-09,2025-05-28,lapsed,False,True
+ACCT_01155,Synthetic Corporate Account 1155,corporate,Sales Rep C,finance,Decatur,35601,2024-04-27,2025-06-21,new,True,True
+ACCT_01156,Synthetic School Account 1156,school,Sales Rep C,education,Madison,35758,2024-08-27,2025-05-11,active,False,True
+ACCT_01157,Synthetic Nonprofit Account 1157,nonprofit,Business Development Rep,nonprofit,Meridianville,35759,2023-05-20,2024-04-12,renewal_target,False,True
+ACCT_01158,Synthetic Church Account 1158,church,Business Development Rep,faith_community,Owens Cross Roads,35763,2023-05-23,2025-04-22,new,False,True
+ACCT_01159,Synthetic School Account 1159,school,Sales Rep A,education,Madison,35758,2024-07-14,2025-05-27,active,False,True
+ACCT_01160,Synthetic Youth Sports Account 1160,youth_sports,Sales Rep A,youth_sports,Harvest,35749,2023-04-23,2025-04-26,new,False,True
+ACCT_01161,Synthetic School Account 1161,school,Sales Rep C,education,Huntsville,35801,2024-04-11,2025-07-29,lapsed,False,True
+ACCT_01162,Synthetic Nonprofit Account 1162,nonprofit,Sales Rep A,nonprofit,Florence,35630,2024-05-11,2024-09-01,active,False,True
+ACCT_01163,Synthetic Corporate Account 1163,corporate,Group Sales Rep A,finance,Florence,35630,2024-04-27,2025-07-01,renewal_target,True,True
+ACCT_01164,Synthetic School Account 1164,school,Group Sales Rep A,education,Cullman,35055,2023-05-20,2024-06-09,active,False,True
+ACCT_01165,Synthetic School Account 1165,school,Sales Rep A,education,Huntsville,35801,2023-04-20,2025-06-17,active,False,True
+ACCT_01166,Synthetic Community Group Account 1166,community_group,Group Sales Rep A,community,Hazel Green,35750,2025-06-21,2025-07-01,renewal_target,True,True
+ACCT_01167,Synthetic Healthcare Account 1167,healthcare,Sales Rep C,healthcare,Madison,35758,2023-05-25,2024-09-05,active,True,True
+ACCT_01168,Synthetic Corporate Account 1168,corporate,Sales Rep B,manufacturing,Huntsville,35801,2023-09-08,2024-04-14,lapsed,True,True
+ACCT_01169,Synthetic Community Group Account 1169,community_group,Sales Rep B,community,Cullman,35055,2023-05-16,2025-09-11,renewal_target,False,True
+ACCT_01170,Synthetic Nonprofit Account 1170,nonprofit,Group Sales Rep B,nonprofit,Madison,35758,2025-04-09,2025-09-14,lapsed,False,True
+ACCT_01171,Synthetic Nonprofit Account 1171,nonprofit,Sales Rep B,nonprofit,Florence,35630,2023-06-07,2024-07-28,new,False,True
+ACCT_01172,Synthetic Corporate Account 1172,corporate,Sales Rep B,technology,Cullman,35055,2023-08-09,2025-05-27,new,True,True
+ACCT_01173,Synthetic Nonprofit Account 1173,nonprofit,Sales Rep B,nonprofit,Huntsville,35801,2023-05-18,2023-06-06,active,False,True
+ACCT_01174,Synthetic Church Account 1174,church,Business Development Rep,faith_community,Decatur,35601,2023-08-26,2024-07-23,active,False,True
+ACCT_01175,Synthetic School Account 1175,school,Sales Rep C,education,Athens,35611,2024-07-24,2025-08-29,new,False,True
+ACCT_01176,Synthetic Corporate Account 1176,corporate,Sales Rep A,construction,Harvest,35749,2023-06-09,2024-09-07,active,True,True
+ACCT_01177,Synthetic Community Group Account 1177,community_group,Sales Rep A,community,Huntsville,35801,2024-07-04,2024-08-10,active,False,True
+ACCT_01178,Synthetic Corporate Account 1178,corporate,Sales Rep B,finance,Cullman,35055,2024-07-26,2025-06-19,new,True,True
+ACCT_01179,Synthetic Youth Sports Account 1179,youth_sports,Group Sales Rep A,youth_sports,Madison,35758,2023-06-21,2023-08-08,active,False,True
+ACCT_01180,Synthetic Corporate Account 1180,corporate,Sales Rep C,professional_services,Athens,35611,2023-04-23,2025-04-06,new,True,True
+ACCT_01181,Synthetic Corporate Account 1181,corporate,Sales Rep A,technology,Harvest,35749,2023-06-21,2023-06-23,active,True,True
+ACCT_01182,Synthetic Youth Sports Account 1182,youth_sports,Sales Rep B,youth_sports,Huntsville,35801,2023-04-18,2023-07-04,active,False,True
+ACCT_01183,Synthetic Community Group Account 1183,community_group,Business Development Rep,community,Cullman,35055,2023-04-18,2025-09-12,renewal_target,False,True
+ACCT_01184,Synthetic School Account 1184,school,Group Sales Rep B,education,Hazel Green,35750,2025-05-30,2025-08-15,active,False,True
+ACCT_01185,Synthetic Corporate Account 1185,corporate,Business Development Rep,finance,Owens Cross Roads,35763,2024-06-05,2024-09-05,renewal_target,True,True
+ACCT_01186,Synthetic Local Business Account 1186,local_business,Sales Rep C,service_business,Decatur,35601,2023-05-26,2024-06-19,new,True,True
+ACCT_01187,Synthetic Youth Sports Account 1187,youth_sports,Sales Rep B,youth_sports,Madison,35758,2024-07-10,2025-06-19,active,False,True
+ACCT_01188,Synthetic School Account 1188,school,Sales Rep C,education,Florence,35630,2025-06-17,2025-07-01,active,False,True
+ACCT_01189,Synthetic Youth Sports Account 1189,youth_sports,Group Sales Rep A,youth_sports,Madison,35758,2023-05-25,2025-07-20,renewal_target,False,True
+ACCT_01190,Synthetic Nonprofit Account 1190,nonprofit,Group Sales Rep B,nonprofit,Madison,35758,2023-04-08,2024-04-27,active,False,True
+ACCT_01191,Synthetic Youth Sports Account 1191,youth_sports,Business Development Rep,youth_sports,Huntsville,35801,2023-04-19,2024-08-30,lapsed,False,True
+ACCT_01192,Synthetic Community Group Account 1192,community_group,Business Development Rep,community,Harvest,35749,2023-05-06,2023-05-16,active,False,True
+ACCT_01193,Synthetic Corporate Account 1193,corporate,Sales Rep A,finance,Owens Cross Roads,35763,2024-04-28,2025-04-10,active,True,True
+ACCT_01194,Synthetic Corporate Account 1194,corporate,Group Sales Rep A,technology,Owens Cross Roads,35763,2023-06-24,2025-06-11,new,True,True
+ACCT_01195,Synthetic School Account 1195,school,Sales Rep B,education,Decatur,35601,2024-07-06,2025-06-10,new,False,True
+ACCT_01196,Synthetic Corporate Account 1196,corporate,Business Development Rep,professional_services,Cullman,35055,2024-06-05,2025-04-09,lapsed,True,True
+ACCT_01197,Synthetic Church Account 1197,church,Business Development Rep,faith_community,Athens,35611,2025-06-21,2025-08-26,active,False,True
+ACCT_01198,Synthetic Corporate Account 1198,corporate,Business Development Rep,construction,Huntsville,35801,2023-08-27,2024-07-10,renewal_target,True,True
+ACCT_01199,Synthetic School Account 1199,school,Sales Rep A,education,Huntsville,35801,2023-05-05,2025-04-05,lapsed,False,True
+ACCT_01200,Synthetic Church Account 1200,church,Sales Rep C,faith_community,Decatur,35601,2023-05-06,2025-07-20,active,False,True

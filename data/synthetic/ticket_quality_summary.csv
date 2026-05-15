@@ -1,6 +1,6 @@
 check_name,result,expected,actual,status
-ticket_order_rows,Count ticket order rows,> 0,339565,PASS
-ticket_order_item_rows,Count ticket order item rows,> 0,339565,PASS
+ticket_order_rows,Count ticket order rows,> 0,343165,PASS
+ticket_order_item_rows,Count ticket order item rows,> 0,343165,PASS
 duplicate_order_ids,Check duplicate order_id values,0,0,PASS
 duplicate_order_item_ids,Check duplicate order_item_id values,0,0,PASS
 invalid_order_game_ids,Check all ticket order game_id values exist in games_clean.csv,0,0,PASS
@@ -19,7 +19,7 @@ ticket_type_exists_mini_plan,Check ticket type exists: mini_plan,> 0,56489,PASS
 ticket_type_exists_season_ticket,Check ticket type exists: season_ticket,> 0,27921,PASS
 ticket_type_exists_premium,Check ticket type exists: premium,> 0,26102,PASS
 ticket_type_exists_comp,Check ticket type exists: comp,> 0,10728,PASS
-low_ticket_games,Check games with unusually low synthetic tickets sold,0 below 2500,3,REVIEW
-high_ticket_games,Check games with unusually high synthetic tickets sold,0 above 8000,11,REVIEW
-total_ticket_quantity,Report total synthetic ticket quantity,Review only,1083565,PASS
-total_net_ticket_revenue,Report total synthetic net ticket revenue,Review only,18716164.97,PASS
+low_ticket_games,Check games with unusually low synthetic tickets sold,0 below 2500,2,REVIEW
+high_ticket_games,Check games with unusually high synthetic tickets sold,0 above 8000,30,REVIEW
+total_ticket_quantity,Report total synthetic ticket quantity,Review only,1274234,PASS
+total_net_ticket_revenue,Report total synthetic net ticket revenue,Review only,21319575.21,PASS
