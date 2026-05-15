@@ -39,7 +39,7 @@ priority_band_count_High,Report opportunity priority band count: High,Review onl
 priority_band_count_Medium,Report opportunity priority band count: Medium,Review only,12762,PASS
 priority_band_count_Monitor,Report opportunity priority band count: Monitor,Review only,7047,PASS
 priority_band_count_Low,Report opportunity priority band count: Low,Review only,0,PASS
-crm_task_team_count_group_sales,Report CRM task team count: group_sales,Review only,0,REVIEW
-crm_task_team_count_marketing,Report CRM task team count: marketing,Review only,0,REVIEW
-crm_task_team_count_sales,Report CRM task team count: sales,Review only,4791,PASS
-crm_task_team_count_service,Report CRM task team count: service,Review only,10209,PASS
+crm_task_team_count_group_sales,Report CRM task team count: group_sales,Review only,1110,PASS
+crm_task_team_count_marketing,Report CRM task team count: marketing,Review only,4000,PASS
+crm_task_team_count_sales,Report CRM task team count: sales,Review only,4000,PASS
+crm_task_team_count_service,Report CRM task team count: service,Review only,5890,PASS
