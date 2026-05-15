@@ -1,0 +1,30 @@
+check_name,result,expected,actual,status
+missing_required_columns,Check required promotion scorecard columns exist,0,0,PASS
+promotion_scorecard_rows,Count promotion scorecard rows,233,233,PASS
+duplicate_promo_ids,Check duplicate promo_id values,0,0,PASS
+missing_source_promo_ids,Check every source promotion appears in scorecard,0,0,PASS
+extra_scorecard_promo_ids,Check scorecard has no promo_id values outside promotions_clean.csv,0,0,PASS
+invalid_game_ids,Check every scorecard game_id exists in games_clean.csv,0,0,PASS
+invalid_recommendations,Check recommendation values,0,0,PASS
+missing_recommendation_reasons,Check every recommendation has a recommendation_reason,0,0,PASS
+negative_numeric_columns,Check key numeric columns are non-negative,0 columns,0,PASS
+bad_total_revenue_indicator_values,Check total_revenue_indicator values are valid,0,0,PASS
+bad_scan_rate_logic,Check scan_rate calculation,0,0,PASS
+bad_no_show_rate_logic,Check no_show_rate calculation,0,0,PASS
+bad_per_scanned_fan_logic,Check per-scanned-fan calculation logic,0,0,PASS
+bad_rate_ranges,Check rate columns are between 0 and 1,0,0,PASS
+bad_total_value_index,Check total_value_index is between 0 and 100,0,0,PASS
+invalid_promo_categories,Check promo_category values match source promotions,0,0,PASS
+recommendation_count_retire,Report recommendation count: retire,Review only,7,PASS
+recommendation_count_return,Report recommendation count: return,Review only,6,PASS
+recommendation_count_review,Report recommendation count: review,Review only,173,PASS
+recommendation_count_rework,Report recommendation count: rework,Review only,47,PASS
+promo_category_count_bobblehead_giveaway,Report promo category count: bobblehead_giveaway,Review only,5,PASS
+promo_category_count_community,Report promo category count: community,Review only,11,PASS
+promo_category_count_family,Report promo category count: family,Review only,34,PASS
+promo_category_count_fireworks,Report promo category count: fireworks,Review only,65,PASS
+promo_category_count_jersey_giveaway,Report promo category count: jersey_giveaway,Review only,2,PASS
+promo_category_count_weekly_promo,Report promo category count: weekly_promo,Review only,116,PASS
+average_total_value_index,Report average total_value_index,Review only,43.05,PASS
+max_total_value_index,Report max total_value_index,Review only,78.70,PASS
+min_total_value_index,Report min total_value_index,Review only,16.60,PASS
