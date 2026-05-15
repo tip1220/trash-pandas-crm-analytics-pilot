@@ -1,0 +1,14 @@
+check_name,result,expected,actual,status
+total_game_rows,Count total game rows,207,207,PASS
+2023_home_game_count,Count home games for 2023,69,69,PASS
+2024_home_game_count,Count home games for 2024,69,69,PASS
+2025_home_game_count,Count home games for 2025,69,69,PASS
+duplicate_game_ids,Check duplicate game_id values,0,0,PASS
+duplicate_season_date_opponent,Check duplicate season/game_date/opponent values,0,0,PASS
+home_games_only,Check all games are home games,0 non-home rows,0,PASS
+missing_homestand_id,Check all games have homestand_id,0,0,PASS
+missing_source_id,Check all games have source_id,0,0,PASS
+invalid_source_id,Check all game source_id values exist in public_source_log,0,0,PASS
+missing_game_date,Check all games have game_date,0,0,PASS
+missing_opponent,Check all games have opponent,0,0,PASS
+homestand_size_range,Check homestand sizes are reasonable,3-12 games,{},PASS
