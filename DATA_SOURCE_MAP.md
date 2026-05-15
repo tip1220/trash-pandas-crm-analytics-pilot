@@ -891,7 +891,7 @@ Used to answer:
 
 ### Purpose
 
-Revenue summary data is not a raw source in the MVP. It is built from connected reporting views.
+Revenue summary data is not a raw source in the current build. It is built from connected reporting views.
 
 The project should avoid pretending to have actual financial truth.
 
@@ -961,11 +961,11 @@ The most important joins in this project are:
 
 ---
 
-## MVP Source Priority
+## current build Source Priority
 
-The MVP should focus on the sources that best support the core business questions.
+The current build should focus on the sources that best support the core business questions.
 
-### Tier 1: Required for MVP
+### Tier 1: Required for current build
 
 | Source | Reason |
 |---|---|

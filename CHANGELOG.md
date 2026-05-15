@@ -6,7 +6,7 @@ cat > CHANGELOG.md <<'EOF'
 
 - Renamed project direction from CRM Analytics Pilot to Connected Reporting Pilot
 - Updated project focus to Snowflake-based connected reporting
-- Locked MVP around promotion decisions and fan/account follow-up
+- Locked current build around promotion decisions and fan/account follow-up
 - Added fan-linked merch and concession behavior to project scope
 - Clarified public vs synthetic data boundaries
 

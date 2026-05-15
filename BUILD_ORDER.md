@@ -193,8 +193,8 @@ Completed outputs:
 
 Completed scripts:
 
-- `python/16_generate_follow_up_opportunities.py`
-- `python/17_rebalance_crm_follow_ups.py`
+- `python/data_generation/09_generate_follow_up_opportunities.py`
+- `python/data_generation/10_rebalance_crm_follow_ups.py`
 
 Completed quality checks:
 
@@ -591,7 +591,7 @@ This project should stay focused.
 
 Do not overbuild.
 
-The MVP is successful when it proves this:
+The current build is successful when it proves this:
 
 A team can make better decisions when ticketing, scans, promotions, merch, concessions, group sales, fan engagement, and CRM follow-up data are connected into one reporting layer.
 
@@ -603,6 +603,6 @@ The final project should answer:
 4. How would this reporting layer live in Snowflake?
 5. Which SQL queries prove the business value?
 
-Snowflake is now part of the required MVP.
+Snowflake is now part of the required current build.
 
 Tableau comes after the Snowflake reporting layer is documented and validated.

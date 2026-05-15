@@ -61,7 +61,7 @@ The dashboard and reporting structure are designed for:
 
 ## Project Scope
 
-The MVP focuses on 2023-2025 Trash Pandas home games only.
+The current build focuses on 2023-2025 Trash Pandas home games only.
 
 The project is not a full CRM replacement. It is not a real-time data pipeline. It is not a machine learning project.
 
@@ -135,7 +135,7 @@ This avoids pretending every in-park purchase can be matched to a fan.
 
 ## Core Decision Outputs
 
-The project will produce three MVP dashboard outputs:
+The project will produce three current build dashboard outputs:
 
 1. Homestand Intelligence Dashboard
 2. Promotion Performance Scorecard

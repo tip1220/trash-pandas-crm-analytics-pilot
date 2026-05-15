@@ -334,9 +334,9 @@ Leadership should be able to see:
 
 ---
 
-## MVP Questions
+## current build Questions
 
-The MVP will focus on these five questions first:
+The current build will focus on these five questions first:
 
 1. Which games and promotions created the most total fan value beyond attendance?
 2. Which promotions should return, be reworked, retired, or reviewed?

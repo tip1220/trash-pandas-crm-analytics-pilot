@@ -82,7 +82,7 @@ This distinction matters because a game can sell well but still underperform on 
 
 ## Home Game Scope
 
-The MVP focuses on Trash Pandas home games only.
+The current build focuses on Trash Pandas home games only.
 
 Away games are excluded from the main reporting layer because the project is focused on:
 
@@ -95,13 +95,13 @@ Away games are excluded from the main reporting layer because the project is foc
 - group sales
 - follow-up opportunities
 
-Away games do not support the core business questions for this MVP.
+Away games do not support the core business questions for this current build.
 
 ---
 
 ## Season Scope
 
-The MVP covers the 2023, 2024, and 2025 seasons.
+The current build covers the 2023, 2024, and 2025 seasons.
 
 This multi-season scope supports:
 

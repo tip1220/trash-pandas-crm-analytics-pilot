@@ -124,8 +124,8 @@ Key outputs:
 
 Key scripts:
 
-- `python/04_generate_fans.py`
-- `python/99_fan_quality_checks.py`
+- `python/data_generation/01_generate_fans.py`
+- `python/quality_checks/04_fan_quality_checks.py`
 
 ---
 
@@ -153,10 +153,10 @@ Key outputs:
 
 Key scripts:
 
-- `python/06_generate_ticket_orders.py`
-- `python/08_generate_ticket_scans.py`
-- `python/99_ticket_quality_checks.py`
-- `python/99_scan_quality_checks.py`
+- `python/data_generation/02_generate_ticket_orders.py`
+- `python/data_generation/03_generate_ticket_scans.py`
+- `python/quality_checks/05_ticket_quality_checks.py`
+- `python/quality_checks/06_scan_quality_checks.py`
 
 Final modeled totals:
 
@@ -187,8 +187,8 @@ Key outputs:
 
 Key scripts:
 
-- `python/09_generate_group_sales.py`
-- `python/99_group_quality_checks.py`
+- `python/data_generation/04_generate_group_sales.py`
+- `python/quality_checks/07_group_quality_checks.py`
 
 Final modeled totals:
 
@@ -217,8 +217,8 @@ Key outputs:
 
 Key scripts:
 
-- `python/11_generate_merch_transactions.py`
-- `python/99_merch_quality_checks.py`
+- `python/data_generation/05_generate_merch_transactions.py`
+- `python/quality_checks/08_merch_quality_checks.py`
 
 Final modeled totals:
 
@@ -246,8 +246,8 @@ Key outputs:
 
 Key scripts:
 
-- `python/12_generate_concession_transactions.py`
-- `python/99_concession_quality_checks.py`
+- `python/data_generation/06_generate_concession_transactions.py`
+- `python/quality_checks/09_concession_quality_checks.py`
 
 Final modeled totals:
 
@@ -276,8 +276,8 @@ Key outputs:
 
 Key scripts:
 
-- `python/13_generate_sponsorship_activations.py`
-- `python/99_sponsorship_quality_checks.py`
+- `python/data_generation/07_generate_sponsorship_activations.py`
+- `python/quality_checks/10_sponsorship_quality_checks.py`
 
 Final modeled totals:
 
@@ -305,8 +305,8 @@ Key outputs:
 
 Key scripts:
 
-- `python/14_generate_fan_engagement.py`
-- `python/99_fan_engagement_quality_checks.py`
+- `python/data_generation/08_generate_fan_engagement.py`
+- `python/quality_checks/11_fan_engagement_quality_checks.py`
 
 Final modeled totals:
 
@@ -316,8 +316,8 @@ Final modeled totals:
 
 Status note:
 
-- App, social, and offer-response signals were not modeled for MVP.
-- The MVP still has enough behavioral signal from email, SMS, QR, survey, web, and offer-click activity.
+- App, social, and offer-response signals were not modeled for current build.
+- The current build still has enough behavioral signal from email, SMS, QR, survey, web, and offer-click activity.
 
 ---
 
@@ -341,9 +341,9 @@ Key outputs:
 
 Key scripts:
 
-- `python/16_generate_follow_up_opportunities.py`
-- `python/17_rebalance_crm_follow_ups.py`
-- `python/99_follow_up_quality_checks.py`
+- `python/data_generation/09_generate_follow_up_opportunities.py`
+- `python/data_generation/10_rebalance_crm_follow_ups.py`
+- `python/quality_checks/12_follow_up_quality_checks.py`
 
 Final modeled totals:
 
@@ -374,8 +374,8 @@ Key outputs:
 
 Key scripts:
 
-- `python/18_build_homestand_summary.py`
-- `python/99_homestand_summary_quality_checks.py`
+- `python/export_builds/01_build_homestand_summary.py`
+- `python/quality_checks/13_homestand_summary_quality_checks.py`
 
 Final modeled totals:
 
@@ -405,8 +405,8 @@ Key outputs:
 
 Key scripts:
 
-- `python/20_build_promotion_scorecard.py`
-- `python/99_promotion_scorecard_quality_checks.py`
+- `python/export_builds/02_build_promotion_scorecard.py`
+- `python/quality_checks/14_promotion_scorecard_quality_checks.py`
 
 Final modeled totals:
 
@@ -438,8 +438,8 @@ Key outputs:
 
 Key scripts:
 
-- `python/22_build_crm_follow_up_queue.py`
-- `python/99_crm_follow_up_queue_quality_checks.py`
+- `python/export_builds/03_build_crm_follow_up_queue.py`
+- `python/quality_checks/15_crm_follow_up_queue_quality_checks.py`
 
 Final modeled totals:
 
@@ -845,9 +845,9 @@ Focus:
 
 ---
 
-## Current MVP Definition
+## Current Build Definition
 
-The MVP is complete when:
+The current build is complete when:
 
 - Python-generated source and synthetic files exist
 - Final exports exist
@@ -860,7 +860,7 @@ The MVP is complete when:
 - README clearly explains public vs synthetic data
 - README explains Snowflake/SQL reporting layer
 
-Current MVP status:
+Current current build status:
 
 - Data generation: Complete
 - Quality checks: Complete
