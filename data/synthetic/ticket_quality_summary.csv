@@ -1,0 +1,25 @@
+check_name,result,expected,actual,status
+ticket_order_rows,Count ticket order rows,> 0,339565,PASS
+ticket_order_item_rows,Count ticket order item rows,> 0,339565,PASS
+duplicate_order_ids,Check duplicate order_id values,0,0,PASS
+duplicate_order_item_ids,Check duplicate order_item_id values,0,0,PASS
+invalid_order_game_ids,Check all ticket order game_id values exist in games_clean.csv,0,0,PASS
+invalid_item_game_ids,Check all ticket order item game_id values exist in games_clean.csv,0,0,PASS
+invalid_order_fan_ids,Check all ticket order fan_id values exist in fans.csv,0,0,PASS
+invalid_item_fan_ids,Check all ticket order item fan_id values exist in fans.csv,0,0,PASS
+invalid_item_order_ids,Check all ticket order item order_id values exist in ticket_orders.csv,0,0,PASS
+games_without_ticket_orders,Check every game has ticket orders,0,0,PASS
+bad_order_dates,Check order_date is not after game_date,0,0,PASS
+bad_ticket_quantities,Check ticket quantities are positive,0,0,PASS
+bad_order_revenue_values,"Check gross, discount, and net ticket revenue logic",0,0,PASS
+order_item_rollup_mismatches,Check item quantity and net revenue roll up to order,0,0,PASS
+boolean_field_values,Check boolean-like fields use true/false values,0 invalid values,0,PASS
+ticket_type_exists_single_game,Check ticket type exists: single_game,> 0,218325,PASS
+ticket_type_exists_mini_plan,Check ticket type exists: mini_plan,> 0,56489,PASS
+ticket_type_exists_season_ticket,Check ticket type exists: season_ticket,> 0,27921,PASS
+ticket_type_exists_premium,Check ticket type exists: premium,> 0,26102,PASS
+ticket_type_exists_comp,Check ticket type exists: comp,> 0,10728,PASS
+low_ticket_games,Check games with unusually low synthetic tickets sold,0 below 2500,3,REVIEW
+high_ticket_games,Check games with unusually high synthetic tickets sold,0 above 8000,11,REVIEW
+total_ticket_quantity,Report total synthetic ticket quantity,Review only,1083565,PASS
+total_net_ticket_revenue,Report total synthetic net ticket revenue,Review only,18716164.97,PASS
