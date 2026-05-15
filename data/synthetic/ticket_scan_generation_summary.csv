@@ -1,0 +1,10 @@
+metric,value
+ticket_scan_rows,339565
+total_ticket_quantity,1083565
+total_scanned_ticket_quantity,963021
+total_no_show_ticket_quantity,120544
+overall_scan_rate,0.8888
+overall_no_show_rate,0.1112
+scan_status_count_not_scanned,7455
+scan_status_count_partial_scanned,91002
+scan_status_count_scanned,241108
