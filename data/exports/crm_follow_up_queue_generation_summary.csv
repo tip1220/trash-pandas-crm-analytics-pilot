@@ -1,7 +1,8 @@
 metric,value
 crm_follow_up_queue_rows,15000.0
-fan_task_rows,0.0
-account_task_rows,15000.0
+fan_task_rows,13890.0
+account_task_rows,1110.0
+unknown_task_rows,0.0
 high_priority_rows,13923.0
 medium_priority_rows,1077.0
 total_future_revenue_opportunity,12605270.19

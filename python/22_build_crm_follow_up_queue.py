@@ -22,13 +22,19 @@ queue_path = output_dir / "crm_follow_up_queue.csv"
 summary_path = output_dir / "crm_follow_up_queue_generation_summary.csv"
 
 def read_csv(path):
-    return pd.read_csv(path, dtype=str)
+    return pd.read_csv(path, dtype=str, keep_default_na=False)
 
 def to_number(series):
     return pd.to_numeric(series, errors="coerce").fillna(0)
 
 def to_bool(series):
     return series.astype(str).str.lower().eq("true")
+
+def clean_text(series):
+    return series.fillna("").astype(str).replace("nan", "")
+
+def has_value(series):
+    return clean_text(series).str.strip().ne("")
 
 def join_unique(values):
     clean_values = sorted(
@@ -80,7 +86,7 @@ promo_context = (
 game_context = game_context.merge(promo_context, on="game_id", how="left")
 
 for column in ["promo_names", "promo_categories", "promo_types"]:
-    game_context[column] = game_context[column].fillna("")
+    game_context[column] = clean_text(game_context[column])
 
 segment_context = (
     segments
@@ -149,7 +155,7 @@ fan_scan_summary["fan_no_show_rate"] = safe_divide(
 
 fan_scan_summary["fan_last_attended_date"] = fan_scan_summary["fan_last_attended_date"].dt.date.astype(str)
 
-merch = merch[merch["fan_id"].astype(str).str.strip() != ""].copy()
+merch = merch[has_value(merch["fan_id"])].copy()
 merch["net_sales"] = to_number(merch["net_sales"])
 
 fan_merch_summary = (
@@ -161,7 +167,7 @@ fan_merch_summary = (
     )
 )
 
-concessions = concessions[concessions["fan_id"].astype(str).str.strip() != ""].copy()
+concessions = concessions[has_value(concessions["fan_id"])].copy()
 concessions["net_sales"] = to_number(concessions["net_sales"])
 
 fan_concession_summary = (
@@ -244,7 +250,7 @@ fan_text_columns = [
 for column in fan_text_columns:
     if column not in fan_summary.columns:
         fan_summary[column] = ""
-    fan_summary[column] = fan_summary[column].fillna("")
+    fan_summary[column] = clean_text(fan_summary[column])
 
 fan_summary["fan_in_park_revenue"] = (
     fan_summary["fan_merch_revenue"]
@@ -304,7 +310,7 @@ for column in account_numeric_columns:
 for column in ["account_group_types", "account_event_types"]:
     if column not in account_summary.columns:
         account_summary[column] = ""
-    account_summary[column] = account_summary[column].fillna("")
+    account_summary[column] = clean_text(account_summary[column])
 
 account_summary["account_total_value"] = account_summary["account_group_revenue"]
 account_summary["account_display_name"] = account_summary["account_name"]
@@ -319,8 +325,13 @@ queue = crm_tasks.merge(
 for column in ["fan_id", "account_id", "game_id"]:
     opportunity_column = f"{column}_opportunity"
     if opportunity_column in queue.columns:
-        queue[column] = queue[column].fillna(queue[opportunity_column])
+        queue[column] = clean_text(queue[column])
+        queue[opportunity_column] = clean_text(queue[opportunity_column])
+        queue[column] = queue[column].where(has_value(queue[column]), queue[opportunity_column])
         queue = queue.drop(columns=[opportunity_column])
+
+for column in ["fan_id", "account_id", "game_id"]:
+    queue[column] = clean_text(queue[column])
 
 queue = queue.merge(
     game_context,
@@ -340,38 +351,51 @@ queue = queue.merge(
     how="left"
 )
 
+for column in ["fan_id", "account_id", "game_id"]:
+    queue[column] = clean_text(queue[column])
+
 queue["entity_type"] = "fan"
-queue.loc[queue["account_id"].astype(str).str.strip() != "", "entity_type"] = "account"
+queue.loc[has_value(queue["account_id"]), "entity_type"] = "account"
+queue.loc[~has_value(queue["fan_id"]) & ~has_value(queue["account_id"]), "entity_type"] = "unknown"
 
 queue["entity_id"] = queue["fan_id"]
 queue.loc[queue["entity_type"] == "account", "entity_id"] = queue["account_id"]
+queue.loc[queue["entity_type"] == "unknown", "entity_id"] = ""
 
-queue["entity_display_name"] = queue["fan_display_name"]
-queue.loc[queue["entity_type"] == "account", "entity_display_name"] = queue["account_display_name"]
+queue["entity_display_name"] = clean_text(queue["fan_display_name"])
+queue.loc[queue["entity_type"] == "account", "entity_display_name"] = clean_text(queue["account_display_name"])
+queue.loc[queue["entity_type"] == "unknown", "entity_display_name"] = ""
 
 queue["entity_total_value"] = to_number(queue["fan_total_value"])
 queue.loc[queue["entity_type"] == "account", "entity_total_value"] = to_number(queue["account_total_value"])
 
 queue["entity_ticket_revenue"] = to_number(queue["fan_ticket_revenue"])
+queue.loc[queue["entity_type"] == "account", "entity_ticket_revenue"] = to_number(queue["account_group_revenue"])
+
 queue["entity_in_park_revenue"] = to_number(queue["fan_in_park_revenue"])
+queue.loc[queue["entity_type"] == "account", "entity_in_park_revenue"] = 0
 
 queue["entity_activity_summary"] = ""
-queue.loc[queue["entity_type"] == "fan", "entity_activity_summary"] = (
+
+fan_mask = queue["entity_type"] == "fan"
+account_mask = queue["entity_type"] == "account"
+
+queue.loc[fan_mask, "entity_activity_summary"] = (
     "Games attended: "
-    + to_number(queue["fan_games_attended"]).astype(int).astype(str)
+    + to_number(queue.loc[fan_mask, "fan_games_attended"]).astype(int).astype(str)
     + " | Total value: $"
-    + to_number(queue["fan_total_value"]).round(0).astype(int).astype(str)
+    + to_number(queue.loc[fan_mask, "fan_total_value"]).round(0).astype(int).astype(str)
     + " | Segments: "
-    + queue["fan_segments"].fillna("")
+    + clean_text(queue.loc[fan_mask, "fan_segments"])
 )
 
-queue.loc[queue["entity_type"] == "account", "entity_activity_summary"] = (
+queue.loc[account_mask, "entity_activity_summary"] = (
     "Group outings: "
-    + to_number(queue["account_group_sale_count"]).astype(int).astype(str)
+    + to_number(queue.loc[account_mask, "account_group_sale_count"]).astype(int).astype(str)
     + " | Group tickets: "
-    + to_number(queue["account_group_ticket_quantity"]).astype(int).astype(str)
+    + to_number(queue.loc[account_mask, "account_group_ticket_quantity"]).astype(int).astype(str)
     + " | Group revenue: $"
-    + to_number(queue["account_group_revenue"]).round(0).astype(int).astype(str)
+    + to_number(queue.loc[account_mask, "account_group_revenue"]).round(0).astype(int).astype(str)
 )
 
 queue["priority_rank"] = (
@@ -469,7 +493,7 @@ text_columns = [
 for column in text_columns:
     if column not in queue.columns:
         queue[column] = ""
-    queue[column] = queue[column].fillna("")
+    queue[column] = clean_text(queue[column])
 
 ordered_columns = [
     "priority_rank",
@@ -590,6 +614,7 @@ summary_rows = [
     {"metric": "crm_follow_up_queue_rows", "value": len(queue)},
     {"metric": "fan_task_rows", "value": int((queue["entity_type"] == "fan").sum())},
     {"metric": "account_task_rows", "value": int((queue["entity_type"] == "account").sum())},
+    {"metric": "unknown_task_rows", "value": int((queue["entity_type"] == "unknown").sum())},
     {"metric": "high_priority_rows", "value": int((queue["priority_band"] == "High").sum())},
     {"metric": "medium_priority_rows", "value": int((queue["priority_band"] == "Medium").sum())},
     {"metric": "total_future_revenue_opportunity", "value": round(float(to_number(queue["future_revenue_opportunity"]).sum()), 2)},
