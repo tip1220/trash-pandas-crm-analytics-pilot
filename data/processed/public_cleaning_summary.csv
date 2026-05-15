@@ -1,0 +1,4 @@
+file_name,row_count,notes
+games_clean.csv,207,Cleaned public game schedule foundation
+promotions_clean.csv,233,Cleaned public promotion foundation
+attendance_clean.csv,207,Cleaned public announced attendance foundation; matched=191 unmatched=16
