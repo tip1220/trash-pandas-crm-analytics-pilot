@@ -1,0 +1,45 @@
+check_name,result,expected,actual,status
+follow_up_opportunity_rows,Count follow-up opportunity rows,> 0,52416,PASS
+crm_follow_up_task_rows,Count CRM follow-up task rows,> 0 and <= 15000,15000,PASS
+duplicate_opportunity_ids,Check duplicate opportunity_id values,0,0,PASS
+duplicate_follow_up_ids,Check duplicate follow_up_id values,0,0,PASS
+bad_opportunity_entity_logic,Check each opportunity connects to exactly one fan or account,0,0,PASS
+invalid_opportunity_game_ids,Check nonblank opportunity game_id values exist in games_clean.csv,0,0,PASS
+invalid_task_game_ids,Check nonblank CRM task game_id values exist in games_clean.csv,0,0,PASS
+invalid_opportunity_types,Check opportunity_type values,0,0,PASS
+invalid_source_signals,Check source_signal values,0,0,PASS
+invalid_priority_bands,Check opportunity priority_band values,0,0,PASS
+bad_opportunity_scores,Check opportunity_score is between 1 and 100,0,0,PASS
+bad_priority_band_logic,Check priority_band matches opportunity_score,0,0,PASS
+bad_future_revenue_values,Check future_revenue_opportunity is non-negative,0,0,PASS
+bad_repeat_likelihood_scores,Check repeat_likelihood_score is between 1 and 100,0,0,PASS
+bad_upgrade_potential_scores,Check upgrade_potential_score is between 1 and 100,0,0,PASS
+bad_created_dates,Check opportunity created_date format,0,0,PASS
+opportunity_boolean_values,Check opportunity synthetic_data_flag values,0,0,PASS
+invalid_task_opportunity_ids,Check CRM task opportunity_id values exist in follow_up_opportunities.csv,0,0,PASS
+bad_task_entity_links,Check CRM task entity fields match source opportunity,0,0,PASS
+invalid_task_fan_ids,Check nonblank CRM task fan_id values exist in fans.csv,0,0,PASS
+invalid_task_account_ids,Check nonblank CRM task account_id values exist in group_accounts.csv,0,0,PASS
+invalid_assigned_teams,Check assigned_team values,0,0,PASS
+bad_task_priority_logic,Check CRM tasks are tied to high or medium opportunity priority,0,0,PASS
+bad_task_due_dates,Check CRM task due_date is not before opportunity created_date,0,0,PASS
+missing_task_actions,Check every CRM task has suggested_action,0,0,PASS
+missing_task_owners,Check every CRM task has assigned_owner,0,0,PASS
+invalid_task_statuses,Check CRM task status values,0,0,PASS
+task_boolean_values,Check CRM task synthetic_data_flag values,0,0,PASS
+opportunity_type_exists_family_pack_offer,Check opportunity type exists: family_pack_offer,> 0,8641,PASS
+opportunity_type_exists_group_renewal,Check opportunity type exists: group_renewal,> 0,751,PASS
+opportunity_type_exists_group_upsell,Check opportunity type exists: group_upsell,> 0,359,PASS
+opportunity_type_exists_high_in_park_spender,Check opportunity type exists: high_in_park_spender,> 0,331,PASS
+opportunity_type_exists_lapsed_fan_winback,Check opportunity type exists: lapsed_fan_winback,> 0,2143,PASS
+opportunity_type_exists_premium_upgrade,Check opportunity type exists: premium_upgrade,> 0,11762,PASS
+opportunity_type_exists_theme_night_repeat_offer,Check opportunity type exists: theme_night_repeat_offer,> 0,6186,PASS
+opportunity_type_exists_valuable_no_show_recovery,Check opportunity type exists: valuable_no_show_recovery,> 0,22243,PASS
+priority_band_count_High,Report opportunity priority band count: High,Review only,32607,PASS
+priority_band_count_Medium,Report opportunity priority band count: Medium,Review only,12762,PASS
+priority_band_count_Monitor,Report opportunity priority band count: Monitor,Review only,7047,PASS
+priority_band_count_Low,Report opportunity priority band count: Low,Review only,0,PASS
+crm_task_team_count_group_sales,Report CRM task team count: group_sales,Review only,0,REVIEW
+crm_task_team_count_marketing,Report CRM task team count: marketing,Review only,0,REVIEW
+crm_task_team_count_sales,Report CRM task team count: sales,Review only,4791,PASS
+crm_task_team_count_service,Report CRM task team count: service,Review only,10209,PASS
