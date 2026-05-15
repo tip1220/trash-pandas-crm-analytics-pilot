@@ -1,0 +1,10 @@
+export_file,grain,primary_dashboard_use,source_type,description
+homestand_summary.csv,one row per homestand,Homestand Intelligence Dashboard,derived export,"Summarizes ticket demand, scan behavior, no-shows, in-park spend, engagement, follow-up opportunities, and recommended focus by homestand."
+promotion_scorecard.csv,one row per promotion per game,Promotion Performance Scorecard,derived export,"Scores promotions using connected ticket, scan, group sales, merch, concessions, engagement, repeat buyer, and follow-up signals."
+crm_follow_up_queue.csv,one row per CRM follow-up task,CRM Follow-Up Queue,derived export,"Prioritized sales, service, marketing, and group sales follow-up queue built from connected fan/account behavior."
+homestand_summary_generation_summary.csv,one row per generation metric,Data QA / documentation,derived summary,"Summary metrics created when building homestand_summary.csv."
+promotion_scorecard_generation_summary.csv,one row per generation metric,Data QA / documentation,derived summary,"Summary metrics created when building promotion_scorecard.csv."
+crm_follow_up_queue_generation_summary.csv,one row per generation metric,Data QA / documentation,derived summary,"Summary metrics created when building crm_follow_up_queue.csv."
+homestand_summary_quality_summary.csv,one row per quality check,Data QA / documentation,quality summary,"Quality checks proving homestand_summary.csv reconciles back to source files."
+promotion_scorecard_quality_summary.csv,one row per quality check,Data QA / documentation,quality summary,"Quality checks proving promotion_scorecard.csv is complete, valid, and dashboard-ready."
+crm_follow_up_queue_quality_summary.csv,one row per quality check,Data QA / documentation,quality summary,"Quality checks proving crm_follow_up_queue.csv has valid entity mapping, priorities, and task logic."
