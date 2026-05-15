@@ -1,0 +1,28 @@
+check_name,result,expected,actual,status
+missing_required_columns,Check required homestand summary columns exist,0,0,PASS
+homestand_rows,Count homestand summary rows,> 0,34,PASS
+duplicate_homestand_keys,Check duplicate season/homestand_id rows,0,0,PASS
+total_game_count_matches_source,Check summed homestand game_count matches games_clean.csv,207,207,PASS
+bad_game_counts,Check homestand game_count values are within expected range,0,0,PASS
+bad_homestand_dates,Check homestand start/end date logic,0,0,PASS
+tickets_sold_matches_source,Check homestand tickets_sold matches ticket_orders.csv,1274234,1274234,PASS
+scanned_attendance_matches_source,Check homestand scanned_attendance matches ticket_scans.csv,1126560,1126560,PASS
+no_show_quantity_matches_source,Check homestand no_show_ticket_quantity matches ticket_scans.csv,147674,147674,PASS
+ticket_revenue_matches_source,Check homestand net_ticket_revenue matches ticket_orders.csv,21319575.21,21319575.21,PASS
+merch_revenue_matches_source,Check homestand merch_net_sales matches merch_transactions.csv,1765481.28,1765481.28,PASS
+concession_revenue_matches_source,Check homestand concession_net_sales matches concession_transactions.csv,5570004.38,5570004.38,PASS
+bad_total_revenue_indicator_logic,Check total_revenue_indicator equals ticket + merch + concessions,0,0,PASS
+bad_scan_rate_logic,Check scan_rate calculation,0,0,PASS
+bad_no_show_rate_logic,Check no_show_rate calculation,0,0,PASS
+bad_in_park_spend_per_scanned_fan_logic,Check in_park_spend_per_scanned_fan calculation,0,0,PASS
+negative_numeric_columns,Check key numeric columns are non-negative,0 columns,0,PASS
+bad_homestand_total_value_index,Check homestand_total_value_index is between 0 and 100,0,0,PASS
+invalid_recommended_focus_values,Check recommended_focus values,0,0,PASS
+recommended_focus_count_Baseline review,Report recommended_focus count: Baseline review,Review only,14,PASS
+recommended_focus_count_Engagement follow-up,Report recommended_focus count: Engagement follow-up,Review only,4,PASS
+recommended_focus_count_Group sales renewal,Report recommended_focus count: Group sales renewal,Review only,9,PASS
+recommended_focus_count_In-park spend growth,Report recommended_focus count: In-park spend growth,Review only,6,PASS
+recommended_focus_count_No-show recovery,Report recommended_focus count: No-show recovery,Review only,1,PASS
+recommended_focus_count_Repeat what worked,Report recommended_focus count: Repeat what worked,Review only,0,PASS
+total_revenue_indicator,Report total revenue indicator,Review only,28655060.87,PASS
+average_homestand_total_value_index,Report average homestand total value index,Review only,41.51,PASS
