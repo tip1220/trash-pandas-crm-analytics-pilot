@@ -1,0 +1,34 @@
+check_name,result,expected,actual,status
+fan_engagement_rows,Count fan engagement rows,> 0,135112,PASS
+duplicate_engagement_ids,Check duplicate engagement_id values,0,0,PASS
+invalid_engagement_fan_ids,Check engagement fan_id values exist in fans.csv,0,0,PASS
+invalid_engagement_game_ids,Check nonblank engagement game_id values exist in games_clean.csv,0,0,PASS
+missing_campaign_ids,Check every engagement row has campaign_id,0,0,PASS
+missing_campaign_names,Check every engagement row has campaign_name,0,0,PASS
+invalid_engagement_types,Check engagement_type values,0,0,PASS
+invalid_engagement_channels,Check engagement_channel values,0,0,PASS
+bad_engagement_scores,Check engagement_score is between 1 and 100,0,0,PASS
+bad_engagement_dates,Check engagement_date format,0,0,PASS
+boolean_field_values,Check boolean-like engagement fields use true/false values,0,0,PASS
+unique_engaged_fans,Report unique engaged fans,> 0,20505,PASS
+game_linked_engagement_rows,Report game-linked engagement rows,> 0,132579,PASS
+non_game_campaign_engagement_rows,Report non-game campaign engagement rows,> 0,2533,PASS
+average_engagement_score,Report average engagement score,5-70,26.54,PASS
+engagement_type_exists_app_interaction,Check engagement type exists: app_interaction,> 0,0,REVIEW
+engagement_type_exists_concession_offer_click,Check engagement type exists: concession_offer_click,> 0,1551,PASS
+engagement_type_exists_email_click,Check engagement type exists: email_click,> 0,15008,PASS
+engagement_type_exists_email_open,Check engagement type exists: email_open,> 0,76527,PASS
+engagement_type_exists_group_interest_form,Check engagement type exists: group_interest_form,> 0,284,PASS
+engagement_type_exists_merch_offer_click,Check engagement type exists: merch_offer_click,> 0,982,PASS
+engagement_type_exists_offer_response,Check engagement type exists: offer_response,> 0,0,REVIEW
+engagement_type_exists_premium_interest_form,Check engagement type exists: premium_interest_form,> 0,5901,PASS
+engagement_type_exists_qr_scan,Check engagement type exists: qr_scan,> 0,14861,PASS
+engagement_type_exists_sms_click,Check engagement type exists: sms_click,> 0,8293,PASS
+engagement_type_exists_social_interaction,Check engagement type exists: social_interaction,> 0,0,REVIEW
+engagement_type_exists_survey_response,Check engagement type exists: survey_response,> 0,11705,PASS
+engagement_channel_exists_app,Check engagement channel exists: app,> 0,0,REVIEW
+engagement_channel_exists_email,Check engagement channel exists: email,> 0,105773,PASS
+engagement_channel_exists_in_park,Check engagement channel exists: in_park,> 0,14861,PASS
+engagement_channel_exists_sms,Check engagement channel exists: sms,> 0,8293,PASS
+engagement_channel_exists_social,Check engagement channel exists: social,> 0,0,REVIEW
+engagement_channel_exists_web,Check engagement channel exists: web,> 0,6185,PASS
