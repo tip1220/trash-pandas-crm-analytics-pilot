@@ -1,0 +1,25 @@
+check_name,result,expected,actual,status
+ticket_scan_rows,Count ticket scan rows,339565,339565,PASS
+duplicate_scan_ids,Check duplicate scan_id values,0,0,PASS
+duplicate_scan_order_item_ids,Check each order_item_id has only one scan row,0,0,PASS
+missing_scan_rows_for_order_items,Check every ticket order item has a scan row,0,0,PASS
+invalid_scan_order_item_ids,Check scan order_item_id values exist in ticket_order_items.csv,0,0,PASS
+invalid_scan_order_ids,Check scan order_id values exist in ticket_orders.csv,0,0,PASS
+invalid_scan_game_ids,Check scan game_id values exist in games_clean.csv,0,0,PASS
+invalid_scan_fan_ids,Check scan fan_id values exist in fans.csv,0,0,PASS
+bad_scan_quantity_logic,Check scan quantity logic,0,0,PASS
+scan_item_quantity_mismatches,Check scan ticket quantity matches order item ticket quantity,0,0,PASS
+invalid_scan_statuses,Check scan_status values,0,0,PASS
+bad_scan_status_logic,Check scan_status matches scanned and no-show quantities,0,0,PASS
+boolean_field_values,Check boolean-like scan fields use true/false values,0,0,PASS
+bad_no_show_flag_logic,Check no_show_flag matches no_show_ticket_quantity,0,0,PASS
+bad_scan_time_logic,Check scan_time exists only when scanned,0,0,PASS
+bad_gate_logic,Check gate exists only when scanned,0,0,PASS
+bad_scan_match_confidence,Check scan_match_confidence is between 0 and 100,0,0,PASS
+overall_scan_rate,Report overall scan rate,0.75-0.93,0.8888,PASS
+overall_no_show_rate,Report overall no-show rate,0.07-0.25,0.1112,PASS
+low_game_scan_rates,Check games with unusually low scan rates,0 below 0.70,0,PASS
+high_game_scan_rates,Check games with unusually high scan rates,0 above 0.97,0,PASS
+scan_status_count_not_scanned,Report scan status count: not_scanned,Review only,7455,PASS
+scan_status_count_partial_scanned,Report scan status count: partial_scanned,Review only,91002,PASS
+scan_status_count_scanned,Report scan status count: scanned,Review only,241108,PASS
