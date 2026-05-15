@@ -1,0 +1,48 @@
+check_name,result,expected,actual,status
+missing_required_columns,Check required CRM queue columns exist,0,0,PASS
+crm_follow_up_queue_rows,Count CRM follow-up queue rows,15000,15000,PASS
+duplicate_follow_up_ids,Check duplicate follow_up_id values,0,0,PASS
+duplicate_priority_ranks,Check duplicate priority_rank values,0,0,PASS
+priority_rank_sequence,Check priority_rank is a complete 1-to-row-count sequence,1-15000,valid,PASS
+missing_crm_task_ids,Check every CRM task appears in queue export,0,0,PASS
+extra_queue_task_ids,Check queue has no follow_up_id values outside crm_follow_ups.csv,0,0,PASS
+invalid_opportunity_ids,Check opportunity_id values exist in follow_up_opportunities.csv,0,0,PASS
+invalid_fan_ids,Check nonblank fan_id values exist in fans.csv,0,0,PASS
+invalid_account_ids,Check nonblank account_id values exist in group_accounts.csv,0,0,PASS
+invalid_game_ids,Check nonblank game_id values exist in games_clean.csv,0,0,PASS
+invalid_entity_types,Check entity_type values,0,0,PASS
+bad_entity_logic,"Check entity_type, entity_id, fan_id, and account_id alignment",0,0,PASS
+blank_entity_ids,Check every queue row has entity_id,0,0,PASS
+blank_entity_display_names,Check every queue row has entity_display_name,0,0,PASS
+invalid_assigned_teams,Check assigned_team values,0,0,PASS
+invalid_executive_action_buckets,Check executive_action_bucket values,0,0,PASS
+invalid_priority_bands,Check CRM queue priority_band values are High or Medium,0,0,PASS
+blank_suggested_actions,Check every queue row has suggested_action,0,0,PASS
+blank_assigned_owners,Check every queue row has assigned_owner,0,0,PASS
+blank_dashboard_filter_labels,Check every queue row has dashboard_filter_label,0,0,PASS
+bad_due_date_logic,Check due_date is not before created_date,0,0,PASS
+negative_numeric_columns,Check key numeric columns are non-negative,0 columns,0,PASS
+bad_score_ranges,"Check priority, repeat, and upgrade scores are between 1 and 100",0,0,PASS
+bad_rate_ranges,Check scan-rate fields are between 0 and 1,0,0,PASS
+bad_entity_value_logic,Check entity_total_value matches fan/account value,0,0,PASS
+bad_null_string_values,Check no string null placeholders exist,0,0,PASS
+assigned_team_count_group_sales,Report assigned team count: group_sales,> 0,1110,PASS
+assigned_team_count_marketing,Report assigned team count: marketing,> 0,4000,PASS
+assigned_team_count_sales,Report assigned team count: sales,> 0,4000,PASS
+assigned_team_count_service,Report assigned team count: service,> 0,5890,PASS
+executive_action_bucket_count_Recover,Report executive action bucket count: Recover,> 0,5890,PASS
+executive_action_bucket_count_Renew,Report executive action bucket count: Renew,> 0,1110,PASS
+executive_action_bucket_count_Retain,Report executive action bucket count: Retain,> 0,4000,PASS
+executive_action_bucket_count_Upgrade,Report executive action bucket count: Upgrade,> 0,4000,PASS
+entity_type_count_fan,Report entity type count: fan,> 0,13890,PASS
+entity_type_count_account,Report entity type count: account,> 0,1110,PASS
+priority_band_count_High,Report priority band count: High,> 0,13923,PASS
+priority_band_count_Medium,Report priority band count: Medium,> 0,1077,PASS
+opportunity_type_count_family_pack_offer,Report opportunity type count: family_pack_offer,Review only,2623,PASS
+opportunity_type_count_group_renewal,Report opportunity type count: group_renewal,Review only,751,PASS
+opportunity_type_count_group_upsell,Report opportunity type count: group_upsell,Review only,359,PASS
+opportunity_type_count_premium_upgrade,Report opportunity type count: premium_upgrade,Review only,4000,PASS
+opportunity_type_count_theme_night_repeat_offer,Report opportunity type count: theme_night_repeat_offer,Review only,1377,PASS
+opportunity_type_count_valuable_no_show_recovery,Report opportunity type count: valuable_no_show_recovery,Review only,5890,PASS
+total_future_revenue_opportunity,Report total future revenue opportunity,Review only,12605270.19,PASS
+average_priority_score,Report average priority score,Review only,93.78,PASS
