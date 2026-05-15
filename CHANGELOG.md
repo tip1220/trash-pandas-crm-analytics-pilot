@@ -1,4 +1,14 @@
-## 2026-05-07
+## 2026-05-15
+cat > CHANGELOG.md <<'EOF'
+# Changelog
+
+## Project Reset
+
+- Renamed project direction from CRM Analytics Pilot to Connected Reporting Pilot
+- Updated project focus to Snowflake-based connected reporting
+- Locked MVP around promotion decisions and fan/account follow-up
+- Added fan-linked merch and concession behavior to project scope
+- Clarified public vs synthetic data boundaries
 
 ### Added
 - Built Tableau Public dashboard pages:
