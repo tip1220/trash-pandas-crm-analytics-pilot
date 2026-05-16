@@ -1,237 +1,162 @@
+USE ROLE ACCOUNTADMIN;
 USE WAREHOUSE TP_REPORTING_WH;
 USE DATABASE TRASH_PANDAS_CONNECTED_REPORTING;
+USE SCHEMA RAW;
 
-CREATE OR REPLACE VIEW QA.V_EXPORT_VALIDATION_RESULTS AS
+SELECT
+    'HOMESTAND_SUMMARY row count' AS validation_check,
+    COUNT(*)::NUMBER(18,2) AS actual_value,
+    34::NUMBER(18,2) AS expected_value,
+    CASE WHEN COUNT(*) = 34 THEN 'PASS' ELSE 'FAIL' END AS validation_status
+FROM RAW.HOMESTAND_SUMMARY
 
-WITH validation_checks AS (
+UNION ALL
 
-    SELECT
-        'homestand_row_count' AS check_name,
-        'RAW.HOMESTAND_SUMMARY' AS table_name,
-        '34' AS expected_value,
-        TO_VARCHAR(COUNT(*)) AS actual_value,
-        IFF(COUNT(*) = 34, 'PASS', 'FAIL') AS check_status
+SELECT
+    'PROMOTION_SCORECARD row count' AS validation_check,
+    COUNT(*)::NUMBER(18,2) AS actual_value,
+    233::NUMBER(18,2) AS expected_value,
+    CASE WHEN COUNT(*) = 233 THEN 'PASS' ELSE 'FAIL' END AS validation_status
+FROM RAW.PROMOTION_SCORECARD
+
+UNION ALL
+
+SELECT
+    'CRM_FOLLOW_UP_QUEUE row count' AS validation_check,
+    COUNT(*)::NUMBER(18,2) AS actual_value,
+    15000::NUMBER(18,2) AS expected_value,
+    CASE WHEN COUNT(*) = 15000 THEN 'PASS' ELSE 'FAIL' END AS validation_status
+FROM RAW.CRM_FOLLOW_UP_QUEUE
+
+UNION ALL
+
+SELECT
+    'Homestand tickets sold' AS validation_check,
+    SUM(tickets_sold)::NUMBER(18,2) AS actual_value,
+    1274234::NUMBER(18,2) AS expected_value,
+    CASE WHEN SUM(tickets_sold) = 1274234 THEN 'PASS' ELSE 'FAIL' END AS validation_status
+FROM RAW.HOMESTAND_SUMMARY
+
+UNION ALL
+
+SELECT
+    'Homestand scanned attendance' AS validation_check,
+    SUM(scanned_attendance)::NUMBER(18,2) AS actual_value,
+    1126560::NUMBER(18,2) AS expected_value,
+    CASE WHEN SUM(scanned_attendance) = 1126560 THEN 'PASS' ELSE 'FAIL' END AS validation_status
+FROM RAW.HOMESTAND_SUMMARY
+
+UNION ALL
+
+SELECT
+    'Homestand total revenue indicator' AS validation_check,
+    ROUND(SUM(total_revenue_indicator), 2)::NUMBER(18,2) AS actual_value,
+    28655060.87::NUMBER(18,2) AS expected_value,
+    CASE
+        WHEN ROUND(SUM(total_revenue_indicator), 2) = 28655060.87 THEN 'PASS'
+        ELSE 'FAIL'
+    END AS validation_status
+FROM RAW.HOMESTAND_SUMMARY
+
+UNION ALL
+
+SELECT
+    'CRM future revenue opportunity' AS validation_check,
+    ROUND(SUM(future_revenue_opportunity), 2)::NUMBER(18,2) AS actual_value,
+    12605270.19::NUMBER(18,2) AS expected_value,
+    CASE
+        WHEN ROUND(SUM(future_revenue_opportunity), 2) = 12605270.19 THEN 'PASS'
+        ELSE 'FAIL'
+    END AS validation_status
+FROM RAW.CRM_FOLLOW_UP_QUEUE
+
+UNION ALL
+
+SELECT
+    'Duplicate homestand keys' AS validation_check,
+    COUNT(*)::NUMBER(18,2) AS actual_value,
+    0::NUMBER(18,2) AS expected_value,
+    CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END AS validation_status
+FROM (
+    SELECT season, homestand_id, COUNT(*) AS record_count
     FROM RAW.HOMESTAND_SUMMARY
-
-    UNION ALL
-
-    SELECT
-        'promotion_scorecard_row_count' AS check_name,
-        'RAW.PROMOTION_SCORECARD' AS table_name,
-        '233' AS expected_value,
-        TO_VARCHAR(COUNT(*)) AS actual_value,
-        IFF(COUNT(*) = 233, 'PASS', 'FAIL') AS check_status
-    FROM RAW.PROMOTION_SCORECARD
-
-    UNION ALL
-
-    SELECT
-        'crm_follow_up_queue_row_count' AS check_name,
-        'RAW.CRM_FOLLOW_UP_QUEUE' AS table_name,
-        '15000' AS expected_value,
-        TO_VARCHAR(COUNT(*)) AS actual_value,
-        IFF(COUNT(*) = 15000, 'PASS', 'FAIL') AS check_status
-    FROM RAW.CRM_FOLLOW_UP_QUEUE
-
-    UNION ALL
-
-    SELECT
-        'homestand_tickets_sold_total' AS check_name,
-        'RAW.HOMESTAND_SUMMARY' AS table_name,
-        '1274234' AS expected_value,
-        TO_VARCHAR(SUM(tickets_sold)) AS actual_value,
-        IFF(SUM(tickets_sold) = 1274234, 'PASS', 'FAIL') AS check_status
-    FROM RAW.HOMESTAND_SUMMARY
-
-    UNION ALL
-
-    SELECT
-        'homestand_scanned_attendance_total' AS check_name,
-        'RAW.HOMESTAND_SUMMARY' AS table_name,
-        '1126560' AS expected_value,
-        TO_VARCHAR(SUM(scanned_attendance)) AS actual_value,
-        IFF(SUM(scanned_attendance) = 1126560, 'PASS', 'FAIL') AS check_status
-    FROM RAW.HOMESTAND_SUMMARY
-
-    UNION ALL
-
-    SELECT
-        'homestand_total_revenue_indicator_total' AS check_name,
-        'RAW.HOMESTAND_SUMMARY' AS table_name,
-        '28655060.87' AS expected_value,
-        TO_VARCHAR(ROUND(SUM(total_revenue_indicator), 2)) AS actual_value,
-        IFF(ROUND(SUM(total_revenue_indicator), 2) = 28655060.87, 'PASS', 'FAIL') AS check_status
-    FROM RAW.HOMESTAND_SUMMARY
-
-    UNION ALL
-
-    SELECT
-        'crm_future_revenue_opportunity_total' AS check_name,
-        'RAW.CRM_FOLLOW_UP_QUEUE' AS table_name,
-        '12605270.19' AS expected_value,
-        TO_VARCHAR(ROUND(SUM(future_revenue_opportunity), 2)) AS actual_value,
-        IFF(ROUND(SUM(future_revenue_opportunity), 2) = 12605270.19, 'PASS', 'FAIL') AS check_status
-    FROM RAW.CRM_FOLLOW_UP_QUEUE
-
-    UNION ALL
-
-    SELECT
-        'duplicate_homestand_keys' AS check_name,
-        'RAW.HOMESTAND_SUMMARY' AS table_name,
-        '0' AS expected_value,
-        TO_VARCHAR(COUNT(*) - COUNT(DISTINCT season || '|' || homestand_id)) AS actual_value,
-        IFF(COUNT(*) - COUNT(DISTINCT season || '|' || homestand_id) = 0, 'PASS', 'FAIL') AS check_status
-    FROM RAW.HOMESTAND_SUMMARY
-
-    UNION ALL
-
-    SELECT
-        'duplicate_promo_ids' AS check_name,
-        'RAW.PROMOTION_SCORECARD' AS table_name,
-        '0' AS expected_value,
-        TO_VARCHAR(COUNT(*) - COUNT(DISTINCT promo_id)) AS actual_value,
-        IFF(COUNT(*) - COUNT(DISTINCT promo_id) = 0, 'PASS', 'FAIL') AS check_status
-    FROM RAW.PROMOTION_SCORECARD
-
-    UNION ALL
-
-    SELECT
-        'duplicate_follow_up_ids' AS check_name,
-        'RAW.CRM_FOLLOW_UP_QUEUE' AS table_name,
-        '0' AS expected_value,
-        TO_VARCHAR(COUNT(*) - COUNT(DISTINCT follow_up_id)) AS actual_value,
-        IFF(COUNT(*) - COUNT(DISTINCT follow_up_id) = 0, 'PASS', 'FAIL') AS check_status
-    FROM RAW.CRM_FOLLOW_UP_QUEUE
-
-    UNION ALL
-
-    SELECT
-        'invalid_promotion_recommendations' AS check_name,
-        'RAW.PROMOTION_SCORECARD' AS table_name,
-        '0' AS expected_value,
-        TO_VARCHAR(COUNT_IF(recommendation NOT IN ('return', 'rework', 'retire', 'review'))) AS actual_value,
-        IFF(COUNT_IF(recommendation NOT IN ('return', 'rework', 'retire', 'review')) = 0, 'PASS', 'FAIL') AS check_status
-    FROM RAW.PROMOTION_SCORECARD
-
-    UNION ALL
-
-    SELECT
-        'invalid_crm_entity_mapping' AS check_name,
-        'RAW.CRM_FOLLOW_UP_QUEUE' AS table_name,
-        '0' AS expected_value,
-        TO_VARCHAR(
-            COUNT_IF(
-                (entity_type = 'fan' AND (fan_id IS NULL OR fan_id = '' OR account_id IS NOT NULL AND account_id <> '' OR entity_id <> fan_id))
-                OR
-                (entity_type = 'account' AND (account_id IS NULL OR account_id = '' OR fan_id IS NOT NULL AND fan_id <> '' OR entity_id <> account_id))
-                OR
-                (entity_type NOT IN ('fan', 'account'))
-            )
-        ) AS actual_value,
-        IFF(
-            COUNT_IF(
-                (entity_type = 'fan' AND (fan_id IS NULL OR fan_id = '' OR account_id IS NOT NULL AND account_id <> '' OR entity_id <> fan_id))
-                OR
-                (entity_type = 'account' AND (account_id IS NULL OR account_id = '' OR fan_id IS NOT NULL AND fan_id <> '' OR entity_id <> account_id))
-                OR
-                (entity_type NOT IN ('fan', 'account'))
-            ) = 0,
-            'PASS',
-            'FAIL'
-        ) AS check_status
-    FROM RAW.CRM_FOLLOW_UP_QUEUE
-
-    UNION ALL
-
-    SELECT
-        'duplicate_priority_ranks' AS check_name,
-        'RAW.CRM_FOLLOW_UP_QUEUE' AS table_name,
-        '0' AS expected_value,
-        TO_VARCHAR(COUNT(*) - COUNT(DISTINCT priority_rank)) AS actual_value,
-        IFF(COUNT(*) - COUNT(DISTINCT priority_rank) = 0, 'PASS', 'FAIL') AS check_status
-    FROM RAW.CRM_FOLLOW_UP_QUEUE
-
-    UNION ALL
-
-    SELECT
-        'invalid_homestand_rate_ranges' AS check_name,
-        'RAW.HOMESTAND_SUMMARY' AS table_name,
-        '0' AS expected_value,
-        TO_VARCHAR(COUNT_IF(scan_rate < 0 OR scan_rate > 1 OR no_show_rate < 0 OR no_show_rate > 1)) AS actual_value,
-        IFF(COUNT_IF(scan_rate < 0 OR scan_rate > 1 OR no_show_rate < 0 OR no_show_rate > 1) = 0, 'PASS', 'FAIL') AS check_status
-    FROM RAW.HOMESTAND_SUMMARY
-
-    UNION ALL
-
-    SELECT
-        'invalid_promotion_rate_ranges' AS check_name,
-        'RAW.PROMOTION_SCORECARD' AS table_name,
-        '0' AS expected_value,
-        TO_VARCHAR(COUNT_IF(scan_rate < 0 OR scan_rate > 1 OR no_show_rate < 0 OR no_show_rate > 1 OR repeat_buyer_rate < 0 OR repeat_buyer_rate > 1)) AS actual_value,
-        IFF(COUNT_IF(scan_rate < 0 OR scan_rate > 1 OR no_show_rate < 0 OR no_show_rate > 1 OR repeat_buyer_rate < 0 OR repeat_buyer_rate > 1) = 0, 'PASS', 'FAIL') AS check_status
-    FROM RAW.PROMOTION_SCORECARD
-
-    UNION ALL
-
-    SELECT
-        'invalid_crm_rate_ranges' AS check_name,
-        'RAW.CRM_FOLLOW_UP_QUEUE' AS table_name,
-        '0' AS expected_value,
-        TO_VARCHAR(COUNT_IF(fan_scan_rate < 0 OR fan_scan_rate > 1 OR fan_no_show_rate < 0 OR fan_no_show_rate > 1 OR account_avg_group_scan_rate < 0 OR account_avg_group_scan_rate > 1)) AS actual_value,
-        IFF(COUNT_IF(fan_scan_rate < 0 OR fan_scan_rate > 1 OR fan_no_show_rate < 0 OR fan_no_show_rate > 1 OR account_avg_group_scan_rate < 0 OR account_avg_group_scan_rate > 1) = 0, 'PASS', 'FAIL') AS check_status
-    FROM RAW.CRM_FOLLOW_UP_QUEUE
-
-    UNION ALL
-
-    SELECT
-        'negative_homestand_revenue_values' AS check_name,
-        'RAW.HOMESTAND_SUMMARY' AS table_name,
-        '0' AS expected_value,
-        TO_VARCHAR(COUNT_IF(net_ticket_revenue < 0 OR group_ticket_revenue < 0 OR merch_net_sales < 0 OR concession_net_sales < 0 OR total_revenue_indicator < 0)) AS actual_value,
-        IFF(COUNT_IF(net_ticket_revenue < 0 OR group_ticket_revenue < 0 OR merch_net_sales < 0 OR concession_net_sales < 0 OR total_revenue_indicator < 0) = 0, 'PASS', 'FAIL') AS check_status
-    FROM RAW.HOMESTAND_SUMMARY
-
-    UNION ALL
-
-    SELECT
-        'negative_promotion_revenue_values' AS check_name,
-        'RAW.PROMOTION_SCORECARD' AS table_name,
-        '0' AS expected_value,
-        TO_VARCHAR(COUNT_IF(group_revenue < 0 OR merch_net_sales < 0 OR concession_net_sales < 0 OR total_revenue_indicator < 0 OR future_revenue_opportunity < 0)) AS actual_value,
-        IFF(COUNT_IF(group_revenue < 0 OR merch_net_sales < 0 OR concession_net_sales < 0 OR total_revenue_indicator < 0 OR future_revenue_opportunity < 0) = 0, 'PASS', 'FAIL') AS check_status
-    FROM RAW.PROMOTION_SCORECARD
-
-    UNION ALL
-
-    SELECT
-        'negative_crm_revenue_values' AS check_name,
-        'RAW.CRM_FOLLOW_UP_QUEUE' AS table_name,
-        '0' AS expected_value,
-        TO_VARCHAR(COUNT_IF(future_revenue_opportunity < 0 OR entity_total_value < 0 OR entity_ticket_revenue < 0 OR entity_in_park_revenue < 0)) AS actual_value,
-        IFF(COUNT_IF(future_revenue_opportunity < 0 OR entity_total_value < 0 OR entity_ticket_revenue < 0 OR entity_in_park_revenue < 0) = 0, 'PASS', 'FAIL') AS check_status
-    FROM RAW.CRM_FOLLOW_UP_QUEUE
-
+    GROUP BY season, homestand_id
+    HAVING COUNT(*) > 1
 )
 
-SELECT
-    check_name,
-    table_name,
-    expected_value,
-    actual_value,
-    check_status
-FROM validation_checks;
+UNION ALL
 
 SELECT
-    check_name,
-    table_name,
-    expected_value,
-    actual_value,
-    check_status
-FROM QA.V_EXPORT_VALIDATION_RESULTS
-ORDER BY
-    CASE check_status
-        WHEN 'FAIL' THEN 1
-        WHEN 'PASS' THEN 2
-        ELSE 3
-    END,
-    check_name;
+    'Duplicate promo IDs' AS validation_check,
+    COUNT(*)::NUMBER(18,2) AS actual_value,
+    0::NUMBER(18,2) AS expected_value,
+    CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END AS validation_status
+FROM (
+    SELECT promo_id, COUNT(*) AS record_count
+    FROM RAW.PROMOTION_SCORECARD
+    GROUP BY promo_id
+    HAVING COUNT(*) > 1
+)
+
+UNION ALL
+
+SELECT
+    'Duplicate follow-up IDs' AS validation_check,
+    COUNT(*)::NUMBER(18,2) AS actual_value,
+    0::NUMBER(18,2) AS expected_value,
+    CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END AS validation_status
+FROM (
+    SELECT follow_up_id, COUNT(*) AS record_count
+    FROM RAW.CRM_FOLLOW_UP_QUEUE
+    GROUP BY follow_up_id
+    HAVING COUNT(*) > 1
+)
+
+UNION ALL
+
+SELECT
+    'Invalid promotion recommendations' AS validation_check,
+    COUNT(*)::NUMBER(18,2) AS actual_value,
+    0::NUMBER(18,2) AS expected_value,
+    CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END AS validation_status
+FROM RAW.PROMOTION_SCORECARD
+WHERE LOWER(recommendation) NOT IN ('return', 'rework', 'retire', 'review')
+
+UNION ALL
+
+SELECT
+    'Invalid CRM entity mapping' AS validation_check,
+    COUNT(*)::NUMBER(18,2) AS actual_value,
+    0::NUMBER(18,2) AS expected_value,
+    CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END AS validation_status
+FROM RAW.CRM_FOLLOW_UP_QUEUE
+WHERE entity_id IS NULL
+   OR entity_type IS NULL
+   OR LOWER(entity_type) NOT IN ('fan', 'account')
+
+UNION ALL
+
+SELECT
+    'Invalid homestand scan/no-show rates' AS validation_check,
+    COUNT(*)::NUMBER(18,2) AS actual_value,
+    0::NUMBER(18,2) AS expected_value,
+    CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END AS validation_status
+FROM RAW.HOMESTAND_SUMMARY
+WHERE scan_rate < 0
+   OR scan_rate > 1
+   OR no_show_rate < 0
+   OR no_show_rate > 1
+
+UNION ALL
+
+SELECT
+    'Negative revenue values' AS validation_check,
+    COUNT(*)::NUMBER(18,2) AS actual_value,
+    0::NUMBER(18,2) AS expected_value,
+    CASE WHEN COUNT(*) = 0 THEN 'PASS' ELSE 'FAIL' END AS validation_status
+FROM RAW.HOMESTAND_SUMMARY
+WHERE net_ticket_revenue < 0
+   OR merch_net_sales < 0
+   OR concession_net_sales < 0
+   OR total_revenue_indicator < 0
+ORDER BY validation_check;
