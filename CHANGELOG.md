@@ -1,12 +1,110 @@
+## 2026-05-16
+
+## Snowflake Reporting Layer Completed
+
+### Added
+
+- Added Snowflake reporting layer for the Trash Pandas Connected Reporting Pilot.
+- Created Snowflake setup SQL:
+  - `sql/00_snowflake_setup.sql`
+- Created raw export table SQL:
+  - `sql/01_create_export_tables.sql`
+- Created Snowflake load SQL:
+  - `sql/02_load_export_tables.sql`
+- Created Snowflake validation SQL:
+  - `sql/03_validate_export_tables.sql`
+- Created Snowflake analytics views:
+  - `sql/04_create_analytics_views.sql`
+- Created business-question SQL:
+  - `sql/05_business_question_queries.sql`
+- Added Snowflake documentation:
+  - `SNOWFLAKE_LOAD_GUIDE.md`
+  - `SNOWFLAKE_SCHEMA_PLAN.md`
+
+### Snowflake Objects Created
+
+- Warehouse:
+  - `TP_REPORTING_WH`
+- Database:
+  - `TRASH_PANDAS_CONNECTED_REPORTING`
+- Schemas:
+  - `RAW`
+  - `ANALYTICS`
+  - `QA`
+- Stage:
+  - `RAW.TP_EXPORT_STAGE`
+- File format:
+  - `RAW.CSV_EXPORT_FORMAT`
+
+### Raw Tables Created
+
+- `RAW.HOMESTAND_SUMMARY`
+- `RAW.PROMOTION_SCORECARD`
+- `RAW.CRM_FOLLOW_UP_QUEUE`
+
+### Analytics Views Created
+
+- `ANALYTICS.V_HOMESTAND_SUMMARY`
+- `ANALYTICS.V_PROMOTION_SCORECARD`
+- `ANALYTICS.V_CRM_FOLLOW_UP_QUEUE`
+- `ANALYTICS.V_EXECUTIVE_HOMESTAND_OVERVIEW`
+- `ANALYTICS.V_PROMOTION_RECOMMENDATION_SUMMARY`
+- `ANALYTICS.V_CRM_ACTION_BUCKET_SUMMARY`
+
+### Loaded
+
+- Loaded final dashboard-ready exports into Snowflake:
+  - `data/exports/homestand_summary.csv`
+  - `data/exports/promotion_scorecard.csv`
+  - `data/exports/crm_follow_up_queue.csv`
+
+### Validated
+
+- Confirmed Snowflake row counts:
+  - `RAW.HOMESTAND_SUMMARY`: 34 rows
+  - `RAW.PROMOTION_SCORECARD`: 233 rows
+  - `RAW.CRM_FOLLOW_UP_QUEUE`: 15,000 rows
+- Confirmed key Snowflake totals:
+  - Homestand tickets sold: 1,274,234
+  - Homestand scanned attendance: 1,126,560
+  - Homestand total revenue indicator: 28,655,060.87
+  - CRM future revenue opportunity: 12,605,270.19
+- Added validation checks for:
+  - duplicate homestand keys
+  - duplicate promo IDs
+  - duplicate follow-up IDs
+  - invalid promotion recommendations
+  - invalid CRM entity mapping
+  - invalid scan and no-show rates
+  - negative revenue values
+
+### Fixed
+
+- Fixed Snowflake table type issue where boolean CSV fields loaded as `True` / `False`, but initial table definitions expected numeric flag values.
+- Updated `RAW.PROMOTION_SCORECARD` flag fields to `BOOLEAN`.
+- Updated `RAW.CRM_FOLLOW_UP_QUEUE` flag fields to `BOOLEAN`.
+- Updated `sql/01_create_export_tables.sql` so the repo matches the actual final export files.
+
+### Changed
+
+- Updated `README.md` with Snowflake reporting layer section.
+- Updated `TASK_TRACKER.md` to mark Snowflake reporting layer complete.
+- Updated `BUILD_ORDER.md` to make Tableau Public the next required phase.
+- Clarified that Tableau Public will use final CSV exports while Snowflake proves the warehouse, SQL validation, analytics view, and business-question layer.
+
+### Notes
+
+- Snowflake is now complete for the current build.
+- The project now shows a full path from Python-generated data to validated CSV exports, Snowflake reporting tables, analytics views, business-question SQL, and Tableau-ready outputs.
+- Tableau Public dashboard build is the next phase.
+
 ## 2026-05-15
-cat > CHANGELOG.md <<'EOF'
-# Changelog
 
 ## Project Reset
 
 - Renamed project direction from CRM Analytics Pilot to Connected Reporting Pilot
 - Updated project focus to Snowflake-based connected reporting
-- Locked current build around promotion decisions and fan/account follow-up
+- Locked MVP around promotion decisions and fan/account follow-up
 - Added fan-linked merch and concession behavior to project scope
 - Clarified public vs synthetic data boundaries
 
