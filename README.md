@@ -22,7 +22,7 @@ The project uses:
 
 - Public schedule, promotion, game date, opponent, and announced attendance anchors where available
 - Synthetic ticketing, scan, merch, concession, fan, group sales, engagement, and CRM follow-up data generated with Python
-- Snowflake-style reporting design concepts
+- Snowflake reporting layer design and SQL validation
 - CSV exports prepared for Tableau Public
 
 The synthetic data is used only to demonstrate structure, workflow, and business logic.
@@ -140,9 +140,73 @@ Final dashboard-ready exports are stored in:
 | File | Grain | Dashboard Use |
 |---|---|---|
 | `homestand_summary.csv` | One row per homestand | Homestand Intelligence |
-| `promotion_scorecard.csv` | One row per promotion per game | Promotion Scorecard |
+| `promotion_scorecard.csv` | One row per promotion per game | Promotion Performance Scorecard |
 | `crm_follow_up_queue.csv` | One row per follow-up task | CRM Follow-Up Queue |
 | `export_manifest.csv` | One row per export | Documentation |
+
+## Snowflake Reporting Layer
+
+The project includes a Snowflake reporting layer to show how the final connected reporting exports could live inside a cloud warehouse.
+
+Snowflake is used for:
+
+- Warehouse, database, and schema setup
+- Loading the final reporting exports
+- Validating row counts and key totals
+- Creating analytics views
+- Answering business questions with SQL
+
+Snowflake SQL files:
+
+| File | Purpose |
+|---|---|
+| `sql/00_snowflake_setup.sql` | Creates the warehouse, database, schemas, file format, and stage |
+| `sql/01_create_export_tables.sql` | Creates raw tables for the final exports |
+| `sql/02_load_export_tables.sql` | Loads staged CSV exports into Snowflake tables |
+| `sql/03_validate_export_tables.sql` | Validates row counts, totals, duplicates, and business rules |
+| `sql/04_create_analytics_views.sql` | Creates reporting-ready analytics views |
+| `sql/05_business_question_queries.sql` | Answers the core business questions with SQL |
+
+Snowflake objects:
+
+| Object Type | Name |
+|---|---|
+| Warehouse | `TP_REPORTING_WH` |
+| Database | `TRASH_PANDAS_CONNECTED_REPORTING` |
+| Raw schema | `RAW` |
+| Analytics schema | `ANALYTICS` |
+| QA schema | `QA` |
+| Stage | `RAW.TP_EXPORT_STAGE` |
+| File format | `RAW.CSV_EXPORT_FORMAT` |
+
+Raw Snowflake tables:
+
+- `RAW.HOMESTAND_SUMMARY`
+- `RAW.PROMOTION_SCORECARD`
+- `RAW.CRM_FOLLOW_UP_QUEUE`
+
+Analytics views:
+
+- `ANALYTICS.V_HOMESTAND_SUMMARY`
+- `ANALYTICS.V_PROMOTION_SCORECARD`
+- `ANALYTICS.V_CRM_FOLLOW_UP_QUEUE`
+- `ANALYTICS.V_EXECUTIVE_HOMESTAND_OVERVIEW`
+- `ANALYTICS.V_PROMOTION_RECOMMENDATION_SUMMARY`
+- `ANALYTICS.V_CRM_ACTION_BUCKET_SUMMARY`
+
+Validation targets:
+
+| Check | Expected Value |
+|---|---:|
+| Homestand rows | 34 |
+| Promotion scorecard rows | 233 |
+| CRM queue rows | 15,000 |
+| Homestand tickets sold | 1,274,234 |
+| Homestand scanned attendance | 1,126,560 |
+| Homestand total revenue indicator | 28,655,060.87 |
+| CRM future revenue opportunity | 12,605,270.19 |
+
+Tableau Public uses the same final CSV exports so the published dashboard remains accessible and portfolio-friendly.
 
 ## Project Scale
 
@@ -293,7 +357,8 @@ Signals include:
 |---|---|
 | Python | Synthetic data generation, data prep, export builds, quality checks |
 | CSV / Excel-style files | Source and export file format |
-| Snowflake design concepts | Reporting layer design and warehouse-style structure |
+| Snowflake | Warehouse-style reporting layer, SQL validation, analytics views |
+| SQL | Data validation, reporting queries, business-question analysis |
 | Tableau Public | Dashboard build |
 | GitHub | Version control and project documentation |
 | VS Code | File editing |
@@ -308,19 +373,26 @@ data/
   synthetic/
 
 python/
-  data generation scripts
-  export build scripts
-  quality check scripts
+  data_generation/
+  export_builds/
+  quality_checks/
 
 sql/
-  schema and warehouse planning files
+  00_snowflake_setup.sql
+  01_create_export_tables.sql
+  02_load_export_tables.sql
+  03_validate_export_tables.sql
+  04_create_analytics_views.sql
+  05_business_question_queries.sql
 
 README.md
 DATA_SOURCE_MAP.md
 DATA_ASSUMPTIONS.md
 SYNTHETIC_DATA_PLAN.md
 SNOWFLAKE_SCHEMA_PLAN.md
+SNOWFLAKE_LOAD_GUIDE.md
 DASHBOARD_PLAN.md
 TABLEAU_BUILD_GUIDE.md
 BUSINESS_QUESTIONS.md
 BUILD_ORDER.md
+TASK_TRACKER.md

@@ -6,19 +6,34 @@ Trash Pandas Connected Reporting Pilot
 
 ## Last Updated
 
-2026-05-15
+2026-05-16
 
 ## Current Project Status
 
-The Python data generation, synthetic data modeling, quality checks, and Tableau-ready export files are complete.
+The Python data generation, synthetic data modeling, quality checks, Tableau-ready export files, and Snowflake reporting layer are complete.
 
-The next phase is **Snowflake reporting layer setup**.
-
-Tableau comes after Snowflake validation.
+The current phase is **Tableau Public dashboard build**.
 
 Current phase:
 
-Snowflake load guide and SQL reporting layer.
+Tableau Public dashboard build using the final export files.
+
+Snowflake status:
+
+Complete.
+
+Completed Snowflake files:
+
+- `SNOWFLAKE_LOAD_GUIDE.md`
+- `SNOWFLAKE_SCHEMA_PLAN.md`
+- `sql/00_snowflake_setup.sql`
+- `sql/01_create_export_tables.sql`
+- `sql/02_load_export_tables.sql`
+- `sql/03_validate_export_tables.sql`
+- `sql/04_create_analytics_views.sql`
+- `sql/05_business_question_queries.sql`
+
+Tableau comes after Snowflake validation.
 
 ---
 
@@ -316,7 +331,7 @@ Final modeled totals:
 
 Status note:
 
-- App, social, and offer-response signals were not modeled for current build.
+- App, social, and offer-response signals were not modeled for the current build.
 - The current build still has enough behavioral signal from email, SMS, QR, survey, web, and offer-click activity.
 
 ---
@@ -468,7 +483,46 @@ Key output:
 
 ---
 
-### 16. Documentation Updates
+### 16. Snowflake Reporting Layer
+
+Status: Complete
+
+Completed:
+
+- Created Snowflake load guide
+- Created Snowflake schema plan
+- Created warehouse, database, schemas, file format, and internal stage
+- Created raw export tables for the three final reporting exports
+- Loaded final exports into Snowflake
+- Validated row counts and key totals
+- Created analytics views
+- Created business-question SQL queries
+- Confirmed Snowflake layer supports the project’s connected reporting story
+
+Key files:
+
+- `SNOWFLAKE_LOAD_GUIDE.md`
+- `SNOWFLAKE_SCHEMA_PLAN.md`
+- `sql/00_snowflake_setup.sql`
+- `sql/01_create_export_tables.sql`
+- `sql/02_load_export_tables.sql`
+- `sql/03_validate_export_tables.sql`
+- `sql/04_create_analytics_views.sql`
+- `sql/05_business_question_queries.sql`
+
+Snowflake validation targets:
+
+- Homestand row count: 34
+- Promotion scorecard row count: 233
+- CRM queue row count: 15,000
+- Homestand tickets sold: 1,274,234
+- Homestand scanned attendance: 1,126,560
+- Homestand total revenue indicator: 28,655,060.87
+- CRM future revenue opportunity: 12,605,270.19
+
+---
+
+### 17. Documentation Updates
 
 Status: In progress
 
@@ -478,12 +532,15 @@ Completed:
 - Updated dashboard plan around final exports
 - Added Tableau build guide
 - Updated build order for dashboard phase
+- Added Snowflake schema plan
+- Added Snowflake load guide
+- Added Snowflake SQL files to repo
 
-Needs correction:
+Still needed:
 
-- Documentation needs Snowflake phase added before Tableau build
-- README needs Snowflake reporting layer section after SQL files are created
-- Build order should identify Snowflake as the next required phase, not optional
+- Add Tableau Public link after dashboard is published
+- Add dashboard screenshots after dashboard is built
+- Add final portfolio polish after dashboard is published
 
 Key files:
 
@@ -492,187 +549,36 @@ Key files:
 - `TABLEAU_BUILD_GUIDE.md`
 - `BUILD_ORDER.md`
 - `TASK_TRACKER.md`
+- `SNOWFLAKE_LOAD_GUIDE.md`
+- `SNOWFLAKE_SCHEMA_PLAN.md`
 
 ---
 
 ## Current Required Phase
 
-### Phase 17: Snowflake Reporting Layer
+### Phase 18: Tableau Public Dashboard Build
 
 Status: Next
 
 Goal:
 
-Load the final connected reporting exports into Snowflake and create a real warehouse-style reporting layer that can be queried with SQL.
+Build the three-page Tableau Public dashboard using the final dashboard-ready export files.
 
-This phase exists because the project should not stop at Python-generated CSVs.
+Primary data sources:
 
-Snowflake gives the project a stronger business intelligence portfolio story:
+1. `data/exports/homestand_summary.csv`
+2. `data/exports/promotion_scorecard.csv`
+3. `data/exports/crm_follow_up_queue.csv`
 
-1. Python generates and validates the data.
-2. CSV exports become clean reporting inputs.
-3. Snowflake stores the reporting layer.
-4. SQL validates and queries the connected data.
-5. Tableau Public uses dashboard-ready CSV exports because Tableau Public is file/extract oriented.
+Dashboard pages:
 
----
+1. Homestand Intelligence
+2. Promotion Performance Scorecard
+3. CRM Follow-Up Queue
 
-## Snowflake Work To Do
+Status note:
 
-### 17.1 Create Snowflake Load Guide
-
-Status: Not started
-
-Create:
-
-- `SNOWFLAKE_LOAD_GUIDE.md`
-
-Guide should cover:
-
-- Snowflake trial/account setup
-- Warehouse/database/schema setup
-- Creating a stage
-- Creating CSV file format
-- Uploading final exports
-- Loading CSVs into tables
-- Running validation queries
-- Creating analytics views
-- How this fits the portfolio story
-
----
-
-### 17.2 Create Snowflake SQL Setup File
-
-Status: Not started
-
-Create:
-
-- `sql/00_snowflake_setup.sql`
-
-Purpose:
-
-- Create warehouse
-- Create database
-- Create schemas
-- Create CSV file format
-- Create internal stage
-
-Expected schemas:
-
-- `RAW`
-- `ANALYTICS`
-- `QA`
-
----
-
-### 17.3 Create Export Table DDL
-
-Status: Not started
-
-Create:
-
-- `sql/01_create_export_tables.sql`
-
-Purpose:
-
-Create Snowflake tables for:
-
-- `RAW.HOMESTAND_SUMMARY`
-- `RAW.PROMOTION_SCORECARD`
-- `RAW.CRM_FOLLOW_UP_QUEUE`
-
-These tables should mirror the three final export CSVs.
-
----
-
-### 17.4 Create Load SQL
-
-Status: Not started
-
-Create:
-
-- `sql/02_load_export_tables.sql`
-
-Purpose:
-
-Load staged CSV files into Snowflake tables.
-
-Files to load:
-
-- `homestand_summary.csv`
-- `promotion_scorecard.csv`
-- `crm_follow_up_queue.csv`
-
----
-
-### 17.5 Create Validation SQL
-
-Status: Not started
-
-Create:
-
-- `sql/03_validate_export_tables.sql`
-
-Purpose:
-
-Validate Snowflake row counts and key totals.
-
-Validation should check:
-
-- Homestand row count = 34
-- Promotion scorecard row count = 233
-- CRM queue row count = 15,000
-- Homestand tickets sold = 1,274,234
-- Homestand scanned attendance = 1,126,560
-- Homestand total revenue indicator = 28,655,060.87
-- CRM future revenue opportunity = 12,605,270.19
-
----
-
-### 17.6 Create Analytics Views
-
-Status: Not started
-
-Create:
-
-- `sql/04_create_analytics_views.sql`
-
-Purpose:
-
-Create final reporting views:
-
-- `ANALYTICS.V_HOMESTAND_SUMMARY`
-- `ANALYTICS.V_PROMOTION_SCORECARD`
-- `ANALYTICS.V_CRM_FOLLOW_UP_QUEUE`
-
-Optional helper views:
-
-- `ANALYTICS.V_EXECUTIVE_HOMESTAND_OVERVIEW`
-- `ANALYTICS.V_PROMOTION_RECOMMENDATION_SUMMARY`
-- `ANALYTICS.V_CRM_ACTION_BUCKET_SUMMARY`
-
----
-
-### 17.7 Create Business Question Queries
-
-Status: Not started
-
-Create:
-
-- `sql/05_business_question_queries.sql`
-
-Purpose:
-
-Show SQL answers to core business questions:
-
-- Which homestands created the most total value?
-- Which promotions should return, rework, retire, or review?
-- Which promotions drove attendance lift but weak revenue lift?
-- Which promotions drove in-park spend?
-- Which games or homestands had no-show recovery opportunities?
-- Which fans/accounts should be prioritized for follow-up?
-- Which action buckets are driving the CRM queue?
-- Which teams own the follow-up workload?
+The Snowflake reporting layer has been created, loaded, validated, and documented. Tableau Public will use the final CSV exports so the published dashboard remains accessible and portfolio-friendly.
 
 ---
 
@@ -680,7 +586,7 @@ Show SQL answers to core business questions:
 
 ### Phase 18: Tableau Public Dashboard Build
 
-Status: Waiting on Snowflake phase
+Status: Next
 
 Goal:
 
@@ -695,7 +601,7 @@ Primary data sources:
 Dashboard pages:
 
 1. Homestand Intelligence
-2. Promotion Scorecard
+2. Promotion Performance Scorecard
 3. CRM Follow-Up Queue
 
 Primary guide:
@@ -706,79 +612,31 @@ Status note:
 
 Tableau Public will use CSV exports.
 
-Snowflake will be used as the warehouse/reporting layer and SQL validation layer.
+Snowflake has already been used as the warehouse/reporting layer and SQL validation layer.
 
 ---
 
 ## Current To-Do List
 
-### Priority 1: Build Snowflake Load Guide
+### Priority 1: Build Tableau Public Dashboard
 
-Status: Not started
+Status: Next
 
-File:
-
-- `SNOWFLAKE_LOAD_GUIDE.md`
-
----
-
-### Priority 2: Create Snowflake SQL Files
-
-Status: Not started
-
-Files:
-
-- `sql/00_snowflake_setup.sql`
-- `sql/01_create_export_tables.sql`
-- `sql/02_load_export_tables.sql`
-- `sql/03_validate_export_tables.sql`
-- `sql/04_create_analytics_views.sql`
-- `sql/05_business_question_queries.sql`
-
----
-
-### Priority 3: Load Final Exports Into Snowflake
-
-Status: Not started
-
-Files to load:
+Primary files:
 
 - `data/exports/homestand_summary.csv`
 - `data/exports/promotion_scorecard.csv`
 - `data/exports/crm_follow_up_queue.csv`
 
----
+Dashboard pages:
 
-### Priority 4: Run Snowflake Validation Queries
-
-Status: Not started
-
-Validation target:
-
-- Row counts match exported CSVs
-- Key totals match Python export quality checks
-- Analytics views return expected results
+1. Homestand Intelligence
+2. Promotion Performance Scorecard
+3. CRM Follow-Up Queue
 
 ---
 
-### Priority 5: Build Tableau Public Dashboard
-
-Status: Waiting on Snowflake phase
-
-Tasks:
-
-- Connect `homestand_summary.csv`
-- Connect `promotion_scorecard.csv`
-- Connect `crm_follow_up_queue.csv`
-- Build Homestand Intelligence page
-- Build Promotion Scorecard page
-- Build CRM Follow-Up Queue page
-- Add source note to each dashboard
-- Publish workbook to Tableau Public
-
----
-
-### Priority 6: Add Tableau Link to README
+### Priority 2: Add Tableau Link to README
 
 Status: Waiting on Tableau dashboard
 
@@ -791,7 +649,7 @@ Tasks:
 
 ---
 
-### Priority 7: Add Dashboard Screenshots
+### Priority 3: Add Dashboard Screenshots
 
 Status: Waiting on Tableau dashboard
 
@@ -807,7 +665,7 @@ Suggested files:
 
 ---
 
-### Priority 8: Final Portfolio Polish
+### Priority 4: Final Portfolio Polish
 
 Status: Not started
 
@@ -826,7 +684,7 @@ Potential file:
 
 ---
 
-### Priority 9: LinkedIn Post
+### Priority 5: LinkedIn Post
 
 Status: Not started
 
@@ -860,13 +718,13 @@ The current build is complete when:
 - README clearly explains public vs synthetic data
 - README explains Snowflake/SQL reporting layer
 
-Current current build status:
+Current build status:
 
 - Data generation: Complete
 - Quality checks: Complete
 - Final exports: Complete
-- Snowflake reporting layer: Not started
-- SQL files: Not started
+- Snowflake reporting layer: Complete
+- SQL files: Complete
 - Tableau dashboard: Not started
 - Final portfolio polish: Not started
 
@@ -874,19 +732,16 @@ Current current build status:
 
 ## Next Immediate Step
 
-Create the Snowflake load guide.
+Build the Tableau Public dashboard.
 
 Start with:
 
-- `SNOWFLAKE_LOAD_GUIDE.md`
+- `TABLEAU_BUILD_GUIDE.md`
 
-Then create SQL files in this order:
+Use these final export files:
 
-1. `sql/00_snowflake_setup.sql`
-2. `sql/01_create_export_tables.sql`
-3. `sql/02_load_export_tables.sql`
-4. `sql/03_validate_export_tables.sql`
-5. `sql/04_create_analytics_views.sql`
-6. `sql/05_business_question_queries.sql`
+1. `data/exports/homestand_summary.csv`
+2. `data/exports/promotion_scorecard.csv`
+3. `data/exports/crm_follow_up_queue.csv`
 
-Do not start Tableau until Snowflake setup and SQL validation are documented.
+Do not change the Snowflake layer unless the dashboard build reveals a field issue.

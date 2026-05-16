@@ -6,7 +6,7 @@ Trash Pandas Connected Reporting Pilot
 
 ## Current Status
 
-The core data build is complete through the Tableau-ready export layer.
+The core data build, Tableau-ready export layer, and Snowflake reporting layer are complete.
 
 Final dashboard exports have been generated and quality checked:
 
@@ -14,9 +14,18 @@ Final dashboard exports have been generated and quality checked:
 - `data/exports/promotion_scorecard.csv`
 - `data/exports/crm_follow_up_queue.csv`
 
-The next required phase is the Snowflake reporting layer.
+Snowflake reporting layer files have been created and documented:
 
-Tableau Public comes after Snowflake setup, SQL validation, and business-question queries are documented.
+- `SNOWFLAKE_LOAD_GUIDE.md`
+- `SNOWFLAKE_SCHEMA_PLAN.md`
+- `sql/00_snowflake_setup.sql`
+- `sql/01_create_export_tables.sql`
+- `sql/02_load_export_tables.sql`
+- `sql/03_validate_export_tables.sql`
+- `sql/04_create_analytics_views.sql`
+- `sql/05_business_question_queries.sql`
+
+The next required phase is the Tableau Public dashboard build.
 
 ---
 
@@ -240,8 +249,6 @@ Complete.
 
 ---
 
-## Current Required Phase
-
 ### Phase 10: Snowflake Reporting Layer
 
 Goal:
@@ -258,113 +265,35 @@ The intended project flow is:
 4. SQL validates and queries the connected data.
 5. Tableau Public uses dashboard-ready CSV exports for the published dashboard.
 
-Status:
-
-Next.
-
----
-
-## Snowflake Build Order
-
-### Step 1: Create Snowflake Load Guide
-
-Create:
+Completed files:
 
 - `SNOWFLAKE_LOAD_GUIDE.md`
-
-Purpose:
-
-Document how to set up Snowflake, upload the final exports, load the tables, validate the data, create analytics views, and explain the portfolio story.
-
-The guide should cover:
-
-- Snowflake account/trial setup
-- Warehouse setup
-- Database setup
-- Schema setup
-- CSV file format setup
-- Internal stage setup
-- Export upload process
-- `COPY INTO` load process
-- Validation queries
-- Analytics views
-- How Tableau Public fits after Snowflake
-
----
-
-### Step 2: Create Snowflake Setup SQL
-
-Create:
-
+- `SNOWFLAKE_SCHEMA_PLAN.md`
 - `sql/00_snowflake_setup.sql`
-
-Purpose:
-
-Set up the Snowflake environment.
-
-Should include:
-
-- Warehouse
-- Database
-- Schemas
-- CSV file format
-- Internal stage
-
-Expected schemas:
-
-- `RAW`
-- `ANALYTICS`
-- `QA`
-
----
-
-### Step 3: Create Export Table SQL
-
-Create:
-
 - `sql/01_create_export_tables.sql`
-
-Purpose:
-
-Create Snowflake tables for the final exports.
-
-Tables:
-
-- `RAW.HOMESTAND_SUMMARY`
-- `RAW.PROMOTION_SCORECARD`
-- `RAW.CRM_FOLLOW_UP_QUEUE`
-
-These tables should mirror the final CSV exports.
-
----
-
-### Step 4: Create Load SQL
-
-Create:
-
 - `sql/02_load_export_tables.sql`
-
-Purpose:
-
-Load staged export files into Snowflake tables.
-
-Files to load:
-
-- `homestand_summary.csv`
-- `promotion_scorecard.csv`
-- `crm_follow_up_queue.csv`
-
----
-
-### Step 5: Create Validation SQL
-
-Create:
-
 - `sql/03_validate_export_tables.sql`
+- `sql/04_create_analytics_views.sql`
+- `sql/05_business_question_queries.sql`
 
-Purpose:
+Completed Snowflake objects:
 
-Validate that Snowflake loaded the final exports correctly.
+- Warehouse: `TP_REPORTING_WH`
+- Database: `TRASH_PANDAS_CONNECTED_REPORTING`
+- Schemas: `RAW`, `ANALYTICS`, `QA`
+- Stage: `RAW.TP_EXPORT_STAGE`
+- File format: `RAW.CSV_EXPORT_FORMAT`
+- Raw tables:
+  - `RAW.HOMESTAND_SUMMARY`
+  - `RAW.PROMOTION_SCORECARD`
+  - `RAW.CRM_FOLLOW_UP_QUEUE`
+- Analytics views:
+  - `ANALYTICS.V_HOMESTAND_SUMMARY`
+  - `ANALYTICS.V_PROMOTION_SCORECARD`
+  - `ANALYTICS.V_CRM_FOLLOW_UP_QUEUE`
+  - `ANALYTICS.V_EXECUTIVE_HOMESTAND_OVERVIEW`
+  - `ANALYTICS.V_PROMOTION_RECOMMENDATION_SUMMARY`
+  - `ANALYTICS.V_CRM_ACTION_BUCKET_SUMMARY`
 
 Validation targets:
 
@@ -376,56 +305,15 @@ Validation targets:
 - Homestand total revenue indicator = 28,655,060.87
 - CRM future revenue opportunity = 12,605,270.19
 
----
+Status:
 
-### Step 6: Create Analytics Views SQL
-
-Create:
-
-- `sql/04_create_analytics_views.sql`
-
-Purpose:
-
-Create reporting-ready views from the loaded Snowflake tables.
-
-Core views:
-
-- `ANALYTICS.V_HOMESTAND_SUMMARY`
-- `ANALYTICS.V_PROMOTION_SCORECARD`
-- `ANALYTICS.V_CRM_FOLLOW_UP_QUEUE`
-
-Recommended helper views:
-
-- `ANALYTICS.V_EXECUTIVE_HOMESTAND_OVERVIEW`
-- `ANALYTICS.V_PROMOTION_RECOMMENDATION_SUMMARY`
-- `ANALYTICS.V_CRM_ACTION_BUCKET_SUMMARY`
+Complete.
 
 ---
 
-### Step 7: Create Business Question Queries SQL
+## Current Required Phase
 
-Create:
-
-- `sql/05_business_question_queries.sql`
-
-Purpose:
-
-Show SQL answers to the project’s main business questions.
-
-Queries should answer:
-
-1. Which homestands created the most total value?
-2. Which promotions should return, be reworked, retired, or reviewed?
-3. Which promotions drove attendance lift but weak revenue lift?
-4. Which promotions drove in-park spend?
-5. Which homestands had the most no-show recovery opportunity?
-6. Which fans or accounts should be prioritized for follow-up?
-7. Which CRM action buckets are driving the queue?
-8. Which teams own the follow-up workload?
-
----
-
-## Phase 11: Tableau Public Dashboard Build
+### Phase 11: Tableau Public Dashboard Build
 
 Goal:
 
@@ -442,7 +330,7 @@ Primary data sources:
 Dashboard pages:
 
 1. Homestand Intelligence
-2. Promotion Scorecard
+2. Promotion Performance Scorecard
 3. CRM Follow-Up Queue
 
 Build guide:
@@ -451,7 +339,7 @@ Build guide:
 
 Status:
 
-Waiting on Snowflake phase.
+Next.
 
 ---
 
@@ -491,7 +379,7 @@ Priority sheets:
 
 ---
 
-### Step 3: Build Promotion Scorecard Page
+### Step 3: Build Promotion Performance Scorecard Page
 
 Build second because it answers which promotions worked.
 
@@ -554,34 +442,29 @@ After publishing:
 
 ### Required
 
-- Create `SNOWFLAKE_LOAD_GUIDE.md`
-- Create Snowflake SQL setup file
-- Create Snowflake export table DDL
-- Create Snowflake load SQL
-- Create Snowflake validation SQL
-- Create Snowflake analytics views
-- Create business-question SQL queries
-- Load final exports into Snowflake
-- Validate loaded Snowflake tables
 - Build Tableau Public dashboard
 - Add Tableau Public link to README
-- Final README polish after dashboard is published
+- Add dashboard screenshots
+- Add final README polish
+- Add final executive summary
+- Confirm synthetic data disclaimer is clear
+- Confirm no claim of internal Trash Pandas access
 
 ### Recommended
 
-- Add dashboard screenshots
 - Add a short executive summary section
 - Add a recruiter-facing portfolio summary
 - Add a LinkedIn post draft
 - Add a final project retrospective
-- Add a Snowflake/SQL summary section to README after SQL files are complete
+- Add dashboard design screenshots
+- Add a short walkthrough video script
 
 ### Optional
 
 - Load every raw/synthetic CSV into Snowflake
 - Rebuild the full Python export logic as SQL views
-- Add dashboard design screenshots
-- Add a short walkthrough video script
+- Add deeper Snowflake source-layer modeling
+- Add a future warehouse expansion plan
 
 ---
 
@@ -603,6 +486,6 @@ The final project should answer:
 4. How would this reporting layer live in Snowflake?
 5. Which SQL queries prove the business value?
 
-Snowflake is now part of the required current build.
+Snowflake is complete.
 
-Tableau comes after the Snowflake reporting layer is documented and validated.
+Tableau Public is the next phase.
