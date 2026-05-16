@@ -1,3 +1,4 @@
+USE ROLE ACCOUNTADMIN;
 USE WAREHOUSE TP_REPORTING_WH;
 USE DATABASE TRASH_PANDAS_CONNECTED_REPORTING;
 
@@ -60,7 +61,10 @@ SELECT
     future_revenue_opportunity,
     avg_opportunity_score,
     homestand_total_value_index,
-    recommended_focus
+    recommended_focus,
+    ROUND(net_ticket_revenue / NULLIF(total_revenue_indicator, 0), 4) AS ticket_revenue_share,
+    ROUND(merch_net_sales / NULLIF(total_revenue_indicator, 0), 4) AS merch_revenue_share,
+    ROUND(concession_net_sales / NULLIF(total_revenue_indicator, 0), 4) AS concession_revenue_share
 FROM RAW.HOMESTAND_SUMMARY;
 
 CREATE OR REPLACE VIEW ANALYTICS.V_PROMOTION_SCORECARD AS
@@ -123,7 +127,14 @@ SELECT
     repeat_buyer_rate_lift_vs_slot,
     total_value_index,
     recommendation,
-    recommendation_reason
+    recommendation_reason,
+    CASE
+        WHEN recommendation = 'return' THEN 'Return'
+        WHEN recommendation = 'rework' THEN 'Rework'
+        WHEN recommendation = 'retire' THEN 'Retire'
+        ELSE 'Review'
+    END AS recommendation_label,
+    ROUND(merch_net_sales + concession_net_sales, 2) AS in_park_revenue
 FROM RAW.PROMOTION_SCORECARD;
 
 CREATE OR REPLACE VIEW ANALYTICS.V_CRM_FOLLOW_UP_QUEUE AS
@@ -156,7 +167,7 @@ SELECT
     dashboard_filter_label,
     game_id,
     season,
-    TRY_TO_DATE(game_date) AS game_date,
+    game_date,
     opponent,
     day_of_week,
     homestand_id,
@@ -185,9 +196,9 @@ SELECT
     fan_hidden_value_flag,
     fan_engagement_count,
     fan_avg_engagement_score,
-    TRY_TO_DATE(fan_last_purchase_date) AS fan_last_purchase_date,
-    TRY_TO_DATE(fan_last_attended_date) AS fan_last_attended_date,
-    TRY_TO_DATE(fan_last_engagement_date) AS fan_last_engagement_date,
+    fan_last_purchase_date,
+    fan_last_attended_date,
+    fan_last_engagement_date,
     account_id,
     account_name,
     account_type,
@@ -203,7 +214,13 @@ SELECT
     account_renewal_opportunity_count,
     account_upsell_opportunity_count,
     account_total_value,
-    synthetic_data_flag
+    synthetic_data_flag,
+    CASE
+        WHEN priority_rank <= 100 THEN 'Top 100'
+        WHEN priority_rank <= 500 THEN 'Top 500'
+        WHEN priority_rank <= 1000 THEN 'Top 1,000'
+        ELSE 'Full Queue'
+    END AS priority_rank_band
 FROM RAW.CRM_FOLLOW_UP_QUEUE;
 
 CREATE OR REPLACE VIEW ANALYTICS.V_EXECUTIVE_HOMESTAND_OVERVIEW AS
@@ -217,8 +234,8 @@ SELECT
     tickets_sold,
     scanned_attendance,
     scan_rate,
-    no_show_ticket_quantity,
     no_show_rate,
+    no_show_ticket_quantity,
     net_ticket_revenue,
     merch_net_sales,
     concession_net_sales,
@@ -237,14 +254,13 @@ SELECT
     season,
     promo_category,
     recommendation,
-    COUNT(DISTINCT promo_id) AS promotion_count,
+    COUNT(*) AS promotion_count,
     ROUND(AVG(total_value_index), 2) AS avg_total_value_index,
     ROUND(AVG(scanned_attendance), 2) AS avg_scanned_attendance,
     ROUND(AVG(scan_rate), 4) AS avg_scan_rate,
     ROUND(AVG(no_show_rate), 4) AS avg_no_show_rate,
     ROUND(AVG(revenue_per_scanned_fan), 2) AS avg_revenue_per_scanned_fan,
     ROUND(AVG(in_park_spend_per_scanned_fan), 2) AS avg_in_park_spend_per_scanned_fan,
-    ROUND(SUM(total_revenue_indicator), 2) AS total_revenue_indicator,
     ROUND(SUM(future_revenue_opportunity), 2) AS total_future_revenue_opportunity
 FROM ANALYTICS.V_PROMOTION_SCORECARD
 GROUP BY
@@ -257,8 +273,7 @@ SELECT
     assigned_team,
     executive_action_bucket,
     priority_band,
-    entity_type,
-    COUNT(DISTINCT follow_up_id) AS task_count,
+    COUNT(*) AS task_count,
     ROUND(SUM(future_revenue_opportunity), 2) AS total_future_revenue_opportunity,
     ROUND(AVG(priority_score), 2) AS avg_priority_score,
     ROUND(AVG(repeat_likelihood_score), 2) AS avg_repeat_likelihood_score,
@@ -267,7 +282,6 @@ FROM ANALYTICS.V_CRM_FOLLOW_UP_QUEUE
 GROUP BY
     assigned_team,
     executive_action_bucket,
-    priority_band,
-    entity_type;
+    priority_band;
 
 SHOW VIEWS IN SCHEMA ANALYTICS;
