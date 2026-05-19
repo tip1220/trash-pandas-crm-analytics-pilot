@@ -2,17 +2,49 @@
 
 ## Project Pitch
 
-A proof-of-concept showing how a minor league baseball team could connect separate business reports into one reporting layer to improve decisions around homestands, promotions, fan value, group sales, and CRM follow-up.
+A proof-of-concept showing how a growth-market sports organization could connect separate business data sources into one reporting layer to uncover insights that siloed reports cannot show alone.
+
+The project uses the Rocket City Trash Pandas as the portfolio case study.
+
+The goal is not just to build a dashboard.
+
+The goal is to show what becomes possible when ticketing, scans, promotions, merch, concessions, group sales, fan engagement, and CRM follow-up data are analyzed together.
 
 ## Business Problem
 
-Sports teams often have valuable data spread across ticketing, promotions, gate scans, group sales, retail, concessions, sponsorship, fan engagement, and CRM workflows.
+Sports teams often have useful data spread across multiple departments and systems:
+
+- Ticketing
+- Promotions
+- Gate scans
+- Group sales
+- Retail / merch
+- Concessions
+- Sponsorship context
+- Fan engagement
+- CRM workflows
 
 Each report can answer one narrow question.
 
-The real value comes when those reports connect.
+Ticketing can show what was sold.
 
-This project demonstrates what a connected reporting structure could look like for the Rocket City Trash Pandas using public data where available and synthetic internal-style data where internal data would normally be required.
+Scans can show who showed up.
+
+Promotions can show what was offered.
+
+POS data can show what fans spent.
+
+CRM data can show who needs follow-up.
+
+The real value comes when those sources connect.
+
+This project demonstrates how separate reports could be pulled into one reporting layer so leadership can better understand:
+
+- What created demand
+- What converted into attendance
+- What created value after fans arrived
+- What created future sales or marketing opportunity
+- Which fans or accounts should receive action next
 
 ## Important Data Note
 
@@ -27,65 +59,98 @@ The project uses:
 
 The synthetic data is used only to demonstrate structure, workflow, and business logic.
 
+This project does not claim access to internal team systems.
+
 ## Why This Project Exists
 
 The original idea was a CRM analytics pilot.
 
-The better business problem became connected reporting.
+The stronger business problem became connected reporting.
 
-The opportunity is not to replace systems or claim the team lacks data.
+A team may already have the data it needs.
 
-The opportunity is to show how separate reports could be pulled into one reporting layer so leadership can answer better questions:
+The issue is that the data can live in separate reports, departments, tools, or workflows.
 
-- Which homestands created the most total value?
-- Which promotions drove value beyond attendance?
-- Which games sold tickets but had weak scan rates?
-- Which fans are valuable because of merch and concession behavior?
-- Which group accounts should be renewed or upsold?
-- Which fans or accounts should receive follow-up first?
-- Which business data sources need to connect to support better decisions?
+When that happens, leaders can see activity but miss the full business story.
+
+This project shows how a growth-market sports organization could connect those pieces into one decision layer.
+
+The main question is:
+
+**What new decisions become possible when separate sports business data sources are connected?**
 
 ## Core Insight
 
 A promotion may sell tickets.
 
-But when tickets, scans, no-shows, merch, concessions, group sales, engagement, and follow-up behavior are connected, the team can see whether that promotion created real business value.
+But ticket sales alone do not prove business value.
+
+When tickets, scans, no-shows, merch, concessions, group sales, engagement, and follow-up behavior are connected, the team can see whether that promotion created real value.
+
+Connected reporting helps separate:
+
+- Demand from attendance
+- Attendance from in-park value
+- Promotion activity from promotion impact
+- Fan transactions from fan opportunity
+- Reports from action
+
+## Dashboard Story
+
+The Tableau dashboard is built around one story:
+
+**Siloed reports show activity. Connected reporting shows decisions.**
+
+The dashboard follows this flow:
+
+1. **Connected Homestand Intelligence**  
+   What happened across demand, attendance conversion, in-park value, and future opportunity?
+
+2. **Promotion Value Scorecard**  
+   Which promotions created value beyond attendance?
+
+3. **CRM Follow-Up Queue**  
+   Which fans or accounts become actionable when behavior from multiple systems is connected?
 
 ## Final Dashboard Pages
 
-The Tableau Public dashboard is designed around three pages.
-
-### 1. Homestand Intelligence
+### 1. Connected Homestand Intelligence
 
 Business question:
 
-After a homestand, what happened, why did it happen, and what should leadership do next?
+Which homestands created value across ticket demand, attendance conversion, in-park spend, and follow-up opportunity?
 
-This page compares homestands using:
+This page compares homestands using connected business signals:
 
-- Tickets sold
-- Scanned attendance
-- Scan rate
-- No-show rate
+- Demand created
+- Attendance converted
+- Demand-to-attendance conversion
+- Lost attendance opportunity
 - Ticket revenue
-- Merch sales
-- Concession sales
-- In-park spend per scanned fan
-- Fan engagement
-- Follow-up opportunities
-- Homestand total value index
+- Value after arrival
+- Revenue per scanned fan
+- Actionable CRM signals
+- Future value pipeline
+- Connected value score
 - Recommended focus
 
-### 2. Promotion Performance Scorecard
+Why this page matters:
+
+A homestand can sell well but still lose value through no-shows, weak in-park spend, or limited follow-up opportunity.
+
+This page shows what leadership can learn only when ticketing, scans, merch, concessions, engagement, and CRM signals are connected.
+
+### 2. Promotion Value Scorecard
 
 Business question:
 
-Which promotions created the most total value, and should they return, be reworked, retired, or reviewed?
+Which promotions created the most connected value, and should they return, be reworked, retired, or reviewed?
 
 This page evaluates promotions using:
 
 - Tickets sold
 - Scanned attendance
+- Scan rate
 - No-show rate
 - Group tickets
 - Merch lift
@@ -104,11 +169,17 @@ Recommendation options:
 - Retire
 - Review
 
+Why this page matters:
+
+A promotion should not be judged by attendance alone.
+
+A strong promotion should help create attendance conversion, in-park spend, repeat behavior, group demand, or qualified follow-up opportunity.
+
 ### 3. CRM Follow-Up Queue
 
 Business question:
 
-Who should be contacted, why do they matter, and which team owns the next action?
+Which fans and accounts become actionable once ticketing, scans, spend, engagement, and group behavior are connected?
 
 This page turns connected behavior into a prioritized queue for:
 
@@ -131,6 +202,12 @@ The queue includes:
 - Assigned team
 - Due date
 
+Why this page matters:
+
+Ticket data alone cannot tell the team who is worth contacting.
+
+Connected reporting helps rank action instead of guessing.
+
 ## Final Tableau Export Files
 
 Final dashboard-ready exports are stored in:
@@ -139,8 +216,8 @@ Final dashboard-ready exports are stored in:
 
 | File | Grain | Dashboard Use |
 |---|---|---|
-| `homestand_summary.csv` | One row per homestand | Homestand Intelligence |
-| `promotion_scorecard.csv` | One row per promotion per game | Promotion Performance Scorecard |
+| `homestand_summary.csv` | One row per homestand | Connected Homestand Intelligence |
+| `promotion_scorecard.csv` | One row per promotion per game | Promotion Value Scorecard |
 | `crm_follow_up_queue.csv` | One row per follow-up task | CRM Follow-Up Queue |
 | `export_manifest.csv` | One row per export | Documentation |
 
@@ -208,6 +285,10 @@ Validation targets:
 
 Tableau Public uses the same final CSV exports so the published dashboard remains accessible and portfolio-friendly.
 
+Snowflake proves the warehouse and SQL layer.
+
+Tableau Public proves the communication layer.
+
 ## Project Scale
 
 Current modeled project output:
@@ -247,6 +328,8 @@ Games connect to:
 - Fan engagement
 - Follow-up opportunities
 
+This creates homestand and promotion insight.
+
 ### Fan-Level Connections
 
 Fans connect to:
@@ -260,6 +343,8 @@ Fans connect to:
 - Follow-up opportunities
 - CRM tasks
 
+This creates fan value and follow-up insight.
+
 ### Account-Level Connections
 
 Group accounts connect to:
@@ -269,6 +354,29 @@ Group accounts connect to:
 - Renewal signals
 - Upsell signals
 - CRM tasks
+
+This creates account prioritization insight.
+
+## What Connected Reporting Adds
+
+A siloed ticket report can show what was sold.
+
+A scan report can show who attended.
+
+A merch report can show what was bought.
+
+A concession report can show what fans spent.
+
+A CRM report can show who was contacted.
+
+Connected reporting can show:
+
+- Which games sold tickets but lost value through no-shows
+- Which average-attendance games created strong in-park spend
+- Which promotions created wallets, not just crowds
+- Which fans are valuable beyond seat location
+- Which group accounts should receive renewal or upsell action
+- Which teams own the next step after a homestand
 
 ## Why Merch and Concessions Matter
 
