@@ -12,6 +12,10 @@ The dashboard should prove one idea:
 
 Separate business reports become more valuable when they are connected into one reporting layer.
 
+The dashboard should not feel like a generic sports dashboard.
+
+It should feel like a connected reporting pilot that shows what a team can learn when ticketing, scans, promotions, merch, concessions, group sales, engagement, and CRM follow-up data are analyzed together.
+
 ---
 
 ## Final Tableau Data Sources
@@ -30,23 +34,43 @@ Each export already contains the fields needed for its dashboard page.
 
 ---
 
+## Workbook Title
+
+Use:
+
+`Trash Pandas Connected Reporting Pilot: From Siloed Reports to Actionable Insights`
+
+Shorter dashboard title option:
+
+`From Siloed Reports to Actionable Insights`
+
+---
+
+## Required Source Note
+
+Use this note on each dashboard page:
+
+Public data is used where available. Internal-style ticketing, scan, merch, concessions, engagement, group sales, and CRM fields are synthetic and used only to demonstrate connected reporting structure.
+
+---
+
 ## Dashboard Pages
 
 Build three dashboard pages:
 
-1. Homestand Intelligence
-2. Promotion Scorecard
+1. Connected Homestand Intelligence
+2. Promotion Value Scorecard
 3. CRM Follow-Up Queue
 
 The story should move from leadership summary to promotion decisions to action queue.
 
 ---
 
-# Page 1: Homestand Intelligence
+# Page 1: Connected Homestand Intelligence
 
 ## Business Question
 
-After a homestand, what happened, why did it happen, and what should leadership do next?
+Which homestands created value across ticket demand, attendance conversion, in-park spend, and follow-up opportunity?
 
 ## Data Source
 
@@ -58,9 +82,15 @@ Executive summary.
 
 This page helps leadership compare homestands and understand which ones created the most connected business value.
 
+## Page-Level Story
+
+Ticket sales tell one part of the story.
+
+Connected reporting shows whether that demand converted into attendance, created in-park value, and produced follow-up opportunity.
+
 ## Required Sheets
 
-### Sheet 1: KPI - Tickets Sold
+### Sheet 1: KPI - Demand Created
 
 Field:
 
@@ -72,11 +102,15 @@ Use:
 
 Title:
 
-`Tickets Sold`
+`Demand Created`
+
+Subtitle / tooltip language:
+
+Tickets sold from the connected reporting export. This is the demand signal, not the full value story.
 
 ---
 
-### Sheet 2: KPI - Scanned Attendance
+### Sheet 2: KPI - Attendance Converted
 
 Field:
 
@@ -88,15 +122,19 @@ Use:
 
 Title:
 
-`Scanned Attendance`
+`Attendance Converted`
+
+Subtitle / tooltip language:
+
+Scanned attendance shows how much ticket demand became real ballpark attendance.
 
 ---
 
-### Sheet 3: KPI - Scan Rate
+### Sheet 3: KPI - Demand-to-Attendance Conversion
 
 Create calculated field:
 
-`Scan Rate Display`
+`Demand-to-Attendance Conversion`
 
 Formula:
 
@@ -109,15 +147,19 @@ Format:
 
 Title:
 
-`Scan Rate`
+`Demand-to-Attendance Conversion`
+
+Subtitle / tooltip language:
+
+This connects ticketing and scan data to show whether sold tickets became attendance.
 
 ---
 
-### Sheet 4: KPI - No-Show Rate
+### Sheet 4: KPI - Lost Attendance Opportunity
 
 Create calculated field:
 
-`No-Show Rate Display`
+`Lost Attendance Opportunity`
 
 Formula:
 
@@ -130,19 +172,23 @@ Format:
 
 Title:
 
-`No-Show Rate`
+`Lost Attendance Opportunity`
+
+Subtitle / tooltip language:
+
+No-show rate shows where ticket demand did not become scanned attendance.
 
 ---
 
-### Sheet 5: KPI - Total Revenue Indicator
+### Sheet 5: KPI - Value After Arrival
 
-Field:
+Create calculated field:
 
-- `total_revenue_indicator`
+`Value After Arrival`
 
-Use:
+Formula:
 
-- SUM
+`SUM([merch_net_sales]) + SUM([concession_net_sales])`
 
 Format:
 
@@ -151,11 +197,15 @@ Format:
 
 Title:
 
-`Total Revenue Indicator`
+`Value After Arrival`
+
+Subtitle / tooltip language:
+
+Merch and concession sales show the value created after fans entered the ballpark.
 
 ---
 
-### Sheet 6: KPI - Homestand Value Index
+### Sheet 6: KPI - Connected Value Score
 
 Field:
 
@@ -172,37 +222,15 @@ Format:
 
 Title:
 
-`Avg. Homestand Value Index`
+`Connected Value Score`
+
+Subtitle / tooltip language:
+
+Weighted score across demand, attendance conversion, spend, engagement, and follow-up opportunity.
 
 ---
 
-### Sheet 7: Homestand Ranking Table
-
-Rows:
-
-- `homestand_id`
-- `homestand_start_date`
-- `homestand_end_date`
-- `opponents`
-
-Text / Measures:
-
-- `game_count`
-- `tickets_sold`
-- `scanned_attendance`
-- `scan_rate`
-- `no_show_rate`
-- `total_revenue_indicator`
-- `homestand_total_value_index`
-- `recommended_focus`
-
-Purpose:
-
-Show which homestands performed best and what action leadership should consider.
-
----
-
-### Sheet 8: Tickets Sold vs Scanned Attendance
+### Sheet 7: Demand vs Attendance Converted
 
 Columns:
 
@@ -217,13 +245,17 @@ Chart:
 
 - Side-by-side bars
 
+Title:
+
+`Demand vs Attendance Converted`
+
 Purpose:
 
-Show the gap between demand and actual attendance.
+Show the gap between ticket demand and actual attendance.
 
 ---
 
-### Sheet 9: No-Show Rate by Homestand
+### Sheet 8: Lost Attendance Opportunity by Homestand
 
 Columns:
 
@@ -241,13 +273,17 @@ Sort:
 
 - Descending by `no_show_rate`
 
+Title:
+
+`Lost Attendance Opportunity by Homestand`
+
 Purpose:
 
 Identify homestands where sold tickets did not convert into attendance.
 
 ---
 
-### Sheet 10: Revenue Mix by Homestand
+### Sheet 9: Value After Arrival by Homestand
 
 Columns:
 
@@ -255,7 +291,6 @@ Columns:
 
 Rows:
 
-- `net_ticket_revenue`
 - `merch_net_sales`
 - `concession_net_sales`
 
@@ -263,9 +298,45 @@ Chart:
 
 - Stacked bar or side-by-side bar
 
+Title:
+
+`Value After Arrival by Homestand`
+
 Purpose:
 
-Show how the total value story changes when tickets, merch, and concessions are viewed together.
+Show how the value story changes when merch and concessions are connected to attendance.
+
+---
+
+### Sheet 10: Connected Value Ranking Table
+
+Rows:
+
+- `homestand_id`
+- `homestand_start_date`
+- `homestand_end_date`
+- `opponents`
+
+Text / Measures:
+
+- `game_count`
+- `tickets_sold`
+- `scanned_attendance`
+- `scan_rate`
+- `no_show_rate`
+- `revenue_per_scanned_fan`
+- `in_park_spend_per_scanned_fan`
+- `future_revenue_opportunity`
+- `homestand_total_value_index`
+- `recommended_focus`
+
+Title:
+
+`Connected Value Ranking`
+
+Purpose:
+
+Show which homestands performed best across connected signals.
 
 ---
 
@@ -283,9 +354,13 @@ Chart:
 
 - Bar chart
 
+Title:
+
+`Recommended Focus Breakdown`
+
 Purpose:
 
-Show how many homestands point to each action area.
+Show how connected reporting turns performance into action.
 
 ---
 
@@ -299,27 +374,32 @@ Add filters:
 
 Show filters on the dashboard.
 
----
-
 ## Page 1 Layout
 
 Recommended layout:
 
 1. Title
-2. Short source note
-3. KPI row
-4. Tickets sold vs scanned attendance
-5. Revenue mix
-6. Homestand ranking table
-7. Recommended focus breakdown
+2. One-sentence connected reporting takeaway
+3. Source note
+4. KPI row
+5. Demand vs Attendance Converted
+6. Value After Arrival
+7. Connected Value Ranking Table
+8. Recommended Focus Breakdown
+
+## Page 1 Takeaway Text
+
+Use this on the dashboard:
+
+`Ticket demand is only the starting point. Connected reporting shows whether fans showed up, spent inside the ballpark, and created future follow-up opportunity.`
 
 ---
 
-# Page 2: Promotion Scorecard
+# Page 2: Promotion Value Scorecard
 
 ## Business Question
 
-Which promotions created the most total value, and should they return, be reworked, retired, or reviewed?
+Which promotions created value beyond attendance, and should they return, be reworked, retired, or reviewed?
 
 ## Data Source
 
@@ -329,11 +409,17 @@ Which promotions created the most total value, and should they return, be rework
 
 Promotion decision layer.
 
-This page helps leadership and marketing evaluate promotions beyond attendance.
+This page helps leadership and marketing evaluate promotions beyond crowd size.
+
+## Page-Level Story
+
+A promotion can drive attendance and still underperform on revenue quality, repeat behavior, or follow-up opportunity.
+
+Connected reporting shows which promotions created broader value.
 
 ## Required Sheets
 
-### Sheet 1: KPI - Promotion Count
+### Sheet 1: KPI - Promotions Reviewed
 
 Field:
 
@@ -349,7 +435,7 @@ Title:
 
 ---
 
-### Sheet 2: KPI - Avg. Total Value Index
+### Sheet 2: KPI - Avg Connected Value Score
 
 Field:
 
@@ -359,13 +445,60 @@ Use:
 
 - AVG
 
+Format:
+
+- Number
+- 1 decimal place
+
 Title:
 
-`Avg. Total Value Index`
+`Avg Connected Value Score`
 
 ---
 
-### Sheet 3: KPI - Return / Rework Count
+### Sheet 3: KPI - Value After Arrival
+
+Create calculated field:
+
+`Promotion Value After Arrival`
+
+Formula:
+
+`SUM([merch_net_sales]) + SUM([concession_net_sales])`
+
+Format:
+
+- Currency
+- No decimals
+
+Title:
+
+`Value After Arrival`
+
+---
+
+### Sheet 4: KPI - Future Value Pipeline
+
+Field:
+
+- `future_revenue_opportunity`
+
+Use:
+
+- SUM
+
+Format:
+
+- Currency
+- No decimals
+
+Title:
+
+`Future Value Pipeline`
+
+---
+
+### Sheet 5: KPI - Return / Rework Candidates
 
 Create calculated field:
 
@@ -385,7 +518,7 @@ Title:
 
 ---
 
-### Sheet 4: Recommendation Breakdown
+### Sheet 6: Recommendation Breakdown
 
 Rows:
 
@@ -399,13 +532,17 @@ Chart:
 
 - Bar chart
 
+Title:
+
+`Promotion Decision Mix`
+
 Purpose:
 
 Show the promotion inventory decision mix.
 
 ---
 
-### Sheet 5: Promotion Scorecard Table
+### Sheet 7: Promotion Scorecard Table
 
 Rows:
 
@@ -423,10 +560,15 @@ Text / Measures:
 - `group_tickets`
 - `merch_net_sales`
 - `concession_net_sales`
+- `revenue_per_scanned_fan`
 - `repeat_buyer_rate`
 - `total_value_index`
 - `recommendation`
 - `recommendation_reason`
+
+Title:
+
+`Promotion Value Scorecard`
 
 Purpose:
 
@@ -434,7 +576,7 @@ Create a working review table for promotion decisions.
 
 ---
 
-### Sheet 6: Total Value Index by Promo Category
+### Sheet 8: Connected Value by Promotion Category
 
 Rows:
 
@@ -452,13 +594,17 @@ Sort:
 
 - Descending by AVG `total_value_index`
 
+Title:
+
+`Connected Value by Promotion Category`
+
 Purpose:
 
 Show which promotion categories create the strongest connected value.
 
 ---
 
-### Sheet 7: Attendance Lift vs Revenue Lift
+### Sheet 9: Attendance Lift vs Revenue Lift
 
 Columns:
 
@@ -480,13 +626,21 @@ Chart:
 
 - Scatterplot
 
+Title:
+
+`Attendance Lift vs Revenue Lift`
+
 Purpose:
 
 Separate crowd-driving promotions from revenue-driving promotions.
 
+Dashboard note:
+
+`Upper-right promotions lifted attendance and revenue quality. Lower-right promotions lifted attendance but underperformed on revenue per fan.`
+
 ---
 
-### Sheet 8: In-Park Spend Lift by Promotion
+### Sheet 10: In-Park Spend Lift by Promotion
 
 Rows:
 
@@ -503,15 +657,19 @@ Chart:
 
 Sort:
 
-- Descending by `merch_lift_per_scanned_fan` or total in-park lift
+- Descending by in-park lift
+
+Title:
+
+`In-Park Spend Lift by Promotion`
 
 Purpose:
 
-Show which promotions changed in-park spending.
+Show which promotions changed fan spending behavior inside the ballpark.
 
 ---
 
-### Sheet 9: Repeat Buyer Signal
+### Sheet 11: Repeat Buyer Signal
 
 Rows:
 
@@ -525,6 +683,10 @@ Columns:
 Chart:
 
 - Bar chart or table
+
+Title:
+
+`Repeat Buyer Signal`
 
 Purpose:
 
@@ -542,19 +704,24 @@ Add filters:
 - `day_of_week`
 - `weekend_flag`
 
----
-
 ## Page 2 Layout
 
 Recommended layout:
 
 1. Title
-2. Short source note
-3. KPI row
-4. Recommendation breakdown
-5. Total value by category
-6. Attendance lift vs revenue lift scatterplot
-7. Promotion scorecard table
+2. One-sentence connected reporting takeaway
+3. Source note
+4. KPI row
+5. Promotion Decision Mix
+6. Connected Value by Promotion Category
+7. Attendance Lift vs Revenue Lift
+8. Promotion Value Scorecard table
+
+## Page 2 Takeaway Text
+
+Use this on the dashboard:
+
+`Attendance alone does not prove a promotion worked. Connected reporting shows whether a promotion also created spend, repeat behavior, group demand, or follow-up opportunity.`
 
 ---
 
@@ -562,7 +729,7 @@ Recommended layout:
 
 ## Business Question
 
-Who should be contacted, why do they matter, and which team owns the next action?
+Which fans and accounts become actionable once behavior from multiple systems is connected?
 
 ## Data Source
 
@@ -574,9 +741,15 @@ Action layer.
 
 This page shows that connected reporting can turn behavior into a prioritized queue.
 
+## Page-Level Story
+
+Ticketing alone cannot tell a team who should be contacted first.
+
+Connected reporting combines purchase behavior, scans, spend, engagement, group activity, and opportunity logic to prioritize action.
+
 ## Required Sheets
 
-### Sheet 1: KPI - Open Follow-Up Tasks
+### Sheet 1: KPI - Actionable CRM Signals
 
 Field:
 
@@ -588,11 +761,11 @@ Use:
 
 Title:
 
-`Open Follow-Up Tasks`
+`Actionable CRM Signals`
 
 ---
 
-### Sheet 2: KPI - High Priority Tasks
+### Sheet 2: KPI - High Priority Signals
 
 Create calculated field:
 
@@ -608,11 +781,11 @@ Use:
 
 Title:
 
-`High Priority Tasks`
+`High Priority Signals`
 
 ---
 
-### Sheet 3: KPI - Future Revenue Opportunity
+### Sheet 3: KPI - Future Value Pipeline
 
 Field:
 
@@ -629,11 +802,11 @@ Format:
 
 Title:
 
-`Future Revenue Opportunity`
+`Future Value Pipeline`
 
 ---
 
-### Sheet 4: KPI - Avg. Priority Score
+### Sheet 4: KPI - Avg Priority Score
 
 Field:
 
@@ -643,13 +816,58 @@ Use:
 
 - AVG
 
+Format:
+
+- Number
+- 1 decimal place
+
 Title:
 
-`Avg. Priority Score`
+`Avg Priority Score`
 
 ---
 
-### Sheet 5: Action Bucket Breakdown
+### Sheet 5: KPI - Fan Opportunities
+
+Create calculated field:
+
+`Fan Opportunity Flag`
+
+Formula:
+
+`IF [entity_type] = "fan" THEN 1 ELSE 0 END`
+
+Use:
+
+- SUM
+
+Title:
+
+`Fan Opportunities`
+
+---
+
+### Sheet 6: KPI - Account Opportunities
+
+Create calculated field:
+
+`Account Opportunity Flag`
+
+Formula:
+
+`IF [entity_type] = "account" THEN 1 ELSE 0 END`
+
+Use:
+
+- SUM
+
+Title:
+
+`Account Opportunities`
+
+---
+
+### Sheet 7: Action Bucket Breakdown
 
 Rows:
 
@@ -663,13 +881,17 @@ Chart:
 
 - Bar chart
 
+Title:
+
+`Action Bucket Breakdown`
+
 Purpose:
 
 Show whether the queue is focused on recovery, upgrades, retention, or renewals.
 
 ---
 
-### Sheet 6: Assigned Team Workload
+### Sheet 8: Team Ownership Workload
 
 Rows:
 
@@ -683,13 +905,17 @@ Chart:
 
 - Bar chart
 
+Title:
+
+`Team Ownership Workload`
+
 Purpose:
 
 Show which team owns the follow-up work.
 
 ---
 
-### Sheet 7: Priority Queue Table
+### Sheet 9: Priority Queue Table
 
 Rows:
 
@@ -705,13 +931,17 @@ Rows:
 - `upgrade_potential_score`
 - `due_date`
 
+Title:
+
+`Prioritized Follow-Up Queue`
+
 Purpose:
 
 Create a working action list.
 
 ---
 
-### Sheet 8: Hidden Fan Value View
+### Sheet 10: Hidden Fan Value View
 
 Rows:
 
@@ -732,13 +962,17 @@ Optional filter:
 
 - `fan_hidden_value_flag = True`
 
+Title:
+
+`Hidden Fan Value`
+
 Purpose:
 
 Show fans who become more valuable once merch and concessions are connected.
 
 ---
 
-### Sheet 9: Opportunity Type Breakdown
+### Sheet 11: Opportunity Type Breakdown
 
 Rows:
 
@@ -751,6 +985,10 @@ Columns:
 Chart:
 
 - Bar chart
+
+Title:
+
+`Opportunity Type Breakdown`
 
 Purpose:
 
@@ -770,27 +1008,24 @@ Add filters:
 - `season`
 - `homestand_id`
 
----
-
 ## Page 3 Layout
 
 Recommended layout:
 
 1. Title
-2. Short source note
-3. KPI row
-4. Action bucket breakdown
-5. Assigned team workload
-6. Priority queue table
-7. Hidden fan value view
+2. One-sentence connected reporting takeaway
+3. Source note
+4. KPI row
+5. Action Bucket Breakdown
+6. Team Ownership Workload
+7. Prioritized Follow-Up Queue
+8. Hidden Fan Value
 
----
+## Page 3 Takeaway Text
 
-# Required Source Note
+Use this on the dashboard:
 
-Use this note on each dashboard page:
-
-Public data is used where available. Internal-style ticketing, scan, merch, concessions, engagement, group sales, and CRM fields are synthetic and used only to demonstrate connected reporting structure.
+`Connected reporting turns scattered fan and account behavior into a ranked action list. It shows who to contact, why they matter, and which team owns the next step.`
 
 ---
 
@@ -803,10 +1038,11 @@ When publishing to Tableau Public:
 - Do not imply access to internal Trash Pandas data
 - Include the synthetic data note
 - Keep dashboard pages clean and business-facing
+- Make the connected-data story visible in the page titles, KPI labels, and short takeaway text
 
 Suggested Tableau Public workbook title:
 
-`Trash Pandas Connected Reporting Pilot`
+`Trash Pandas Connected Reporting Pilot: From Siloed Reports to Actionable Insights`
 
 ---
 
@@ -814,8 +1050,8 @@ Suggested Tableau Public workbook title:
 
 The finished dashboard should tell this story:
 
-1. Homestand Intelligence shows what happened.
-2. Promotion Scorecard shows what worked.
+1. Connected Homestand Intelligence shows what happened across demand, attendance, spend, and opportunity.
+2. Promotion Value Scorecard shows what worked beyond attendance.
 3. CRM Follow-Up Queue shows what to do next.
 
 The project does not argue that the team lacks data.

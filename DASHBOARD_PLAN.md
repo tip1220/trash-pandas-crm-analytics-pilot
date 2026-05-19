@@ -1,510 +1,686 @@
+---
+
+## `DASHBOARD_PLAN.md`
+
+```markdown
 # Dashboard Plan
 
-## Purpose
+## Project
 
-This file defines the Tableau Public dashboard plan for the Trash Pandas Connected Reporting Pilot.
+Trash Pandas Connected Reporting Pilot
 
-The dashboard is designed to show how connected reporting can help a sports organization move beyond attendance-only analysis and make better decisions about game value, promotions, fan follow-up, and group sales.
+## Dashboard Purpose
 
-The dashboard is built for three audiences:
+This dashboard shows what a sports organization can learn when separate business reports are connected into one reporting layer.
 
-1. Leadership and executives
-2. Sales and marketing teams
-3. Recruiters and hiring managers reviewing the portfolio project
+The dashboard does not claim to use internal Trash Pandas data.
 
----
+It uses:
 
-## Dashboard Strategy
+- Public schedule, promotion, and attendance anchors where available
+- Synthetic internal-style ticketing, scans, merch, concessions, engagement, group sales, and CRM follow-up data
+- Derived exports built from connected source files
+- Snowflake-modeled reporting logic
+- Tableau Public dashboard-ready CSV exports
 
-The dashboard should not try to show everything.
-
-The dashboard should answer a focused set of business questions:
-
-1. Which games and promotions created the most total fan value beyond attendance?
-2. Which promotions should return, be reworked, retired, or reviewed?
-3. Which fans or accounts should sales and marketing follow up with first?
-4. Which fans are undervalued if the team only looks at ticket spend?
-5. Which data sources need to connect to answer these questions consistently?
-
-The dashboard should feel like a decision tool, not a chart collection.
+The goal is to show the reporting structure a growth-market sports organization could use if ticketing, scans, promotions, retail, concessions, group sales, fan engagement, and CRM workflows were connected.
 
 ---
 
-## Dashboard Pages
+## Dashboard Thesis
 
-The dashboard will include three pages:
+Siloed reports show activity.
 
-| Page | Dashboard Name | Primary Audience | Primary Decision |
-|---|---|---|---|
-| 1 | Homestand Intelligence | Leadership | What happened, why, and what should we do next? |
-| 2 | Promotion Performance Scorecard | Leadership, marketing, promotions | Should this promotion return, be reworked, retired, or reviewed? |
-| 3 | CRM Follow-Up Queue | Sales, marketing | Who should we contact first, and why? |
+Connected reporting shows decisions.
+
+A ticket report can show what was sold.
+
+A scan report can show who showed up.
+
+A promotion report can show what was offered.
+
+A POS report can show what fans bought.
+
+A CRM report can show who needs follow-up.
+
+The value comes from connecting those reports into one decision layer.
 
 ---
 
-## Page 1: Homestand Intelligence
+## Final Tableau Data Sources
 
-### Primary Business Question
+Tableau Public should use the files in `data/exports/`.
 
-After each homestand, what happened, why did it happen, and what should leadership, sales, marketing, and promotions do next?
+### Primary Dashboard Exports
 
-### Purpose
-
-This page gives leadership a connected view of homestand performance.
-
-It should summarize the business story across:
-
-- tickets
-- scanned attendance
-- no-shows
-- promotions
-- group sales
-- merch
-- concessions
-- fan engagement
-- follow-up opportunities
-
-### Recommended Filters
-
-| Filter | Purpose |
-|---|---|
-| Season | Compare 2023, 2024, and 2025 |
-| Homestand ID | Select one homestand |
-| Promo Category | Filter by promotion type |
-| Day of Week | Compare schedule slots |
-| Opponent | Add game context |
-
-### KPI Cards
-
-| KPI | Definition |
-|---|---|
-| Tickets Sold | Synthetic tickets sold for selected homestand |
-| Scanned Attendance | Synthetic scanned attendance |
-| Scan Rate | Scanned attendance divided by tickets sold |
-| No-Show Rate | No-shows divided by tickets sold |
-| Total Revenue Indicator | Synthetic ticket, group, merch, and concession value |
-| In-Park Spend Per Scanned Fan | Merch plus concessions divided by scanned attendance |
-| Total Value Index | Weighted 0-100 value score |
-| Follow-Up Opportunity Count | Qualified fan/account opportunities created |
-
-### Core Visuals
-
-| Visual | Purpose |
-|---|---|
-| Game-by-game bar chart | Compare tickets sold vs scanned attendance |
-| No-show rate by game | Identify show-up problems |
-| Total value index by game | Show which games created the most connected value |
-| Revenue mix by game | Compare ticket, group, merch, and concession contribution |
-| In-park spend per scanned fan | Identify games with strong spend behavior |
-| Promo summary table | Show promo category, scan rate, spend lift, and recommendation |
-| Department action panel | Translate insights into next steps |
-
-### Recommended Layout
-
-Top row:
-
-- Homestand selector
-- Tickets Sold
-- Scanned Attendance
-- Scan Rate
-- No-Show Rate
-- Total Value Index
-
-Middle row:
-
-- Tickets sold vs scanned attendance by game
-- Revenue mix by game
-- In-park spend per scanned fan
-
-Bottom row:
-
-- Promotion performance summary
-- Follow-up opportunity summary
-- Department action notes
-
-### Department Action Panel
-
-The dashboard should include a simple action panel.
-
-| Department | What They Need to Know | Example Action |
+| Export | Grain | Dashboard Use |
 |---|---|---|
-| Leadership | Did the homestand create total value? | Review top and bottom games by Total Value Index |
-| Sales | Which fans/accounts should be contacted? | Work high-priority CRM queue |
-| Marketing | Which fan segments responded? | Build next campaign around strongest segment |
-| Promotions | Which themes created value? | Return, rework, retire, or review promo |
-| Group Sales | Which accounts showed renewal potential? | Assign renewal calls |
+| `homestand_summary.csv` | One row per homestand | Connected Homestand Intelligence |
+| `promotion_scorecard.csv` | One row per promotion per game | Promotion Value Scorecard |
+| `crm_follow_up_queue.csv` | One row per CRM follow-up task | CRM Follow-Up Queue |
 
-### Key Insight Examples
+### Documentation / QA Exports
 
-The dashboard should make insights like these possible:
-
-- A game had strong announced attendance but weak scan rate.
-- A promotion drove attendance but did not drive in-park spend.
-- A theme night created strong merch behavior and repeat buyer signals.
-- A lower-attendance game created strong value per scanned fan.
-- A homestand created a large number of qualified follow-up opportunities.
+| Export | Purpose |
+|---|---|
+| `export_manifest.csv` | Documents final dashboard-ready exports |
+| `homestand_summary_generation_summary.csv` | Generation summary for homestand export |
+| `promotion_scorecard_generation_summary.csv` | Generation summary for promotion scorecard |
+| `crm_follow_up_queue_generation_summary.csv` | Generation summary for CRM queue |
+| `homestand_summary_quality_summary.csv` | Quality checks for homestand export |
+| `promotion_scorecard_quality_summary.csv` | Quality checks for promotion scorecard |
+| `crm_follow_up_queue_quality_summary.csv` | Quality checks for CRM queue |
 
 ---
 
-## Page 2: Promotion Performance Scorecard
+## Dashboard Page 1: Connected Homestand Intelligence
 
-### Primary Business Question
+### Business Question
 
-Which promotions should return, be reworked, retired, or reviewed?
+Which homestands created value across ticket demand, attendance conversion, in-park spend, and follow-up opportunity?
 
-### Purpose
+### Data Source
 
-This page evaluates promotion value beyond attendance.
+`homestand_summary.csv`
 
-Promotion performance should be based on total value, not just crowd size.
+### Audience
 
-### Recommended Filters
+Primary:
 
-| Filter | Purpose |
-|---|---|
-| Season | Compare promotion performance by year |
-| Promo Category | Focus on fireworks, giveaway, theme night, family, etc. |
-| Day of Week | Control for schedule context |
-| Homestand ID | Review promotions within a homestand |
-| Recommendation | Filter Return, Rework, Retire, Review |
+- Leadership
+- General manager / executive staff
+- Business operations
 
-### KPI Cards
+Secondary:
 
-| KPI | Definition |
-|---|---|
-| Promo Games | Count of games with selected promo type |
-| Avg Scanned Attendance | Average scanned attendance for selected promo |
-| Avg Scan Rate | Average scan rate for selected promo |
-| Avg No-Show Rate | Average no-show rate for selected promo |
-| Avg In-Park Spend Per Fan | Merch plus concessions per scanned fan |
-| Avg Total Value Index | Average promotion value score |
-| Return Count | Number of promotions recommended to return |
-| Review/Rework/Retire Count | Number of promotions needing action |
+- Sales
+- Marketing
+- Promotions
+- Service / CRM
 
-### Core Visuals
+### Main Decision
 
-| Visual | Purpose |
-|---|---|
-| Ranked bar chart: Total Value Index by promo | Identify strongest promo types |
-| Scatter: Attendance lift vs in-park spend lift | Separate crowds from wallets |
-| Table: Promotion scorecard | Show full scorecard and recommendation |
-| Bar: Merch lift by promo category | Identify merch-driving promos |
-| Bar: Concession lift by promo category | Identify concession-driving promos |
-| Repeat buyer signal by promo | Identify relationship-building promotions |
-| Follow-up opportunities by promo | Show which promos created sales/marketing action |
+Which homestands created the strongest connected business value, and what should the team focus on next?
 
-### Promotion Scorecard Table Fields
+### Connected Reporting Lesson
 
-| Field | Purpose |
-|---|---|
-| Promo Category | Promotion type |
-| Games Used | Number of games with promo |
-| Tickets Sold | Ticket demand |
-| Scanned Attendance | Actual attendance signal |
-| Scan Rate | Attendance conversion |
-| No-Show Rate | Attendance leakage |
-| Group Tickets | Group sales impact |
-| Merch Lift | Merchandise impact |
-| Concession Lift | Concession impact |
-| In-Park Spend Per Fan | Spend efficiency |
-| Repeat Buyer Signal | Future behavior |
-| Follow-Up Opportunity Count | Actionable opportunity |
-| Total Value Index | Overall performance |
-| Recommendation | Return, Rework, Retire, Review |
+A homestand can look strong in a ticket report but weaker once scan rate, no-shows, in-park spend, and follow-up opportunity are connected.
 
-### Recommendation Logic
+This page is designed to show the difference between demand and total value.
 
-| Recommendation | Meaning |
-|---|---|
-| Return | Strong total value across scan rate, spend, repeat signal, or follow-up opportunity |
-| Rework | Some value, but clear weakness in attendance conversion, spend, or repeat behavior |
-| Retire | Weak total value across multiple measures |
-| Review | Mixed result that needs more context |
+### Core KPI Labels
 
-### Key Insight Examples
+| KPI Label | Field | Connected Meaning |
+|---|---|---|
+| Demand Created | `tickets_sold` | What ticketing says was sold |
+| Attendance Converted | `scanned_attendance` | What gate scans say turned into attendance |
+| Demand-to-Attendance Conversion | `scan_rate` | How much demand became real attendance |
+| Lost Attendance Opportunity | `no_show_rate` | Where sold tickets did not become attendance |
+| Value After Arrival | `merch_net_sales` + `concession_net_sales` | What fans created after scanning in |
+| Quality of Attendance | `revenue_per_scanned_fan` | Revenue value per scanned fan |
+| Actionable CRM Signals | `follow_up_opportunity_count` | Future action created from connected behavior |
+| Future Value Pipeline | `future_revenue_opportunity` | Modeled future opportunity from follow-up logic |
+| Connected Value Score | `homestand_total_value_index` | Weighted value score across connected signals |
+| Recommended Focus | `recommended_focus` | Action direction after the homestand |
 
-The dashboard should make insights like these possible:
+### Recommended Visuals
 
-- Fireworks drew strong attendance but did not always create the highest spend per fan.
-- A theme night produced moderate attendance but strong merch lift.
-- A family promotion created strong concession value and repeat opportunity.
-- A promotion looked successful by attendance but had weak scan conversion.
-- A promotion should be reworked because it created interest but not enough follow-up value.
+#### 1. KPI Header
 
----
+Show selected season or selected homestand totals.
 
-## Page 3: CRM Follow-Up Queue
+Cards:
 
-### Primary Business Question
-
-Which fans or accounts should sales and marketing follow up with first?
-
-### Purpose
-
-This page turns connected reporting into action.
-
-The queue should prioritize fans and accounts based on behavior, not just ticket spend.
-
-### Recommended Filters
-
-| Filter | Purpose |
-|---|---|
-| Priority Band | High, medium, monitor, low |
-| Segment | Focus on fan type |
-| Opportunity Type | Filter by no-show, theme follow-up, group renewal, etc. |
-| Assigned Team | Sales, marketing, group sales, service |
-| Season | Review by season |
-| Homestand ID | Review post-homestand queue |
-| Promo Category | Connect follow-up to promotion behavior |
-
-### KPI Cards
-
-| KPI | Definition |
-|---|---|
-| High-Priority Follow-Ups | Count of high-priority tasks |
-| Medium-Priority Follow-Ups | Count of medium-priority tasks |
-| No-Show Recovery Targets | Valuable no-shows worth contacting |
-| Group Renewal Targets | Group accounts flagged for renewal |
-| Hidden High-Value Fans | Fans undervalued by ticket-only reporting |
-| Avg Priority Score | Average priority score of current queue |
-| Estimated Future Opportunity Index | Average future opportunity score |
-
-### Core Visuals
-
-| Visual | Purpose |
-|---|---|
-| Follow-up queue table | Operational list for sales/marketing |
-| Priority by segment | Show which segments need action |
-| Opportunity type breakdown | Show why fans/accounts qualify |
-| Hidden high-value fan table | Show fans missed by ticket-only value |
-| Group account priority table | Show account-level renewal/upsell targets |
-| Suggested next action breakdown | Show recommended workflow |
-
-### Follow-Up Queue Table Fields
-
-| Field | Purpose |
-|---|---|
-| Fan ID | Synthetic fan identifier |
-| Account ID | Group/corporate account identifier if applicable |
-| Segment | Fan/account segment |
-| Last Game Attended | Most recent scanned game |
-| Last Purchase Date | Most recent purchase |
-| Promo/Theme Attended | Promotion context |
-| Ticket Spend | Synthetic ticket value |
-| Merch Spend | Synthetic merch value |
-| Concession Spend | Synthetic concession value |
-| Total Fan Value Score | Connected fan value |
-| Repeat Likelihood | Rule-based likelihood score |
-| Future Opportunity Index | Rule-based future opportunity score |
-| Upgrade Potential | Higher-value offer fit |
-| Priority Score | Follow-up ranking |
-| Priority Band | High, medium, monitor, low |
-| Opportunity Type | Reason for follow-up |
-| Suggested Action | Recommended next step |
-| Assigned Team | Sales, marketing, group sales, service |
-| Status | Open, completed, deferred, dismissed |
-
-### Suggested Next Actions
-
-| Opportunity Type | Suggested Action |
-|---|---|
-| No-show recovery | Send recovery offer or personal follow-up |
-| Theme-night follow-up | Invite to next related theme night |
-| Family buyer | Offer family pack or kids-focused promotion |
-| High in-park spender | Send merch or concession-linked offer |
-| Repeat single-game buyer | Offer mini plan |
-| Mini plan buyer | Offer season ticket conversation |
-| Group buyer | Assign group renewal call |
-| Corporate prospect | Assign business development outreach |
-| Lapsed fan | Send reactivation campaign |
-| High engagement fan | Send targeted offer |
-
-### Key Insight Examples
-
-The dashboard should make insights like these possible:
-
-- A fan with low ticket spend creates high total value through merch and concessions.
-- A no-show buyer is worth contacting because of prior value.
-- A group account has strong renewal potential because of high scan rate and repeat activity.
-- A theme-night buyer should receive a targeted promotion instead of a generic offer.
-- Sales should prioritize fewer, higher-value contacts instead of every possible fan.
-
----
-
-## Supporting Dashboard Concepts
-
-These are useful but should not become separate dashboard pages yet.
-
-### Fan Value Explorer
-
-Possible future page.
+- Demand Created
+- Attendance Converted
+- Demand-to-Attendance Conversion
+- Lost Attendance Opportunity
+- Value After Arrival
+- Connected Value Score
 
 Purpose:
 
-- Identify hidden high-value fans
-- Compare ticket spend vs in-park spend
-- Show repeat likelihood by segment
-- Show upgrade paths
+Start with the silo-to-connected story.
 
-### Data Connection Map
+#### 2. Demand vs Attendance Converted
 
-Possible portfolio screenshot or documentation visual.
+Chart:
 
-Purpose:
-
-- Show how source systems connect
-- Explain why Snowflake is being used
-- Make the project easier for recruiters and leadership to understand
-
-### Group Sales Drilldown
-
-Possible future page.
+- Side-by-side bar chart
+- `tickets_sold`
+- `scanned_attendance`
+- by `homestand_id`
 
 Purpose:
 
-- Prioritize group renewal and upsell opportunities
-- Compare account types
-- Show group scan rates and repeat behavior
+Separate ticket demand from actual attendance.
+
+Business takeaway:
+
+A sold ticket only creates full value when the fan shows up.
+
+#### 3. Lost Attendance Opportunity by Homestand
+
+Chart:
+
+- Bar chart
+- `no_show_rate`
+- by `homestand_id`
+
+Purpose:
+
+Identify homestands where demand did not convert.
+
+Business takeaway:
+
+No-shows are not only an attendance issue. They can reduce in-park spend and future engagement.
+
+#### 4. Value After Arrival
+
+Chart:
+
+- Stacked or side-by-side bar
+- `merch_net_sales`
+- `concession_net_sales`
+- by `homestand_id`
+
+Purpose:
+
+Show the value created after fans entered the ballpark.
+
+Business takeaway:
+
+Attendance matters, but fan value continues after the scan.
+
+#### 5. Connected Value Ranking Table
+
+Rows:
+
+- `homestand_id`
+- `homestand_start_date`
+- `homestand_end_date`
+- `opponents`
+
+Measures:
+
+- `game_count`
+- `tickets_sold`
+- `scanned_attendance`
+- `scan_rate`
+- `no_show_rate`
+- `revenue_per_scanned_fan`
+- `in_park_spend_per_scanned_fan`
+- `future_revenue_opportunity`
+- `homestand_total_value_index`
+- `recommended_focus`
+
+Purpose:
+
+Show which homestands performed best across connected signals.
+
+#### 6. Recommended Focus Breakdown
+
+Chart:
+
+- Bar chart or highlight table
+- `recommended_focus`
+- count of `homestand_id`
+
+Purpose:
+
+Turn reporting into executive action.
+
+### Suggested Filters
+
+- `season`
+- `homestand_id`
+- `recommended_focus`
+- `promo_categories`
+- `opponents`
+
+### Executive Takeaway
+
+This page shows what leadership can learn only when ticketing, scans, merch, concessions, engagement, and CRM signals are connected.
 
 ---
 
-## Core Metrics
+## Dashboard Page 2: Promotion Value Scorecard
 
-### Tickets Sold
+### Business Question
 
-Synthetic count of tickets sold for a game, promotion, or homestand.
+Which promotions created value beyond attendance, and should they return, be reworked, retired, or reviewed?
 
-### Scanned Attendance
+### Data Source
 
-Synthetic count of tickets scanned for a game.
+`promotion_scorecard.csv`
 
-### Scan Rate
+### Audience
 
-Scanned attendance divided by tickets sold.
+Primary:
 
-### No-Show Rate
+- Leadership
+- Marketing
+- Promotions
 
-Tickets sold minus scanned attendance, divided by tickets sold.
+Secondary:
 
-### In-Park Spend Per Scanned Fan
+- Sales
+- Sponsorship
+- Ticketing
 
-Merch plus concession net sales divided by scanned attendance.
+### Main Decision
 
-### Total Revenue Indicator
+Which promotions deserve future inventory, budget, sponsor support, or redesign?
 
-Synthetic sum of ticket, group, merch, and concession value.
+### Connected Reporting Lesson
 
-This is not actual team revenue.
+A promotion can drive a crowd and still underperform if scan rate, in-park spend, repeat behavior, or follow-up opportunity are weak.
 
-### Total Value Index
+This page is designed to separate crowd-driving promotions from value-driving promotions.
 
-Weighted 0-100 score used to compare games and promotions.
+### Core KPI Labels
 
-Recommended components:
+| KPI Label | Field | Connected Meaning |
+|---|---|---|
+| Promotions Reviewed | `promo_id` | Scope of promotion analysis |
+| Avg Connected Value Score | `total_value_index` | Overall promotion value |
+| Demand Created | `tickets_sold` | Ticket demand tied to promotion |
+| Attendance Converted | `scanned_attendance` | Actual attendance tied to promotion |
+| Demand-to-Attendance Conversion | `scan_rate` | Whether ticket demand became attendance |
+| Value After Arrival | `merch_net_sales` + `concession_net_sales` | Spend created inside the ballpark |
+| Quality of Attendance | `revenue_per_scanned_fan` | Revenue per scanned fan |
+| Repeat Buyer Signal | `repeat_buyer_rate` | Long-term fan behavior |
+| Future Value Pipeline | `future_revenue_opportunity` | Future opportunity created |
+| Return / Rework / Retire / Review | `recommendation` | Decision output |
 
-- ticket sales score
-- scan rate score
-- group sales score
-- in-park spend score
-- repeat buyer signal
-- follow-up opportunity score
+### Recommended Visuals
 
-### Repeat Likelihood
+#### 1. Promotion Recommendation Summary
 
-Rule-based 0-100 score estimating how likely a fan is to return.
+Chart:
 
-### Future Opportunity Index
+- Bar chart
+- `recommendation`
+- count of `promo_id`
 
-Rule-based 0-100 score estimating future value opportunity.
+Categories:
 
-### Priority Score
+- return
+- rework
+- retire
+- review
 
-Rule-based 0-100 score used to rank the follow-up queue.
+Purpose:
 
-### Hidden High-Value Fan Flag
+Give leadership a quick read on promotion inventory quality.
 
-Identifies fans who look average in ticket data but strong when merch, concessions, and scan reliability are included.
+#### 2. Promotion Scorecard Table
+
+Rows:
+
+- `promo_name`
+- `promo_category`
+- `game_date`
+- `opponent`
+
+Measures:
+
+- `tickets_sold`
+- `scanned_attendance`
+- `scan_rate`
+- `no_show_rate`
+- `group_tickets`
+- `merch_net_sales`
+- `concession_net_sales`
+- `revenue_per_scanned_fan`
+- `repeat_buyer_rate`
+- `total_value_index`
+- `recommendation`
+- `recommendation_reason`
+
+Purpose:
+
+Create a working review tool for promotion decisions.
+
+#### 3. Connected Value by Promotion Category
+
+Chart:
+
+- Bar chart
+- `promo_category`
+- average `total_value_index`
+
+Purpose:
+
+Show which promotion categories create the strongest connected value.
+
+#### 4. Attendance Lift vs Revenue Lift
+
+Chart:
+
+- Scatterplot
+- X-axis: `scanned_attendance_lift_vs_slot`
+- Y-axis: `revenue_lift_per_scanned_fan`
+- Detail: `promo_name`
+- Color: `recommendation`
+
+Purpose:
+
+Separate promotions that create attendance from promotions that create stronger revenue per fan.
+
+Business takeaway:
+
+A promo can win on crowd size but lose on revenue quality.
+
+#### 5. In-Park Spend Lift by Promotion
+
+Chart:
+
+- Bar chart
+- `merch_lift_per_scanned_fan`
+- `concession_lift_per_scanned_fan`
+- by `promo_name`
+
+Purpose:
+
+Show which promotions change fan spending behavior inside the ballpark.
+
+#### 6. Repeat Buyer Signal
+
+Chart:
+
+- Bar chart or table
+- `repeat_buyer_rate`
+- `repeat_buyer_rate_lift_vs_slot`
+
+Purpose:
+
+Show which promotions may create long-term fan value instead of one-night attendance.
+
+### Suggested Filters
+
+- `season`
+- `promo_category`
+- `promo_type`
+- `recommendation`
+- `day_of_week`
+- `weekend_flag`
+- `homestand_id`
+
+### Executive Takeaway
+
+A promotion should not be judged only by attendance. Better decisions come from connecting tickets sold, scan rate, no-shows, group sales, merch, concessions, repeat buyers, and follow-up opportunities.
 
 ---
 
-## Tableau Data Sources
+## Dashboard Page 3: CRM Follow-Up Queue
 
-Tableau Public should use flat export files.
+### Business Question
 
-Recommended files:
+Which fans and accounts become actionable once behavior from multiple systems is connected?
 
-| File | Dashboard Use |
-|---|---|
-| tableau_game_connected_summary.csv | Homestand Intelligence |
-| tableau_homestand_summary.csv | Homestand Intelligence |
-| tableau_promotion_scorecard.csv | Promotion Scorecard |
-| tableau_crm_follow_up_queue.csv | CRM Follow-Up Queue |
-| tableau_group_account_priority.csv | CRM Follow-Up Queue |
-| tableau_fan_value_segments.csv | Fan value filters and segment analysis |
+### Data Source
 
-These exports can come from Snowflake views or from Python-generated processed files before Snowflake is opened.
+`crm_follow_up_queue.csv`
+
+### Audience
+
+Primary:
+
+- Leadership
+- Sales
+- Group sales
+- Service
+- Marketing
+
+Secondary:
+
+- CRM / business intelligence
+- Hiring managers / recruiters reviewing portfolio work
+
+### Main Decision
+
+Which fans or accounts should receive follow-up first, and which team owns the next action?
+
+### Connected Reporting Lesson
+
+Ticket data alone cannot tell a team who is worth contacting.
+
+When ticketing, scans, merch, concessions, engagement, and group sales are connected, the team can prioritize action instead of guessing.
+
+### Core KPI Labels
+
+| KPI Label | Field | Connected Meaning |
+|---|---|---|
+| Actionable CRM Signals | `follow_up_id` | Total prioritized follow-up tasks |
+| High Priority Signals | `priority_band = High` | Most urgent follow-up work |
+| Future Value Pipeline | `future_revenue_opportunity` | Modeled future value from follow-up |
+| Avg Priority Score | `priority_score` | Quality of the task queue |
+| Fan Opportunities | `entity_type = fan` | Individual fan action |
+| Account Opportunities | `entity_type = account` | Group or organizational action |
+| Recover / Upgrade / Retain / Renew | `executive_action_bucket` | Action type |
+| Team Ownership | `assigned_team` | Which team owns follow-up |
+
+### Recommended Visuals
+
+#### 1. Queue KPI Header
+
+Cards:
+
+- Actionable CRM Signals
+- High Priority Signals
+- Future Value Pipeline
+- Avg Priority Score
+- Fan Opportunities
+- Account Opportunities
+
+Purpose:
+
+Show the size and value of the follow-up workload.
+
+#### 2. Action Bucket Breakdown
+
+Chart:
+
+- Bar chart
+- `executive_action_bucket`
+- count of `follow_up_id`
+
+Buckets:
+
+- Recover
+- Upgrade
+- Retain
+- Renew
+
+Purpose:
+
+Show what type of work the team needs to do.
+
+#### 3. Team Ownership Workload
+
+Chart:
+
+- Bar chart
+- `assigned_team`
+- count of `follow_up_id`
+
+Purpose:
+
+Show whether the action list belongs to sales, marketing, service, or group sales.
+
+#### 4. Priority Queue Table
+
+Rows:
+
+- `priority_rank`
+- `entity_type`
+- `entity_id`
+- `assigned_team`
+- `priority_band`
+- `opportunity_type`
+- `suggested_action`
+- `future_revenue_opportunity`
+- `repeat_likelihood_score`
+- `upgrade_potential_score`
+- `due_date`
+
+Purpose:
+
+Make the dashboard usable as a working action list.
+
+#### 5. Hidden Fan Value View
+
+Chart:
+
+- Table or scatterplot
+- `entity_total_value`
+- `entity_ticket_revenue`
+- `entity_in_park_revenue`
+- `fan_hidden_value_flag`
+
+Purpose:
+
+Show fans who may be more valuable than ticket-only reporting suggests.
+
+Business takeaway:
+
+A fan can look average in ticketing data but become valuable when merch, concessions, attendance behavior, and engagement are connected.
+
+#### 6. Opportunity Type Breakdown
+
+Chart:
+
+- Bar chart
+- `opportunity_type`
+- count of `follow_up_id`
+
+Purpose:
+
+Show which behavior signals are creating action.
+
+### Suggested Filters
+
+- `assigned_team`
+- `executive_action_bucket`
+- `priority_band`
+- `opportunity_type`
+- `entity_type`
+- `season`
+- `homestand_id`
+- `promo_categories`
+- `market_distance_band`
+
+### Executive Takeaway
+
+The connected reporting layer turns scattered behavior into an action list. It tells the team who to contact, why they matter, who owns the follow-up, and what action should happen next.
 
 ---
 
-## Design Requirements
+## Dashboard Build Order
 
-The dashboard should be clean, executive-ready, and practical.
+### Step 1: Connect Data Sources
 
-Design principles:
+Connect Tableau Public to:
 
-- Use clear page titles.
-- Use action-oriented section headers.
-- Avoid clutter.
-- Use filters sparingly.
-- Prioritize decisions over decoration.
-- Show the business question on each page.
-- Use tooltips to explain synthetic fields.
-- Label synthetic data clearly.
-- Keep recruiter/hiring manager readability in mind.
+1. `homestand_summary.csv`
+2. `promotion_scorecard.csv`
+3. `crm_follow_up_queue.csv`
+
+Use them as separate data sources.
+
+Do not force relationships unless needed.
+
+### Step 2: Build Connected Homestand Intelligence
+
+Build the executive summary first.
+
+Priority sheets:
+
+1. KPI Header
+2. Demand vs Attendance Converted
+3. Lost Attendance Opportunity by Homestand
+4. Value After Arrival
+5. Connected Value Ranking Table
+6. Recommended Focus Breakdown
+
+### Step 3: Build Promotion Value Scorecard
+
+Build the promotion decision layer second.
+
+Priority sheets:
+
+1. Promotion Recommendation Summary
+2. Promotion Scorecard Table
+3. Connected Value by Promotion Category
+4. Attendance Lift vs Revenue Lift
+5. In-Park Spend Lift by Promotion
+6. Repeat Buyer Signal
+
+### Step 4: Build CRM Follow-Up Queue
+
+Build the action layer third.
+
+Priority sheets:
+
+1. Queue KPI Header
+2. Action Bucket Breakdown
+3. Team Ownership Workload
+4. Priority Queue Table
+5. Hidden Fan Value View
+6. Opportunity Type Breakdown
+
+### Step 5: Add Navigation
+
+Dashboard tabs:
+
+1. Connected Homestand Intelligence
+2. Promotion Value Scorecard
+3. CRM Follow-Up Queue
+
+### Step 6: Add Source Notes
+
+Each dashboard should include a small note:
+
+> Public data is used where available. Internal-style ticketing, scan, merch, concessions, engagement, group sales, and CRM fields are synthetic and used only to demonstrate connected reporting structure.
 
 ---
 
-## Required Data Disclaimer
+## Dashboard Design Rules
 
-Each dashboard should include a short data note.
+Keep the dashboard clean and executive-facing.
 
-Recommended wording:
+Use:
 
-Public data is used where available. Internal-style records such as fan accounts, ticket orders, scans, merch, concessions, engagement, and CRM follow-up tasks are synthetic and created for portfolio demonstration purposes.
+- Clear titles
+- Plain language
+- Minimal chart clutter
+- Business-first labels
+- Action-oriented dashboard sections
+- Source notes where synthetic fields appear
+- KPI names that explain connected value
+- Tooltips that explain what the connected data reveals
+
+Avoid:
+
+- Overcomplicated visuals
+- Too many filters
+- Fake precision
+- Claims that this is real internal Trash Pandas data
+- Overstating sponsorship ROI
+- Making the CRM queue look like a real operational system
+- Framing the project as only a dashboard
 
 ---
 
-## Dashboard Boundaries
+## Final Dashboard Story
 
-The dashboard will not include:
+The dashboard should show this progression:
 
-- predictive attendance modeling
-- exact fan lifetime value
-- real sponsorship ROI
-- weather modeling
-- player/team performance impact
-- real-time pipeline monitoring
-- item-level concession profitability
-- advanced machine learning
+1. Connected Homestand Intelligence: What happened across demand, attendance, spend, and follow-up opportunity?
+2. Promotion Value Scorecard: What worked beyond attendance?
+3. CRM Follow-Up Queue: What should the team do next?
 
-The dashboard focuses on connected reporting, business logic, and decision support.
+The team may already have the data.
 
----
-
-## Final Dashboard Statement
-
-The Tableau dashboard should prove that connected reporting changes the quality of business decisions.
-
-Attendance alone can show crowd size.
-
-Connected reporting can show total value.
-
-The dashboard should help users see:
-
-- which games created value
-- which promotions deserve action
-- which fans are hidden high-value opportunities
-- which group accounts should be contacted
-- which reports need to connect for better decisions
-
-That is the purpose of the Trash Pandas Connected Reporting Pilot.
+The value is connecting it.
